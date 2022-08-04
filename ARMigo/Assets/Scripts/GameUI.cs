@@ -7,7 +7,9 @@ public class GameUI : MonoBehaviour
 {
 
     public static GameUI instance;
+    // 세팅, 마이페이지, 플레이 게임은 MainMenu로
 
+    // 룸메인, 룸크리에이트에서 룸리스트로
     public void Previous()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);

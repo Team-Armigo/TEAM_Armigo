@@ -1396,7 +1396,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 620093631}
         m_TargetAssemblyTypeName: GameUI, Assembly-CSharp
-        m_MethodName: Previous
+        m_MethodName: RoomList
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

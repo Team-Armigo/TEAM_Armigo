@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 using Firebase;
 using Firebase.Auth;
 using TMPro;
+using Photon.Pun;
+using Photon.Realtime;
 
-public class AuthManager : MonoBehaviour
+public class AuthManager : MonoBehaviourPunCallbacks
 {
 
     // Firebase variables
@@ -32,7 +34,7 @@ public class AuthManager : MonoBehaviour
     public TMP_InputField passwordRegisterVerifyField;
     public TMP_Text warningRegisterText;
 
-    
+
     private void Awake()
     {
         // Check that all of the necessart dependencies for Firebase are present on the system
@@ -65,6 +67,27 @@ public class AuthManager : MonoBehaviour
     {
         // Call the login coroutine passing the email and password
         StartCoroutine(Login(emailLoginField.text, passwordLoginfield.text));
+        Firebase.Auth.FirebaseUser user = auth.CurrentUser;
+
+        if (user != null)
+        {
+            string displayName = user.DisplayName;
+            PhotonNetwork.GameVersion = "0.0.1";
+            PhotonNetwork.NickName = displayName;
+            PhotonNetwork.ConnectUsingSettings();
+            Debug.Log("Connecting to Server");
+        }
+    }
+
+    public override void OnConnectedToMaster()
+    {
+        SceneManager.LoadScene("MainMenu");
+        Debug.Log("Network Connected");
+    }
+
+    public override void OnDisconnected(DisconnectCause cause)
+    {
+        Debug.Log("Disconnected from Server");
     }
 
 
@@ -119,7 +142,6 @@ public class AuthManager : MonoBehaviour
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
             warningLoginText.text = "";
             confirmLoginText.text = "Logged In";
-            SceneManager.LoadScene("MainMenu");
         }
     }
 
