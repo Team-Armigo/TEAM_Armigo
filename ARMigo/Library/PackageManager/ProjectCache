@@ -1303,6 +1303,7 @@ m_ResolvedPackages:
     - 5.0.0-pre.8
     - 5.0.0-pre.9
     - 5.0.0-pre.12
+    - 5.0.0-pre.13
     compatible:
     - 4.2.3
     - 5.0.0-pre.5
@@ -1311,6 +1312,7 @@ m_ResolvedPackages:
     - 5.0.0-pre.8
     - 5.0.0-pre.9
     - 5.0.0-pre.12
+    - 5.0.0-pre.13
     verified: 4.2.3
   dependencies:
   - name: com.unity.xr.arsubsystems
@@ -1482,6 +1484,7 @@ m_ResolvedPackages:
     - 5.0.0-pre.8
     - 5.0.0-pre.9
     - 5.0.0-pre.12
+    - 5.0.0-pre.13
     compatible:
     - 4.2.3
     - 5.0.0-pre.5
@@ -1490,6 +1493,7 @@ m_ResolvedPackages:
     - 5.0.0-pre.8
     - 5.0.0-pre.9
     - 5.0.0-pre.12
+    - 5.0.0-pre.13
     verified: 4.2.3
   dependencies:
   - name: com.unity.xr.arsubsystems
@@ -3668,6 +3672,7 @@ m_ResolvedPackages:
     - 5.0.0-pre.8
     - 5.0.0-pre.9
     - 5.0.0-pre.12
+    - 5.0.0-pre.13
     compatible:
     - 4.2.3
     - 5.0.0-pre.5
@@ -3676,6 +3681,7 @@ m_ResolvedPackages:
     - 5.0.0-pre.8
     - 5.0.0-pre.9
     - 5.0.0-pre.12
+    - 5.0.0-pre.13
     verified: 4.2.3
   dependencies:
   - name: com.unity.subsystemregistration

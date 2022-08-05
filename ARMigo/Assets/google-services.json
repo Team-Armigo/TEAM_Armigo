@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "608914774038",
+    "firebase_url": "https://armigo-2938d-default-rtdb.firebaseio.com",
     "project_id": "armigo-2938d",
     "storage_bucket": "armigo-2938d.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "608914774038-rjiv30ug6k7jrecaau431fdvh4ldjvil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DefaultCompany.ARMigo",
+            "certificate_hash": "bce8948bebf984d0259719b4de7fb792e5fc5a6e"
+          }
+        },
         {
           "client_id": "608914774038-f7ukghh7iookkags55h09u5khion63l3.apps.googleusercontent.com",
           "client_type": 3
