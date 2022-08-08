@@ -8,6 +8,7 @@ using Firebase.Auth;
 using Firebase.Database;
 using Firebase.Extensions;
 using TMPro;
+using System.Linq;
 
 public class GameOverScript : MonoBehaviour
 {
@@ -47,6 +48,8 @@ public class GameOverScript : MonoBehaviour
 
         StartCoroutine(UpdateScores(scoreFields));
 
+        StartCoroutine(LoadUserData());
+
     }
 
 
@@ -84,7 +87,66 @@ public class GameOverScript : MonoBehaviour
         {
             // scores are now updated
         }
+
     }
 
+    private IEnumerator LoadUserData()
+    {
+        var DBTask = DBreference.Child("users").Child(User.UserId).GetValueAsync();
+
+        yield return new WaitUntil(predicate: () => DBTask.IsCompleted);
+
+        if (DBTask.Exception != null)
+        {
+            Debug.LogWarning(message: $"Failed to register task with {DBTask.Exception}");
+        }
+
+        else if (DBTask.Result.Value != null)
+        {
+            // Data has been retrieved
+            DataSnapshot snapshot = DBTask.Result;
+
+            //scoreFields = snapshot.Child("scores").Value.ToString();
+            //username = snapshot.Child("username").Value.ToString();
+        }
+    }
+
+    private IEnumerator LoadScoreboardData()
+    {
+        var DBTask = DBreference.Child("users").OrderByChild("scores").GetValueAsync();
+
+        yield return new WaitUntil(predicate: () => DBTask.IsCompleted);
+
+        if (DBTask.Exception != null)
+        {
+            Debug.LogWarning(message: $"Failed to register task with {DBTask.Exception}");
+        }
+
+        else
+        {
+            // Data has been retrieved
+            DataSnapshot snapshot = DBTask.Result;
+
+            // Destroy any existing scoreboard elements
+            foreach (Transform child in scoreboardContent.transform)
+            {
+                Destroy(child.gameObject);
+            }
+
+            // Loop through every users UID
+            foreach (DataSnapshot childSnapshot in snapshot.Children.Reverse<DataSnapshot>())
+            {
+                username = childSnapshot.Child("username").Value.ToString();
+                scoreFields = int.Parse(childSnapshot.Child("scores").Value.ToString());
+
+                // Instantiate new scoreboard elements
+                GameObject scoreboardElement = Instantiate(scoreElement, scoreboardContent);
+                scoreboardElement.getComponent<scoreElement>().NewScoreElement(username, scoreFields);
+            }
+
+            // Go to scoreboard screen
+
+        }
+    }
 
 }

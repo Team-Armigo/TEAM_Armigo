@@ -442,6 +442,7 @@
 "Assets/Scripts/Rune/Timer.cs"
 "Assets/Scripts/Rune/TumbleGenerator.cs"
 "Assets/Scripts/Rune/Tumbleweed.cs"
+"Assets/Scripts/ScoreElement.cs"
 "Assets/Scripts/UIManager.cs"
 "Assets/Sprites/Bolt 2D JellyFarm VE2/ReadMe/Scripts/ReadmeVE2.cs"
 -langversion:9.0
