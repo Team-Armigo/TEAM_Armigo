@@ -4,8 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Firebase;
 using Firebase.Auth;
-using Firebase.Database;
-using Firebase.Extensions;
 using TMPro;
 using Photon.Pun;
 using Photon.Realtime;
@@ -18,7 +16,6 @@ public class AuthManager : MonoBehaviourPunCallbacks
     public DependencyStatus dependencyStatus;
     public FirebaseAuth auth;
     public FirebaseUser User;
-    public DatabaseReference DBreference;
 
 
     // Login variables
@@ -57,28 +54,11 @@ public class AuthManager : MonoBehaviourPunCallbacks
         });
     }
 
-    public virtual void Start()
-    {
-        Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(task => {
-            dependencyStatus = task.Result;
-            if (dependencyStatus == Firebase.DependencyStatus.Available)
-            {
-                Awake();
-            }
-            else
-            {
-                Debug.LogError(
-                "Could not resolve all Firebase dependencies: " + dependencyStatus);
-            }
-        });
-    }
-
     private void InitializedFirebase()
     {
         Debug.Log("Setting up Firebase Auth");
         // Set the authentication instance object
         auth = FirebaseAuth.DefaultInstance;
-        DBreference = FirebaseDatabase.DefaultInstance.RootReference;
     }
 
 
@@ -115,9 +95,7 @@ public class AuthManager : MonoBehaviourPunCallbacks
     public void RegisterButton()
     {
         // Call the login coroutine passing the email and password
-        StartCoroutine(Register(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text));
-
-        Debug.Log(emailRegisterField.text);
+        StartCoroutine(Register(emailLoginField.text, passwordLoginfield.text, usernameRegisterField.text));
     }
 
 
@@ -246,8 +224,4 @@ public class AuthManager : MonoBehaviourPunCallbacks
             }
         }
     }
-
-    
-
-
 }
