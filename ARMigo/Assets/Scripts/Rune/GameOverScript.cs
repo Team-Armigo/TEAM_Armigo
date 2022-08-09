@@ -12,7 +12,7 @@ using System.Linq;
 
 public class GameOverScript : MonoBehaviour
 {
-    public Text endPoint;
+    //public Text endPoint;
 
     // Firebase variables
     [Header("Firebase")]
@@ -25,6 +25,7 @@ public class GameOverScript : MonoBehaviour
     [Header("UserData")]
     public int scoreFields;
     public string username;
+    public int number;
     public GameObject scoreElement;
     public Transform scoreboardContent;
 
@@ -33,7 +34,7 @@ public class GameOverScript : MonoBehaviour
     void Start()
     {
         Debug.Log("FROM OTHER SCENE SCORE TEST : " + Timer.score);
-        endPoint.text = Timer.score.ToString() + " POINTS";
+        //endPoint.text = Timer.score.ToString() + " POINTS";
 
         auth = FirebaseAuth.DefaultInstance;
         DBreference = FirebaseDatabase.DefaultInstance.RootReference;
@@ -50,6 +51,7 @@ public class GameOverScript : MonoBehaviour
 
         StartCoroutine(LoadUserData());
 
+        StartCoroutine(LoadScoreboardData());
     }
 
 
@@ -133,19 +135,22 @@ public class GameOverScript : MonoBehaviour
                 Destroy(child.gameObject);
             }
 
+            number = 0;
+
             // Loop through every users UID
             foreach (DataSnapshot childSnapshot in snapshot.Children.Reverse<DataSnapshot>())
             {
                 username = childSnapshot.Child("username").Value.ToString();
                 scoreFields = int.Parse(childSnapshot.Child("scores").Value.ToString());
+                number += 1;
 
                 // Instantiate new scoreboard elements
                 GameObject scoreboardElement = Instantiate(scoreElement, scoreboardContent);
-                scoreboardElement.getComponent<scoreElement>().NewScoreElement(username, scoreFields);
+                scoreboardElement.GetComponent<ScoreElement>().NewScoreElement(username, scoreFields, number);
             }
 
             // Go to scoreboard screen
-
+            UIManager.instance.ScoreboardScreen();
         }
     }
 

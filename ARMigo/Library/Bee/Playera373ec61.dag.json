@@ -1517,8 +1517,7 @@
         1509,
         1510,
         1511,
-        1512,
-        1513
+        1512
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -28949,20 +28948,6 @@
       "DebugActionIndex": 1378
     },
     {
-      "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/Android/ManagedStripped/icallsummary.txt"
-      ],
-      "Outputs": [
-        "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt"
-      ],
-      "ToBuildDependencies": [
-        69
-      ],
-      "DebugActionIndex": 1379
-    },
-    {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Mono.Security.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
@@ -28974,7 +28959,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1380
+      "DebugActionIndex": 1379
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/mscorlib.dll",
@@ -28988,7 +28973,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1381
+      "DebugActionIndex": 1380
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Photon3Unity3D.dll",
@@ -29002,7 +28987,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1382
+      "DebugActionIndex": 1381
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Photon3Unity3D.pdb",
@@ -29016,7 +29001,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1383
+      "DebugActionIndex": 1382
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/PhotonChat.dll",
@@ -29030,7 +29015,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1384
+      "DebugActionIndex": 1383
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/PhotonChat.pdb",
@@ -29044,7 +29029,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1385
+      "DebugActionIndex": 1384
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/PhotonRealtime.dll",
@@ -29058,7 +29043,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1386
+      "DebugActionIndex": 1385
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/PhotonRealtime.pdb",
@@ -29072,7 +29057,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1387
+      "DebugActionIndex": 1386
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/PhotonUnityNetworking.Demos.dll",
@@ -29086,7 +29071,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1388
+      "DebugActionIndex": 1387
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/PhotonUnityNetworking.Demos.pdb",
@@ -29100,7 +29085,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1389
+      "DebugActionIndex": 1388
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/PhotonUnityNetworking.dll",
@@ -29114,7 +29099,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1390
+      "DebugActionIndex": 1389
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/PhotonUnityNetworking.pdb",
@@ -29128,7 +29113,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1391
+      "DebugActionIndex": 1390
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/PhotonUnityNetworking.Utilities.dll",
@@ -29142,7 +29127,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1392
+      "DebugActionIndex": 1391
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/PhotonUnityNetworking.Utilities.pdb",
@@ -29156,7 +29141,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1393
+      "DebugActionIndex": 1392
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Configuration.dll",
@@ -29170,7 +29155,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1394
+      "DebugActionIndex": 1393
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll",
@@ -29184,7 +29169,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1395
+      "DebugActionIndex": 1394
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.dll",
@@ -29198,7 +29183,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1396
+      "DebugActionIndex": 1395
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Numerics.dll",
@@ -29212,7 +29197,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1397
+      "DebugActionIndex": 1396
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.dll",
@@ -29226,7 +29211,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1398
+      "DebugActionIndex": 1397
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Compat.dll",
@@ -29240,7 +29225,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1399
+      "DebugActionIndex": 1398
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Tasks.dll",
@@ -29254,7 +29239,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1400
+      "DebugActionIndex": 1399
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll",
@@ -29268,7 +29253,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1401
+      "DebugActionIndex": 1400
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.pdb",
@@ -29282,7 +29267,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1402
+      "DebugActionIndex": 1401
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARCore.dll",
@@ -29296,7 +29281,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1403
+      "DebugActionIndex": 1402
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARCore.pdb",
@@ -29310,7 +29295,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1404
+      "DebugActionIndex": 1403
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARFoundation.dll",
@@ -29324,7 +29309,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1405
+      "DebugActionIndex": 1404
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARFoundation.pdb",
@@ -29338,7 +29323,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1406
+      "DebugActionIndex": 1405
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARSubsystems.dll",
@@ -29352,7 +29337,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1407
+      "DebugActionIndex": 1406
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARSubsystems.pdb",
@@ -29366,7 +29351,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1408
+      "DebugActionIndex": 1407
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Management.dll",
@@ -29380,7 +29365,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1409
+      "DebugActionIndex": 1408
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Management.pdb",
@@ -29394,7 +29379,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1410
+      "DebugActionIndex": 1409
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -29408,7 +29393,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1411
+      "DebugActionIndex": 1410
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.pdb",
@@ -29422,7 +29407,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1412
+      "DebugActionIndex": 1411
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.dll",
@@ -29436,7 +29421,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1413
+      "DebugActionIndex": 1412
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.pdb",
@@ -29450,7 +29435,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1414
+      "DebugActionIndex": 1413
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.dll",
@@ -29464,7 +29449,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1415
+      "DebugActionIndex": 1414
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.pdb",
@@ -29478,7 +29463,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1416
+      "DebugActionIndex": 1415
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll",
@@ -29492,7 +29477,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1417
+      "DebugActionIndex": 1416
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb",
@@ -29506,7 +29491,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1418
+      "DebugActionIndex": 1417
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll",
@@ -29520,7 +29505,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1419
+      "DebugActionIndex": 1418
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.dll",
@@ -29534,7 +29519,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1420
+      "DebugActionIndex": 1419
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.pdb",
@@ -29548,7 +29533,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1421
+      "DebugActionIndex": 1420
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.dll",
@@ -29562,7 +29547,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1422
+      "DebugActionIndex": 1421
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.pdb",
@@ -29576,7 +29561,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1423
+      "DebugActionIndex": 1422
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.dll",
@@ -29590,7 +29575,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1424
+      "DebugActionIndex": 1423
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.pdb",
@@ -29604,7 +29589,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1425
+      "DebugActionIndex": 1424
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.dll",
@@ -29618,7 +29603,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1426
+      "DebugActionIndex": 1425
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.pdb",
@@ -29632,7 +29617,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1427
+      "DebugActionIndex": 1426
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -29646,7 +29631,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1428
+      "DebugActionIndex": 1427
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ParticleSystemModule.pdb",
@@ -29660,7 +29645,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1429
+      "DebugActionIndex": 1428
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb",
@@ -29674,7 +29659,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1430
+      "DebugActionIndex": 1429
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.dll",
@@ -29688,7 +29673,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1431
+      "DebugActionIndex": 1430
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.pdb",
@@ -29702,7 +29687,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1432
+      "DebugActionIndex": 1431
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.dll",
@@ -29716,7 +29701,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1433
+      "DebugActionIndex": 1432
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.pdb",
@@ -29730,7 +29715,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1434
+      "DebugActionIndex": 1433
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -29744,7 +29729,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1435
+      "DebugActionIndex": 1434
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.pdb",
@@ -29758,7 +29743,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1436
+      "DebugActionIndex": 1435
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpatialTracking.dll",
@@ -29772,7 +29757,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1437
+      "DebugActionIndex": 1436
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpatialTracking.pdb",
@@ -29786,7 +29771,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1438
+      "DebugActionIndex": 1437
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -29800,7 +29785,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1439
+      "DebugActionIndex": 1438
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.pdb",
@@ -29814,7 +29799,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1440
+      "DebugActionIndex": 1439
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.dll",
@@ -29828,7 +29813,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1441
+      "DebugActionIndex": 1440
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.pdb",
@@ -29842,7 +29827,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1442
+      "DebugActionIndex": 1441
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -29856,7 +29841,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1443
+      "DebugActionIndex": 1442
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
@@ -29870,7 +29855,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1444
+      "DebugActionIndex": 1443
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -29884,7 +29869,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1445
+      "DebugActionIndex": 1444
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
@@ -29898,7 +29883,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1446
+      "DebugActionIndex": 1445
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.dll",
@@ -29912,7 +29897,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1447
+      "DebugActionIndex": 1446
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.pdb",
@@ -29926,7 +29911,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1448
+      "DebugActionIndex": 1447
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.dll",
@@ -29940,7 +29925,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1449
+      "DebugActionIndex": 1448
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.pdb",
@@ -29954,7 +29939,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1450
+      "DebugActionIndex": 1449
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.dll",
@@ -29968,7 +29953,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1451
+      "DebugActionIndex": 1450
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.pdb",
@@ -29982,7 +29967,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1452
+      "DebugActionIndex": 1451
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.dll",
@@ -29996,7 +29981,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1453
+      "DebugActionIndex": 1452
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.pdb",
@@ -30010,7 +29995,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1454
+      "DebugActionIndex": 1453
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsNativeModule.dll",
@@ -30024,7 +30009,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1455
+      "DebugActionIndex": 1454
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsNativeModule.pdb",
@@ -30038,7 +30023,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1456
+      "DebugActionIndex": 1455
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.dll",
@@ -30052,7 +30037,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1457
+      "DebugActionIndex": 1456
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.pdb",
@@ -30066,7 +30051,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1458
+      "DebugActionIndex": 1457
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -30080,7 +30065,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1459
+      "DebugActionIndex": 1458
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.pdb",
@@ -30094,7 +30079,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1460
+      "DebugActionIndex": 1459
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.dll",
@@ -30108,7 +30093,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1461
+      "DebugActionIndex": 1460
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.pdb",
@@ -30122,7 +30107,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1462
+      "DebugActionIndex": 1461
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json",
@@ -30136,7 +30121,7 @@
       "ToBuildDependencies": [
         69
       ],
-      "DebugActionIndex": 1463
+      "DebugActionIndex": 1462
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources",
@@ -30147,18 +30132,18 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources"
       ],
-      "DebugActionIndex": 1464
+      "DebugActionIndex": 1463
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.gradle_i35q.info",
       "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles+Arguments\":{\"ProjectPath\":\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle\",\"Architectures\":\"ARMv7, ARM64\",\"BuildSystem\":\"Gradle\",\"GradleProjectCreateInfo\":{\"HostPlatform\":\"Windows\",\"ApplicationType\":\"APK\",\"BuildType\":\"Development\",\"AndroidSDKPath\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.6f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\",\"AndroidNDKPath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\",\"PreferredHeapSizeForJVM\":4096,\"UnityLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\mainTemplate.gradle\",\"LauncherTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\launcherTemplate.gradle\",\"BaseProjectTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\baseProjectTemplate.gradle\",\"GradlePropertiesTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\gradleTemplate.properties\",\"GradleLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\libTemplate.gradle\",\"ProguardUserPath\":\"\",\"SettingsTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\settingsTemplate.gradle\",\"BuildTools\":\"30.0.2\",\"TargetSDKVersion\":30,\"MinSDKVersion\":24,\"PackageName\":\"com.DefaultCompany.ARMigo\",\"Architectures\":\"ARMv7, ARM64\",\"BuildApkPerCpuArchitecture\":false,\"VersionCode\":1,\"VersionName\":\"0.1\",\"Minify\":0,\"NoCompressOptions\":{\"RelativeFilePaths\":[],\"FileExtensions\":[\".json\"]},\"UseCustomKeystore\":false,\"KeystorePath\":\"C:/Github/TEAM_Armigox/ARMigo/user.keystore\",\"KeystoreName\":\"user.keystore\",\"KeystorePassword\":\"12345678\",\"KeystoreAliasName\":\"armigo\",\"KeystoreAliasPassword\":\"12345678\",\"ScriptingImplementation\":\"IL2CPP\",\"AndroidLibraries\":[\"Assets/Plugins/Android/FirebaseApp.androidlib\"],\"AARFiles\":[\"Assets/Plugins/Android/androidx.lifecycle.lifecycle-viewmodel-2.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-auth-api-phone-17.4.0.aar\",\"Assets/Plugins/Android/androidx.interpolator.interpolator-1.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-measurement-impl-21.0.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-measurement-connector-19.0.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-auth-interop-20.0.0.aar\",\"Assets/Plugins/Android/androidx.localbroadcastmanager.localbroadcastmanager-1.0.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-common-20.1.1.aar\",\"Assets/Plugins/Android/androidx.drawerlayout.drawerlayout-1.0.0.aar\",\"Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-2.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-tasks-18.0.2.aar\",\"Library/PackageCache/com.unity.xr.arcore@4.2.3/Runtime/Android/arcore_client.aar\",\"Assets/Plugins/Android/androidx.legacy.legacy-support-core-utils-1.0.0.aar\",\"Assets/Plugins/Android/androidx.core.core-1.2.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-21.0.0.aar\",\"Assets/Plugins/Android/androidx.print.print-1.0.0.aar\",\"Assets/Plugins/Android/androidx.arch.core.core-runtime-2.0.0.aar\",\"Library/PackageCache/com.unity.xr.arcore@4.2.3/Runtime/Android/UnityARCore.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-auth-unity-9.2.0.aar\",\"Assets/Plugins/Android/androidx.documentfile.documentfile-1.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-base-18.1.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-stats-17.0.2.aar\",\"Assets/Plugins/Android/androidx.customview.customview-1.0.0.aar\",\"Assets/Plugins/Android/androidx.versionedparcelable.versionedparcelable-1.1.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-installations-17.0.1.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-basement-18.1.0.aar\",\"Library/PackageCache/com.unity.xr.arcore@4.2.3/Runtime/Android/ARPresto.aar\",\"Assets/Plugins/Android/androidx.cursoradapter.cursoradapter-1.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-measurement-base-21.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-ads-identifier-18.0.0.aar\",\"Assets/Plugins/Android/androidx.loader.loader-1.0.0.aar\",\"Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-core-2.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-measurement-api-21.0.0.aar\",\"Assets/Plugins/Android/androidx.swiperefreshlayout.swiperefreshlayout-1.0.0.aar\",\"Assets/Plugins/Android/androidx.viewpager.viewpager-1.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-measurement-21.0.0.aar\",\"Assets/Plugins/Android/androidx.lifecycle.lifecycle-runtime-2.0.0.aar\",\"Assets/Plugins/Android/androidx.asynclayoutinflater.asynclayoutinflater-1.0.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-app-unity-9.2.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-installations-interop-17.0.1.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-api-21.0.0.aar\",\"Assets/Plugins/Android/androidx.coordinatorlayout.coordinatorlayout-1.0.0.aar\",\"Assets/Plugins/Android/androidx.legacy.legacy-support-core-ui-1.0.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-components-17.0.0.aar\",\"Assets/Plugins/Android/androidx.browser.browser-1.4.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-safetynet-17.0.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-analytics-21.0.0.aar\",\"Assets/Plugins/Android/androidx.fragment.fragment-1.0.0.aar\",\"Assets/Plugins/Android/androidx.slidingpanelayout.slidingpanelayout-1.0.0.aar\",\"Library/PackageCache/com.unity.xr.arcore@4.2.3/Runtime/Android/unityandroidpermissions.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-auth-21.0.6.aar\"],\"BuiltinJavaSourcePaths\":[\"com/unity3d/player/UnityPlayerActivity.java\"],\"JavaSourcePaths\":[],\"KotlinSourcePaths\":[],\"PlayerPackage\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer\",\"PlayerPackageTools\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\",\"SymlinkSources\":false,\"InstallIntoBuildsFolder\":false,\"UnityPath\":\"\",\"UnityProjectPath\":\"C:/Github/TEAM_Armigox/ARMigo\",\"Dependencies\":[]}},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.6f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\AndroidPlayerBuildProgram.exe\",\"targets\":[\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle\",\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build.gradle\",\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build.gradle\",\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle.properties\",\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/local.properties\",\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/settings.gradle\",\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/FirebaseApp.androidlib/build.gradle\"],\"inputs\":[\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/mainTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/launcherTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/baseProjectTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/gradleTemplate.properties\",\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/libTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/settingsTemplate.gradle\"],\"targetDirectories\":[]}}",
+      "WriteTextFilePayload": "{\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles+Arguments\":{\"ProjectPath\":\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle\",\"Architectures\":\"ARMv7, ARM64\",\"BuildSystem\":\"Gradle\",\"GradleProjectCreateInfo\":{\"HostPlatform\":\"Windows\",\"ApplicationType\":\"APK\",\"BuildType\":\"Development\",\"AndroidSDKPath\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.6f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\",\"AndroidNDKPath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\",\"PreferredHeapSizeForJVM\":4096,\"UnityLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\mainTemplate.gradle\",\"LauncherTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\launcherTemplate.gradle\",\"BaseProjectTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\baseProjectTemplate.gradle\",\"GradlePropertiesTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\gradleTemplate.properties\",\"GradleLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\libTemplate.gradle\",\"ProguardUserPath\":\"\",\"SettingsTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\settingsTemplate.gradle\",\"BuildTools\":\"30.0.2\",\"TargetSDKVersion\":30,\"MinSDKVersion\":24,\"PackageName\":\"com.DefaultCompany.ARMigo\",\"Architectures\":\"ARMv7, ARM64\",\"BuildApkPerCpuArchitecture\":false,\"VersionCode\":1,\"VersionName\":\"0.1\",\"Minify\":0,\"NoCompressOptions\":{\"RelativeFilePaths\":[],\"FileExtensions\":[\".json\"]},\"UseCustomKeystore\":false,\"KeystorePath\":\"C:/Github/TEAM_Armigox/ARMigo/user.keystore\",\"KeystoreName\":\"user.keystore\",\"KeystorePassword\":\"\",\"KeystoreAliasName\":\"armigo\",\"KeystoreAliasPassword\":\"\",\"ScriptingImplementation\":\"IL2CPP\",\"AndroidLibraries\":[\"Assets/Plugins/Android/FirebaseApp.androidlib\"],\"AARFiles\":[\"Assets/Plugins/Android/androidx.lifecycle.lifecycle-viewmodel-2.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-auth-api-phone-17.4.0.aar\",\"Assets/Plugins/Android/androidx.interpolator.interpolator-1.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-measurement-impl-21.0.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-measurement-connector-19.0.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-auth-interop-20.0.0.aar\",\"Assets/Plugins/Android/androidx.localbroadcastmanager.localbroadcastmanager-1.0.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-common-20.1.1.aar\",\"Assets/Plugins/Android/androidx.drawerlayout.drawerlayout-1.0.0.aar\",\"Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-2.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-tasks-18.0.2.aar\",\"Library/PackageCache/com.unity.xr.arcore@4.2.3/Runtime/Android/arcore_client.aar\",\"Assets/Plugins/Android/androidx.legacy.legacy-support-core-utils-1.0.0.aar\",\"Assets/Plugins/Android/androidx.core.core-1.2.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-21.0.0.aar\",\"Assets/Plugins/Android/androidx.print.print-1.0.0.aar\",\"Assets/Plugins/Android/androidx.arch.core.core-runtime-2.0.0.aar\",\"Library/PackageCache/com.unity.xr.arcore@4.2.3/Runtime/Android/UnityARCore.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-auth-unity-9.2.0.aar\",\"Assets/Plugins/Android/androidx.documentfile.documentfile-1.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-base-18.1.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-stats-17.0.2.aar\",\"Assets/Plugins/Android/androidx.customview.customview-1.0.0.aar\",\"Assets/Plugins/Android/androidx.versionedparcelable.versionedparcelable-1.1.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-installations-17.0.1.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-basement-18.1.0.aar\",\"Library/PackageCache/com.unity.xr.arcore@4.2.3/Runtime/Android/ARPresto.aar\",\"Assets/Plugins/Android/androidx.cursoradapter.cursoradapter-1.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-measurement-base-21.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-ads-identifier-18.0.0.aar\",\"Assets/Plugins/Android/androidx.loader.loader-1.0.0.aar\",\"Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-core-2.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-measurement-api-21.0.0.aar\",\"Assets/Plugins/Android/androidx.swiperefreshlayout.swiperefreshlayout-1.0.0.aar\",\"Assets/Plugins/Android/androidx.viewpager.viewpager-1.0.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-measurement-21.0.0.aar\",\"Assets/Plugins/Android/androidx.lifecycle.lifecycle-runtime-2.0.0.aar\",\"Assets/Plugins/Android/androidx.asynclayoutinflater.asynclayoutinflater-1.0.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-app-unity-9.2.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-installations-interop-17.0.1.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-api-21.0.0.aar\",\"Assets/Plugins/Android/androidx.coordinatorlayout.coordinatorlayout-1.0.0.aar\",\"Assets/Plugins/Android/androidx.legacy.legacy-support-core-ui-1.0.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-components-17.0.0.aar\",\"Assets/Plugins/Android/androidx.browser.browser-1.4.0.aar\",\"Assets/Plugins/Android/com.google.android.gms.play-services-safetynet-17.0.0.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-analytics-21.0.0.aar\",\"Assets/Plugins/Android/androidx.fragment.fragment-1.0.0.aar\",\"Assets/Plugins/Android/androidx.slidingpanelayout.slidingpanelayout-1.0.0.aar\",\"Library/PackageCache/com.unity.xr.arcore@4.2.3/Runtime/Android/unityandroidpermissions.aar\",\"Assets/Plugins/Android/com.google.firebase.firebase-auth-21.0.6.aar\"],\"BuiltinJavaSourcePaths\":[\"com/unity3d/player/UnityPlayerActivity.java\"],\"JavaSourcePaths\":[],\"KotlinSourcePaths\":[],\"PlayerPackage\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer\",\"PlayerPackageTools\":\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\",\"SymlinkSources\":false,\"InstallIntoBuildsFolder\":false,\"UnityPath\":\"\",\"UnityProjectPath\":\"C:/Github/TEAM_Armigox/ARMigo\",\"Dependencies\":[]}},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.6f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\AndroidPlayerBuildProgram.exe\",\"targets\":[\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle\",\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build.gradle\",\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build.gradle\",\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle.properties\",\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/local.properties\",\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/settings.gradle\",\"C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/FirebaseApp.androidlib/build.gradle\"],\"inputs\":[\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/mainTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/launcherTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/baseProjectTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/gradleTemplate.properties\",\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/libTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/settingsTemplate.gradle\"],\"targetDirectories\":[]}}",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/build.gradle_i35q.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1465
+      "DebugActionIndex": 1464
     },
     {
       "Annotation": "ActionGenerateProjectFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle (+6 others)",
@@ -30189,11 +30174,11 @@
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/FirebaseApp.androidlib/build.gradle"
       ],
       "ToBuildDependencies": [
-        1465
+        1464
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1466
+      "DebugActionIndex": 1465
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/proguard-unity.txt",
@@ -30204,7 +30189,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/proguard-unity.txt"
       ],
-      "DebugActionIndex": 1467
+      "DebugActionIndex": 1466
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java",
@@ -30215,7 +30200,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java"
       ],
-      "DebugActionIndex": 1468
+      "DebugActionIndex": 1467
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar",
@@ -30226,7 +30211,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar"
       ],
-      "DebugActionIndex": 1469
+      "DebugActionIndex": 1468
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/ids.xml",
@@ -30237,7 +30222,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/ids.xml"
       ],
-      "DebugActionIndex": 1470
+      "DebugActionIndex": 1469
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/styles.xml",
@@ -30248,7 +30233,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 1471
+      "DebugActionIndex": 1470
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v21/styles.xml",
@@ -30259,7 +30244,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 1472
+      "DebugActionIndex": 1471
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v28/styles.xml",
@@ -30270,7 +30255,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v28/styles.xml"
       ],
-      "DebugActionIndex": 1473
+      "DebugActionIndex": 1472
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml",
@@ -30281,7 +30266,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 1474
+      "DebugActionIndex": 1473
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml",
@@ -30292,7 +30277,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 1475
+      "DebugActionIndex": 1474
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml",
@@ -30303,7 +30288,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml"
       ],
-      "DebugActionIndex": 1476
+      "DebugActionIndex": 1475
     },
     {
       "Annotation": "WriteText C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
@@ -30314,7 +30299,7 @@
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1477
+      "DebugActionIndex": 1476
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml",
@@ -30325,7 +30310,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1478
+      "DebugActionIndex": 1477
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml",
@@ -30336,7 +30321,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1479
+      "DebugActionIndex": 1478
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml",
@@ -30347,7 +30332,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
       ],
-      "DebugActionIndex": 1480
+      "DebugActionIndex": 1479
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml",
@@ -30358,7 +30343,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
       ],
-      "DebugActionIndex": 1481
+      "DebugActionIndex": 1480
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
@@ -30369,7 +30354,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png"
       ],
-      "DebugActionIndex": 1482
+      "DebugActionIndex": 1481
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png",
@@ -30380,7 +30365,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
       ],
-      "DebugActionIndex": 1483
+      "DebugActionIndex": 1482
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
@@ -30391,7 +30376,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
       ],
-      "DebugActionIndex": 1484
+      "DebugActionIndex": 1483
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so",
@@ -30402,7 +30387,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 1485
+      "DebugActionIndex": 1484
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so",
@@ -30413,7 +30398,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1486
+      "DebugActionIndex": 1485
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
@@ -30424,7 +30409,7 @@
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1487
+      "DebugActionIndex": 1486
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -30554,11 +30539,11 @@
         172,
         174,
         176,
-        1487
+        1486
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1488
+      "DebugActionIndex": 1487
     },
     {
       "Annotation": "ClassRegistrationGenerator C:/Github/TEAM_Armigox/ARMigo/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp",
@@ -30576,7 +30561,7 @@
         69
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1489
+      "DebugActionIndex": 1488
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o",
@@ -30590,10 +30575,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        1489
+        1488
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1490
+      "DebugActionIndex": 1489
     },
     {
       "Annotation": "ICallRegistrationGenerator C:/Github/TEAM_Armigox/ARMigo/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp",
@@ -30631,7 +30616,7 @@
         69
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1491
+      "DebugActionIndex": 1490
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o",
@@ -30645,10 +30630,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        1491
+        1490
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1492
+      "DebugActionIndex": 1491
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so",
@@ -30665,11 +30650,11 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1490,
-        1492
+        1489,
+        1491
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1493
+      "DebugActionIndex": 1492
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so",
@@ -30682,10 +30667,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        1493
+        1492
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1494
+      "DebugActionIndex": 1493
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so",
@@ -30698,10 +30683,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        1494
+        1493
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1495
+      "DebugActionIndex": 1494
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so",
@@ -30714,10 +30699,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1493
+        1492
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1496
+      "DebugActionIndex": 1495
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so -> C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so",
@@ -30732,11 +30717,11 @@
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1495,
-        1496
+        1494,
+        1495
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1497
+      "DebugActionIndex": 1496
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o",
@@ -30750,10 +30735,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        1489
+        1488
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1498
+      "DebugActionIndex": 1497
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o",
@@ -30767,10 +30752,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        1491
+        1490
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1499
+      "DebugActionIndex": 1498
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so",
@@ -30787,11 +30772,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1498,
-        1499
+        1497,
+        1498
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1500
+      "DebugActionIndex": 1499
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so",
@@ -30804,10 +30789,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        1500
+        1499
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1501
+      "DebugActionIndex": 1500
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so",
@@ -30820,10 +30805,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        1501
+        1500
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1502
+      "DebugActionIndex": 1501
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so",
@@ -30836,10 +30821,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1500
+        1499
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1503
+      "DebugActionIndex": 1502
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so -> C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so",
@@ -30854,11 +30839,11 @@
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1502,
-        1503
+        1501,
+        1502
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1504
+      "DebugActionIndex": 1503
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so",
@@ -30869,7 +30854,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 1505
+      "DebugActionIndex": 1504
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libil2cpp.so",
@@ -30883,7 +30868,7 @@
       "ToBuildDependencies": [
         637
       ],
-      "DebugActionIndex": 1506
+      "DebugActionIndex": 1505
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so",
@@ -30895,9 +30880,9 @@
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1495
+        1494
       ],
-      "DebugActionIndex": 1507
+      "DebugActionIndex": 1506
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so",
@@ -30908,7 +30893,7 @@
       "Outputs": [
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1508
+      "DebugActionIndex": 1507
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libil2cpp.so",
@@ -30922,7 +30907,7 @@
       "ToBuildDependencies": [
         1098
       ],
-      "DebugActionIndex": 1509
+      "DebugActionIndex": 1508
     },
     {
       "Annotation": "CopyFiles C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so",
@@ -30934,9 +30919,9 @@
         "C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1502
+        1501
       ],
-      "DebugActionIndex": 1510
+      "DebugActionIndex": 1509
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_7chv.info",
@@ -30947,7 +30932,7 @@
         "Library/Bee/artifacts/csharpactions/unity_app_guid_7chv.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1511
+      "DebugActionIndex": 1510
     },
     {
       "Annotation": "GuidGenerator C:/Github/TEAM_Armigox/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -30977,11 +30962,11 @@
       ],
       "ToBuildDependencies": [
         177,
-        1511
+        1510
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1512
+      "DebugActionIndex": 1511
     },
     {
       "Annotation": "Player",
@@ -31469,7 +31454,7 @@
         1461,
         1462,
         1463,
-        1464,
+        1465,
         1466,
         1467,
         1468,
@@ -31490,14 +31475,13 @@
         1483,
         1484,
         1485,
-        1486,
-        1488,
-        1497,
-        1504,
-        1512
+        1487,
+        1496,
+        1503,
+        1511
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1513
+      "DebugActionIndex": 1512
     }
   ],
   "FileSignatures": [
@@ -32219,7 +32203,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 1513
+          "Player": 1512
         }
 ,  "DefaultNodes": [
     0
