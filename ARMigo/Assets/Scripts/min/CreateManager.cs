@@ -75,6 +75,7 @@ public class CreateManager : MonoBehaviourPunCallbacks
     // 로비 내에 룸이 생성되거나 사라질때 자동 호출되는 콜백
     public override void OnRoomListUpdate(List<RoomInfo> roomList)
     {
+        Debug.Log($"룸 리스트 업데이트 ::::::: 현재 방 갯수 : {roomList.Count}"); 
         GameObject tempRoom = null;
         foreach(var room in roomList)
         {

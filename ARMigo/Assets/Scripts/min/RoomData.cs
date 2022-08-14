@@ -27,27 +27,33 @@ public class RoomData : MonoBehaviourPunCallbacks
         {
             _roomInfo = value;
             RoomInfoText.text = $"{_roomInfo.Name} ({_roomInfo.PlayerCount}/{_roomInfo.MaxPlayers})";
-            GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => OnEnterRoom(_roomInfo.Name));
+            GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => OnJoinRoom(_roomInfo.Name));
+            Debug.Log("set함수가 실행되었다.");
         }
     }
 
     void Awake()
     {
         RoomInfoText = GetComponentInChildren<TMP_Text>();
-        userIdText = GameObject.Find("InputField (TMP) - Nickname").GetComponent<TMP_InputField>();
-        
+        //userIdText = GameObject.Find("InputField (TMP) - Nickname").GetComponent<TMP_InputField>();   
     }
 
-    void OnEnterRoom(string roomName)
+    public void OnJoinRoom(string roomName)
     {
-        RoomOptions ro = new RoomOptions();
-        ro.IsOpen = true;
-        ro.IsVisible = true;
-        ro.MaxPlayers = 10;
-
-        PhotonNetwork.NickName = userIdText.text;
-        PhotonNetwork.JoinOrCreateRoom(roomName, ro, TypedLobby.Default);
+	// 룸 입장 함수 - roomName을 key값으로 검색해 입장합니다.
+    PhotonNetwork.JoinRoom(roomName);
     }
 
+    public override void OnJoinedRoom()
+    {
+        Debug.Log("04.방 입장 완료. 방 씬으로 옮김.-Room프리팹");
+        SceneManager.LoadScene("RoomMain");
+
+        if(PhotonNetwork.IsMasterClient)
+        {
+            //PhotonNetwork.LoadLevel("Level_1");
+            Debug.Log("IF");
+        }
+    }
 
 }
