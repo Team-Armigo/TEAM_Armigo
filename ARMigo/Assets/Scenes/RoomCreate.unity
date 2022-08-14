@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.4439403, g: 0.4931519, b: 0.5722083, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -939,7 +939,7 @@ GameObject:
   - component: {fileID: 620093628}
   - component: {fileID: 620093627}
   - component: {fileID: 620093631}
-  - component: {fileID: 620093632}
+  - component: {fileID: 620093633}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1042,7 +1042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8148728902d3e34b92084814592e503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &620093632
+--- !u!114 &620093633
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1051,7 +1051,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 620093626}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20bb837b784c349408dc9bdb082e99a8, type: 3}
+  m_Script: {fileID: 11500000, guid: bac8128442a224ace820e042564db6ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   userIdText: {fileID: 0}
@@ -1930,7 +1930,6 @@ GameObject:
   - component: {fileID: 1044113099}
   - component: {fileID: 1044113101}
   - component: {fileID: 1044113100}
-  - component: {fileID: 1044113103}
   m_Layer: 5
   m_Name: Room Create
   m_TagString: Untagged
@@ -2002,22 +2001,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044113098}
   m_CullTransparentMesh: 1
---- !u!114 &1044113103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044113098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e62c0cd3b53a948f89e27231e0b9604b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  userIdText: {fileID: 0}
-  roomNameText: {fileID: 851619186}
-  maxNum: {fileID: 1961640062}
-  passWord: {fileID: 2098907541}
 --- !u!1 &1057167150
 GameObject:
   m_ObjectHideFlags: 0
@@ -3382,8 +3365,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 620093632}
-        m_TargetAssemblyTypeName: RoomData, Assembly-CSharp
+      - m_Target: {fileID: 620093633}
+        m_TargetAssemblyTypeName: CreateManager, Assembly-CSharp
         m_MethodName: RoomCreate
         m_Mode: 1
         m_Arguments:

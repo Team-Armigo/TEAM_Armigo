@@ -70,5 +70,10 @@ public class PlayManager : MonoBehaviourPunCallbacks
         }
     }
 
+    public void ListSceneGo()
+    {
+        SceneManager.LoadScene("RoomList");
+    }
+
 
 }
