@@ -32,11 +32,11 @@ public class CreateManager : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("00.포톤 매니저 시작 ");
+        //Debug.Log("00.포톤 매니저 시작 ");
         // 서버 접속 
-        PhotonNetwork.ConnectUsingSettings();
+        //PhotonNetwork.ConnectUsingSettings();
     }
-
+/*
     public override void OnConnectedToMaster()
     {
         Debug.Log("01. 포톤 서버에 접속 ");
@@ -48,6 +48,8 @@ public class CreateManager : MonoBehaviourPunCallbacks
     {
         Debug.Log("02. 로비에 접속 ");
     }
+
+    */
     //이코드 작동 
     public override void OnCreatedRoom()
     {
