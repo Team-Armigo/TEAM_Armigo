@@ -96,6 +96,7 @@ public class AuthManager : MonoBehaviourPunCallbacks
             PhotonNetwork.NickName = displayName;
             PhotonNetwork.ConnectUsingSettings();
             Debug.Log("Connecting to Server");
+            SceneManager.LoadScene("MainMenu");
         }
     }
 
