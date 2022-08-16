@@ -7,9 +7,9 @@ public class GameUI : MonoBehaviour
 {
 
     public static GameUI instance;
-    // ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½Ã·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ MainMenuï¿½ï¿½
+    // ¼¼ÆÃ, ¸¶ÀÌÆäÀÌÁö, ÇÃ·¹ÀÌ °ÔÀÓÀº MainMenu·Î
 
-    // ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ë¸®ï¿½ï¿½Æ®ï¿½ï¿½
+    // ·ë¸ÞÀÎ, ·ëÅ©¸®¿¡ÀÌÆ®¿¡¼­ ·ë¸®½ºÆ®·Î
     public void Previous()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);

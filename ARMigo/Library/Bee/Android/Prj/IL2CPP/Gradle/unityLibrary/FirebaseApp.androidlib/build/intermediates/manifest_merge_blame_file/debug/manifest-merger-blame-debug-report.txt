@@ -6,8 +6,8 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="1"
-8-->/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/FirebaseApp.androidlib/AndroidManifest.xml
+8-->C:\Github\TEAM_Armigox\ARMigo\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
 9        android:targetSdkVersion="9" />
-9-->/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/FirebaseApp.androidlib/AndroidManifest.xml
+9-->C:\Github\TEAM_Armigox\ARMigo\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
 10
 11</manifest>
