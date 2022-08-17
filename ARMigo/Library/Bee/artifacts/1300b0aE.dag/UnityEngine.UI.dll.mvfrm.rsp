@@ -86,8 +86,13 @@ Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Mdb.dll_A9B370A36974F700.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Pdb.dll_C105E912E829F883.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Rocks.dll_4620F7D29B68F703.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Burst.Unsafe.dll_57250E18149A61A0.mvfrm
+<<<<<<< Updated upstream
 Library/Bee/artifacts/mvdfrm/Unity.Plastic.Antlr3.Runtime.dll_E6B30435585C0BDD.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_91AB73505FC88108.mvfrm
+=======
+Library/Bee/artifacts/mvdfrm/Unity.Plastic.Antlr3.Runtime.dll_0AABD182024468A5.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_28263BC6AE5253C0.mvfrm
+>>>>>>> Stashed changes
 Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.IonicZip.dll_3A26F503DACCE363.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.YamlDotNet.dll_DB2349F70578B909.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.TextureAssets.dll_7241734AC6461701.mvfrm

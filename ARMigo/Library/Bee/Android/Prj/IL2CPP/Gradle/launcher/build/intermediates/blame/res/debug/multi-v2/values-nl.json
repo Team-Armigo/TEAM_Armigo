@@ -1,6 +1,7 @@
 {
     "logs": [
         {
+<<<<<<< Updated upstream
             "outputFile": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
             "map": [
                 {
@@ -28,6 +29,18 @@
                         "startOffsets": "55,158,259,370",
                         "endColumns": "102,100,110,98",
                         "endOffsets": "153,254,365,464"
+=======
+            "outputFile": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
+            "map": [
+                {
+                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/res/values-nl/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,240,291,416,549",
+                        "endColumns": "49,50,124,132,85",
+                        "endOffsets": "239,290,415,548,634"
+>>>>>>> Stashed changes
                     },
                     "to": {
                         "startLines": "25,26,27,28",
@@ -36,6 +49,7 @@
                         "endColumns": "102,100,110,98",
                         "endOffsets": "2916,3017,3128,3227"
                     }
+<<<<<<< Updated upstream
                 },
                 {
                     "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/349adf5e377558524a488b8a0e9288b3/res/values-nl/values-nl.xml",
@@ -87,6 +101,8 @@
                         "endColumns": "107,150,127,110,166,126,122,105,177,105,168,125,162,181,67,62,78",
                         "endOffsets": "623,774,902,1013,1180,1307,1430,1536,1857,1963,2132,2258,2421,2603,2671,2734,2813"
                     }
+=======
+>>>>>>> Stashed changes
                 }
             ]
         }

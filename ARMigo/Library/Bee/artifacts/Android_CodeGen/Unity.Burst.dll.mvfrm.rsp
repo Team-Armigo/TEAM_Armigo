@@ -83,6 +83,7 @@ Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_16E78E3CD4A40412.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_57E2C89236B94B6E.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_49A651415DDE5170.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEditor.OSXStandalone.Extensions.dll_EF0CC1878978DA11.mvfrm
+<<<<<<< Updated upstream
 Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.dll_98F6191A5218D36E.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Mdb.dll_9CEA177B367E822B.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Pdb.dll_B43C8FEAB53383AE.mvfrm
@@ -94,5 +95,18 @@ Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.IonicZip.dll_132193BCDED032EE
 Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.YamlDotNet.dll_025AE9AF7FBCB9EE.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.TextureAssets.dll_99791303408A17E6.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_B3C81090B085CA0D.mvfrm
+=======
+Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.dll_5716DFF0B4FA8B03.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Mdb.dll_A9B370A36974F700.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Pdb.dll_C105E912E829F883.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Rocks.dll_4620F7D29B68F703.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Burst.Unsafe.dll_57250E18149A61A0.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Plastic.Antlr3.Runtime.dll_0AABD182024468A5.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_28263BC6AE5253C0.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.IonicZip.dll_3A26F503DACCE363.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.YamlDotNet.dll_DB2349F70578B909.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.TextureAssets.dll_7241734AC6461701.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_8C9070D83641C928.mvfrm
+>>>>>>> Stashed changes
 Library/Bee/artifacts/mvdfrm/Unity.Compat.dll_BF1C3A400F471BD4.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Tasks.dll_E59340E2C7414818.mvfrm
