@@ -12,14 +12,14 @@ public final class R {
     public static final class string {
         private string() {}
 
-        public static final int default_android_client_id = 0x7f05000b;
-        public static final int default_web_client_id = 0x7f05000c;
-        public static final int firebase_database_url = 0x7f05000d;
-        public static final int gcm_defaultSenderId = 0x7f05000f;
-        public static final int google_api_key = 0x7f050010;
-        public static final int google_app_id = 0x7f050011;
-        public static final int google_crash_reporting_api_key = 0x7f050012;
-        public static final int google_storage_bucket = 0x7f050013;
-        public static final int project_id = 0x7f050014;
+        public static final int default_android_client_id = 0x7f0a001e;
+        public static final int default_web_client_id = 0x7f0a001f;
+        public static final int firebase_database_url = 0x7f0a0023;
+        public static final int gcm_defaultSenderId = 0x7f0a0025;
+        public static final int google_api_key = 0x7f0a0026;
+        public static final int google_app_id = 0x7f0a0027;
+        public static final int google_crash_reporting_api_key = 0x7f0a0028;
+        public static final int google_storage_bucket = 0x7f0a0029;
+        public static final int project_id = 0x7f0a002a;
     }
 }

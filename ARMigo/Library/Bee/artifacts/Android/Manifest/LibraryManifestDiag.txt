@@ -1,11 +1,11 @@
-Using template '/Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/AndroidPlayer/Apk/UnityManifest.xml'
+Using template 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer\Apk\UnityManifest.xml'
 
 android.permission.INTERNET was added because:
 	UnityEngine.Networking was present in:
 		Unity.XR.ARCore-FeaturesChecked.txt
 	System.Net.Sockets was present in:
-		PhotonRealtime-FeaturesChecked.txt
 		Photon3Unity3D-FeaturesChecked.txt
+		PhotonRealtime-FeaturesChecked.txt
 	UnityEngine.Network was present in:
 		Unity.XR.ARCore-FeaturesChecked.txt
 	UnityEngine.Networking.UnityWebRequest was present in:
