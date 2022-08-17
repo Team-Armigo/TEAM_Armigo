@@ -431,7 +431,6 @@
 "Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Scripts/AuthManager.cs"
-"Assets/Scripts/GameUI.cs"
 "Assets/Scripts/min/CreateManager.cs"
 "Assets/Scripts/min/ListManager.cs"
 "Assets/Scripts/min/PlayManager.cs"

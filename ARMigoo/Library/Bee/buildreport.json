@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1.660641524848E+15,"dur": 4659000, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.660641524934E+15,"dur": 1504000, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.660641527772E+15,"dur": 1670000, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "08/16/2022 18:18:49",
+"meta_command_line": "/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MacOS/Unity -projectpath /Users/mineo/ARMigo -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-mineo -hubSessionId d383b1e0-1acb-11ed-bfbd-c39d8fe1c20f -accessToken nI9N6LzsY4D9ZTsoHp23qaBahR_IzvceXLa5COAdbzc00df",
+"meta_command_line_args": "/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MacOS/Unity -projectpath /Users/mineo/ARMigo -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-mineo -hubSessionId d383b1e0-1acb-11ed-bfbd-c39d8fe1c20f -accessToken nI9N6LzsY4D9ZTsoHp23qaBahR_IzvceXLa5COAdbzc00df",
+"meta_user_name": "mineo",
+"meta_os_version": "Unix 21.6.0.0",
+"meta_cpu_count": "8"
+}
