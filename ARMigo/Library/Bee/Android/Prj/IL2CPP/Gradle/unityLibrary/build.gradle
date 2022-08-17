@@ -27,7 +27,7 @@ allprojects {
 // Android Resolver Repos Start
 ([rootProject] + (rootProject.subprojects as List)).each { project ->
     project.repositories {
-        def unityProjectPath = $/file:///C:/Github/TEAM_Armigox/ARMigoo/$.replace("\\", "/")
+        def unityProjectPath = $/file:////Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/$.replace("\\", "/")
         maven {
             url "https://maven.google.com"
         }

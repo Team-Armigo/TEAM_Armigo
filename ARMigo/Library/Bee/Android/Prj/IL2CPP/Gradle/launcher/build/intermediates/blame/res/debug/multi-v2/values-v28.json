@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Github\\TEAM_Armigox\\ARMigoo\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Github\\TEAM_Armigox\\ARMigoo\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\src\\main\\res\\values-v28\\styles.xml",
+                    "source": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v28/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",

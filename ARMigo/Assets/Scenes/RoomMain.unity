@@ -425,7 +425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a14941ea16c4b41e7a98f5a88f17b214, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNum: {fileID: 0}
+  roomName: {fileID: 0}
   maxNum: {fileID: 0}
   back: {fileID: 0}
 --- !u!1 &662694099
@@ -907,7 +907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a14941ea16c4b41e7a98f5a88f17b214, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNum: {fileID: 0}
+  roomName: {fileID: 990006998}
   maxNum: {fileID: 1216545740}
   back: {fileID: 1658118567}
 --- !u!1 &990006996

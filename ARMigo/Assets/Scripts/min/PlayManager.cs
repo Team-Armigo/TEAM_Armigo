@@ -10,7 +10,7 @@ using TMPro;
 public class PlayManager : MonoBehaviourPunCallbacks
 {
 
-    public TMP_Text playerNum;
+    public TMP_Text roomName;
     public TMP_Text maxNum;
     //string RoomName = PhotonNetwork.CurrentRoom.Name;
     public Button back;
@@ -28,7 +28,7 @@ public class PlayManager : MonoBehaviourPunCallbacks
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     public void RoomData()
     {
@@ -73,6 +73,15 @@ public class PlayManager : MonoBehaviourPunCallbacks
     public void ListSceneGo()
     {
         SceneManager.LoadScene("RoomList");
+    }
+
+    void CheckPlayerCount()
+    {
+        int currPlayer = PhotonNetwork.PlayerList.Length;
+        int maxPlayer = PhotonNetwork.CurrentRoom.MaxPlayers;
+        maxNum.text = string.Format("[{0}/{1}]", currPlayer,maxPlayer);
+
+        roomName.text = PhotonNetwork.CurrentRoom.Name;
     }
 
 

@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Github\\TEAM_Armigox\\ARMigoo\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+            "outputFile": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\51d581c214fc88123bfefca039e7b860\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/res/values-en-rCA/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "194,241,292,414,536",
+                        "endColumns": "46,50,121,121,83",
+                        "endOffsets": "240,291,413,535,619"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,106,161,287,413",
+                        "endColumns": "50,54,125,125,87",
+                        "endOffsets": "101,156,282,408,496"
+                    }
+                },
+                {
+                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/d89e1e31e5231384541ac74e0e1cc900/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\de1258d874b75a19cf47b1f8476936a8\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/0b6a9c7b778ad5c9ece4fd5f22c8506b/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -35,23 +52,6 @@
                         "startOffsets": "904",
                         "endColumns": "100",
                         "endOffsets": "1000"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\6096ec9ac84e0e2bfbdfbcec8f695720\\res\\values-en-rCA\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "194,241,292,414,536",
-                        "endColumns": "46,50,121,121,83",
-                        "endOffsets": "240,291,413,535,619"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,106,161,287,413",
-                        "endColumns": "50,54,125,125,87",
-                        "endOffsets": "101,156,282,408,496"
                     }
                 }
             ]

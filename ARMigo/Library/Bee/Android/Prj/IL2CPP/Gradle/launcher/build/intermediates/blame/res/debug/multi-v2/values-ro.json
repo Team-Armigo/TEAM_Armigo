@@ -1,61 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Github\\TEAM_Armigox\\ARMigoo\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
+            "outputFile": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\6096ec9ac84e0e2bfbdfbcec8f695720\\res\\values-ro\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,238,291,433,577",
-                        "endColumns": "47,52,141,143,107",
-                        "endOffsets": "237,290,432,576,684"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,107,164,310,458",
-                        "endColumns": "51,56,145,147,111",
-                        "endOffsets": "102,159,305,453,565"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\de1258d874b75a19cf47b1f8476936a8\\res\\values-ro\\values-ro.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "29",
-                        "startColumns": "4",
-                        "startOffsets": "3259",
-                        "endColumns": "100",
-                        "endOffsets": "3355"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\0e0a40984e3b3a724a9859d9b17384b4\\res\\values-ro\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "140",
-                        "endOffsets": "335"
-                    },
-                    "to": {
-                        "startLines": "15",
-                        "startColumns": "4",
-                        "startOffsets": "1590",
-                        "endColumns": "144",
-                        "endOffsets": "1730"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\51d581c214fc88123bfefca039e7b860\\res\\values-ro\\values-ro.xml",
+                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/d89e1e31e5231384541ac74e0e1cc900/res/values-ro/values-ro.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -72,7 +21,58 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\f9339baec6ca61abd35892cd7b59cbbd\\res\\values-ro\\values.xml",
+                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/res/values-ro/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,238,291,433,577",
+                        "endColumns": "47,52,141,143,107",
+                        "endOffsets": "237,290,432,576,684"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,107,164,310,458",
+                        "endColumns": "51,56,145,147,111",
+                        "endOffsets": "102,159,305,453,565"
+                    }
+                },
+                {
+                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/f3dfa2339783edc9eaef3206b5fcb5ff/res/values-ro/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "140",
+                        "endOffsets": "335"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "1590",
+                        "endColumns": "144",
+                        "endOffsets": "1730"
+                    }
+                },
+                {
+                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/0b6a9c7b778ad5c9ece4fd5f22c8506b/res/values-ro/values-ro.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "29",
+                        "startColumns": "4",
+                        "startOffsets": "3259",
+                        "endColumns": "100",
+                        "endOffsets": "3355"
+                    }
+                },
+                {
+                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/5bba6e183a3bd22e961548abcf43220c/res/values-ro/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
