@@ -1,6 +1,7 @@
 {
     "logs": [
         {
+<<<<<<< Updated upstream
             "outputFile": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
@@ -24,6 +25,12 @@
                 },
                 {
                     "source": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v21/styles.xml",
+=======
+            "outputFile": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v21/styles.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",
@@ -33,12 +40,12 @@
                         "endOffsets": "153"
                     },
                     "to": {
-                        "startLines": "6",
+                        "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "354",
-                        "endLines": "7",
+                        "startOffsets": "55",
+                        "endLines": "3",
                         "endColumns": "8",
-                        "endOffsets": "453"
+                        "endOffsets": "154"
                     }
                 }
             ]

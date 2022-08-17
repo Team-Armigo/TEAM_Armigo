@@ -10660,7 +10660,11 @@ static const Il2CppType* GenInst_XRSessionSubsystemDescriptor_tC27BC32D3225FDB3C
 extern const Il2CppGenericInst GenInst_XRSessionSubsystemDescriptor_tC27BC32D3225FDB3C2114906B7917065435E3076_XRSessionSubsystem_t1E6E6CD0C279BA8BC4E4ED94E539552036B9C399;
 const Il2CppGenericInst GenInst_XRSessionSubsystemDescriptor_tC27BC32D3225FDB3C2114906B7917065435E3076_XRSessionSubsystem_t1E6E6CD0C279BA8BC4E4ED94E539552036B9C399 = { 2, GenInst_XRSessionSubsystemDescriptor_tC27BC32D3225FDB3C2114906B7917065435E3076_XRSessionSubsystem_t1E6E6CD0C279BA8BC4E4ED94E539552036B9C399_Types };
 IL2CPP_EXTERN_C const Il2CppGenericInst* const g_Il2CppGenericInstTable[];
+<<<<<<< Updated upstream
 const Il2CppGenericInst* const g_Il2CppGenericInstTable[2794] = 
+=======
+const Il2CppGenericInst* const g_Il2CppGenericInstTable[2799] = 
+>>>>>>> Stashed changes
 {
 	&GenInst_T_t52313BC20F2856FA81B4CAC631D616F3C3FE3AD4,
 	&GenInst_TResult_tE3F1F16A80D9E905B7A56FD3E1F6498A7F882BC0,

@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< Updated upstream
             "outputFile": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/7003235e1c638fb82b6ee2577d1d02dc/res/values-zh-rTW/values.xml",
+=======
+            "outputFile": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
+            "map": [
+                {
+                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/res/values-zh-rTW/values.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "4,5,6,7,8",
                         "startColumns": "0,0,0,0,0",
@@ -19,6 +26,7 @@
                         "endColumns": "46,48,94,95,77",
                         "endOffsets": "97,146,241,337,415"
                     }
+<<<<<<< Updated upstream
                 },
                 {
                     "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/349adf5e377558524a488b8a0e9288b3/res/values-zh-rTW/values-zh-rTW.xml",
@@ -87,6 +95,8 @@
                         "endColumns": "100,127,114,101,106,115,99,94,109,100,128,114,101,107,55,56,73",
                         "endOffsets": "516,644,759,861,968,1084,1184,1279,1492,1593,1722,1837,1939,2047,2103,2160,2234"
                     }
+=======
+>>>>>>> Stashed changes
                 }
             ]
         }

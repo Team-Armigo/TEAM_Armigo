@@ -3410,7 +3410,11 @@ IL2CPP_EXTERN_C_END
 
 
 IL2CPP_EXTERN_C Il2CppGenericClass* const g_Il2CppGenericTypes[];
+<<<<<<< Updated upstream
 Il2CppGenericClass* const g_Il2CppGenericTypes[4544] = 
+=======
+Il2CppGenericClass* const g_Il2CppGenericTypes[4557] = 
+>>>>>>> Stashed changes
 {
 &U3CU3Ec_t1EFE905FD91B5D31E484ECA3DE6ECC81903F86CA_GenericClass,
 &U3CU3Ec_t705255FA361C46DFF1055CEBF8E4A817E4279183_GenericClass,

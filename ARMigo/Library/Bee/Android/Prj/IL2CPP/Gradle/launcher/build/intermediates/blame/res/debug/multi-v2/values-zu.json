@@ -1,16 +1,24 @@
 {
     "logs": [
         {
+<<<<<<< Updated upstream
             "outputFile": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml",
             "map": [
                 {
                     "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/7003235e1c638fb82b6ee2577d1d02dc/res/values-zu/values.xml",
+=======
+            "outputFile": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml",
+            "map": [
+                {
+                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/res/values-zu/values.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "4,5,6,7,8",
                         "startColumns": "0,0,0,0,0",
                         "startOffsets": "190,239,289,428,558",
                         "endColumns": "48,49,138,129,86",
                         "endOffsets": "238,288,427,557,644"
+<<<<<<< Updated upstream
                     },
                     "to": {
                         "startLines": "2,3,4,5,6",
@@ -79,6 +87,8 @@
                         "startOffsets": "55,167,275,387",
                         "endColumns": "111,107,111,111",
                         "endOffsets": "162,270,382,494"
+=======
+>>>>>>> Stashed changes
                     },
                     "to": {
                         "startLines": "25,26,27,28",

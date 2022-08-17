@@ -39,19 +39,19 @@
     <uses-feature
         android:name="com.google.ar.core.depth"
         android:required="true" />
+<<<<<<< Updated upstream
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+=======
+>>>>>>> Stashed changes
 
     <queries>
         <package android:name="com.google.ar.core" />
     </queries>
 
-    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-
     <application
-        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="true"
         android:icon="@mipmap/app_icon"
@@ -98,10 +98,14 @@
             android:value="true" />
         <meta-data
             android:name="com.google.ar.core"
+<<<<<<< Updated upstream
             android:value="required" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+=======
+            android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+>>>>>>> Stashed changes
         <meta-data
             android:name="com.google.ar.core.min_apk_version"
             android:value="210910000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
@@ -112,6 +116,7 @@
             android:exported="false"
             android:launchMode="singleTop"
             android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+<<<<<<< Updated upstream
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
@@ -194,6 +199,8 @@
                     android:scheme="recaptcha" />
             </intent-filter>
         </activity>
+=======
+>>>>>>> Stashed changes
     </application>
 
 </manifest>
