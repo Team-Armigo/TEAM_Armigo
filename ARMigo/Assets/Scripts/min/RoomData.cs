@@ -34,8 +34,8 @@ public class RoomData : MonoBehaviourPunCallbacks
 
     void Awake()
     {
-        RoomInfoText = GetComponentInChildren<TMP_Text>();
-        //userIdText = GameObject.Find("InputField (TMP) - Nickname").GetComponent<TMP_InputField>();   
+        RoomInfoText = GetComponentInChildren<TMP_Text>(); 
+        userIdText = GameObject.Find("InputField (TMP) - Nickname").GetComponent<TMP_InputField>();   
     }
 
     public void OnJoinRoom(string roomName)

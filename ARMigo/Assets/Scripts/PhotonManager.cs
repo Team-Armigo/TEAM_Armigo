@@ -10,6 +10,7 @@ public class PhotonManager : MonoBehaviourPunCallbacks
     //파베에서 아이디 가져오기
     private string userId = "mineo";
 
+
     // Start is called before the first frame update
     void Start()
     {
