@@ -943,10 +943,6 @@ struct Func_4_tB4D8B68CF259C4CADB0575DF6DB72156D5EBE1BD;
 struct Func_5_tCAF2203A305DC98F7249111653223E3D03B7549A;
 // System.Func`5<System.Object,System.IO.Stream/ReadWriteParameters,System.Object,System.Object,System.Object>
 struct Func_5_tBD83535470C7532DCD8D3FEC6FAAEABA156B6E6C;
-// Google.FutureAPIImpl`1<System.Object>
-struct FutureAPIImpl_1_tB70B1803C3C8E7E6A30F4E5B318E1BCBA62575DA;
-// Google.Future`1<System.Object>
-struct Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF;
 // UnityEngine.UIElements.UIR.Utility/GPUBuffer`1<System.UInt16>
 struct GPUBuffer_1_tA865630D1AFA976A50A92C4ACE0243A78520BDC7;
 // UnityEngine.UIElements.UIR.Utility/GPUBuffer`1<UnityEngine.UIElements.Vertex>
@@ -1145,16 +1141,12 @@ struct RefCounted_tA9FB4D63A1064BD322AFDFCD70319CB384C057D9;
 struct RefCounted_t812D790A2C787F18230F9234F6C9B84D4AC1A85A;
 // System.Collections.Generic.Stack`1<System.Object>
 struct Stack_1_tAD790A47551563636908E21E4F08C54C0C323EB5;
-// System.Threading.Tasks.TaskCompletionSource`1<System.Object>
-struct TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37;
 // System.Threading.Tasks.TaskFactory`1<System.Int32>
 struct TaskFactory_1_t0BEF06D58E44525B9135AB0B22D016856EE69FF3;
 // System.Threading.Tasks.TaskFactory`1<System.Object>
 struct TaskFactory_1_t6F188FE70F3006B0386002E392B799D85100732B;
 // System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>
 struct TaskFactory_1_t4BEAD6CE2527DBE682C128CEAA0FF2A79483E96C;
-// System.Threading.Tasks.Task`1<System.Object>
-struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2;
 // UnityEngine.UIElements.Experimental.ValueAnimation`1<UnityEngine.UIElements.Experimental.StyleValues>
 struct ValueAnimation_1_t639ABF37111B0184CCB3DE2F577E466F04B28FAC;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Action`1<System.Boolean>,System.Collections.Generic.LinkedListNode`1<System.Action`1<System.Boolean>>>
@@ -1571,19 +1563,6 @@ IL2CPP_EXTERN_C_END
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-
-// Google.Future`1/<WaitForResult>d__8<System.Object>
-struct U3CWaitForResultU3Ed__8_t5EF810EACA38B2C8E6C460BC7F6C7D31E63985B0  : public RuntimeObject
-{
-	// System.Int32 Google.Future`1/<WaitForResult>d__8::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Google.Future`1/<WaitForResult>d__8::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// System.Threading.Tasks.TaskCompletionSource`1<T> Google.Future`1/<WaitForResult>d__8::tcs
-	TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* ___tcs_2;
-	// Google.Future`1<T> Google.Future`1/<WaitForResult>d__8::<>4__this
-	Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF* ___U3CU3E4__this_3;
-};
 
 // System.Buffers.ArrayPool`1<System.Byte>
 struct ArrayPool_1_t645A9854926DCA747C654687A362AD03D55D2C07  : public RuntimeObject
@@ -2366,13 +2345,6 @@ struct FileSystemEnumerable_1_t6CDB6C3CCEAAD4602A46A2EA5211E12D2DB57B94  : publi
 	FindPredicate_tD904DBA38C8844BD03538991F629C55781F3000D* ___U3CShouldRecursePredicateU3Ek__BackingField_5;
 };
 
-// Google.Future`1<System.Object>
-struct Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF  : public RuntimeObject
-{
-	// Google.FutureAPIImpl`1<T> Google.Future`1::apiImpl
-	RuntimeObject* ___apiImpl_0;
-};
-
 // System.Collections.Generic.LinkedListNode`1<System.Action`1<System.Boolean>>
 struct LinkedListNode_1_t5EACADC272381EA82FB3FE90A966736FA4674F40  : public RuntimeObject
 {
@@ -2594,13 +2566,6 @@ struct Queue_1_t55768C6731D974992BF9775CEA33AAFE7F51CF31  : public RuntimeObject
 	int32_t ____version_4;
 	// System.Object System.Collections.Generic.Queue`1::_syncRoot
 	RuntimeObject* ____syncRoot_5;
-};
-
-// System.Threading.Tasks.TaskCompletionSource`1<System.Object>
-struct TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37  : public RuntimeObject
-{
-	// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1::_task
-	Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* ____task_0;
 };
 
 // UnityEngine.EventSystems.AbstractEventData
@@ -21857,128 +21822,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_5_Invoke_m392D0C4E7D4413D
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, ReadWriteParameters_t14911E85F7252B5A39D9A53466C7EDE243327033, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg10, ___arg21, ___arg32, ___arg43, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Google.Future`1<System.Object>::.ctor(Google.FutureAPIImpl`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_1__ctor_mFAB04EC0EED034736749BA83776F629ED33AA046_gshared (Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF* __this, RuntimeObject* ___impl0, const RuntimeMethod* method) 
-{
-	{
-		// internal Future(FutureAPIImpl<T> impl) {
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		// apiImpl = impl;
-		RuntimeObject* L_0 = ___impl0;
-		__this->___apiImpl_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___apiImpl_0), (void*)L_0);
-		// }
-		return;
-	}
-}
-// System.Boolean Google.Future`1<System.Object>::get_Pending()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Future_1_get_Pending_m3EA11916932CAF0F78FAE73809CD251EAAE0AC59_gshared (Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF* __this, const RuntimeMethod* method) 
-{
-	bool V_0 = false;
-	{
-		// public bool Pending { get { return apiImpl.Pending; } }
-		RuntimeObject* L_0 = (RuntimeObject*)__this->___apiImpl_0;
-		NullCheck(L_0);
-		bool L_1;
-		L_1 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean Google.FutureAPIImpl`1<System.Object>::get_Pending() */, il2cpp_rgctx_data(method->klass->rgctx_data, 0), L_0);
-		V_0 = L_1;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		// public bool Pending { get { return apiImpl.Pending; } }
-		bool L_2 = V_0;
-		return L_2;
-	}
-}
-// Google.GoogleSignInStatusCode Google.Future`1<System.Object>::get_Status()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Future_1_get_Status_m88D33FFC2AFDB83FB013891FA58B1E2BD2EB2237_gshared (Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF* __this, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	{
-		// GoogleSignInStatusCode Status { get { return apiImpl.Status; } }
-		RuntimeObject* L_0 = (RuntimeObject*)__this->___apiImpl_0;
-		NullCheck(L_0);
-		int32_t L_1;
-		L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(1 /* Google.GoogleSignInStatusCode Google.FutureAPIImpl`1<System.Object>::get_Status() */, il2cpp_rgctx_data(method->klass->rgctx_data, 0), L_0);
-		V_0 = L_1;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		// GoogleSignInStatusCode Status { get { return apiImpl.Status; } }
-		int32_t L_2 = V_0;
-		return L_2;
-	}
-}
-// T Google.Future`1<System.Object>::get_Result()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Future_1_get_Result_mAA46DF8F6D89483013F182554E737BA46B5AD816_gshared (Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF* __this, const RuntimeMethod* method) 
-{
-	RuntimeObject* V_0 = NULL;
-	{
-		// T Result { get { return apiImpl.Result; } }
-		RuntimeObject* L_0 = (RuntimeObject*)__this->___apiImpl_0;
-		NullCheck(L_0);
-		RuntimeObject* L_1;
-		L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(2 /* T Google.FutureAPIImpl`1<System.Object>::get_Result() */, il2cpp_rgctx_data(method->klass->rgctx_data, 0), L_0);
-		V_0 = L_1;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		// T Result { get { return apiImpl.Result; } }
-		RuntimeObject* L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Collections.IEnumerator Google.Future`1<System.Object>::WaitForResult(System.Threading.Tasks.TaskCompletionSource`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Future_1_WaitForResult_m86C7BBC0D729D1190E2DE445649A1A7280004193_gshared (Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF* __this, TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* ___tcs0, const RuntimeMethod* method) 
-{
-	{
-		U3CWaitForResultU3Ed__8_t5EF810EACA38B2C8E6C460BC7F6C7D31E63985B0* L_0 = (U3CWaitForResultU3Ed__8_t5EF810EACA38B2C8E6C460BC7F6C7D31E63985B0*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 4));
-		NullCheck(L_0);
-		((  void (*) (U3CWaitForResultU3Ed__8_t5EF810EACA38B2C8E6C460BC7F6C7D31E63985B0*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(L_0, 0, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
-		U3CWaitForResultU3Ed__8_t5EF810EACA38B2C8E6C460BC7F6C7D31E63985B0* L_1 = L_0;
-		NullCheck(L_1);
-		L_1->___U3CU3E4__this_3 = __this;
-		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_3), (void*)__this);
-		U3CWaitForResultU3Ed__8_t5EF810EACA38B2C8E6C460BC7F6C7D31E63985B0* L_2 = L_1;
-		TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* L_3 = ___tcs0;
-		NullCheck(L_2);
-		L_2->___tcs_2 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&L_2->___tcs_2), (void*)L_3);
-		return (RuntimeObject*)L_2;
-	}
-}
-// System.Boolean Google.Future`1<System.Object>::<WaitForResult>b__8_0()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Future_1_U3CWaitForResultU3Eb__8_0_m84D24E740EBCA24715E4417BF7FB55D0D989980B_gshared (Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF* __this, const RuntimeMethod* method) 
-{
-	{
-		// yield return new WaitUntil(() => !Pending);
-		bool L_0;
-		L_0 = ((  bool (*) (Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

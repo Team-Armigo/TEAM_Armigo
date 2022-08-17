@@ -4435,589 +4435,589 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_DestroyAuthStateListener
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_CreateIdTokenListener_m7FA2159BB2EB7196AD36F6B0BE6DF91D4D492465 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, StateChangedDelegate_t5BEFB485EC0FAFB6678FE8F50A5153BAF0D4E051* ___jarg21, const RuntimeMethod* method) ;
 // System.Void Firebase.Auth.AuthUtilPINVOKE::DestroyIdTokenListener(System.Runtime.InteropServices.HandleRef,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_DestroyIdTokenListener_m6D897DD5F2467C8C1A2BFB96CD8970E3E90AB125 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, intptr_t ___jarg21, const RuntimeMethod* method) ;
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_ExportFix();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_Clear(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_Add(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C uint32_t DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_size(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C uint32_t DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_capacity(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_reserve(void*, uint32_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_UserInfoInterfaceList__SWIG_0();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_UserInfoInterfaceList__SWIG_1(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_UserInfoInterfaceList__SWIG_2(int32_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_getitemcopy(void*, int32_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_getitem(void*, int32_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_setitem(void*, int32_t, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_AddRange(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_GetRange(void*, int32_t, int32_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_Insert(void*, int32_t, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_InsertRange(void*, int32_t, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_RemoveAt(void*, int32_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_RemoveRange(void*, int32_t, int32_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_Repeat(void*, int32_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_Reverse__SWIG_0(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_Reverse__SWIG_1(void*, int32_t, int32_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_SetRange(void*, int32_t, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_Contains(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_IndexOf(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_LastIndexOf(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterfaceList_Remove(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_UserInfoInterfaceList(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_Future_User();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_Future_User_SWIG_OnCompletion(void*, Il2CppMethodPointer, int32_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_Future_User_SWIG_FreeCompletionData(void*, intptr_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_Future_User_GetResult(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_Future_User(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_Future_FetchProvidersResult();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_Future_FetchProvidersResult_SWIG_OnCompletion(void*, Il2CppMethodPointer, int32_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_Future_FetchProvidersResult_SWIG_FreeCompletionData(void*, intptr_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_Future_FetchProvidersResult_GetResult(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_Future_FetchProvidersResult(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_Future_Credential();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_Future_Credential_SWIG_OnCompletion(void*, Il2CppMethodPointer, int32_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_Future_Credential_SWIG_FreeCompletionData(void*, intptr_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_Future_Credential_GetResult(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_Future_Credential(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_Future_SignInResult();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_Future_SignInResult_SWIG_OnCompletion(void*, Il2CppMethodPointer, int32_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_Future_SignInResult_SWIG_FreeCompletionData(void*, intptr_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_Future_SignInResult_GetResult(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_Future_SignInResult(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_Credential();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_Credential(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL Firebase_Auth_CSharp_Credential_IsValid(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_Credential_Provider_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_EmailAuthProvider_GetCredential(char*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_EmailAuthProvider_ProviderId_get();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_EmailAuthProvider(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FacebookAuthProvider_GetCredential(char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_FacebookAuthProvider_ProviderId_get();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_FacebookAuthProvider(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_GameCenterAuthProvider_GetCredential();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL Firebase_Auth_CSharp_GameCenterAuthProvider_IsPlayerAuthenticated();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_GameCenterAuthProvider_ProviderId_get();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_GameCenterAuthProvider(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_GitHubAuthProvider_GetCredential(char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_GitHubAuthProvider_ProviderId_get();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_GitHubAuthProvider(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_GoogleAuthProvider_GetCredential(char*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_GoogleAuthProvider_ProviderId_get();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_GoogleAuthProvider(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_MicrosoftAuthProvider_ProviderId_get();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_MicrosoftAuthProvider();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_MicrosoftAuthProvider(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_OAuthProvider_GetCredential__SWIG_0(char*, char*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_OAuthProvider_GetCredential__SWIG_1(char*, char*, char*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_OAuthProvider(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C uint32_t DEFAULT_CALL Firebase_Auth_CSharp_PhoneAuthProviderInternal_kMaxTimeoutMs_get();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_PhoneAuthProviderInternal_GetCredential(void*, char*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_PhoneAuthProviderInternal_GetInstance(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_PhoneAuthProviderInternal_ProviderId_get();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_PhoneAuthProviderInternal_VerifyPhoneNumberInternal(void*, char*, uint32_t, void*, int32_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_PhoneAuthProviderInternal_DestroyListenerImplInternal(void*, intptr_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_PhoneAuthProviderInternal_SetCallbacks(Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_ForceResendingToken(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_PlayGamesAuthProvider_GetCredential(char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_PlayGamesAuthProvider_ProviderId_get();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_PlayGamesAuthProvider(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_TwitterAuthProvider_GetCredential(char*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_TwitterAuthProvider_ProviderId_get();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_TwitterAuthProvider(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_YahooAuthProvider_ProviderId_get();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_YahooAuthProvider();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_YahooAuthProvider(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_FederatedProviderData_ProviderId_set(void*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_FederatedProviderData_ProviderId_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_FederatedProviderData();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_FederatedProviderData(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_FederatedOAuthProviderData__SWIG_0();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_FederatedOAuthProviderData__SWIG_1(char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_FederatedOAuthProviderData_Scopes_set(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FederatedOAuthProviderData_Scopes_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_FederatedOAuthProviderData_CustomParameters_set(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FederatedOAuthProviderData_CustomParameters_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_FederatedOAuthProviderData(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_UserInfoInterface(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterface_phone_number(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterface_UserId_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterface_Email_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterface_DisplayName_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterface_PhotoUrlInternal_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_UserInfoInterface_ProviderId_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_AdditionalUserInfo_ProviderId_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_AdditionalUserInfo_UserName_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_AdditionalUserInfo_ProfileInternal_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_AdditionalUserInfo_UpdatedCredential_set(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_AdditionalUserInfo_UpdatedCredential_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_AdditionalUserInfo(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_UserMetadata();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C uint64_t DEFAULT_CALL Firebase_Auth_CSharp_UserMetadata_LastSignInTimestamp_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C uint64_t DEFAULT_CALL Firebase_Auth_CSharp_UserMetadata_CreationTimestamp_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_UserMetadata(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_SignInResult_UserInternal_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_SignInResult_Info_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_SignInResult_Meta_set(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_SignInResult_Meta_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_SignInResult(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_FirebaseUser(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_Token(void*, int32_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_UpdateEmail(void*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_UpdatePassword(void*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_Reauthenticate(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_ReauthenticateAndRetrieveData(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_ReauthenticateWithProviderInternal(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_SendEmailVerification(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_UpdateUserProfile(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_LinkWithCredential(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_LinkAndRetrieveDataWithCredential(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_LinkWithProviderInternal(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_Unlink(void*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_UpdatePhoneNumberCredential(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_Reload(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_Delete(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_DisplayName_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_Email_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_IsAnonymous_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_IsEmailVerified_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_Metadata_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_PhoneNumber_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_PhotoUrlInternal_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_ProviderData_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_ProviderId_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_UserId_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_UserProfile();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_UserProfile_DisplayName_set(void*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_UserProfile_DisplayName_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_UserProfile_PhotoUrlInternal_set(void*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_UserProfile_PhotoUrlInternal_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_UserProfile(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_FirebaseAuth(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_LanguageCodeInternal(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_SetLanguageCodeInternal(void*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_UseAppLanguage(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_FetchProvidersForEmailInternal(void*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_SignInWithCustomTokenInternal(void*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_SignInWithCredentialInternal(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_SignInWithProviderInternal(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_SignInAndRetrieveDataWithCredentialInternal(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_SignInAnonymouslyInternal(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_SignInWithEmailAndPasswordInternal(void*, char*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_CreateUserWithEmailAndPasswordInternal(void*, char*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_SignOut(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_SendPasswordResetEmail(void*, char*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_GetAuthInternal(void*, int32_t*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_LogHeartbeatInternal(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_ReleaseReferenceInternal(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseAuth_CurrentUserInternal_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FetchProvidersResult_Providers_get(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_FetchProvidersResult();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_FetchProvidersResult(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_FederatedAuthProvider(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_FederatedOAuthProvider__SWIG_0();
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_new_FederatedOAuthProvider__SWIG_1(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_delete_FederatedOAuthProvider(void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_FederatedOAuthProvider_SetProviderData(void*, void*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_CreateAuthStateListener(void*, Il2CppMethodPointer);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_DestroyAuthStateListener(void*, intptr_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_CreateIdTokenListener(void*, Il2CppMethodPointer);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_CSharp_DestroyIdTokenListener(void*, intptr_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_Future_User_SWIGUpcast(intptr_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_Future_FetchProvidersResult_SWIGUpcast(intptr_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_Future_Credential_SWIGUpcast(intptr_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_Future_SignInResult_SWIGUpcast(intptr_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FederatedOAuthProviderData_SWIGUpcast(intptr_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FirebaseUser_SWIGUpcast(intptr_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CSharp_FederatedOAuthProvider_SWIGUpcast(intptr_t);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL SWIGRegisterExceptionCallbacks_AuthUtil(Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL SWIGRegisterExceptionArgumentCallbacks_AuthUtil(Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL SWIGRegisterStringCallback_AuthUtil(Il2CppMethodPointer);
 #endif
 #ifdef __clang__
@@ -26628,18 +26628,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE__cctor_mED5D7B9549ACB198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_ExportFix_m72FFB880E2EEFFE03E386326C3CA90311D581B39 (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_ExportFix", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_ExportFix", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_ExportFix)();
 	#else
 	il2cppPInvokeFunc();
@@ -26650,12 +26650,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_ExportFix_m72FFB880E2EEF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Clear_m325A889FC020E5F1B4BF6E7EF60FCBBB5309B1EF (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Clear", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Clear", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -26665,7 +26665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Cl
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_Clear)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -26676,12 +26676,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Cl
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Add_m7064FB4F09B3564F22C884030514C5325B52BA45 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Add", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Add", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -26695,7 +26695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Ad
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_Add)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -26706,12 +26706,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AuthUtilPINVOKE_UserInfoInterfaceList_size_m5B0D3C18B53444A6466BA0F1AE471C0864F030FF (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_size", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_size", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -26721,7 +26721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AuthUtilPINVOKE_UserInfoInterfaceLis
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	uint32_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_size)(____jarg10_marshaled);
 	#else
 	uint32_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -26733,12 +26733,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AuthUtilPINVOKE_UserInfoInterfaceLis
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AuthUtilPINVOKE_UserInfoInterfaceList_capacity_m8779641184A259E85723D95886C2091D291C3AD9 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_capacity", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_capacity", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -26748,7 +26748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AuthUtilPINVOKE_UserInfoInterfaceLis
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	uint32_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_capacity)(____jarg10_marshaled);
 	#else
 	uint32_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -26760,12 +26760,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AuthUtilPINVOKE_UserInfoInterfaceLis
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_reserve_m070028D3F563F4846C0B6B887AB25629C2A348B5 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, uint32_t ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, uint32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(uint32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_reserve", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_reserve", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -26775,7 +26775,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_re
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_reserve)(____jarg10_marshaled, ___jarg21);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21);
@@ -26786,18 +26786,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_re
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_UserInfoInterfaceList__SWIG_0_mEC71487079B587323F5A96E652E3C71E80299D9A (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_UserInfoInterfaceList__SWIG_0", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_UserInfoInterfaceList__SWIG_0", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_UserInfoInterfaceList__SWIG_0)();
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc();
@@ -26809,12 +26809,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_UserInfoInterfac
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_UserInfoInterfaceList__SWIG_1_m683BF669FCE666FE88AB2EEDBD64BB4409B9996B (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_UserInfoInterfaceList__SWIG_1", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_UserInfoInterfaceList__SWIG_1", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -26824,7 +26824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_UserInfoInterfac
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_UserInfoInterfaceList__SWIG_1)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -26836,18 +26836,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_UserInfoInterfac
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_UserInfoInterfaceList__SWIG_2_mAFCA7659EB25F346E4E52B4648871D28B1AA3CEE (int32_t ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_UserInfoInterfaceList__SWIG_2", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_UserInfoInterfaceList__SWIG_2", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_UserInfoInterfaceList__SWIG_2)(___jarg10);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(___jarg10);
@@ -26859,12 +26859,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_UserInfoInterfac
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_UserInfoInterfaceList_getitemcopy_m8D2198B2D94AE93DABD6044F65CDDDD25285D07C (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, int32_t ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_getitemcopy", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_getitemcopy", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -26874,7 +26874,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_UserInfoInterfaceLis
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_getitemcopy)(____jarg10_marshaled, ___jarg21);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21);
@@ -26886,12 +26886,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_UserInfoInterfaceLis
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_UserInfoInterfaceList_getitem_mD573D8C8AF19148E224AE2EDB52935FA702FD51A (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, int32_t ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_getitem", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_getitem", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -26901,7 +26901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_UserInfoInterfaceLis
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_getitem)(____jarg10_marshaled, ___jarg21);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21);
@@ -26913,12 +26913,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_UserInfoInterfaceLis
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_setitem_m64F29310AC014DDCC0E3AE37AC4E4F57A27DCCC7 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, int32_t ___jarg21, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg32, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, int32_t, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(int32_t) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_setitem", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_setitem", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -26932,7 +26932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_se
 	____jarg32_marshaled = (void*)___jarg32.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_setitem)(____jarg10_marshaled, ___jarg21, ____jarg32_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21, ____jarg32_marshaled);
@@ -26943,12 +26943,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_se
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_AddRange_mCC9F9A54AD9CDB94CBE9093078F9248747FEBB8B (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_AddRange", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_AddRange", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -26962,7 +26962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Ad
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_AddRange)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -26973,12 +26973,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_UserInfoInterfaceList_GetRange_m3102211A903CEEFDB5C487EC56BC8A890BBB7A03 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, int32_t ___jarg21, int32_t ___jarg32, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, int32_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(int32_t) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_GetRange", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_GetRange", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -26988,7 +26988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_UserInfoInterfaceLis
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_GetRange)(____jarg10_marshaled, ___jarg21, ___jarg32);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21, ___jarg32);
@@ -27000,12 +27000,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_UserInfoInterfaceLis
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Insert_m65849C8B58700406705EF6BE8EE97449A5C0D245 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, int32_t ___jarg21, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg32, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, int32_t, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(int32_t) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Insert", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Insert", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27019,7 +27019,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_In
 	____jarg32_marshaled = (void*)___jarg32.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_Insert)(____jarg10_marshaled, ___jarg21, ____jarg32_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21, ____jarg32_marshaled);
@@ -27030,12 +27030,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_In
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_InsertRange_m0C448DF5DD3B5AA2A5A072043A4AE52515CA9ADD (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, int32_t ___jarg21, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg32, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, int32_t, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(int32_t) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_InsertRange", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_InsertRange", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27049,7 +27049,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_In
 	____jarg32_marshaled = (void*)___jarg32.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_InsertRange)(____jarg10_marshaled, ___jarg21, ____jarg32_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21, ____jarg32_marshaled);
@@ -27060,12 +27060,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_In
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_RemoveAt_m2389497C92DF06CA07C16BB5FC184BE3E791C64E (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, int32_t ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_RemoveAt", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_RemoveAt", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27075,7 +27075,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Re
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_RemoveAt)(____jarg10_marshaled, ___jarg21);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21);
@@ -27086,12 +27086,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Re
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_RemoveRange_m167DD3F3BCBF484015F314D3AA9E94354C002720 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, int32_t ___jarg21, int32_t ___jarg32, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, int32_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(int32_t) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_RemoveRange", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_RemoveRange", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27101,7 +27101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Re
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_RemoveRange)(____jarg10_marshaled, ___jarg21, ___jarg32);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21, ___jarg32);
@@ -27112,12 +27112,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Re
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_UserInfoInterfaceList_Repeat_mFE99628C6A41323666162AA1C39D4411BA8F633F (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, int32_t ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Repeat", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Repeat", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27127,7 +27127,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_UserInfoInterfaceLis
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_Repeat)(____jarg10_marshaled, ___jarg21);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21);
@@ -27139,12 +27139,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_UserInfoInterfaceLis
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Reverse__SWIG_0_m990A2834616C66864EE5933B2C8C41681E7AAC5C (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Reverse__SWIG_0", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Reverse__SWIG_0", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27154,7 +27154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Re
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_Reverse__SWIG_0)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -27165,12 +27165,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Re
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Reverse__SWIG_1_mB0C506A7AFCB97C45ACA7E071E3960791C3DAFF5 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, int32_t ___jarg21, int32_t ___jarg32, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, int32_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(int32_t) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Reverse__SWIG_1", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Reverse__SWIG_1", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27180,7 +27180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Re
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_Reverse__SWIG_1)(____jarg10_marshaled, ___jarg21, ___jarg32);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21, ___jarg32);
@@ -27191,12 +27191,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Re
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_SetRange_m1DF7395327ECD9065876D9FF46E550685ABF7E31 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, int32_t ___jarg21, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg32, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, int32_t, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(int32_t) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_SetRange", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_SetRange", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27210,7 +27210,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Se
 	____jarg32_marshaled = (void*)___jarg32.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_SetRange)(____jarg10_marshaled, ___jarg21, ____jarg32_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21, ____jarg32_marshaled);
@@ -27221,12 +27221,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserInfoInterfaceList_Se
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_UserInfoInterfaceList_Contains_m86AC2CEE4064052F3720F4E2BB6095233701C594 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Contains", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Contains", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27240,7 +27240,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_UserInfoInterfaceList_Co
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_Contains)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	int32_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -27252,12 +27252,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_UserInfoInterfaceList_Co
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AuthUtilPINVOKE_UserInfoInterfaceList_IndexOf_mE866B3303C3BA135F55C22166A317FC7F81F6C55 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_IndexOf", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_IndexOf", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27271,7 +27271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AuthUtilPINVOKE_UserInfoInterfaceList
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_IndexOf)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	int32_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -27283,12 +27283,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AuthUtilPINVOKE_UserInfoInterfaceList
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AuthUtilPINVOKE_UserInfoInterfaceList_LastIndexOf_mB699690099CA610357DD8C27AF57BD57E3E4251F (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_LastIndexOf", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_LastIndexOf", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27302,7 +27302,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AuthUtilPINVOKE_UserInfoInterfaceList
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_LastIndexOf)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	int32_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -27314,12 +27314,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AuthUtilPINVOKE_UserInfoInterfaceList
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_UserInfoInterfaceList_Remove_m93B2283FE4FC0064064EAB2C4F4F9372F5B00C91 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Remove", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterfaceList_Remove", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27333,7 +27333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_UserInfoInterfaceList_Re
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterfaceList_Remove)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	int32_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -27345,12 +27345,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_UserInfoInterfaceList_Re
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_UserInfoInterfaceList_mE1DF0C91150CAB238A4D9CF5221A6EA8EC469D39 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_UserInfoInterfaceList", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_UserInfoInterfaceList", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27360,7 +27360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_UserInfoInterface
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_UserInfoInterfaceList)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -27371,18 +27371,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_UserInfoInterface
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_Future_User_m0B438CFC67C3EBE6AD997EF62E67CCA6FA603554 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_Future_User", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_Future_User", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_Future_User)();
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc();
@@ -27394,12 +27394,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_Future_User_m0B4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_User_SWIG_OnCompletion_m13FB5CC795011002AA1FA1493C605FD968100149 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, SWIG_CompletionDelegate_tB4CF397F15014F9BEA59F667A633E7F832DB7C78* ___jarg21, int32_t ___jarg32, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, Il2CppMethodPointer, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_User_SWIG_OnCompletion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_User_SWIG_OnCompletion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27413,7 +27413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_User_SWIG_OnC
 	____jarg21_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___jarg21));
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_User_SWIG_OnCompletion)(____jarg10_marshaled, ____jarg21_marshaled, ___jarg32);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled, ___jarg32);
@@ -27425,12 +27425,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_User_SWIG_OnC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Future_User_SWIG_FreeCompletionData_mE81C0D0C43315BA68D4AA5D8D7432F0E28A3BEF1 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, intptr_t ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_User_SWIG_FreeCompletionData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_User_SWIG_FreeCompletionData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27440,7 +27440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Future_User_SWIG_FreeCom
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_User_SWIG_FreeCompletionData)(____jarg10_marshaled, ___jarg21);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21);
@@ -27451,12 +27451,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Future_User_SWIG_FreeCom
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_User_GetResult_m99F663E6865C1207E63EC4A8E81FB2838B1065D7 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_User_GetResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_User_GetResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27466,7 +27466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_User_GetResul
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_User_GetResult)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -27478,12 +27478,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_User_GetResul
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_Future_User_mF0C000F10797E8E02DB27326B4A6FE276AE66A6B (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_Future_User", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_Future_User", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27493,7 +27493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_Future_User_mF0C0
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_Future_User)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -27504,18 +27504,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_Future_User_mF0C0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_Future_FetchProvidersResult_m891E900A68E0A14608BA85C8AA3A8CF5F20141AA (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_Future_FetchProvidersResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_Future_FetchProvidersResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_Future_FetchProvidersResult)();
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc();
@@ -27527,12 +27527,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_Future_FetchProv
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_FetchProvidersResult_SWIG_OnCompletion_m9F78471C8BF3A2D06BC1F30A9A60CD819FAFDAAF (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, SWIG_CompletionDelegate_t74D6A7A9C1563D7F8E5E41689C4ABFB87BDB9554* ___jarg21, int32_t ___jarg32, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, Il2CppMethodPointer, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_FetchProvidersResult_SWIG_OnCompletion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_FetchProvidersResult_SWIG_OnCompletion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27546,7 +27546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_FetchProvider
 	____jarg21_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___jarg21));
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_FetchProvidersResult_SWIG_OnCompletion)(____jarg10_marshaled, ____jarg21_marshaled, ___jarg32);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled, ___jarg32);
@@ -27558,12 +27558,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_FetchProvider
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Future_FetchProvidersResult_SWIG_FreeCompletionData_m842EAF2574BE269F06BF6D2BDBA7E11D9E78E349 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, intptr_t ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_FetchProvidersResult_SWIG_FreeCompletionData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_FetchProvidersResult_SWIG_FreeCompletionData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27573,7 +27573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Future_FetchProvidersRes
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_FetchProvidersResult_SWIG_FreeCompletionData)(____jarg10_marshaled, ___jarg21);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21);
@@ -27584,12 +27584,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Future_FetchProvidersRes
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_FetchProvidersResult_GetResult_m8642FCD4015D203241CD0CA377F2F81187142C7F (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_FetchProvidersResult_GetResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_FetchProvidersResult_GetResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27599,7 +27599,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_FetchProvider
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_FetchProvidersResult_GetResult)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -27611,12 +27611,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_FetchProvider
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_Future_FetchProvidersResult_m3DC100607B435EFD4F6D50B61477EFD4EBA15A5D (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_Future_FetchProvidersResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_Future_FetchProvidersResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27626,7 +27626,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_Future_FetchProvi
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_Future_FetchProvidersResult)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -27637,18 +27637,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_Future_FetchProvi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_Future_Credential_mA7D3A7E3517507983710D2418758B025315DEFC7 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_Future_Credential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_Future_Credential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_Future_Credential)();
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc();
@@ -27660,12 +27660,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_Future_Credentia
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_Credential_SWIG_OnCompletion_m3B89ABD5FC1835C8DD1E5165191C1F1B78C8D9EF (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, SWIG_CompletionDelegate_t9E662009E934925D7D7A44DE7174BE598500E257* ___jarg21, int32_t ___jarg32, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, Il2CppMethodPointer, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_Credential_SWIG_OnCompletion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_Credential_SWIG_OnCompletion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27679,7 +27679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_Credential_SW
 	____jarg21_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___jarg21));
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_Credential_SWIG_OnCompletion)(____jarg10_marshaled, ____jarg21_marshaled, ___jarg32);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled, ___jarg32);
@@ -27691,12 +27691,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_Credential_SW
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Future_Credential_SWIG_FreeCompletionData_mE4E2A9BAF980B441C8908B008022B6E1447C5058 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, intptr_t ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_Credential_SWIG_FreeCompletionData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_Credential_SWIG_FreeCompletionData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27706,7 +27706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Future_Credential_SWIG_F
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_Credential_SWIG_FreeCompletionData)(____jarg10_marshaled, ___jarg21);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21);
@@ -27717,12 +27717,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Future_Credential_SWIG_F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_Credential_GetResult_m6A9706F7CFDD73C358DAE36FB28FCD859104A586 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_Credential_GetResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_Credential_GetResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27732,7 +27732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_Credential_Ge
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_Credential_GetResult)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -27744,12 +27744,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_Credential_Ge
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_Future_Credential_m7276312C463F03B7F014B592E140F4ADA73F2BB9 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_Future_Credential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_Future_Credential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27759,7 +27759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_Future_Credential
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_Future_Credential)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -27770,18 +27770,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_Future_Credential
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_Future_SignInResult_m3E9DD72AE0EBE160949643DD3FB2D037249E0D0E (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_Future_SignInResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_Future_SignInResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_Future_SignInResult)();
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc();
@@ -27793,12 +27793,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_Future_SignInRes
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_SignInResult_SWIG_OnCompletion_mB173141FBA33E92C89570BB428385299F35EC29A (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, SWIG_CompletionDelegate_tBF82F8CD52E738A53F766723168DEE904CF7940A* ___jarg21, int32_t ___jarg32, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, Il2CppMethodPointer, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_SignInResult_SWIG_OnCompletion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_SignInResult_SWIG_OnCompletion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27812,7 +27812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_SignInResult_
 	____jarg21_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___jarg21));
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_SignInResult_SWIG_OnCompletion)(____jarg10_marshaled, ____jarg21_marshaled, ___jarg32);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled, ___jarg32);
@@ -27824,12 +27824,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_SignInResult_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Future_SignInResult_SWIG_FreeCompletionData_m200FBABEFDE56A7C76D08F4039A11E246BD86EA1 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, intptr_t ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_SignInResult_SWIG_FreeCompletionData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_SignInResult_SWIG_FreeCompletionData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27839,7 +27839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Future_SignInResult_SWIG
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_SignInResult_SWIG_FreeCompletionData)(____jarg10_marshaled, ___jarg21);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21);
@@ -27850,12 +27850,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Future_SignInResult_SWIG
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_SignInResult_GetResult_m5AE46F4B44AAC3292F65F574B6EF0FC307487A90 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_SignInResult_GetResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_SignInResult_GetResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27865,7 +27865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_SignInResult_
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_SignInResult_GetResult)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -27877,12 +27877,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_SignInResult_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_Future_SignInResult_m70DE7F433E53BF222C07154E876276ACBBA6CCBB (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_Future_SignInResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_Future_SignInResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27892,7 +27892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_Future_SignInResu
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_Future_SignInResult)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -27903,18 +27903,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_Future_SignInResu
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_Credential_mABC7633C9C0CEFB6946D12C159368C3C52F719CC (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_Credential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_Credential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_Credential)();
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc();
@@ -27926,12 +27926,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_Credential_mABC7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_Credential_m6C5578A007F37623BA1BEDE34C722DD5704632E0 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_Credential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_Credential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27941,7 +27941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_Credential_m6C557
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_Credential)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -27952,12 +27952,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_Credential_m6C557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_Credential_IsValid_mB4DC822A776EFBD9F7CC8B5561AB904015BD0AAF (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Credential_IsValid", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Credential_IsValid", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27967,7 +27967,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_Credential_IsValid_mB4DC
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Credential_IsValid)(____jarg10_marshaled);
 	#else
 	int32_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -27979,12 +27979,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_Credential_IsValid_mB4DC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_Credential_Provider_get_mA35CAA1797D800624DD2FF6A5D41EAB9F6C3CAD7 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Credential_Provider_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Credential_Provider_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -27994,7 +27994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_Credential_Provider
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Credential_Provider_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -28014,12 +28014,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_Credential_Provider
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_EmailAuthProvider_GetCredential_m503B2A17CB4E677539CF5687DB7FEDA46AE19656 (String_t* ___jarg10, String_t* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_EmailAuthProvider_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_EmailAuthProvider_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28033,7 +28033,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_EmailAuthProvider_Ge
 	____jarg21_marshaled = il2cpp_codegen_marshal_string(___jarg21);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_EmailAuthProvider_GetCredential)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -28053,18 +28053,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_EmailAuthProvider_Ge
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_EmailAuthProvider_ProviderId_get_m48745558BDAC9E4FC09F51945DC32CDB7E8B8DE7 (const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_EmailAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_EmailAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_EmailAuthProvider_ProviderId_get)();
 	#else
 	char* returnValue = il2cppPInvokeFunc();
@@ -28084,12 +28084,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_EmailAuthProvider_P
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_EmailAuthProvider_m9DD3808E2B9B0031FBEB420F3FC5A48D5A7D32C3 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_EmailAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_EmailAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28099,7 +28099,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_EmailAuthProvider
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_EmailAuthProvider)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -28110,12 +28110,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_EmailAuthProvider
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FacebookAuthProvider_GetCredential_m1425634009FFB3097DB89EB4EB7A694E90919F8B (String_t* ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FacebookAuthProvider_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FacebookAuthProvider_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28125,7 +28125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FacebookAuthProvider
 	____jarg10_marshaled = il2cpp_codegen_marshal_string(___jarg10);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FacebookAuthProvider_GetCredential)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -28141,18 +28141,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FacebookAuthProvider
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FacebookAuthProvider_ProviderId_get_mC2D1ED6C32550D48D2503F53C5F61D1ACCACCFE1 (const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FacebookAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FacebookAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FacebookAuthProvider_ProviderId_get)();
 	#else
 	char* returnValue = il2cppPInvokeFunc();
@@ -28172,12 +28172,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FacebookAuthProvide
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FacebookAuthProvider_mBF58C470B98B305384ADE392017D28422A81AFD6 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_FacebookAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_FacebookAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28187,7 +28187,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FacebookAuthProvi
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_FacebookAuthProvider)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -28198,18 +28198,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FacebookAuthProvi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_GameCenterAuthProvider_GetCredential_m1BC649755EBA918DB9720EE116655DBFD9C9D970 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_GameCenterAuthProvider_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_GameCenterAuthProvider_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_GameCenterAuthProvider_GetCredential)();
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc();
@@ -28221,18 +28221,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_GameCenterAuthProvid
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_GameCenterAuthProvider_IsPlayerAuthenticated_mB0B111FDE06E302472D6D3F4EFD18B25EB9F2540 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_GameCenterAuthProvider_IsPlayerAuthenticated", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_GameCenterAuthProvider_IsPlayerAuthenticated", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_GameCenterAuthProvider_IsPlayerAuthenticated)();
 	#else
 	int32_t returnValue = il2cppPInvokeFunc();
@@ -28244,18 +28244,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_GameCenterAuthProvider_I
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_GameCenterAuthProvider_ProviderId_get_m104D59709A34638B58B428D0C968B56837D8C6A5 (const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_GameCenterAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_GameCenterAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_GameCenterAuthProvider_ProviderId_get)();
 	#else
 	char* returnValue = il2cppPInvokeFunc();
@@ -28275,12 +28275,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_GameCenterAuthProvi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_GameCenterAuthProvider_mAAFB1850A6833F8C20CB07B7B0836FF888593D43 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_GameCenterAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_GameCenterAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28290,7 +28290,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_GameCenterAuthPro
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_GameCenterAuthProvider)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -28301,12 +28301,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_GameCenterAuthPro
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_GitHubAuthProvider_GetCredential_m022C89D1C50446E596CE1D24A61C951A7A52CB85 (String_t* ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_GitHubAuthProvider_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_GitHubAuthProvider_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28316,7 +28316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_GitHubAuthProvider_G
 	____jarg10_marshaled = il2cpp_codegen_marshal_string(___jarg10);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_GitHubAuthProvider_GetCredential)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -28332,18 +28332,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_GitHubAuthProvider_G
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_GitHubAuthProvider_ProviderId_get_mDB67D901E520ED0406FF3ADD4353BF25805010F3 (const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_GitHubAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_GitHubAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_GitHubAuthProvider_ProviderId_get)();
 	#else
 	char* returnValue = il2cppPInvokeFunc();
@@ -28363,12 +28363,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_GitHubAuthProvider_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_GitHubAuthProvider_mFE0371471C7C273705717E5BFAA4BE5A94C9AA55 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_GitHubAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_GitHubAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28378,7 +28378,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_GitHubAuthProvide
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_GitHubAuthProvider)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -28389,12 +28389,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_GitHubAuthProvide
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_GoogleAuthProvider_GetCredential_mF6EAAD882F5AE72F28EE84E983338869F4366E59 (String_t* ___jarg10, String_t* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_GoogleAuthProvider_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_GoogleAuthProvider_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28408,7 +28408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_GoogleAuthProvider_G
 	____jarg21_marshaled = il2cpp_codegen_marshal_string(___jarg21);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_GoogleAuthProvider_GetCredential)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -28428,18 +28428,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_GoogleAuthProvider_G
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_GoogleAuthProvider_ProviderId_get_m5249B77704F4421C4ED92EF2F8DF0319F80F5218 (const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_GoogleAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_GoogleAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_GoogleAuthProvider_ProviderId_get)();
 	#else
 	char* returnValue = il2cppPInvokeFunc();
@@ -28459,12 +28459,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_GoogleAuthProvider_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_GoogleAuthProvider_m3CBFEF0AE6D128A3BFE847E83C97E830663C4702 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_GoogleAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_GoogleAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28474,7 +28474,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_GoogleAuthProvide
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_GoogleAuthProvider)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -28485,18 +28485,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_GoogleAuthProvide
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_MicrosoftAuthProvider_ProviderId_get_m460A2E678F77452EA8C21191F04267FE7CE03CAC (const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_MicrosoftAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_MicrosoftAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_MicrosoftAuthProvider_ProviderId_get)();
 	#else
 	char* returnValue = il2cppPInvokeFunc();
@@ -28516,18 +28516,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_MicrosoftAuthProvid
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_MicrosoftAuthProvider_m48ED0CC9EC695D64BBDE55174840C86F16A4D72F (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_MicrosoftAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_MicrosoftAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_MicrosoftAuthProvider)();
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc();
@@ -28539,12 +28539,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_MicrosoftAuthPro
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_MicrosoftAuthProvider_m20A2573D5A5EA1B363B81E823FB10E03600CFE5D (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_MicrosoftAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_MicrosoftAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28554,7 +28554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_MicrosoftAuthProv
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_MicrosoftAuthProvider)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -28565,12 +28565,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_MicrosoftAuthProv
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_OAuthProvider_GetCredential__SWIG_0_mB8033233C1AB56F0C38084A9C27ADDC4CEEBC308 (String_t* ___jarg10, String_t* ___jarg21, String_t* ___jarg32, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*, char*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*) + sizeof(char*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_OAuthProvider_GetCredential__SWIG_0", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_OAuthProvider_GetCredential__SWIG_0", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28588,7 +28588,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_OAuthProvider_GetCre
 	____jarg32_marshaled = il2cpp_codegen_marshal_string(___jarg32);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_OAuthProvider_GetCredential__SWIG_0)(____jarg10_marshaled, ____jarg21_marshaled, ____jarg32_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled, ____jarg32_marshaled);
@@ -28612,12 +28612,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_OAuthProvider_GetCre
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_OAuthProvider_GetCredential__SWIG_1_mF31249037A328B521658D5D1C8393FB1354489FF (String_t* ___jarg10, String_t* ___jarg21, String_t* ___jarg32, String_t* ___jarg43, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*, char*, char*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*) + sizeof(char*) + sizeof(char*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_OAuthProvider_GetCredential__SWIG_1", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_OAuthProvider_GetCredential__SWIG_1", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28639,7 +28639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_OAuthProvider_GetCre
 	____jarg43_marshaled = il2cpp_codegen_marshal_string(___jarg43);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_OAuthProvider_GetCredential__SWIG_1)(____jarg10_marshaled, ____jarg21_marshaled, ____jarg32_marshaled, ____jarg43_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled, ____jarg32_marshaled, ____jarg43_marshaled);
@@ -28667,12 +28667,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_OAuthProvider_GetCre
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_OAuthProvider_m1F854D00BEC0854D04F203B237590301E7EFDE59 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_OAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_OAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28682,7 +28682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_OAuthProvider_m1F
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_OAuthProvider)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -28693,18 +28693,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_OAuthProvider_m1F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AuthUtilPINVOKE_PhoneAuthProviderInternal_kMaxTimeoutMs_get_mDBB7C498250A82A6815E6162D7789EB52EA06F1D (const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_PhoneAuthProviderInternal_kMaxTimeoutMs_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_PhoneAuthProviderInternal_kMaxTimeoutMs_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	uint32_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_PhoneAuthProviderInternal_kMaxTimeoutMs_get)();
 	#else
 	uint32_t returnValue = il2cppPInvokeFunc();
@@ -28716,12 +28716,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AuthUtilPINVOKE_PhoneAuthProviderInt
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_PhoneAuthProviderInternal_GetCredential_m2650931D8B7E9F15FED6EEA3561E1D16D21E10A7 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, String_t* ___jarg21, String_t* ___jarg32, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(char*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_PhoneAuthProviderInternal_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_PhoneAuthProviderInternal_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28739,7 +28739,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_PhoneAuthProviderInt
 	____jarg32_marshaled = il2cpp_codegen_marshal_string(___jarg32);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_PhoneAuthProviderInternal_GetCredential)(____jarg10_marshaled, ____jarg21_marshaled, ____jarg32_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled, ____jarg32_marshaled);
@@ -28759,12 +28759,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_PhoneAuthProviderInt
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_PhoneAuthProviderInternal_GetInstance_m37E9F7A2CA0E820B9BA7C84F8B85CD8FC2C054EE (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_PhoneAuthProviderInternal_GetInstance", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_PhoneAuthProviderInternal_GetInstance", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28774,7 +28774,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_PhoneAuthProviderInt
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_PhoneAuthProviderInternal_GetInstance)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -28786,18 +28786,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_PhoneAuthProviderInt
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_PhoneAuthProviderInternal_ProviderId_get_mDCBD2BC09524B64F5C246219885B2739D6938584 (const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_PhoneAuthProviderInternal_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_PhoneAuthProviderInternal_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_PhoneAuthProviderInternal_ProviderId_get)();
 	#else
 	char* returnValue = il2cppPInvokeFunc();
@@ -28817,12 +28817,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_PhoneAuthProviderIn
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_PhoneAuthProviderInternal_VerifyPhoneNumberInternal_mCCBA06B58AFA477F1FEC96414E9310C969E1D51D (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, String_t* ___jarg21, uint32_t ___jarg32, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg43, int32_t ___jarg54, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uint32_t, void*, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(char*) + sizeof(uint32_t) + sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_PhoneAuthProviderInternal_VerifyPhoneNumberInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_PhoneAuthProviderInternal_VerifyPhoneNumberInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28840,7 +28840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_PhoneAuthProviderInt
 	____jarg43_marshaled = (void*)___jarg43.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_PhoneAuthProviderInternal_VerifyPhoneNumberInternal)(____jarg10_marshaled, ____jarg21_marshaled, ___jarg32, ____jarg43_marshaled, ___jarg54);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled, ___jarg32, ____jarg43_marshaled, ___jarg54);
@@ -28856,12 +28856,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_PhoneAuthProviderInt
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_PhoneAuthProviderInternal_DestroyListenerImplInternal_m42C1C4C3AC6A7BD5E98D61597654D72273BD2614 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, intptr_t ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_PhoneAuthProviderInternal_DestroyListenerImplInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_PhoneAuthProviderInternal_DestroyListenerImplInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28871,7 +28871,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_PhoneAuthProviderInterna
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_PhoneAuthProviderInternal_DestroyListenerImplInternal)(____jarg10_marshaled, ___jarg21);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21);
@@ -28882,12 +28882,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_PhoneAuthProviderInterna
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_PhoneAuthProviderInternal_SetCallbacks_mED65920B663AB42589337C17FA2F288C5EFF317C (VerificationCompletedDelegate_tF55B9109A15CAB9EF2CAECDEDA082D6FA15C10C4* ___jarg10, VerificationFailedDelegate_t0774384FF44CDE5C89A4A85ED4C2CD6045F5CFD5* ___jarg21, CodeSentDelegate_t5FE776456B1600539EA3FCADF4F155821F843735* ___jarg32, TimeOutDelegate_t96FEFFA515EA85CB7B5C41E3413B7B8C168E2427* ___jarg43, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_PhoneAuthProviderInternal_SetCallbacks", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_PhoneAuthProviderInternal_SetCallbacks", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28909,7 +28909,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_PhoneAuthProviderInterna
 	____jarg43_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___jarg43));
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_PhoneAuthProviderInternal_SetCallbacks)(____jarg10_marshaled, ____jarg21_marshaled, ____jarg32_marshaled, ____jarg43_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled, ____jarg32_marshaled, ____jarg43_marshaled);
@@ -28920,12 +28920,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_PhoneAuthProviderInterna
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_ForceResendingToken_m80849951EA743B8ED0F033B442AA55ACF91F64D0 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_ForceResendingToken", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_ForceResendingToken", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28935,7 +28935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_ForceResendingTok
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_ForceResendingToken)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -28946,12 +28946,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_ForceResendingTok
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_PlayGamesAuthProvider_GetCredential_m5DD2169AEBA3F68F4E6391558E29BF1CCC25E58A (String_t* ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_PlayGamesAuthProvider_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_PlayGamesAuthProvider_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -28961,7 +28961,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_PlayGamesAuthProvide
 	____jarg10_marshaled = il2cpp_codegen_marshal_string(___jarg10);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_PlayGamesAuthProvider_GetCredential)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -28977,18 +28977,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_PlayGamesAuthProvide
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_PlayGamesAuthProvider_ProviderId_get_m952DFB78809305C7C9F0AEBC0300C56EC43E07AB (const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_PlayGamesAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_PlayGamesAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_PlayGamesAuthProvider_ProviderId_get)();
 	#else
 	char* returnValue = il2cppPInvokeFunc();
@@ -29008,12 +29008,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_PlayGamesAuthProvid
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_PlayGamesAuthProvider_m05449EDB7096F4BA2E51FB2E65E7EFA739DAAEFA (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_PlayGamesAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_PlayGamesAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29023,7 +29023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_PlayGamesAuthProv
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_PlayGamesAuthProvider)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29034,12 +29034,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_PlayGamesAuthProv
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_TwitterAuthProvider_GetCredential_m39C3E5E7F174598F9649169D8D4B410D9447C07F (String_t* ___jarg10, String_t* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_TwitterAuthProvider_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_TwitterAuthProvider_GetCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29053,7 +29053,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_TwitterAuthProvider_
 	____jarg21_marshaled = il2cpp_codegen_marshal_string(___jarg21);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_TwitterAuthProvider_GetCredential)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -29073,18 +29073,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_TwitterAuthProvider_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_TwitterAuthProvider_ProviderId_get_m917471EA3BA525ECA332967D047FEC39BD92ACDA (const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_TwitterAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_TwitterAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_TwitterAuthProvider_ProviderId_get)();
 	#else
 	char* returnValue = il2cppPInvokeFunc();
@@ -29104,12 +29104,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_TwitterAuthProvider
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_TwitterAuthProvider_m1560785FB4141FE200B2C4D2ED4F940844B8146A (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_TwitterAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_TwitterAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29119,7 +29119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_TwitterAuthProvid
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_TwitterAuthProvider)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29130,18 +29130,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_TwitterAuthProvid
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_YahooAuthProvider_ProviderId_get_mFD876251A346519974263E3F4DBB5027D9E9C948 (const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_YahooAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_YahooAuthProvider_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_YahooAuthProvider_ProviderId_get)();
 	#else
 	char* returnValue = il2cppPInvokeFunc();
@@ -29161,18 +29161,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_YahooAuthProvider_P
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_YahooAuthProvider_mD083A6D221D6ED56904D98A86F298B142189B99F (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_YahooAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_YahooAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_YahooAuthProvider)();
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc();
@@ -29184,12 +29184,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_YahooAuthProvide
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_YahooAuthProvider_m8C5B97BB2E0AAE4E6EDEE957126F592BA5815E3B (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_YahooAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_YahooAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29199,7 +29199,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_YahooAuthProvider
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_YahooAuthProvider)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29210,12 +29210,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_YahooAuthProvider
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FederatedProviderData_ProviderId_set_mDC86F0686FA6CC01DB9DE113914FCF692DF3DB0F (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, String_t* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FederatedProviderData_ProviderId_set", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FederatedProviderData_ProviderId_set", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29229,7 +29229,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FederatedProviderData_Pr
 	____jarg21_marshaled = il2cpp_codegen_marshal_string(___jarg21);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FederatedProviderData_ProviderId_set)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -29244,12 +29244,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FederatedProviderData_Pr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FederatedProviderData_ProviderId_get_mDD6E60F2DE8AEA99C0C0784D86ADAE10637D9554 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FederatedProviderData_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FederatedProviderData_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29259,7 +29259,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FederatedProviderDa
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FederatedProviderData_ProviderId_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29279,18 +29279,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FederatedProviderDa
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_FederatedProviderData_mB980B3450CA01707BD07370307CB31FD5AD1C694 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_FederatedProviderData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_FederatedProviderData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_FederatedProviderData)();
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc();
@@ -29302,12 +29302,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_FederatedProvide
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FederatedProviderData_mE2E12563820679FE6268A81D4E0DF44E34410E3F (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_FederatedProviderData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_FederatedProviderData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29317,7 +29317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FederatedProvider
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_FederatedProviderData)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29328,18 +29328,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FederatedProvider
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_FederatedOAuthProviderData__SWIG_0_m37E24AB68A684CD44F0BF2CC90AA2A8159E61BF0 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_FederatedOAuthProviderData__SWIG_0", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_FederatedOAuthProviderData__SWIG_0", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_FederatedOAuthProviderData__SWIG_0)();
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc();
@@ -29351,12 +29351,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_FederatedOAuthPr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_FederatedOAuthProviderData__SWIG_1_m8B92B03543D7ADEB8711204D69A166128988B309 (String_t* ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_FederatedOAuthProviderData__SWIG_1", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_FederatedOAuthProviderData__SWIG_1", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29366,7 +29366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_FederatedOAuthPr
 	____jarg10_marshaled = il2cpp_codegen_marshal_string(___jarg10);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_FederatedOAuthProviderData__SWIG_1)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29382,12 +29382,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_FederatedOAuthPr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FederatedOAuthProviderData_Scopes_set_m60290BE82455B8A405BE86EA5F503B46A055E866 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FederatedOAuthProviderData_Scopes_set", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FederatedOAuthProviderData_Scopes_set", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29401,7 +29401,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FederatedOAuthProviderDa
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FederatedOAuthProviderData_Scopes_set)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -29412,12 +29412,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FederatedOAuthProviderDa
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FederatedOAuthProviderData_Scopes_get_m42B6F52301D6E6F9D8F9BCAECC6A8C2D4593D0C8 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FederatedOAuthProviderData_Scopes_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FederatedOAuthProviderData_Scopes_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29427,7 +29427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FederatedOAuthProvid
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FederatedOAuthProviderData_Scopes_get)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29439,12 +29439,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FederatedOAuthProvid
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FederatedOAuthProviderData_CustomParameters_set_mCB03FDFA9C80A2F7DAD5DCA7365C08F18B7A7349 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FederatedOAuthProviderData_CustomParameters_set", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FederatedOAuthProviderData_CustomParameters_set", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29458,7 +29458,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FederatedOAuthProviderDa
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FederatedOAuthProviderData_CustomParameters_set)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -29469,12 +29469,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FederatedOAuthProviderDa
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FederatedOAuthProviderData_CustomParameters_get_m2EF501ED77F81CC42BD87557D3F87E4FEBF61B5C (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FederatedOAuthProviderData_CustomParameters_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FederatedOAuthProviderData_CustomParameters_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29484,7 +29484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FederatedOAuthProvid
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FederatedOAuthProviderData_CustomParameters_get)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29496,12 +29496,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FederatedOAuthProvid
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FederatedOAuthProviderData_m5494E1F35D9CB166445F77BAB78FD6A2BCDA66D5 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_FederatedOAuthProviderData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_FederatedOAuthProviderData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29511,7 +29511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FederatedOAuthPro
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_FederatedOAuthProviderData)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29522,12 +29522,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FederatedOAuthPro
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_UserInfoInterface_m6D2165D8331C1818B18117B70E5F0960578FD316 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_UserInfoInterface", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_UserInfoInterface", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29537,7 +29537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_UserInfoInterface
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_UserInfoInterface)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29548,12 +29548,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_UserInfoInterface
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_phone_number_m3666417F61119D689ADFAD33E4E1536366BD6939 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterface_phone_number", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterface_phone_number", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29563,7 +29563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_p
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterface_phone_number)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29583,12 +29583,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_p
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_UserId_get_mF470DA8C0779F629DB511CEFACABBC7943BFD103 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterface_UserId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterface_UserId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29598,7 +29598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_U
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterface_UserId_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29618,12 +29618,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_U
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_Email_get_m63900334004BB00AD8096EF95043E27A67F570F1 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterface_Email_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterface_Email_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29633,7 +29633,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_E
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterface_Email_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29653,12 +29653,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_DisplayName_get_m1C8360B935C5D8C7A414603E49401F14316B13AB (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterface_DisplayName_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterface_DisplayName_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29668,7 +29668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_D
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterface_DisplayName_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29688,12 +29688,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_PhotoUrlInternal_get_m00311F1EA837D70F95C9831517987DEB6C828A02 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterface_PhotoUrlInternal_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterface_PhotoUrlInternal_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29703,7 +29703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_P
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterface_PhotoUrlInternal_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29723,12 +29723,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_P
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_ProviderId_get_mB0E1E4E0A2E1C0F9836183FA0476E035F9938E38 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserInfoInterface_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserInfoInterface_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29738,7 +29738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_P
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserInfoInterface_ProviderId_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29758,12 +29758,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserInfoInterface_P
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_AdditionalUserInfo_ProviderId_get_m4C997DB92CCA44C45E919BD275C5B13F890B0645 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_AdditionalUserInfo_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_AdditionalUserInfo_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29773,7 +29773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_AdditionalUserInfo_
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_AdditionalUserInfo_ProviderId_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29793,12 +29793,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_AdditionalUserInfo_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_AdditionalUserInfo_UserName_get_m8A0C5C38758122B3DC13723AA3A3BC1D3ED34141 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_AdditionalUserInfo_UserName_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_AdditionalUserInfo_UserName_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29808,7 +29808,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_AdditionalUserInfo_
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_AdditionalUserInfo_UserName_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29828,12 +29828,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_AdditionalUserInfo_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_AdditionalUserInfo_ProfileInternal_get_m9522CD91E86054E0D951C4436E517ADE79404AB8 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_AdditionalUserInfo_ProfileInternal_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_AdditionalUserInfo_ProfileInternal_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29843,7 +29843,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_AdditionalUserInfo_P
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_AdditionalUserInfo_ProfileInternal_get)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29855,12 +29855,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_AdditionalUserInfo_P
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_AdditionalUserInfo_UpdatedCredential_set_mBB4DB3A12199766F0EAC6F7FFC5E60AE7F87C550 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_AdditionalUserInfo_UpdatedCredential_set", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_AdditionalUserInfo_UpdatedCredential_set", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29874,7 +29874,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_AdditionalUserInfo_Updat
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_AdditionalUserInfo_UpdatedCredential_set)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -29885,12 +29885,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_AdditionalUserInfo_Updat
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_AdditionalUserInfo_UpdatedCredential_get_m3A469F11A0E9E7472A2576855FB3E910232C7E2E (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_AdditionalUserInfo_UpdatedCredential_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_AdditionalUserInfo_UpdatedCredential_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29900,7 +29900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_AdditionalUserInfo_U
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_AdditionalUserInfo_UpdatedCredential_get)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29912,12 +29912,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_AdditionalUserInfo_U
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_AdditionalUserInfo_m23BEC7B810DC801B63F6D8A8E34DCED3830D587E (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_AdditionalUserInfo", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_AdditionalUserInfo", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29927,7 +29927,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_AdditionalUserInf
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_AdditionalUserInfo)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29938,18 +29938,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_AdditionalUserInf
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_UserMetadata_mE51DC9AFB91C0DA478F65E0A1E6A177DFD740D6D (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_UserMetadata", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_UserMetadata", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_UserMetadata)();
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc();
@@ -29961,12 +29961,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_UserMetadata_mE5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AuthUtilPINVOKE_UserMetadata_LastSignInTimestamp_get_m22409FCFB058485223EFC1C6B79338BE9D8530ED (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserMetadata_LastSignInTimestamp_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserMetadata_LastSignInTimestamp_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -29976,7 +29976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AuthUtilPINVOKE_UserMetadata_LastSig
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	uint64_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserMetadata_LastSignInTimestamp_get)(____jarg10_marshaled);
 	#else
 	uint64_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -29988,12 +29988,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AuthUtilPINVOKE_UserMetadata_LastSig
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AuthUtilPINVOKE_UserMetadata_CreationTimestamp_get_m536CBDCB1969D7CFCE4655EFF15E73553CBE7236 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserMetadata_CreationTimestamp_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserMetadata_CreationTimestamp_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30003,7 +30003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AuthUtilPINVOKE_UserMetadata_Creatio
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	uint64_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserMetadata_CreationTimestamp_get)(____jarg10_marshaled);
 	#else
 	uint64_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30015,12 +30015,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AuthUtilPINVOKE_UserMetadata_Creatio
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_UserMetadata_mA780F7DABF5888C5851E19215A87CE40BCCD2722 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_UserMetadata", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_UserMetadata", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30030,7 +30030,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_UserMetadata_mA78
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_UserMetadata)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30041,12 +30041,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_UserMetadata_mA78
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_SignInResult_UserInternal_get_mB6F6E1AE4106445565E1207C4932C467AEB6553E (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_SignInResult_UserInternal_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_SignInResult_UserInternal_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30056,7 +30056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_SignInResult_UserInt
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_SignInResult_UserInternal_get)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30068,12 +30068,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_SignInResult_UserInt
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_SignInResult_Info_get_m0175BAB69132F38EB089BD62AD2153C21E4E87FB (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_SignInResult_Info_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_SignInResult_Info_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30083,7 +30083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_SignInResult_Info_ge
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_SignInResult_Info_get)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30095,12 +30095,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_SignInResult_Info_ge
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_SignInResult_Meta_set_m51ADB5CB71B45C82011ED3A7ECEAAE2FC739457F (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_SignInResult_Meta_set", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_SignInResult_Meta_set", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30114,7 +30114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_SignInResult_Meta_set_m5
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_SignInResult_Meta_set)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -30125,12 +30125,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_SignInResult_Meta_set_m5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_SignInResult_Meta_get_mBE0219ABC846F4B4407EDC5999F6BFC9107937D3 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_SignInResult_Meta_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_SignInResult_Meta_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30140,7 +30140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_SignInResult_Meta_ge
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_SignInResult_Meta_get)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30152,12 +30152,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_SignInResult_Meta_ge
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_SignInResult_m10A7D02215C5FEEDC5A57E726196E9EC656FDF0E (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_SignInResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_SignInResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30167,7 +30167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_SignInResult_m10A
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_SignInResult)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30178,12 +30178,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_SignInResult_m10A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FirebaseUser_m2BEC0586A0DE4F11F446585EE9E820611C53ABEF (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_FirebaseUser", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_FirebaseUser", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30193,7 +30193,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FirebaseUser_m2BE
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_FirebaseUser)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30204,12 +30204,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FirebaseUser_m2BE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Token_m8A81957B79123F719A72266D856ED99E9E68C169 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, bool ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + 4;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_Token", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_Token", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30219,7 +30219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Token_m
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_Token)(____jarg10_marshaled, static_cast<int32_t>(___jarg21));
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, static_cast<int32_t>(___jarg21));
@@ -30231,12 +30231,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Token_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_UpdateEmail_m35CDEDBF41240B86E2C6765551907B04D975332E (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, String_t* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_UpdateEmail", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_UpdateEmail", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30250,7 +30250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_UpdateE
 	____jarg21_marshaled = il2cpp_codegen_marshal_string(___jarg21);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_UpdateEmail)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -30266,12 +30266,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_UpdateE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_UpdatePassword_mF23B0E9475D495ADD41A66771C5CE986FDCD6B7C (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, String_t* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_UpdatePassword", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_UpdatePassword", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30285,7 +30285,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_UpdateP
 	____jarg21_marshaled = il2cpp_codegen_marshal_string(___jarg21);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_UpdatePassword)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -30301,12 +30301,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_UpdateP
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Reauthenticate_mF6BDEE462E32A5ECD70B66399E23313609B85B57 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_Reauthenticate", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_Reauthenticate", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30320,7 +30320,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Reauthe
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_Reauthenticate)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -30332,12 +30332,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Reauthe
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_ReauthenticateAndRetrieveData_m77891BF983FC1A3AD71DECAF900D7B4EEEA12D7A (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_ReauthenticateAndRetrieveData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_ReauthenticateAndRetrieveData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30351,7 +30351,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Reauthe
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_ReauthenticateAndRetrieveData)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -30363,12 +30363,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Reauthe
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_ReauthenticateWithProviderInternal_m0E79AEDBA29C6177F8A78260FDCF010D679224CB (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_ReauthenticateWithProviderInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_ReauthenticateWithProviderInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30382,7 +30382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Reauthe
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_ReauthenticateWithProviderInternal)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -30394,12 +30394,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Reauthe
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_SendEmailVerification_m7D00437B3D91B07491D89F791B2ECCFD320FD0F4 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_SendEmailVerification", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_SendEmailVerification", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30409,7 +30409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_SendEma
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_SendEmailVerification)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30421,12 +30421,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_SendEma
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_UpdateUserProfile_m410B9B54B9050695B8D6A2B5C1D0AD2D683521EF (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_UpdateUserProfile", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_UpdateUserProfile", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30440,7 +30440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_UpdateU
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_UpdateUserProfile)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -30452,12 +30452,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_UpdateU
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_LinkWithCredential_mED92777643CBC6859A331AF80A7E788214F93EAA (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_LinkWithCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_LinkWithCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30471,7 +30471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_LinkWit
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_LinkWithCredential)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -30483,12 +30483,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_LinkWit
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_LinkAndRetrieveDataWithCredential_m96B6CC6716809039192A206DDFF6AE40DF15A279 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_LinkAndRetrieveDataWithCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_LinkAndRetrieveDataWithCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30502,7 +30502,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_LinkAnd
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_LinkAndRetrieveDataWithCredential)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -30514,12 +30514,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_LinkAnd
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_LinkWithProviderInternal_m1299473F06836C9D276DC6E4979694E2157619C1 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_LinkWithProviderInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_LinkWithProviderInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30533,7 +30533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_LinkWit
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_LinkWithProviderInternal)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -30545,12 +30545,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_LinkWit
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Unlink_m6526448CC787D3D191A24065F8D5DB2A652D746A (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, String_t* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_Unlink", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_Unlink", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30564,7 +30564,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Unlink_
 	____jarg21_marshaled = il2cpp_codegen_marshal_string(___jarg21);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_Unlink)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -30580,12 +30580,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Unlink_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_UpdatePhoneNumberCredential_m242D5AF2DFF6C60FF7DB89AA58EF14E3DCE4B04A (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_UpdatePhoneNumberCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_UpdatePhoneNumberCredential", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30599,7 +30599,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_UpdateP
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_UpdatePhoneNumberCredential)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -30611,12 +30611,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_UpdateP
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Reload_m8B20410C08018A38CDEBC7F8B0B894C012149352 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_Reload", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_Reload", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30626,7 +30626,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Reload_
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_Reload)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30638,12 +30638,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Reload_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Delete_mA4C5B6D3A8B59BE82BE3A89D7512ABFAEB2A6F23 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_Delete", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_Delete", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30653,7 +30653,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Delete_
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_Delete)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30665,12 +30665,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Delete_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_DisplayName_get_mE212DA2EA3D6A871172B040F984189F389E4CCE2 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_DisplayName_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_DisplayName_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30680,7 +30680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_Displa
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_DisplayName_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30700,12 +30700,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_Displa
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_Email_get_mC75BAC930ED111E040C991ED94466729EDFE3701 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_Email_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_Email_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30715,7 +30715,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_Email_
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_Email_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30735,12 +30735,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_Email_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_FirebaseUser_IsAnonymous_get_m0C34BB8455A9FD34B4C5449C79D123BCCCA350D0 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_IsAnonymous_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_IsAnonymous_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30750,7 +30750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_FirebaseUser_IsAnonymous
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_IsAnonymous_get)(____jarg10_marshaled);
 	#else
 	int32_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30762,12 +30762,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_FirebaseUser_IsAnonymous
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_FirebaseUser_IsEmailVerified_get_m3E188B74DFC53CE00703F9E5DD50A67CCAABC7A8 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_IsEmailVerified_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_IsEmailVerified_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30777,7 +30777,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_FirebaseUser_IsEmailVeri
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_IsEmailVerified_get)(____jarg10_marshaled);
 	#else
 	int32_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30789,12 +30789,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthUtilPINVOKE_FirebaseUser_IsEmailVeri
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Metadata_get_mBB517067D7DDBAF5B83A020835B635E76C055123 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_Metadata_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_Metadata_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30804,7 +30804,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Metadat
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_Metadata_get)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30816,12 +30816,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Metadat
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_PhoneNumber_get_mB6F0BEDE3CC2386EBA7A3EA63FEA3C039FB056A3 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_PhoneNumber_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_PhoneNumber_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30831,7 +30831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_PhoneN
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_PhoneNumber_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30851,12 +30851,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_PhoneN
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_PhotoUrlInternal_get_mA51F0BA7F673E45B55AA01D0CBE260880D8AA7F8 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_PhotoUrlInternal_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_PhotoUrlInternal_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30866,7 +30866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_PhotoU
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_PhotoUrlInternal_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30886,12 +30886,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_PhotoU
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_ProviderData_get_mEB71321CF9551598A910F2303CFE7A02FB4331FD (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_ProviderData_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_ProviderData_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30901,7 +30901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Provide
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_ProviderData_get)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30913,12 +30913,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_Provide
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_ProviderId_get_m5DB332FF0EDC5C3F64E774AEDDF4EAB4F8D7500C (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_ProviderId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30928,7 +30928,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_Provid
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_ProviderId_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30948,12 +30948,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_Provid
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_UserId_get_mED0E260F977B7ECED8BC06FA94CF0EB865342EB6 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_UserId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_UserId_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -30963,7 +30963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_UserId
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_UserId_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -30983,18 +30983,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseUser_UserId
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_UserProfile_mAB86B66E0C349E9F590BA4626328E6677044D15E (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_UserProfile", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_UserProfile", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_UserProfile)();
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc();
@@ -31006,12 +31006,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_UserProfile_mAB8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserProfile_DisplayName_set_mACD113AAA84F946D4E46F149D898FA21B03BAE0A (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, String_t* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserProfile_DisplayName_set", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserProfile_DisplayName_set", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31025,7 +31025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserProfile_DisplayName_
 	____jarg21_marshaled = il2cpp_codegen_marshal_string(___jarg21);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserProfile_DisplayName_set)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -31040,12 +31040,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserProfile_DisplayName_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserProfile_DisplayName_get_m99B16CC8C8F9A8775492029EA1F4F51E8BC24F07 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserProfile_DisplayName_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserProfile_DisplayName_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31055,7 +31055,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserProfile_Display
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserProfile_DisplayName_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31075,12 +31075,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserProfile_Display
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserProfile_PhotoUrlInternal_set_m148F38008EDAC1A11FF960B781C18D8789FAB12A (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, String_t* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserProfile_PhotoUrlInternal_set", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserProfile_PhotoUrlInternal_set", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31094,7 +31094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserProfile_PhotoUrlInte
 	____jarg21_marshaled = il2cpp_codegen_marshal_string(___jarg21);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserProfile_PhotoUrlInternal_set)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -31109,12 +31109,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_UserProfile_PhotoUrlInte
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserProfile_PhotoUrlInternal_get_mBFD0862E680EB4A1F7A5BCB0F3D57B7816AC70FF (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_UserProfile_PhotoUrlInternal_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_UserProfile_PhotoUrlInternal_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31124,7 +31124,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserProfile_PhotoUr
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_UserProfile_PhotoUrlInternal_get)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31144,12 +31144,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_UserProfile_PhotoUr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_UserProfile_m56FB6E8CA1DA05E79B718DB46BA1545ADF41623A (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_UserProfile", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_UserProfile", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31159,7 +31159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_UserProfile_m56FB
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_UserProfile)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31170,12 +31170,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_UserProfile_m56FB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FirebaseAuth_m3AA953C116817EC94C2B513C2E45FEF626872626 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_FirebaseAuth", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_FirebaseAuth", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31185,7 +31185,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FirebaseAuth_m3AA
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_FirebaseAuth)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31196,12 +31196,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FirebaseAuth_m3AA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseAuth_LanguageCodeInternal_m6070E3E6763C480EF12F446F3B9098E121879A78 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_LanguageCodeInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_LanguageCodeInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31211,7 +31211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseAuth_Langua
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	char* returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_LanguageCodeInternal)(____jarg10_marshaled);
 	#else
 	char* returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31231,12 +31231,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_FirebaseAuth_Langua
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FirebaseAuth_SetLanguageCodeInternal_mCF325F07157DC762F08D205F06E89548FE7D9E22 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, String_t* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_SetLanguageCodeInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_SetLanguageCodeInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31250,7 +31250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FirebaseAuth_SetLanguage
 	____jarg21_marshaled = il2cpp_codegen_marshal_string(___jarg21);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_SetLanguageCodeInternal)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -31265,12 +31265,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FirebaseAuth_SetLanguage
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FirebaseAuth_UseAppLanguage_mE1C7A6D731E3624A38A5C3CC45C01D68282F0D10 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_UseAppLanguage", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_UseAppLanguage", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31280,7 +31280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FirebaseAuth_UseAppLangu
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_UseAppLanguage)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31291,12 +31291,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FirebaseAuth_UseAppLangu
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_FetchProvidersForEmailInternal_m6460B76DC515C47C0F2933A53A14EF440C4BAD7C (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, String_t* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_FetchProvidersForEmailInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_FetchProvidersForEmailInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31310,7 +31310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_FetchPr
 	____jarg21_marshaled = il2cpp_codegen_marshal_string(___jarg21);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_FetchProvidersForEmailInternal)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -31326,12 +31326,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_FetchPr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInWithCustomTokenInternal_mBBC7D37D8832138B1644FEC69250CA28A4D09622 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, String_t* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_SignInWithCustomTokenInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_SignInWithCustomTokenInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31345,7 +31345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInW
 	____jarg21_marshaled = il2cpp_codegen_marshal_string(___jarg21);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_SignInWithCustomTokenInternal)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -31361,12 +31361,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInW
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInWithCredentialInternal_m26CD0E39DD5B14BF280F2A96A67E2B4CE01C330B (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_SignInWithCredentialInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_SignInWithCredentialInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31380,7 +31380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInW
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_SignInWithCredentialInternal)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -31392,12 +31392,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInW
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInWithProviderInternal_mEB40F8E0870E55E5D04A4596523107456E2B13A8 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_SignInWithProviderInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_SignInWithProviderInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31411,7 +31411,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInW
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_SignInWithProviderInternal)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -31423,12 +31423,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInW
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInAndRetrieveDataWithCredentialInternal_mD4BB826FDE01396016319E9145B542FAC082FEE6 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_SignInAndRetrieveDataWithCredentialInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_SignInAndRetrieveDataWithCredentialInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31442,7 +31442,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInA
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_SignInAndRetrieveDataWithCredentialInternal)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -31454,12 +31454,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInAnonymouslyInternal_m55793007FBC46690D9ACC37DF921033FAFDF2326 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_SignInAnonymouslyInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_SignInAnonymouslyInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31469,7 +31469,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInA
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_SignInAnonymouslyInternal)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31481,12 +31481,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInWithEmailAndPasswordInternal_mBF98A62DEE15B02D4755D22EFD48B57A350F26FA (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, String_t* ___jarg21, String_t* ___jarg32, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(char*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_SignInWithEmailAndPasswordInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_SignInWithEmailAndPasswordInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31504,7 +31504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInW
 	____jarg32_marshaled = il2cpp_codegen_marshal_string(___jarg32);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_SignInWithEmailAndPasswordInternal)(____jarg10_marshaled, ____jarg21_marshaled, ____jarg32_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled, ____jarg32_marshaled);
@@ -31524,12 +31524,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SignInW
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_CreateUserWithEmailAndPasswordInternal_mBB8FA3E7ADC5E2A2D6E57F34623D3A82673533B5 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, String_t* ___jarg21, String_t* ___jarg32, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(char*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_CreateUserWithEmailAndPasswordInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_CreateUserWithEmailAndPasswordInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31547,7 +31547,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_CreateU
 	____jarg32_marshaled = il2cpp_codegen_marshal_string(___jarg32);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_CreateUserWithEmailAndPasswordInternal)(____jarg10_marshaled, ____jarg21_marshaled, ____jarg32_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled, ____jarg32_marshaled);
@@ -31567,12 +31567,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_CreateU
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FirebaseAuth_SignOut_mFB27D7413A058008C1E328ABE3212A3B0966B7C1 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_SignOut", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_SignOut", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31582,7 +31582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FirebaseAuth_SignOut_mFB
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_SignOut)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31593,12 +31593,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FirebaseAuth_SignOut_mFB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SendPasswordResetEmail_mDED4CC0C7ED8B10B663778D7243C9241D6BF2AF2 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, String_t* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_SendPasswordResetEmail", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_SendPasswordResetEmail", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31612,7 +31612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SendPas
 	____jarg21_marshaled = il2cpp_codegen_marshal_string(___jarg21);
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_SendPasswordResetEmail)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -31628,12 +31628,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_SendPas
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_GetAuthInternal_m4A210AB1830DD1E4CE1680BBE8FD83251D066517 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, int32_t* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, int32_t*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(int32_t*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_GetAuthInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_GetAuthInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31643,7 +31643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_GetAuth
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_GetAuthInternal)(____jarg10_marshaled, ___jarg21);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21);
@@ -31655,12 +31655,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_GetAuth
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FirebaseAuth_LogHeartbeatInternal_m14F0FBAB3F883FE43C541627BEE2B36537DB898E (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_LogHeartbeatInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_LogHeartbeatInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31670,7 +31670,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FirebaseAuth_LogHeartbea
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_LogHeartbeatInternal)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31681,12 +31681,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FirebaseAuth_LogHeartbea
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FirebaseAuth_ReleaseReferenceInternal_m853D1C79A35FCF79ABCEFA8039A9A458185D2E6D (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_ReleaseReferenceInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_ReleaseReferenceInternal", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31696,7 +31696,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FirebaseAuth_ReleaseRefe
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_ReleaseReferenceInternal)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31707,12 +31707,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FirebaseAuth_ReleaseRefe
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_CurrentUserInternal_get_m71B033502A3C9D8CC6B59D81C337D0842ADED542 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseAuth_CurrentUserInternal_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseAuth_CurrentUserInternal_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31722,7 +31722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_Current
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseAuth_CurrentUserInternal_get)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31734,12 +31734,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseAuth_Current
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FetchProvidersResult_Providers_get_mB910B52950869D150198021829CFD2CD3AA87B57 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FetchProvidersResult_Providers_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FetchProvidersResult_Providers_get", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31749,7 +31749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FetchProvidersResult
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FetchProvidersResult_Providers_get)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31761,18 +31761,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FetchProvidersResult
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_FetchProvidersResult_m506FC1D38F3F41AABED6094CC048DA55A35ED32A (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_FetchProvidersResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_FetchProvidersResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_FetchProvidersResult)();
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc();
@@ -31784,12 +31784,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_FetchProvidersRe
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FetchProvidersResult_m1FBB5405594441C84C5C91002DD7099E909FB799 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_FetchProvidersResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_FetchProvidersResult", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31799,7 +31799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FetchProvidersRes
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_FetchProvidersResult)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31810,12 +31810,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FetchProvidersRes
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FederatedAuthProvider_m60A5E4CF4107D63B882ABDBBC582A56DCA6E5C4C (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_FederatedAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_FederatedAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31825,7 +31825,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FederatedAuthProv
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_FederatedAuthProvider)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31836,18 +31836,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FederatedAuthProv
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_FederatedOAuthProvider__SWIG_0_mDCB55600960FFE305CB137162389182301076DC3 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_FederatedOAuthProvider__SWIG_0", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_FederatedOAuthProvider__SWIG_0", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_FederatedOAuthProvider__SWIG_0)();
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc();
@@ -31859,12 +31859,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_FederatedOAuthPr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_FederatedOAuthProvider__SWIG_1_m77E25B9530FC2B687B76CB039B1CEFA8986EF336 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_new_FederatedOAuthProvider__SWIG_1", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_new_FederatedOAuthProvider__SWIG_1", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31874,7 +31874,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_FederatedOAuthPr
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_new_FederatedOAuthProvider__SWIG_1)(____jarg10_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31886,12 +31886,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_new_FederatedOAuthPr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FederatedOAuthProvider_mA7B8C15B7FF84C63CF2862AF2668B9F143EB0405 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_delete_FederatedOAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_delete_FederatedOAuthProvider", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31901,7 +31901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FederatedOAuthPro
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_delete_FederatedOAuthProvider)(____jarg10_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled);
@@ -31912,12 +31912,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_delete_FederatedOAuthPro
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FederatedOAuthProvider_SetProviderData_m7AE529B291D67F6B97905657F769AA88BB988C6E (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FederatedOAuthProvider_SetProviderData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FederatedOAuthProvider_SetProviderData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31931,7 +31931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FederatedOAuthProvider_S
 	____jarg21_marshaled = (void*)___jarg21.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FederatedOAuthProvider_SetProviderData)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -31942,12 +31942,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_FederatedOAuthProvider_S
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_CreateAuthStateListener_m7075AF98D81EE9873C8A4CA9EA8C988A100D632C (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, StateChangedDelegate_t5BEFB485EC0FAFB6678FE8F50A5153BAF0D4E051* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, Il2CppMethodPointer);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_CreateAuthStateListener", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_CreateAuthStateListener", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31961,7 +31961,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_CreateAuthStateListe
 	____jarg21_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___jarg21));
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_CreateAuthStateListener)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -31973,12 +31973,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_CreateAuthStateListe
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_DestroyAuthStateListener_mC228FE8E934831BD6D8BA4487164970B5DBBCD26 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, intptr_t ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_DestroyAuthStateListener", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_DestroyAuthStateListener", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -31988,7 +31988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_DestroyAuthStateListener
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_DestroyAuthStateListener)(____jarg10_marshaled, ___jarg21);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21);
@@ -31999,12 +31999,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_DestroyAuthStateListener
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_CreateIdTokenListener_m7FA2159BB2EB7196AD36F6B0BE6DF91D4D492465 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, StateChangedDelegate_t5BEFB485EC0FAFB6678FE8F50A5153BAF0D4E051* ___jarg21, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, Il2CppMethodPointer);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_CreateIdTokenListener", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_CreateIdTokenListener", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -32018,7 +32018,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_CreateIdTokenListene
 	____jarg21_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___jarg21));
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_CreateIdTokenListener)(____jarg10_marshaled, ____jarg21_marshaled);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(____jarg10_marshaled, ____jarg21_marshaled);
@@ -32030,12 +32030,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_CreateIdTokenListene
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_DestroyIdTokenListener_m6D897DD5F2467C8C1A2BFB96CD8970E3E90AB125 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___jarg10, intptr_t ___jarg21, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_DestroyIdTokenListener", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_DestroyIdTokenListener", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -32045,7 +32045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_DestroyIdTokenListener_m
 	____jarg10_marshaled = (void*)___jarg10.____handle_1;
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_DestroyIdTokenListener)(____jarg10_marshaled, ___jarg21);
 	#else
 	il2cppPInvokeFunc(____jarg10_marshaled, ___jarg21);
@@ -32056,18 +32056,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_DestroyIdTokenListener_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_User_SWIGUpcast_mDC7D1766A838D9CF4DF5FAE49B858E6F1B0FC2A8 (intptr_t ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_User_SWIGUpcast", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_User_SWIGUpcast", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_User_SWIGUpcast)(___jarg10);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(___jarg10);
@@ -32079,18 +32079,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_User_SWIGUpca
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_FetchProvidersResult_SWIGUpcast_mCE27691388C21329690D12594AA40E032C6F0C9D (intptr_t ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_FetchProvidersResult_SWIGUpcast", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_FetchProvidersResult_SWIGUpcast", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_FetchProvidersResult_SWIGUpcast)(___jarg10);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(___jarg10);
@@ -32102,18 +32102,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_FetchProvider
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_Credential_SWIGUpcast_mECBE4E0C9902F3E18E8E72929066CD80987EC073 (intptr_t ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_Credential_SWIGUpcast", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_Credential_SWIGUpcast", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_Credential_SWIGUpcast)(___jarg10);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(___jarg10);
@@ -32125,18 +32125,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_Credential_SW
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_SignInResult_SWIGUpcast_mF29790AE6DC3D6590BADC1283D249FFAC0053E3C (intptr_t ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_Future_SignInResult_SWIGUpcast", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_Future_SignInResult_SWIGUpcast", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_Future_SignInResult_SWIGUpcast)(___jarg10);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(___jarg10);
@@ -32148,18 +32148,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Future_SignInResult_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FederatedOAuthProviderData_SWIGUpcast_m92A61F77309243C454694EC0CEDA47E3DD5E0725 (intptr_t ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FederatedOAuthProviderData_SWIGUpcast", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FederatedOAuthProviderData_SWIGUpcast", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FederatedOAuthProviderData_SWIGUpcast)(___jarg10);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(___jarg10);
@@ -32171,18 +32171,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FederatedOAuthProvid
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_SWIGUpcast_mFD59E2B429158190C5B31F26DCD9E19F584434E1 (intptr_t ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FirebaseUser_SWIGUpcast", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FirebaseUser_SWIGUpcast", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FirebaseUser_SWIGUpcast)(___jarg10);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(___jarg10);
@@ -32194,18 +32194,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FirebaseUser_SWIGUpc
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_FederatedOAuthProvider_SWIGUpcast_mB65EBEBC908576B1EA16E78063BBD30BE6DAB395 (intptr_t ___jarg10, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "Firebase_Auth_CSharp_FederatedOAuthProvider_SWIGUpcast", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "Firebase_Auth_CSharp_FederatedOAuthProvider_SWIGUpcast", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_CSharp_FederatedOAuthProvider_SWIGUpcast)(___jarg10);
 	#else
 	intptr_t returnValue = il2cppPInvokeFunc(___jarg10);
@@ -32413,12 +32413,12 @@ extern "C" void DEFAULT_CALL ReversePInvokeWrapper_SWIGExceptionHelper_SetPendin
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_AuthUtil_m505988BBD3BC40738910A80290A47666306014B0 (ExceptionDelegate_tBD5E636A02BB2A87476121A0D154ABDE69916D8A* ___applicationDelegate0, ExceptionDelegate_tBD5E636A02BB2A87476121A0D154ABDE69916D8A* ___arithmeticDelegate1, ExceptionDelegate_tBD5E636A02BB2A87476121A0D154ABDE69916D8A* ___divideByZeroDelegate2, ExceptionDelegate_tBD5E636A02BB2A87476121A0D154ABDE69916D8A* ___indexOutOfRangeDelegate3, ExceptionDelegate_tBD5E636A02BB2A87476121A0D154ABDE69916D8A* ___invalidCastDelegate4, ExceptionDelegate_tBD5E636A02BB2A87476121A0D154ABDE69916D8A* ___invalidOperationDelegate5, ExceptionDelegate_tBD5E636A02BB2A87476121A0D154ABDE69916D8A* ___ioDelegate6, ExceptionDelegate_tBD5E636A02BB2A87476121A0D154ABDE69916D8A* ___nullReferenceDelegate7, ExceptionDelegate_tBD5E636A02BB2A87476121A0D154ABDE69916D8A* ___outOfMemoryDelegate8, ExceptionDelegate_tBD5E636A02BB2A87476121A0D154ABDE69916D8A* ___overflowDelegate9, ExceptionDelegate_tBD5E636A02BB2A87476121A0D154ABDE69916D8A* ___systemExceptionDelegate10, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(void*) + sizeof(void*) + sizeof(void*) + sizeof(void*) + sizeof(void*) + sizeof(void*) + sizeof(void*) + sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "SWIGRegisterExceptionCallbacks_AuthUtil", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "SWIGRegisterExceptionCallbacks_AuthUtil", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -32468,7 +32468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SWIGRegisterExceptio
 	____systemExceptionDelegate10_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___systemExceptionDelegate10));
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(SWIGRegisterExceptionCallbacks_AuthUtil)(____applicationDelegate0_marshaled, ____arithmeticDelegate1_marshaled, ____divideByZeroDelegate2_marshaled, ____indexOutOfRangeDelegate3_marshaled, ____invalidCastDelegate4_marshaled, ____invalidOperationDelegate5_marshaled, ____ioDelegate6_marshaled, ____nullReferenceDelegate7_marshaled, ____outOfMemoryDelegate8_marshaled, ____overflowDelegate9_marshaled, ____systemExceptionDelegate10_marshaled);
 	#else
 	il2cppPInvokeFunc(____applicationDelegate0_marshaled, ____arithmeticDelegate1_marshaled, ____divideByZeroDelegate2_marshaled, ____indexOutOfRangeDelegate3_marshaled, ____invalidCastDelegate4_marshaled, ____invalidOperationDelegate5_marshaled, ____ioDelegate6_marshaled, ____nullReferenceDelegate7_marshaled, ____outOfMemoryDelegate8_marshaled, ____overflowDelegate9_marshaled, ____systemExceptionDelegate10_marshaled);
@@ -32479,12 +32479,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SWIGRegisterExceptio
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_AuthUtil_m6EEEA62E46E7187AB9781859110054F08F0BCEEA (ExceptionArgumentDelegate_t2CB92E157C904122629802F9D5EBAC4BBF5981A1* ___argumentDelegate0, ExceptionArgumentDelegate_t2CB92E157C904122629802F9D5EBAC4BBF5981A1* ___argumentNullDelegate1, ExceptionArgumentDelegate_t2CB92E157C904122629802F9D5EBAC4BBF5981A1* ___argumentOutOfRangeDelegate2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "SWIGRegisterExceptionArgumentCallbacks_AuthUtil", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "SWIGRegisterExceptionArgumentCallbacks_AuthUtil", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -32502,7 +32502,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SWIGRegisterExceptio
 	____argumentOutOfRangeDelegate2_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___argumentOutOfRangeDelegate2));
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(SWIGRegisterExceptionArgumentCallbacks_AuthUtil)(____argumentDelegate0_marshaled, ____argumentNullDelegate1_marshaled, ____argumentOutOfRangeDelegate2_marshaled);
 	#else
 	il2cppPInvokeFunc(____argumentDelegate0_marshaled, ____argumentNullDelegate1_marshaled, ____argumentOutOfRangeDelegate2_marshaled);
@@ -33522,12 +33522,12 @@ extern "C" char* DEFAULT_CALL ReversePInvokeWrapper_SWIGStringHelper_CreateStrin
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGStringHelper_SWIGRegisterStringCallback_AuthUtil_mB3B9DC6F273078F8CE16B1AF19E53E6A9F4A9AB2 (SWIGStringDelegate_t9CD01F3A48BC7BC15A65A0BB2B7DAC5DF7608820* ___stringDelegate0, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_3_0"), "SWIGRegisterStringCallback_AuthUtil", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("FirebaseCppApp-9_2_0"), "SWIGRegisterStringCallback_AuthUtil", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -33537,7 +33537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGStringHelper_SWIGRegisterStringCallb
 	____stringDelegate0_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___stringDelegate0));
 
 	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_3_0_INTERNAL
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_FirebaseCppApp_9_2_0_INTERNAL
 	reinterpret_cast<PInvokeFunc>(SWIGRegisterStringCallback_AuthUtil)(____stringDelegate0_marshaled);
 	#else
 	il2cppPInvokeFunc(____stringDelegate0_marshaled);

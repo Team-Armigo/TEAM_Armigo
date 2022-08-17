@@ -44,17 +44,6 @@ struct VirtualFuncInvoker1
 		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
 	}
 };
-template <typename R, typename T1, typename T2, typename T3>
-struct VirtualFuncInvoker3
-{
-	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
-
-	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
-	{
-		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
-	}
-};
 struct InterfaceActionInvoker0
 {
 	typedef void (*Action)(void*, const RuntimeMethod*);
@@ -63,17 +52,6 @@ struct InterfaceActionInvoker0
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
 		((Action)invokeData.methodPtr)(obj, invokeData.method);
-	}
-};
-template <typename T1>
-struct InterfaceActionInvoker1
-{
-	typedef void (*Action)(void*, T1, const RuntimeMethod*);
-
-	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
-	{
-		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
-		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
 	}
 };
 template <typename R>
@@ -87,43 +65,11 @@ struct InterfaceFuncInvoker0
 		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
 	}
 };
-template <typename R, typename T1, typename T2>
-struct InvokerFuncInvoker2;
-template <typename R, typename T1, typename T2>
-struct InvokerFuncInvoker2<R, T1*, T2>
-{
-	static inline R Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1, T2 p2)
-	{
-		R ret;
-		void* params[2] = { p1, &p2 };
-		method->invoker_method(methodPtr, method, obj, params, &ret);
-		return ret;
-	}
-};
-template <typename R, typename T1, typename T2, typename T3>
-struct InvokerFuncInvoker3;
-template <typename R, typename T1, typename T2, typename T3>
-struct InvokerFuncInvoker3<R, T1*, T2*, T3>
-{
-	static inline R Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1, T2* p2, T3 p3)
-	{
-		R ret;
-		void* params[3] = { p1, p2, &p3 };
-		method->invoker_method(methodPtr, method, obj, params, &ret);
-		return ret;
-	}
-};
 
 // System.Action`1<System.Threading.Tasks.Task`1<Firebase.DependencyStatus>>
 struct Action_1_t72552EB3CFD9D41493135164276F7EE71F1132FC;
-// System.Action`1<System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>>
-struct Action_1_t7A72BB5CDA51C7604122D1F351F54CD826121DA9;
-// System.Action`1<System.Threading.Tasks.Task`1<Google.GoogleSignInUser>>
-struct Action_1_tF52889A7B072E11E8880182FD8F7D44219989077;
 // System.Action`1<System.Threading.Tasks.Task`1<System.Int32Enum>>
 struct Action_1_tC3BD22662CBF7BCA7CF101E25DD9C3BC0C8058B4;
-// System.Action`1<System.Threading.Tasks.Task`1<System.Object>>
-struct Action_1_t0328A8A468C762DAECEC2BDBE23D4E47955D8678;
 // System.Action`1<UnityEngine.XR.ARFoundation.ARFaceUpdatedEventArgs>
 struct Action_1_t30DB722576CDAD6BB3F09BD60358BF49AA947548;
 // System.Action`1<UnityEngine.XR.ARFoundation.ARFacesChangedEventArgs>
@@ -144,10 +90,10 @@ struct Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490;
 struct Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC;
 // System.Collections.Generic.Dictionary`2<ExitGames.Client.Photon.ConnectionProtocol,System.Int32>
 struct Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80;
-// System.Collections.Generic.Dictionary`2<System.Int32,System.Text.Encoding>
-struct Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>
 struct Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180;
+// System.Collections.Generic.Dictionary`2<System.Int32,Photon.Realtime.Player>
+struct Dictionary_2_t090B48BACBD1134A0E2C74084CF2392C71A6812B;
 // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>
 struct Dictionary_2_t489B023479196B8FC9709A9F834FC38729BD9493;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task>
@@ -162,8 +108,8 @@ struct Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E;
 struct Dictionary_2_tC7676598510356955876D867191E1510F67CC1DF;
 // System.Collections.Generic.Dictionary`2<System.String,Photon.Chat.Demo.FriendItem>
 struct Dictionary_2_t81CDBCC3EE792C8E1D91B3B813023F3869819C2E;
-// System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588;
+// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject>
+struct Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE;
 // System.Collections.Generic.Dictionary`2<System.String,System.Object>
 struct Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710;
 // System.Collections.Generic.Dictionary`2<System.String,UnityEngine.UI.Toggle>
@@ -178,14 +124,6 @@ struct Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1;
 struct Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C;
 // System.Func`3<System.Int32,System.String,TMPro.TMP_SpriteAsset>
 struct Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5;
-// Google.FutureAPIImpl`1<Google.GoogleSignInUser>
-struct FutureAPIImpl_1_t1DBB9AEFB8C58CA4AD9AFE5C32CA4C9CF3E58E8B;
-// Google.FutureAPIImpl`1<System.Object>
-struct FutureAPIImpl_1_tB70B1803C3C8E7E6A30F4E5B318E1BCBA62575DA;
-// Google.Future`1<Google.GoogleSignInUser>
-struct Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B;
-// Google.Future`1<System.Object>
-struct Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF;
 // System.Collections.Generic.HashSet`1<System.Object>
 struct HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885;
 // System.Collections.Generic.HashSet`1<System.String>
@@ -194,26 +132,20 @@ struct HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178;
 struct IEnumerable_1_tBC9C31DD44D05A2C774F76CC1C6C912FB9541D70;
 // System.Collections.Generic.IEnumerable`1<System.Object>
 struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
-// System.Collections.Generic.IEnumerable`1<System.String>
-struct IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44;
 // System.Collections.Generic.IEnumerator`1<Firebase.Database.DataSnapshot>
 struct IEnumerator_1_t89D6D9FAD8F93015339F011596FA51B8F53D3248;
-// System.Collections.Generic.IEnumerator`1<System.Exception>
-struct IEnumerator_1_tF15715088C2FF1D64704AE886A3A152AFCECCC36;
-// System.Collections.Generic.IEnumerator`1<System.Object>
-struct IEnumerator_1_t43D2E4BA9246755F293DFA74F001FB1A70A648FD;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
 struct IEqualityComparer_1_t2CA7720C7ADCCDECD3B02E45878B4478619D5347;
 // System.Collections.Generic.IEqualityComparer`1<System.String>
 struct IEqualityComparer_1_tAE94C8F24AD5B94D4EE85CA9FC59E3409D41CAF7;
-// System.Collections.Generic.IList`1<System.Exception>
-struct IList_1_t584E66CD0123CFB6503AC3E597748948194AAA5E;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>
 struct KeyCollection_tB45A861D090B15129521119AE48ED3813820A974;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,Photon.Chat.ChatChannel>
 struct KeyCollection_t3CC6366B12095908A6B3B512623B34284A09041D;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,Photon.Chat.Demo.FriendItem>
 struct KeyCollection_t5A7BBF071446F8E068A6658B8FD8E3568B9EC2A4;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,UnityEngine.GameObject>
+struct KeyCollection_tB57CC90FD7461471159C351E10C1C4C745284454;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Object>
 struct KeyCollection_tE66790F09E854C19C7F612BEAD203AE626E90A36;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,UnityEngine.UI.Toggle>
@@ -248,6 +180,10 @@ struct List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15;
 struct List_1_t0C2BEA4603C8A892F136360A713FE07EBC51A010;
 // System.Collections.Generic.List`1<UnityEngine.XR.ARSubsystems.XRFaceSubsystemDescriptor>
 struct List_1_t5E8878D20C1B753B569DF68C6CCE3159D9AB04A6;
+// System.Collections.Generic.List`1<TMPro.TMP_Dropdown/DropdownItem>
+struct List_1_tA7EEECF976A6B4957450A4D235070C9324ED1A97;
+// System.Collections.Generic.List`1<TMPro.TMP_Dropdown/OptionData>
+struct List_1_tCADFA900711C24701A9C70EE674B91FC45D42A52;
 // System.Predicate`1<System.Object>
 struct Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12;
 // System.Predicate`1<System.Threading.Tasks.Task>
@@ -256,38 +192,28 @@ struct Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED;
 struct Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception>
 struct ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886;
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>
-struct ReadOnlyCollection_1_t5397DF0DB61D1090E7BBC89395CECB8D020CED92;
 // UnityEngine.XR.ARFoundation.SubsystemLifecycleManager`3<System.Object,System.Object,System.Object>
 struct SubsystemLifecycleManager_3_t499D76783B0F91C52B19F7183F077FAD1985AD55;
 // UnityEngine.XR.ARFoundation.SubsystemLifecycleManager`3<UnityEngine.XR.ARSubsystems.XRFaceSubsystem,UnityEngine.XR.ARSubsystems.XRFaceSubsystemDescriptor,UnityEngine.XR.ARSubsystems.XRFaceSubsystem/Provider>
 struct SubsystemLifecycleManager_3_tC55963016DDC47B71E344157D85359DBB408C9D1;
-// System.Threading.Tasks.TaskCompletionSource`1<Google.GoogleSignInUser>
-struct TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA;
-// System.Threading.Tasks.TaskCompletionSource`1<System.Object>
-struct TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37;
 // System.Threading.Tasks.TaskFactory`1<Firebase.Database.DataSnapshot>
 struct TaskFactory_1_tD6D69737A2AED7131413D9284A8170289D59D0B1;
 // System.Threading.Tasks.TaskFactory`1<Firebase.DependencyStatus>
 struct TaskFactory_1_tA1BF99B45C5D8E4EBA82339084E38BD2DB72E0C1;
 // System.Threading.Tasks.TaskFactory`1<Firebase.Auth.FirebaseUser>
 struct TaskFactory_1_t7C8300A7F1C0B035B03E4868A6198B7D12FEA84F;
-// System.Threading.Tasks.TaskFactory`1<Google.GoogleSignInUser>
-struct TaskFactory_1_t0A909711F892E19F8AD55137B4F3B65578635A0A;
-// System.Threading.Tasks.TaskFactory`1<System.Object>
-struct TaskFactory_1_t6F188FE70F3006B0386002E392B799D85100732B;
 // System.Threading.Tasks.Task`1<Firebase.Database.DataSnapshot>
 struct Task_1_tEF384421AF949B7843F34F35E8C31D2400026E50;
 // System.Threading.Tasks.Task`1<Firebase.DependencyStatus>
 struct Task_1_tCDCA9B2073B1AC4ED4537A6D74742D20B122E1EF;
 // System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>
 struct Task_1_tE57E3A2330CE37367B7296D598E85906D967FF5B;
-// System.Threading.Tasks.Task`1<Google.GoogleSignInUser>
-struct Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926;
 // System.Threading.Tasks.Task`1<System.Int32Enum>
 struct Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4BFB;
 // System.Threading.Tasks.Task`1<System.Object>
 struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2;
+// TMPro.TweenRunner`1<TMPro.FloatTween>
+struct TweenRunner_1_tF277B20625C8B1939DC85508C4679C690757395E;
 // UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween>
 struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
 // UnityEngine.Events.UnityAction`1<System.Boolean>
@@ -302,6 +228,8 @@ struct ValueCollection_t038245E04B5D2A80048D9F8021A23E69A0C9DBAA;
 struct ValueCollection_tC039743F3DF97A944D4DC9D36739F442375E5D80;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Photon.Chat.Demo.FriendItem>
 struct ValueCollection_t8EC9654DB430A0670ECC121F80DD606DBBC2A3EC;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,UnityEngine.GameObject>
+struct ValueCollection_tAA4B91D1FC6E3150E12FB777D5C1A8530004C5D1;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Object>
 struct ValueCollection_tC9D91E8A3198E40EA339059703AB10DFC9F5CC2E;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,UnityEngine.UI.Toggle>
@@ -312,6 +240,8 @@ struct EntryU5BU5D_t1E85CBF91297C9D62A0FC2AD29FD24E33C8A5E54;
 struct EntryU5BU5D_t4D8D831A3B049F41AC0645D0DE9994241B9C0926;
 // System.Collections.Generic.Dictionary`2/Entry<System.String,Photon.Chat.Demo.FriendItem>[]
 struct EntryU5BU5D_t4B0A754922A68A443DD292FC1FE964E8F66BE571;
+// System.Collections.Generic.Dictionary`2/Entry<System.String,UnityEngine.GameObject>[]
+struct EntryU5BU5D_tBC8769FFC7ECC10C2740A220C39736B63B151E29;
 // System.Collections.Generic.Dictionary`2/Entry<System.String,System.Object>[]
 struct EntryU5BU5D_t233BB24ED01E2D8D65B0651D54B8E3AD125CAF96;
 // System.Collections.Generic.Dictionary`2/Entry<System.String,UnityEngine.UI.Toggle>[]
@@ -368,8 +298,6 @@ struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
 struct TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99;
 // TMPro.TMP_ColorGradient[]
 struct TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A;
-// System.Type[]
-struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
 // Photon.Realtime.TypedLobbyInfo[]
 struct TypedLobbyInfoU5BU5D_t799EE885B0FB997851DAB1806D3EC4EF57F7CD8A;
 // UnityEngine.UIVertex[]
@@ -384,6 +312,8 @@ struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
 struct WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9;
 // ReadmeVE2/Section[]
 struct SectionU5BU5D_t2EEAA263E2EA4EDB86785AC27FCB38BBF1CCCF4E;
+// TMPro.TMP_Dropdown/OptionData[]
+struct OptionDataU5BU5D_tEB78063B7582A72D41E99569EB93D519AC75F615;
 // TMPro.TMP_Text/UnicodeChar[]
 struct UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5;
 // UnityEngine.XR.ARCore.ARCoreFaceSubsystem
@@ -398,16 +328,10 @@ struct ARFaceManager_tE5955187C9D7C9C4C4139F522DA0DEA69EFCFD8F;
 struct ARSessionOrigin_tE7B28A1A19500BCC02711397A19E330425830BC3;
 // System.AggregateException
 struct AggregateException_t51B6205846DFB356B94452702201DD239D44422F;
-// UnityEngine.AndroidJavaClass
-struct AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03;
-// UnityEngine.AndroidJavaObject
-struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0;
 // UnityEngine.UI.AnimationTriggers
 struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074;
 // Photon.Realtime.AppSettings
 struct AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7;
-// System.AsyncCallback
-struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
 // AuthManager
 struct AuthManager_t0B9C7D3558DD3713DB6E7648217B8650A1EF5570;
 // Photon.Chat.AuthenticationValues
@@ -422,12 +346,12 @@ struct BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F;
 struct BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622;
 // UnityEngine.EventSystems.BaseInputModule
 struct BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1;
-// Google.Impl.BaseObject
-struct BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C;
 // UnityEngine.EventSystems.BaseRaycaster
 struct BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832;
 // UnityEngine.Behaviour
 struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+// UnityEngine.UI.Button
+struct Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098;
 // UnityEngine.Camera
 struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
 // UnityEngine.Canvas
@@ -448,8 +372,6 @@ struct ChatClient_t55B701443AAF83A83E3CD42D4C33F0A1092038BA;
 struct ChatGui_t95A365F823D02D80BB5F9C8AD147D503E7075F25;
 // Photon.Chat.ChatPeer
 struct ChatPeer_t216E56C8D1791380415477470013A3787DF76D43;
-// System.Globalization.CodePageDataItem
-struct CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2;
 // Collector
 struct Collector_t6F8A96905959E964BF21E2149DF26140E30193B4;
 // UnityEngine.Collider
@@ -468,24 +390,16 @@ struct ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4;
 struct ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007;
 // UnityEngine.Coroutine
 struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
-// CreateRooms
-struct CreateRooms_t8F637340D2C664CBA027E8DFAC5D7BACA057A99C;
-// Firebase.Auth.Credential
-struct Credential_t32FB2E0F8AAA0B6895D10531CE82C9FBD27E27D1;
+// CreateManager
+struct CreateManager_tBC3A227292771D21AE6084A86B239D95363F62BA;
 // Firebase.Database.DataSnapshot
 struct DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A;
 // Firebase.Database.DatabaseReference
 struct DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D;
-// System.Text.DecoderFallback
-struct DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90;
 // System.Delegate
 struct Delegate_t;
 // System.DelegateData
 struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
-// System.Text.EncoderFallback
-struct EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293;
-// System.Text.Encoding
-struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095;
 // Photon.Realtime.EnterRoomParams
 struct EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9;
 // System.Enum
@@ -500,8 +414,6 @@ struct EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82;
 struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707;
 // Photon.Chat.UtilityScripts.EventSystemSpawner
 struct EventSystemSpawner_t823C33A21E4332F5D407768DB424BBDB0D17C77D;
-// System.Exception
-struct Exception_t;
 // Firebase.FirebaseApp
 struct FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25;
 // Firebase.Auth.FirebaseAuth
@@ -522,40 +434,24 @@ struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
 struct GameOverScript_tDEBA863B007708C2DD3D1C4ED2F6C2AAC280EF29;
 // GameUI
 struct GameUI_t131F7F7F82473CAFC8221B739FABB71C0709C737;
-// UnityEngine.GlobalJavaObjectRef
-struct GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8;
-// Google.GoogleSignIn
-struct GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA;
-// Google.GoogleSignInConfiguration
-struct GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8;
-// GoogleSignInDemo
-struct GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA;
-// Google.Impl.GoogleSignInImpl
-struct GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349;
-// Google.GoogleSignInUser
-struct GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA;
 // UnityEngine.UI.Graphic
 struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931;
 // ExitGames.Client.Photon.Hashtable
 struct Hashtable_tD626399B3ADFD501225241D7366103F35472542A;
-// System.IAsyncResult
-struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
 // Photon.Chat.IChatClientListener
 struct IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F;
 // System.Collections.IDictionary
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 // System.Collections.IEnumerator
 struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
-// System.Runtime.Serialization.IFormatterConverter
-struct IFormatterConverter_t726606DAC82C384B08C82471313C340968DDB609;
 // UnityEngine.EventSystems.IScrollHandler
 struct IScrollHandler_t762CB73017D561E11CF6759ED9FD8C9F24B3D13F;
-// Google.ISignInImpl
-struct ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B;
 // TMPro.ITextPreprocessor
 struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
 // Photon.Chat.Demo.IgnoreUiRaycastWhenInactive
 struct IgnoreUiRaycastWhenInactive_t4DD606784A41379E617458D4FF2D041690E7BAEF;
+// UnityEngine.UI.Image
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
 // Photon.Realtime.InRoomCallbacksContainer
 struct InRoomCallbacksContainer_t7730C9DD20B72CC201052C5E6FC914E6FD4B1488;
 // UnityEngine.UI.InputField
@@ -572,14 +468,14 @@ struct InternalFirebaseDatabase_t375ADD0CA0D457E7F6858480AA98A4FA4A7F106F;
 struct InternalQuery_t6B3F50FC807DA356BFE336164947861537E38056;
 // Firebase.Database.Internal.InternalValueListener
 struct InternalValueListener_t0914895A956DEA80C13F2827A43BD7B753834D2D;
-// System.InvalidOperationException
-struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB;
 // UnityEngine.Events.InvokableCallList
 struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
 // UnityEngine.UI.LayoutElement
 struct LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A;
 // UnityEngine.UI.LayoutGroup
 struct LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE;
+// ListManager
+struct ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E;
 // Photon.Realtime.LoadBalancingClient
 struct LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4;
 // Photon.Realtime.LoadBalancingPeer
@@ -602,8 +498,6 @@ struct MonoBehaviourPunCallbacks_t0B3C6A2FD0A09450A8505ACD42A647F3BCE6D783;
 struct MoveBackground_t83B4E3B71451B353DDD564A1B497A500A384B7CF;
 // Photon.Chat.Demo.NamePickGui
 struct NamePickGui_t8C0368B20268692BC4311641FC79610CCD7FB56B;
-// Google.Impl.NativeFuture
-struct NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F;
 // System.NotSupportedException
 struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
 // UnityEngine.Object
@@ -616,14 +510,20 @@ struct OpJoinRandomRoomParams_t5DCB0B5EBE3D5C35A483669A8D997D47E17D6DBA;
 struct OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED;
 // UnityEngine.Events.PersistentCallGroup
 struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
+// PhotonManager
+struct PhotonManager_tE7B7BB65B400FA3711AD3933F030339B19AB8701;
 // Photon.Pun.PhotonView
 struct PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B;
+// PlayManager
+struct PlayManager_t2470BB88EEAFDBD1E0950039FF547015A6054588;
 // Player
 struct Player_tF98BD09D3495D2FF1922E5D34866AEAC6AE2DF74;
 // Photon.Realtime.Player
 struct Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C;
 // UnityEngine.EventSystems.PointerEventData
 struct PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB;
+// PtManager
+struct PtManager_t8887E0870E41747994F9241D2027B7E47E34C255;
 // Firebase.Database.Query
 struct Query_tA5BE8BD73821BF548F4FC7A3E4BE684B0CCC31ED;
 // ReadmeVE2
@@ -642,6 +542,10 @@ struct RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB;
 struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
 // Photon.Realtime.Room
 struct Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373;
+// RoomData
+struct RoomData_t71B5840FC00FB76330915516518BAF3070CD3956;
+// Photon.Realtime.RoomInfo
+struct RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D;
 // Photon.Realtime.RoomOptions
 struct RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23;
 // System.Runtime.Serialization.SafeSerializationManager
@@ -654,14 +558,8 @@ struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
 struct Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3;
 // UnityEngine.UI.Selectable
 struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712;
-// System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37;
 // Photon.Pun.ServerSettings
 struct ServerSettings_t41BE4338E7E76BFB4919D4039BAFC6799E242152;
-// Google.Impl.SignInHelperObject
-struct SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B;
-// SignInSample.SigninSampleScript
-struct SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0;
 // UnityEngine.Sprite
 struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
 // System.Threading.Tasks.StackGuard
@@ -678,6 +576,8 @@ struct SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455;
 struct TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35;
 // TMPro.TMP_ColorGradient
 struct TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB;
+// TMPro.TMP_Dropdown
+struct TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504;
 // TMPro.TMP_FontAsset
 struct TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160;
 // TMPro.TMP_InputField
@@ -738,14 +638,10 @@ struct TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9;
 struct UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3;
 // UnityEngine.Events.UnityAction
 struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
-// System.Uri
-struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E;
-// System.UriParser
-struct UriParser_t920B0868286118827C08B08A15A9456AF6C19D81;
+// UnityEngine.Events.UnityEvent
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
 // Firebase.Auth.UserProfile
 struct UserProfile_t6D157B509640316F20D5DDD5A2BEA9FB952A269B;
-// System.ValueType
-struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F;
 // UnityEngine.UI.VertexHelper
 struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
 // System.Void
@@ -762,6 +658,8 @@ struct WebRpcCallbacksContainer_t88E62A57DFEECEC90CE6EC40A270C0C188AD1851;
 struct XRFaceSubsystem_t93DD9DDD21C06E5A591BB0094512BC8FD8A890D3;
 // UnityEngine.XR.ARSubsystems.XRFaceSubsystemDescriptor
 struct XRFaceSubsystemDescriptor_t44596C9878EB76583452C5F5BF6FA78FA9EB171F;
+// study
+struct study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C;
 // AuthManager/<>c__DisplayClass20_0
 struct U3CU3Ec__DisplayClass20_0_t5CFD6B2B8D7013F94F7D08AC7AF631A5EEA6F96F;
 // AuthManager/<>c__DisplayClass21_0
@@ -772,8 +670,8 @@ struct U3CU3Ec__DisplayClass21_1_tF63973918D49456ED4597880F8C1F74A7D6F43B9;
 struct U3CLoginU3Ed__20_t7EF2D933C00DB987B71014BE2FE5C39FEF3095FB;
 // AuthManager/<Register>d__21
 struct U3CRegisterU3Ed__21_t2B0BE975578D25717047499BF44474ECCF9ADC5B;
-// Google.Impl.BaseObject/OutStringMethod
-struct OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5;
+// UnityEngine.UI.Button/ButtonClickedEvent
+struct ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C;
 // UnityEngine.Camera/CameraCallback
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 // Firebase.Database.DataSnapshot/DataSnapshotList
@@ -794,8 +692,6 @@ struct U3CLoadUserDataU3Ed__12_tAFA25DEE183A771C437AE24AECE990FCEA055E91;
 struct U3CUpdateScoresU3Ed__11_t2936611AC7D7C0E77791B5002FDF28FED9C88B58;
 // GameOverScript/<UpdateUsernameDatabase>d__10
 struct U3CUpdateUsernameDatabaseU3Ed__10_tDB613E1F903041CCC50B2DA73E572E2952B9F0DF;
-// Google.GoogleSignIn/SignInException
-struct SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A;
 // UnityEngine.UI.InputField/EndEditEvent
 struct EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655;
 // UnityEngine.UI.InputField/OnChangeEvent
@@ -806,14 +702,18 @@ struct OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B;
 struct SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D;
 // UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
-// Google.Impl.NativeFuture/<>c__DisplayClass5_0
-struct U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08;
 // UnityEngine.EventSystems.PointerInputModule/MouseState
 struct MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09;
 // ReadmeVE2/Section
 struct Section_tEDD4920C6708ADCF290433A102F21FDCC3788219;
 // UnityEngine.RectTransform/ReapplyDrivenProperties
 struct ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24;
+// TMPro.TMP_Dropdown/DropdownEvent
+struct DropdownEvent_tFD4609E80240BC887A6D31F9F3C252A8A6843E91;
+// TMPro.TMP_Dropdown/OptionData
+struct OptionData_tFDFBCB4A5FB860E95AE46FDAC112DB4140A8525E;
+// TMPro.TMP_Dropdown/OptionDataList
+struct OptionDataList_tF66EA4801BFA499F010E6EFF89ED760BF4F0BEE1;
 // TMPro.TMP_InputField/OnChangeEvent
 struct OnChangeEvent_tDBB13012ABF81899E4DFDD82258EB7E9BB7A9F1D;
 // TMPro.TMP_InputField/OnValidateInput
@@ -832,22 +732,17 @@ struct ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540;
 struct ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02;
 // TumbleGenerator/<CreatepoopRoutine>d__3
 struct U3CCreatepoopRoutineU3Ed__3_t1F5F25CB008D3725D6AC96D62670A77285C2CDBD;
-// System.Uri/UriInfo
-struct UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09;
 // UnityEngine.XR.ARSubsystems.XRFaceSubsystem/Provider
 struct Provider_t7030F6D06C0B37E868033A148F7C8615413D5322;
 
 IL2CPP_EXTERN_C RuntimeClass* ARCoreFaceSubsystem_tF4F2ADEB42EF501D168B4F54F0A2422628620841_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t0A16CC637B74FE43A20D2784BCA3172E7D13789C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t72552EB3CFD9D41493135164276F7EE71F1132FC_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Action_1_t7A72BB5CDA51C7604122D1F351F54CD826121DA9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_tD013146E11DC5068784A80C11B7415DC9FE54B74_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Action_1_tF52889A7B072E11E8880182FD8F7D44219989077_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ChatAppSettings_tF76C214B6AA76ACABCEFC447A2CEC798F2B8C689_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ChatClient_t55B701443AAF83A83E3CD42D4C33F0A1092038BA_il2cpp_TypeInfo_var;
@@ -856,54 +751,39 @@ IL2CPP_EXTERN_C RuntimeClass* ChatState_t051505084374FEB7E666EAF9C3D7A8DFBA5119D
 IL2CPP_EXTERN_C RuntimeClass* ClientState_t37749736ADC28D4E9C0B442B1DC988F76AAE4FA3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DependencyStatus_t9DA2DB2B2AC17E9DA549331B93778091496D8195_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t81CDBCC3EE792C8E1D91B3B813023F3869819C2E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tB5C506327C00DCF5D204A9E25318949AEBE4DC48_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DisconnectCause_t2C4E3D34FE0D1842B3C915A63ECCE068B8A258E5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Enumerator_tAFEE8A4F172FB9538B933346DAA2B6D97F6A3F08_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Extensions_t7A83CB812F88E252E8AEFBDB2325836C473E0BA7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* FirebaseAuth_tD2FC1EC1E5B6EF920276AFABA103B8B7E2AE2DAF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* FirebaseDatabase_t39655E1CF62FCA36F81637138EABB8E0E88FF960_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* GoogleAuthProvider_t646272DD18929729FAEDA1A1F2CAD87CC5DB8D6E_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* GoogleSignInStatusCode_t3AEC2A455C7DB2C736F01D352EA10EFDCB011D7B_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IEnumerable_1_tBC9C31DD44D05A2C774F76CC1C6C912FB9541D70_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IEnumerator_1_t4E0F3B7704316E8AB75E2D31CCAA4790C47642AC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IEnumerator_1_t89D6D9FAD8F93015339F011596FA51B8F53D3248_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IEnumerator_1_tF15715088C2FF1D64704AE886A3A152AFCECCC36_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IntPtr_t_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Player_tF98BD09D3495D2FF1922E5D34866AEAC6AE2DF74_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CCreatepoopRoutineU3Ed__3_t1F5F25CB008D3725D6AC96D62670A77285C2CDBD_il2cpp_TypeInfo_var;
@@ -918,46 +798,41 @@ IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass13_0_t4B7912DE31DF071FE55836B
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass20_0_t5CFD6B2B8D7013F94F7D08AC7AF631A5EEA6F96F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass21_0_tCDA07D298E2BBC7765F169A434158718C87551C5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass21_1_tF63973918D49456ED4597880F8C1F74A7D6F43B9_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CUpdateScoresU3Ed__11_t2936611AC7D7C0E77791B5002FDF28FED9C88B58_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CUpdateUsernameDatabaseU3Ed__10_tDB613E1F903041CCC50B2DA73E572E2952B9F0DF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* UIntPtr_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UserProfile_t6D157B509640316F20D5DDD5A2BEA9FB952A269B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719;
-IL2CPP_EXTERN_C String_t* _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD;
 IL2CPP_EXTERN_C String_t* _stringLiteral011D7D9D78DC2A4EA6437F75F6AE9C5B1D038EC5;
 IL2CPP_EXTERN_C String_t* _stringLiteral02B3E56E4708FA9AEED0B607268A8985B53DDF13;
 IL2CPP_EXTERN_C String_t* _stringLiteral0452993E7E39F6C1DC0BF5E853F347E87AD7E059;
 IL2CPP_EXTERN_C String_t* _stringLiteral082576EB9F2E2B76D67FA35A3C7E0396F0AD9AAD;
+IL2CPP_EXTERN_C String_t* _stringLiteral0877B694B974C44CB75EC02B68E8ED0946D9C4E0;
 IL2CPP_EXTERN_C String_t* _stringLiteral0CCFD69444F343A43D9B34E72AE10A9C37F6402F;
 IL2CPP_EXTERN_C String_t* _stringLiteral0E3E7A9A92462225FFAF23BB1259E1BCFCEDDD0F;
 IL2CPP_EXTERN_C String_t* _stringLiteral0F45C1C537BBADB2FE21CC7BB49C59898B204E6E;
 IL2CPP_EXTERN_C String_t* _stringLiteral118410E0D4EC44AA2FCD3142030E47DC49A64A18;
-IL2CPP_EXTERN_C String_t* _stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46;
 IL2CPP_EXTERN_C String_t* _stringLiteral1729AC1B7F3D22492501BEF772B5BFDEBCF05B70;
 IL2CPP_EXTERN_C String_t* _stringLiteral187DC7C8E0EDA1DE1ED6DF6A69E16E1804984856;
 IL2CPP_EXTERN_C String_t* _stringLiteral18BA82A745D9E10EF604341BD4FA08FA6FBF82D5;
-IL2CPP_EXTERN_C String_t* _stringLiteral1B563236F0487C13B4A443A8D3714AFEA0BA4D09;
-IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
 IL2CPP_EXTERN_C String_t* _stringLiteral251AE59173D4879DB35E3086D4F7EA636FB61A02;
 IL2CPP_EXTERN_C String_t* _stringLiteral25D19D44AE79EC606DD671C43230AAA8F1766EE6;
+IL2CPP_EXTERN_C String_t* _stringLiteral27CB707154B10ABD5CC4DF65CB8CBCE3370185BE;
 IL2CPP_EXTERN_C String_t* _stringLiteral27F8746362C24CE15D0F5F0972CA224EA8E5153D;
 IL2CPP_EXTERN_C String_t* _stringLiteral28B7EDF9E324F8C7C00DCE82B9611E6089187E1F;
 IL2CPP_EXTERN_C String_t* _stringLiteral2BA70D55F8FA9548CA6486737C1FD9A52D36A99D;
-IL2CPP_EXTERN_C String_t* _stringLiteral2C41540AEBC151A2E6CD9946AB44FF2F4AD09541;
 IL2CPP_EXTERN_C String_t* _stringLiteral2C91CEEB5E6ACD712F102DE9EE44CB907B557A17;
 IL2CPP_EXTERN_C String_t* _stringLiteral2CF92EC7B23B36633F4DA9A7EF31BCCE389A90FC;
 IL2CPP_EXTERN_C String_t* _stringLiteral2D4D2941C9914975DAEACD50AB8D9994045DE3A7;
-IL2CPP_EXTERN_C String_t* _stringLiteral2E1AD0E83130989E2515696D6D5B828CD141AAE6;
 IL2CPP_EXTERN_C String_t* _stringLiteral2E1D0B7FC6AE1E4699086BAFDFD167B73A71BF62;
+IL2CPP_EXTERN_C String_t* _stringLiteral2EFB4501D2CC45CE6947269EDD2EC421A585AB27;
 IL2CPP_EXTERN_C String_t* _stringLiteral300E1362F835BABF048E880C8978EF4F91E3867D;
 IL2CPP_EXTERN_C String_t* _stringLiteral31775E5380AC9751F2E61EA3DD24D9243DE804B1;
-IL2CPP_EXTERN_C String_t* _stringLiteral31CB1FB0AE3C8ADEC71025E6C3D308425A223BD7;
 IL2CPP_EXTERN_C String_t* _stringLiteral3260331AF5DA53ABC7CA7BAF659CF8D9FC93DEC7;
 IL2CPP_EXTERN_C String_t* _stringLiteral3293A8518D7DEE9D1DE57B7241DE59F641197895;
 IL2CPP_EXTERN_C String_t* _stringLiteral350B2E03F6B7193079F6F6DCE208EB7D98736C79;
@@ -966,14 +841,17 @@ IL2CPP_EXTERN_C String_t* _stringLiteral38DB4AF6DBE7A8DBCC3821BE5605A5BB55BCB3D4
 IL2CPP_EXTERN_C String_t* _stringLiteral3BED3F12616AB9E273949CAA495970AD10853EA4;
 IL2CPP_EXTERN_C String_t* _stringLiteral4036CB682368F57A752F1AE948975DAB7499EACE;
 IL2CPP_EXTERN_C String_t* _stringLiteral41540A8C28BA5EDA9B41BEBBF344C748063CDB90;
+IL2CPP_EXTERN_C String_t* _stringLiteral41A669C3436C19EF8AA234E394071BDC3207CDEF;
+IL2CPP_EXTERN_C String_t* _stringLiteral41B6C0CA414D79DC2165A96CE14B74ABD51B54D8;
+IL2CPP_EXTERN_C String_t* _stringLiteral423161D572C0F173F181EBD180567D0C737EDB7C;
 IL2CPP_EXTERN_C String_t* _stringLiteral471E512CD36A060B52A0EE28B8A6D4EEC00378C1;
 IL2CPP_EXTERN_C String_t* _stringLiteral4A36DF6525515FE29AEB2A52B49635745B5D8E56;
 IL2CPP_EXTERN_C String_t* _stringLiteral4A40D860326E4F58DF247BAAC9F338720FCF0B75;
-IL2CPP_EXTERN_C String_t* _stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078;
+IL2CPP_EXTERN_C String_t* _stringLiteral4B45CA1576D910692CC3B5D14C08CBCDFAD7B89E;
+IL2CPP_EXTERN_C String_t* _stringLiteral4B4D41CA4D61B88FD06F9A4C1428B11259718880;
 IL2CPP_EXTERN_C String_t* _stringLiteral4E38E2B4F159337570AD4E9656D4BDAF8B0EBCF1;
 IL2CPP_EXTERN_C String_t* _stringLiteral51A2A31C6BE06A875B38C23E9AAAB8F515193ABB;
 IL2CPP_EXTERN_C String_t* _stringLiteral5224DE4337BB6DBE135E6B5A4D01069A20195D5F;
-IL2CPP_EXTERN_C String_t* _stringLiteral56AD00A3BBD3193180AA5FC557AB2FB212F215AE;
 IL2CPP_EXTERN_C String_t* _stringLiteral5C592054C6C435A35F51D996805CA03942ABA180;
 IL2CPP_EXTERN_C String_t* _stringLiteral5D6A39CF1E3A2BB7700481DB871D78DDB02A911D;
 IL2CPP_EXTERN_C String_t* _stringLiteral5DAD4B412BEFB535CF54146E048A5A42C9885B40;
@@ -981,161 +859,159 @@ IL2CPP_EXTERN_C String_t* _stringLiteral5DF695F96AE9B00DBD2CB8F12E765C3159E02AF8
 IL2CPP_EXTERN_C String_t* _stringLiteral60D25464A0D2697B9DE85A8CE7C6E223B98C82E6;
 IL2CPP_EXTERN_C String_t* _stringLiteral61A3527EAD86265D48CCE213595C5713FE232702;
 IL2CPP_EXTERN_C String_t* _stringLiteral649598B307445E90C6B685E1F1CC6F5B25EF58A0;
-IL2CPP_EXTERN_C String_t* _stringLiteral68CCAEFA2D0D8C4A9C1B054BB5F1AF05C8E3F4AC;
 IL2CPP_EXTERN_C String_t* _stringLiteral68F5DF034AC515CE0908C38EB970C8491261791B;
 IL2CPP_EXTERN_C String_t* _stringLiteral693BD22F82043985FDDDDFCF5E8EC15BF8B82934;
 IL2CPP_EXTERN_C String_t* _stringLiteral6C066B34F4DB79023C0642AFBC43B25A5327F710;
 IL2CPP_EXTERN_C String_t* _stringLiteral6C8EA4ECB883AD669394FC7A5E304891A38ADED4;
-IL2CPP_EXTERN_C String_t* _stringLiteral6E40237CE35F568B52E1573FB6FC9FCF01431DB1;
-IL2CPP_EXTERN_C String_t* _stringLiteral7067AB5E2CC204BF29B7F45AC481487A7577D24A;
+IL2CPP_EXTERN_C String_t* _stringLiteral6EAF513ECC771F6CCDF6B1A84E073A795DA4F019;
 IL2CPP_EXTERN_C String_t* _stringLiteral710F81E0EEB8CB48BACB8437BA5836E3B5349235;
-IL2CPP_EXTERN_C String_t* _stringLiteral72479C2E2CD4DACBD6155ABD5D0DEC816E33D007;
-IL2CPP_EXTERN_C String_t* _stringLiteral725A2F73B9AC862B4466B7C7B1287663C2C79392;
+IL2CPP_EXTERN_C String_t* _stringLiteral7161076D7395E50E54C499BBB6A349DFD8B4206B;
 IL2CPP_EXTERN_C String_t* _stringLiteral749075B76F6B9EE93C642593520AC53B22A37AD2;
 IL2CPP_EXTERN_C String_t* _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D;
-IL2CPP_EXTERN_C String_t* _stringLiteral769A2FDAB9A0B414C5BC97D6424E60561429FDA7;
+IL2CPP_EXTERN_C String_t* _stringLiteral76C7E2B6863239C9C0BDC686A19A515F4A193272;
 IL2CPP_EXTERN_C String_t* _stringLiteral77F781BE1FA4EBA75ACC2DC942D3D87126A499DB;
-IL2CPP_EXTERN_C String_t* _stringLiteral79098B9D29578596CA3BA3FCEDAFB6AF622D9AFD;
+IL2CPP_EXTERN_C String_t* _stringLiteral78AC7D7C60C77BDAFA4214037F5C75E49F19D9EC;
 IL2CPP_EXTERN_C String_t* _stringLiteral7A65EFC5BB52048E35B0D3E2214BCF8CE116440A;
 IL2CPP_EXTERN_C String_t* _stringLiteral86C677CA2B54E7E4E81E71A6AF30E985B484A0AF;
 IL2CPP_EXTERN_C String_t* _stringLiteral874B44224F18F36331C71DD74FC25E8318DDFFD1;
 IL2CPP_EXTERN_C String_t* _stringLiteral87F8ED9157125FFC4DA9E06A7B8011AD80A53FE1;
 IL2CPP_EXTERN_C String_t* _stringLiteral88A4E835FC47194C325AC1B4075B94D15767248A;
-IL2CPP_EXTERN_C String_t* _stringLiteral8A3C71AF924D8E06B6442B912950178D34D1D459;
+IL2CPP_EXTERN_C String_t* _stringLiteral89D33A783CE8A53A51ACF82D07882722D22D94F0;
 IL2CPP_EXTERN_C String_t* _stringLiteral8CB7873CC9B86C1D67BF2A619181392B42B2481F;
 IL2CPP_EXTERN_C String_t* _stringLiteral93CD26FD25F534D18F21EBB330F02E0264AC3C8C;
-IL2CPP_EXTERN_C String_t* _stringLiteral962269072F3961C2E18D99209371CDF907485650;
+IL2CPP_EXTERN_C String_t* _stringLiteral949DC6B7D0D0C6725A186D9C74E5BEB3177BEC0B;
 IL2CPP_EXTERN_C String_t* _stringLiteral97C687FE2BA83A46207E9F527A74483A969631E0;
 IL2CPP_EXTERN_C String_t* _stringLiteral9A80AEC2241FE68DD38E9B7CE61BB9FF44CA1C9C;
-IL2CPP_EXTERN_C String_t* _stringLiteralA01907B77A31AFB8179089C6C1315EF4D713C528;
+IL2CPP_EXTERN_C String_t* _stringLiteral9C3FB791F016B7BFCF083947D04F31460AAF7256;
+IL2CPP_EXTERN_C String_t* _stringLiteral9D14E5362643052CBC1272D33647E288FFD2D3DE;
 IL2CPP_EXTERN_C String_t* _stringLiteralA1533BFD28F11C5F69CA87886E87821ECA526FE4;
 IL2CPP_EXTERN_C String_t* _stringLiteralA36D615703FF124A704E046433369D41AA86C957;
-IL2CPP_EXTERN_C String_t* _stringLiteralA50A6E76F74CB37393FE5A385EC3A6B2292828BB;
 IL2CPP_EXTERN_C String_t* _stringLiteralA7077659D26DAF185E52E2F2B77A29B3A2B818C1;
 IL2CPP_EXTERN_C String_t* _stringLiteralB0FCA8366BCD21BE68B6C6AA8B2A93EF87AA7843;
 IL2CPP_EXTERN_C String_t* _stringLiteralB3664676F50F442E724FBD9CC58E7261F51AA12F;
 IL2CPP_EXTERN_C String_t* _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D;
 IL2CPP_EXTERN_C String_t* _stringLiteralB3FEAEA4C5059111E646DEB46FED77ADE98A2231;
 IL2CPP_EXTERN_C String_t* _stringLiteralB61F8E5C6788E7093D4F1DE579EBD7C233090B94;
-IL2CPP_EXTERN_C String_t* _stringLiteralB634F91633E984D468333150C9AD36DE0AEE1313;
 IL2CPP_EXTERN_C String_t* _stringLiteralB713861CAB87662EBFB24FBCB6F5E0E05B61DCBC;
+IL2CPP_EXTERN_C String_t* _stringLiteralB84DC5040CB137628BF548FA31487845DD3AEE05;
 IL2CPP_EXTERN_C String_t* _stringLiteralB976F03F2381A534E3CC2E49ACC1D99CC0EF3CB0;
 IL2CPP_EXTERN_C String_t* _stringLiteralBB2B5CD40AAFED5DEDA2A4DAF008E2E0CBD5769F;
+IL2CPP_EXTERN_C String_t* _stringLiteralBD69126B1E29CEDDB426B9A2EBFC9D4F63297CDF;
 IL2CPP_EXTERN_C String_t* _stringLiteralBE1823106E03B1A8E37190FA81CAA82064505504;
 IL2CPP_EXTERN_C String_t* _stringLiteralBE4EEAA3C538A66727E1F57EEFC277047842C14C;
-IL2CPP_EXTERN_C String_t* _stringLiteralC0754FDF23997684A1B21D12B3615491395FF300;
-IL2CPP_EXTERN_C String_t* _stringLiteralC0FB029805CBCB22337E4FACB58390B826F18767;
+IL2CPP_EXTERN_C String_t* _stringLiteralC0C79EC81FEA68E400EC63F0A48D8B0898311DB6;
+IL2CPP_EXTERN_C String_t* _stringLiteralC3C4194F28A1CE9A08BA2AEBABF2BC72C8DB6917;
+IL2CPP_EXTERN_C String_t* _stringLiteralC4DE1419362BF6A7F99BBEDAB9EE716C0186D651;
 IL2CPP_EXTERN_C String_t* _stringLiteralC62B61BC27E509D700023566A09D2AE606BE85A7;
 IL2CPP_EXTERN_C String_t* _stringLiteralC72C2314A460F678226BD8CA9632783080529707;
 IL2CPP_EXTERN_C String_t* _stringLiteralC7A7939E82BEFEF8DDB755713442AA62963F09F8;
+IL2CPP_EXTERN_C String_t* _stringLiteralC9EB4D5EDED6C499E39DBC0747B03DBCD05A4B56;
 IL2CPP_EXTERN_C String_t* _stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70;
+IL2CPP_EXTERN_C String_t* _stringLiteralCBFC6719607AF2CE4247A7787DA0E43EC996C3BA;
 IL2CPP_EXTERN_C String_t* _stringLiteralCCE149C7622A20B800C0F221FF927D6238C6DD62;
 IL2CPP_EXTERN_C String_t* _stringLiteralCED28B741BF2ECF7B56409AF0B029EB55488B7F4;
+IL2CPP_EXTERN_C String_t* _stringLiteralD01C20974A262C6DE75E128E2A1DA068CC95FA45;
 IL2CPP_EXTERN_C String_t* _stringLiteralD1D36DD52D288BAA734C3A66EA88755184746032;
 IL2CPP_EXTERN_C String_t* _stringLiteralD2681EBEAD1253065F56A4A5D99EEA247D510760;
 IL2CPP_EXTERN_C String_t* _stringLiteralD3992DF679A3EF8B96232992FF89A2B1F1DB5534;
-IL2CPP_EXTERN_C String_t* _stringLiteralD400EB487C20E145E8637C4026A2356D9E546258;
-IL2CPP_EXTERN_C String_t* _stringLiteralD6AEB00E2908EDBFDB9EF7E0BC9A94A5D2742E6C;
+IL2CPP_EXTERN_C String_t* _stringLiteralD556640CA939A396A502C8EF9F6218C38169D791;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA666908BB15F4E1D2649752EC5DCBD0D5C64699;
-IL2CPP_EXTERN_C String_t* _stringLiteralDAFAF1BA7E22CC639E69C44B0308455A786E3D91;
+IL2CPP_EXTERN_C String_t* _stringLiteralDAD7233DE88ECEAC1AC9C73422213CBAA14D6413;
 IL2CPP_EXTERN_C String_t* _stringLiteralDC1F3510848A0746EB239021E1E93E9B4882C36A;
 IL2CPP_EXTERN_C String_t* _stringLiteralDC77ED0D5D0C98459905864105D3E3DE54F734E9;
 IL2CPP_EXTERN_C String_t* _stringLiteralDDB48194C129977EFF1A1B05291484C11D5D1F33;
+IL2CPP_EXTERN_C String_t* _stringLiteralDEA81F6F6A0F01BA9447AF6F9F890D5FCD2564CD;
 IL2CPP_EXTERN_C String_t* _stringLiteralDEB153A4F640C1BF005F7E30CECC4A84EB08150A;
 IL2CPP_EXTERN_C String_t* _stringLiteralE01396087B968D8089649181D62173B42DA52091;
 IL2CPP_EXTERN_C String_t* _stringLiteralE0F902889DF6EC5CFE211AF8D1697BB12234DA66;
 IL2CPP_EXTERN_C String_t* _stringLiteralE1BA34E8407E1622C279AB6F6CAF3C807280392E;
 IL2CPP_EXTERN_C String_t* _stringLiteralE3A56BE62F0FB42D8062A17A4957C2142D815735;
+IL2CPP_EXTERN_C String_t* _stringLiteralE60E4C22A5878096D3426A40B0444E051D1A14FB;
 IL2CPP_EXTERN_C String_t* _stringLiteralE7593F0F59F343934DDAAD1D4F19212F69E109F5;
+IL2CPP_EXTERN_C String_t* _stringLiteralE8C2F4C855D425CAF74198B39CDD87CE604E52D3;
+IL2CPP_EXTERN_C String_t* _stringLiteralE968FA644085002C5024DB96D3FADA81F4FF5156;
 IL2CPP_EXTERN_C String_t* _stringLiteralEAE274AB10040EDBB8843AECC3AF3A733D1EEB10;
+IL2CPP_EXTERN_C String_t* _stringLiteralEAF6E0AF7D1D9CC936455F2E7B448D4044C5F795;
 IL2CPP_EXTERN_C String_t* _stringLiteralF0E91461B7ECDB6ABA60BFA77B9395C3A7DF66BE;
 IL2CPP_EXTERN_C String_t* _stringLiteralF31B94B5DA465CBFAD84F59BFEF43769EABD7471;
+IL2CPP_EXTERN_C String_t* _stringLiteralF3AAC41F392245954F6C99977B9B207A44747BCA;
 IL2CPP_EXTERN_C String_t* _stringLiteralF726A1EAC195324F63D384A1F2A33114361B699C;
 IL2CPP_EXTERN_C String_t* _stringLiteralF901E66F2A148065254F4D6B82528054EF835B28;
 IL2CPP_EXTERN_C String_t* _stringLiteralF903ABCF81417315694F4593925EE527D6C1258B;
 IL2CPP_EXTERN_C String_t* _stringLiteralF92A190C12CEED7C76A938934A21E2B08FF05353;
 IL2CPP_EXTERN_C String_t* _stringLiteralF92D1197FE7F9C3266589153D13221067FA7BB4A;
 IL2CPP_EXTERN_C String_t* _stringLiteralFB0DA295360002E063FF9B079B5E7DC3DB313083;
-IL2CPP_EXTERN_C String_t* _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9;
 IL2CPP_EXTERN_C String_t* _stringLiteralFC075BC3DFE942623230E78DC9D41126E9C003CA;
 IL2CPP_EXTERN_C String_t* _stringLiteralFCCA328F77D050FE98C954ABC27B722687F2666D;
+IL2CPP_EXTERN_C String_t* _stringLiteralFD97CE386A14430AC34652D84EFD63971F1F9D92;
 IL2CPP_EXTERN_C String_t* _stringLiteralFDB6E6D617A894CF6A5EC4195B7DBF4AFF000089;
 IL2CPP_EXTERN_C String_t* _stringLiteralFF8AEDAF918CF6EF3D306EB2FB9FA00A4D0FA453;
 IL2CPP_EXTERN_C const RuntimeMethod* ARFaceDetector_OnDetectFaceAll_m8257452250B13E2163DBACDA811E4FC903C685C8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AuthManager_U3CAwakeU3Eb__13_0_m8F5AE4C65ADFFC4210B06055F603C22CA9FCCEF3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AuthManager_U3CStartU3Eb__14_0_m321E1E5B6473F1234098D9BDD7A8242FCDF6E99E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisChannelSelector_t34DD9A1ABC8F1C22F244BCC3EF9237A2772FCF07_mA5CB24AADA6105A0763F0F315A95A0B02EB5A05E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA5C534600978A673C682FADEE1BBFE1B535981AA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m1D5533D50D961602AC2CD364E03388FFE2985259_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ConnectAndJoinRandomLb_OnRegionPingCompleted_mCD5E698C6C0900FF3ACDD4AA4FFC644BC4137CE5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m7AC008F2D3DCBB5019F0BE948B7F9B77284CC86C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_m43998BB50D68FD0B18E4445DED51EE80D6EF1643_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_m59078337ADC52ADAD50A20AEED7D3182E8A397C7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_mFC86DBD8CA71ACF273A1F7FB6CD2DAD53449653E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_GetEnumerator_m2D3C2B49D6B541197F1E118FE7D6F37AF46A08C5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_m4F6FEFABCBACA9B9B3DED9BFAB8BDA9B47FA678B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_m952BC71E0A6D29F848B1C6D854B9183CE0A5E83A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_mD172B7CDE8C2305E9FB368A39846E3C9B296EE32_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m05968164AFC47B4DAC2545E4FAC531C51F66C7FD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m1951C457B495EAFA02160F793A6277161FDCEA3F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Count_mFCFB38659217BF06006B6BC2FFD16389EF2A44EC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_m65B54189C1D9C6B6BD1BABB5755C0647EE39C89B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_mD91F54F913AE58A20D0D60800D7E13B3A81BCDBC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_mFDB00FBC9AEC3F5411BC17218005A2DDC01A4EE7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Reverse_TisDataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A_m08DD89FE0424A10F1AF354D5C1B7F5754588DFD9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m06019984AEF249BE743B261895FBDFCF3DE314FD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m592BCCE7B7933454DED2130C810F059F8D85B1D7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m92719F2AB1E7C98F138B83CBF16EABD2F5396F68_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m31C52E9AD3265C4BCC34BF3C5846DA6D587FCB8F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m950509CD692BEAA25841830AE3528B713C36DAC9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mDB93D545BDBD372A9CD6D03801E080A2A7F1B63F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mF6F3ECC910925263DF2A5278F4F56F520C1507A6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m203F7DE96857384187AB285095F071B84400B9B8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisSignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_m8DAAB2B6376C79FA30A3F2BCF3DB4DB73BBA61BF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisStandaloneInputModule_tD8B581E4A0A2A25B99EB002FF669C4EEED350530_m6BC8B0220453EC5DA3567FF1CB38951769B8277D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_m35DDE72490FF0112059E3A8C5F21DD893E2026C1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisFriendItem_t0E2F01000D15F090A4AD9582AE63599D97399F13_m0046B7B489607CF796C30CD83C51F1304D701F67_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisRoomData_t71B5840FC00FB76330915516518BAF3070CD3956_mBB50A862735CE05D3C4C9868AEE81FD1D2949CB7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisScoreElement_t7861A21B8EE27740DDDB646CC4363C8145575F18_m278487F3E473A15DF522B86743C8C7AAF78315F1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GoogleSignInDemo_OnAuthenticationFinished_m0822D7344EA34A7887FB4161DAE21ECEC6F3272A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GoogleSignInDemo_U3CCheckFirebaseDependenciesU3Eb__5_0_mF9E7261AAB8E560C914C210EDFAA9DB6333C4284_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GoogleSignInDemo_U3CSignInWithGoogleOnFirebaseU3Eb__12_0_m5F40E2976F925E6320FCB58131C54D3AA683037D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GoogleSignIn_set_Configuration_mF52DF04FFD80AA9BC83102B2F313D24C9D5FFA17_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisTMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F_m6CA031C91E5D203C24D3315721B6E3910B9C8729_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Key_m9A4008D157E7FA3D568FE444C0D926C78B1645B2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Value_m8C266329612FA91F72F7F4D9C3137D4448CD5E1D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m85AB5590D8E32D28B16798AC25EC6A3B8E68ABDE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m40149468AAE7FCFEF1EECCD589E065778B8B2769_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mD1A2E394D4FC47B9092FE11D1E27BC1AED671721_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m3CE69F7AFC5C8D9163AB00573AA430B8F6C9CADB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mBE3176F40529BACB1E6DBB68BDFD5894B04BD1BA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_FindObjectOfType_TisChatGui_t95A365F823D02D80BB5F9C8AD147D503E7075F25_m8674F5DCCB9AB970A69F1E68C2EC297A51FEE54A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_FindObjectOfType_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m60F8B739B5BA0140A146BCDB0A2B899A33E22C6B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m002192C406088F7BA156339AAA9B1BB5D69BE934_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m2537AA64AEAC12995F52F5B412866556B83CFBE0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mC898F7E3D9541F17BD8B79579FDD431C0651E12D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisToggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F_m15557773C5C7B03FA319A668FB60FD7A945F5A16_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1_GetEnumerator_m7B522F5E33A2823F23DAD24EE1819E5278D111FC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1_get_Item_mC1EEC8BBCB1499BF66A65D6A669B809CF9292628_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SigninSampleScript_OnAuthenticationFinished_m0680666536E9A264F02810790D6576D326A725C4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SigninSampleScript_U3CSignInWithGoogleOnFirebaseU3Eb__9_0_m97255D1312A063FF70CA55C26CAEA13EC2DDE635_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RoomData_U3Cset_RoomInfoU3Eb__5_0_mE4744DE9A5B29AEE8C18FD77FE95A901B102794E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SubsystemLifecycleManager_3_get_subsystem_m9CA48A439B89A0A18E080890C7A3D16F488A4232_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskExtension_ContinueWithOnMainThread_TisDependencyStatus_t9DA2DB2B2AC17E9DA549331B93778091496D8195_m75CDDCA9A61829EC012413658686CE32A0360EB5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Task_1_ContinueWith_m549608C19B9ED5ECA2FD9094527278477B3A2E38_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_ContinueWith_mAB52D6D57000543C9DD78F0D45BD7B66F819A0DD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_get_Result_m26F14C4A359E9DF5528B9C5045782846D1ABE73F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_get_Result_m36681BFC0C18C5D4B5E4AE484AFE932D7669887C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_get_Result_m543F02EC56EEA4AAED7101434F488D890414A3DA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TextToggleIsOnTransition_OnValueChanged_m5938ADE42C6A8502F7D225F42C9E8A6DD15833BA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CCreatepoopRoutineU3Ed__3_System_Collections_IEnumerator_Reset_m06B7885D4CEF68B219DD6B60F716A89B521462FD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CLoadScoreboardDataU3Ed__13_System_Collections_IEnumerator_Reset_mDF39F64F5A0B4DD894E513396587C76737911CF1_RuntimeMethod_var;
@@ -1149,18 +1025,11 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass13_0_U3CLoadScoreboard
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass20_0_U3CLoginU3Eb__0_mEFB322A9B0832B5FE6123B725B6DE1ABB305F04F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass21_0_U3CRegisterU3Eb__0_m3A49A598AB61E1C0E2329ECDBF5B83D6FF3156E4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass21_1_U3CRegisterU3Eb__1_m45F5874C205F32238684B6305B71A3CCFBD10A4B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__0_mAB7700145D3F1F675831CDCE9BEACC834D4BF96E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__1_m370A13175EEDCF49601E661321C8DD88FF6A1946_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__2_m8D0E1DF9DE52B683EF57BD1A25567E701CD782B5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__3_m49F63C5CB22AC3D69146172A0DF82EAAC45ACCD7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__4_mFABC6CF05697AC3A309FDF438B8AF5D6CED62147_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__5_mC2AB488643100B8EF8939922F768AB85AD2D284C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__6_m9DDEF005B688BBCB60877AC369DD209AA023D5B5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__7_mD0783088AA1B5B1F825807F640392ABFC3A3E5CA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CUpdateScoresU3Ed__11_System_Collections_IEnumerator_Reset_m0DB41E02FEC0036122BD9A448A94A41DCAB259C6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CUpdateUsernameDatabaseU3Ed__10_System_Collections_IEnumerator_Reset_mB4AADFBFBE9118B778D7312FBE1F2BB9361E2DE2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_RemoveListener_m5F1198F13FB2222BE8AABD6454B4D21086D0A130_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* study_U3Cset_RoomInfoU3Eb__5_0_m2EACEBE262AF335206FA75D87CB6FFA418DE82BF_RuntimeMethod_var;
 struct ContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
@@ -1170,7 +1039,6 @@ struct Exception_t_marshaled_pinvoke;
 struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4;
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
-struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
 
@@ -1263,6 +1131,31 @@ struct Dictionary_2_t81CDBCC3EE792C8E1D91B3B813023F3869819C2E  : public RuntimeO
 	RuntimeObject* ____syncRoot_9;
 };
 
+// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject>
+struct Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
+	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
+	EntryU5BU5D_tBC8769FFC7ECC10C2740A220C39736B63B151E29* ____entries_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_count
+	int32_t ____count_2;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
+	int32_t ____freeList_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeCount
+	int32_t ____freeCount_4;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_version
+	int32_t ____version_5;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
+	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_tB57CC90FD7461471159C351E10C1C4C745284454* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_tAA4B91D1FC6E3150E12FB777D5C1A8530004C5D1* ____values_8;
+	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
+	RuntimeObject* ____syncRoot_9;
+};
+
 // System.Collections.Generic.Dictionary`2<System.String,System.Object>
 struct Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710  : public RuntimeObject
 {
@@ -1311,13 +1204,6 @@ struct Dictionary_2_tB5C506327C00DCF5D204A9E25318949AEBE4DC48  : public RuntimeO
 	ValueCollection_t5777B20754B5D28BC1CC6B0576417443BB9FE136* ____values_8;
 	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
 	RuntimeObject* ____syncRoot_9;
-};
-
-// Google.Future`1<Google.GoogleSignInUser>
-struct Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B  : public RuntimeObject
-{
-	// Google.FutureAPIImpl`1<T> Google.Future`1::apiImpl
-	RuntimeObject* ___apiImpl_0;
 };
 
 // System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARFace>
@@ -1434,27 +1320,23 @@ struct List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15_StaticFields
 	TypedLobbyInfoU5BU5D_t799EE885B0FB997851DAB1806D3EC4EF57F7CD8A* ___s_emptyArray_5;
 };
 
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception>
-struct ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886  : public RuntimeObject
+// System.Collections.Generic.List`1<TMPro.TMP_Dropdown/OptionData>
+struct List_1_tCADFA900711C24701A9C70EE674B91FC45D42A52  : public RuntimeObject
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
-	RuntimeObject* ___list_0;
-	// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1::_syncRoot
-	RuntimeObject* ____syncRoot_1;
+	// T[] System.Collections.Generic.List`1::_items
+	OptionDataU5BU5D_tEB78063B7582A72D41E99569EB93D519AC75F615* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
 };
 
-// System.Threading.Tasks.TaskCompletionSource`1<Google.GoogleSignInUser>
-struct TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA  : public RuntimeObject
+struct List_1_tCADFA900711C24701A9C70EE674B91FC45D42A52_StaticFields
 {
-	// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1::_task
-	Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* ____task_0;
-};
-
-// System.Threading.Tasks.TaskCompletionSource`1<System.Object>
-struct TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37  : public RuntimeObject
-{
-	// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1::_task
-	Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* ____task_0;
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	OptionDataU5BU5D_tEB78063B7582A72D41E99569EB93D519AC75F615* ___s_emptyArray_5;
 };
 
 // UnityEngine.EventSystems.AbstractEventData
@@ -1462,21 +1344,6 @@ struct AbstractEventData_tAE1A127ED657117548181D29FFE4B1B14D8E67F7  : public Run
 {
 	// System.Boolean UnityEngine.EventSystems.AbstractEventData::m_Used
 	bool ___m_Used_0;
-};
-
-// UnityEngine.AndroidJavaObject
-struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0  : public RuntimeObject
-{
-	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaObject::m_jobject
-	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jobject_1;
-	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaObject::m_jclass
-	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jclass_2;
-};
-
-struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_StaticFields
-{
-	// System.Boolean UnityEngine.AndroidJavaObject::enableDebugPrints
-	bool ___enableDebugPrints_0;
 };
 
 // Photon.Realtime.AppSettings
@@ -1603,47 +1470,6 @@ struct DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A  : public RuntimeO
 	DataSnapshotList_t507B53E9191BB3AF6C5884F76D37DDE0FA99B5C7* ___parentList_3;
 };
 
-// System.Text.Encoding
-struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095  : public RuntimeObject
-{
-	// System.Int32 System.Text.Encoding::m_codePage
-	int32_t ___m_codePage_9;
-	// System.Globalization.CodePageDataItem System.Text.Encoding::dataItem
-	CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2* ___dataItem_10;
-	// System.Boolean System.Text.Encoding::m_deserializedFromEverett
-	bool ___m_deserializedFromEverett_11;
-	// System.Boolean System.Text.Encoding::m_isReadOnly
-	bool ___m_isReadOnly_12;
-	// System.Text.EncoderFallback System.Text.Encoding::encoderFallback
-	EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* ___encoderFallback_13;
-	// System.Text.DecoderFallback System.Text.Encoding::decoderFallback
-	DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90* ___decoderFallback_14;
-};
-
-struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
-{
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::defaultEncoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___defaultEncoding_0;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::unicodeEncoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___unicodeEncoding_1;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::bigEndianUnicode
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___bigEndianUnicode_2;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf7Encoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf7Encoding_3;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf8Encoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf8Encoding_4;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf32Encoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf32Encoding_5;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::asciiEncoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___asciiEncoding_6;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::latin1Encoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___latin1Encoding_7;
-	// System.Collections.Generic.Dictionary`2<System.Int32,System.Text.Encoding> modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::encodings
-	Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* ___encodings_8;
-	// System.Object System.Text.Encoding::s_InternalSyncObject
-	RuntimeObject* ___s_InternalSyncObject_15;
-};
-
 // Photon.Realtime.EnterRoomParams
 struct EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9  : public RuntimeObject
 {
@@ -1678,67 +1504,6 @@ struct FirebaseDatabase_t39655E1CF62FCA36F81637138EABB8E0E88FF960_StaticFields
 {
 	// System.Collections.Generic.Dictionary`2<System.String,Firebase.Database.FirebaseDatabase> Firebase.Database.FirebaseDatabase::databases
 	Dictionary_2_tC7676598510356955876D867191E1510F67CC1DF* ___databases_5;
-};
-
-// Google.GoogleSignIn
-struct GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA  : public RuntimeObject
-{
-	// Google.ISignInImpl Google.GoogleSignIn::impl
-	RuntimeObject* ___impl_2;
-};
-
-struct GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields
-{
-	// Google.GoogleSignIn Google.GoogleSignIn::theInstance
-	GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* ___theInstance_0;
-	// Google.GoogleSignInConfiguration Google.GoogleSignIn::theConfiguration
-	GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* ___theConfiguration_1;
-};
-
-// Google.GoogleSignInConfiguration
-struct GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8  : public RuntimeObject
-{
-	// System.Boolean Google.GoogleSignInConfiguration::UseGameSignIn
-	bool ___UseGameSignIn_0;
-	// System.String Google.GoogleSignInConfiguration::WebClientId
-	String_t* ___WebClientId_1;
-	// System.Boolean Google.GoogleSignInConfiguration::RequestAuthCode
-	bool ___RequestAuthCode_2;
-	// System.Boolean Google.GoogleSignInConfiguration::ForceTokenRefresh
-	bool ___ForceTokenRefresh_3;
-	// System.Boolean Google.GoogleSignInConfiguration::RequestEmail
-	bool ___RequestEmail_4;
-	// System.Boolean Google.GoogleSignInConfiguration::RequestIdToken
-	bool ___RequestIdToken_5;
-	// System.Boolean Google.GoogleSignInConfiguration::RequestProfile
-	bool ___RequestProfile_6;
-	// System.Boolean Google.GoogleSignInConfiguration::HidePopups
-	bool ___HidePopups_7;
-	// System.String Google.GoogleSignInConfiguration::AccountName
-	String_t* ___AccountName_8;
-	// System.Collections.Generic.IEnumerable`1<System.String> Google.GoogleSignInConfiguration::AdditionalScopes
-	RuntimeObject* ___AdditionalScopes_9;
-};
-
-// Google.GoogleSignInUser
-struct GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA  : public RuntimeObject
-{
-	// System.String Google.GoogleSignInUser::<AuthCode>k__BackingField
-	String_t* ___U3CAuthCodeU3Ek__BackingField_0;
-	// System.String Google.GoogleSignInUser::<Email>k__BackingField
-	String_t* ___U3CEmailU3Ek__BackingField_1;
-	// System.String Google.GoogleSignInUser::<IdToken>k__BackingField
-	String_t* ___U3CIdTokenU3Ek__BackingField_2;
-	// System.String Google.GoogleSignInUser::<DisplayName>k__BackingField
-	String_t* ___U3CDisplayNameU3Ek__BackingField_3;
-	// System.String Google.GoogleSignInUser::<GivenName>k__BackingField
-	String_t* ___U3CGivenNameU3Ek__BackingField_4;
-	// System.String Google.GoogleSignInUser::<FamilyName>k__BackingField
-	String_t* ___U3CFamilyNameU3Ek__BackingField_5;
-	// System.Uri Google.GoogleSignInUser::<ImageUrl>k__BackingField
-	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___U3CImageUrlU3Ek__BackingField_6;
-	// System.String Google.GoogleSignInUser::<UserId>k__BackingField
-	String_t* ___U3CUserIdU3Ek__BackingField_7;
 };
 
 // Photon.Realtime.OpJoinRandomRoomParams
@@ -1813,6 +1578,37 @@ struct RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB_StaticFields
 	uint16_t ___PortToPingOverride_9;
 };
 
+// Photon.Realtime.RoomInfo
+struct RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D  : public RuntimeObject
+{
+	// System.Boolean Photon.Realtime.RoomInfo::RemovedFromList
+	bool ___RemovedFromList_0;
+	// ExitGames.Client.Photon.Hashtable Photon.Realtime.RoomInfo::customProperties
+	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___customProperties_1;
+	// System.Byte Photon.Realtime.RoomInfo::maxPlayers
+	uint8_t ___maxPlayers_2;
+	// System.Int32 Photon.Realtime.RoomInfo::emptyRoomTtl
+	int32_t ___emptyRoomTtl_3;
+	// System.Int32 Photon.Realtime.RoomInfo::playerTtl
+	int32_t ___playerTtl_4;
+	// System.String[] Photon.Realtime.RoomInfo::expectedUsers
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___expectedUsers_5;
+	// System.Boolean Photon.Realtime.RoomInfo::isOpen
+	bool ___isOpen_6;
+	// System.Boolean Photon.Realtime.RoomInfo::isVisible
+	bool ___isVisible_7;
+	// System.Boolean Photon.Realtime.RoomInfo::autoCleanUp
+	bool ___autoCleanUp_8;
+	// System.String Photon.Realtime.RoomInfo::name
+	String_t* ___name_9;
+	// System.Int32 Photon.Realtime.RoomInfo::masterClientId
+	int32_t ___masterClientId_10;
+	// System.String[] Photon.Realtime.RoomInfo::propertiesListedInLobby
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___propertiesListedInLobby_11;
+	// System.Int32 Photon.Realtime.RoomInfo::<PlayerCount>k__BackingField
+	int32_t ___U3CPlayerCountU3Ek__BackingField_12;
+};
+
 // Photon.Realtime.RoomOptions
 struct RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23  : public RuntimeObject
 {
@@ -1844,35 +1640,6 @@ struct RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23  : public RuntimeOb
 	bool ___U3CDeleteNullPropertiesU3Ek__BackingField_12;
 	// System.Boolean Photon.Realtime.RoomOptions::broadcastPropsChangeToAll
 	bool ___broadcastPropsChangeToAll_13;
-};
-
-// System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37  : public RuntimeObject
-{
-	// System.String[] System.Runtime.Serialization.SerializationInfo::m_members
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_members_3;
-	// System.Object[] System.Runtime.Serialization.SerializationInfo::m_data
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_data_4;
-	// System.Type[] System.Runtime.Serialization.SerializationInfo::m_types
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___m_types_5;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Serialization.SerializationInfo::m_nameToIndex
-	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___m_nameToIndex_6;
-	// System.Int32 System.Runtime.Serialization.SerializationInfo::m_currMember
-	int32_t ___m_currMember_7;
-	// System.Runtime.Serialization.IFormatterConverter System.Runtime.Serialization.SerializationInfo::m_converter
-	RuntimeObject* ___m_converter_8;
-	// System.String System.Runtime.Serialization.SerializationInfo::m_fullTypeName
-	String_t* ___m_fullTypeName_9;
-	// System.String System.Runtime.Serialization.SerializationInfo::m_assemName
-	String_t* ___m_assemName_10;
-	// System.Type System.Runtime.Serialization.SerializationInfo::objectType
-	Type_t* ___objectType_11;
-	// System.Boolean System.Runtime.Serialization.SerializationInfo::isFullTypeNameSetExplicit
-	bool ___isFullTypeNameSetExplicit_12;
-	// System.Boolean System.Runtime.Serialization.SerializationInfo::isAssemblyNameSetExplicit
-	bool ___isAssemblyNameSetExplicit_13;
-	// System.Boolean System.Runtime.Serialization.SerializationInfo::requireSameTokenInPartialTrust
-	bool ___requireSameTokenInPartialTrust_14;
 };
 
 // System.String
@@ -1980,73 +1747,6 @@ struct UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8  : public Runtim
 	PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25* ___m_PersistentCalls_1;
 	// System.Boolean UnityEngine.Events.UnityEventBase::m_CallsDirty
 	bool ___m_CallsDirty_2;
-};
-
-// System.Uri
-struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
-{
-	// System.String System.Uri::m_String
-	String_t* ___m_String_13;
-	// System.String System.Uri::m_originalUnicodeString
-	String_t* ___m_originalUnicodeString_14;
-	// System.UriParser System.Uri::m_Syntax
-	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax_15;
-	// System.String System.Uri::m_DnsSafeHost
-	String_t* ___m_DnsSafeHost_16;
-	// System.Uri/Flags System.Uri::m_Flags
-	uint64_t ___m_Flags_17;
-	// System.Uri/UriInfo System.Uri::m_Info
-	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info_18;
-	// System.Boolean System.Uri::m_iriParsing
-	bool ___m_iriParsing_19;
-};
-
-struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
-{
-	// System.String System.Uri::UriSchemeFile
-	String_t* ___UriSchemeFile_0;
-	// System.String System.Uri::UriSchemeFtp
-	String_t* ___UriSchemeFtp_1;
-	// System.String System.Uri::UriSchemeGopher
-	String_t* ___UriSchemeGopher_2;
-	// System.String System.Uri::UriSchemeHttp
-	String_t* ___UriSchemeHttp_3;
-	// System.String System.Uri::UriSchemeHttps
-	String_t* ___UriSchemeHttps_4;
-	// System.String System.Uri::UriSchemeWs
-	String_t* ___UriSchemeWs_5;
-	// System.String System.Uri::UriSchemeWss
-	String_t* ___UriSchemeWss_6;
-	// System.String System.Uri::UriSchemeMailto
-	String_t* ___UriSchemeMailto_7;
-	// System.String System.Uri::UriSchemeNews
-	String_t* ___UriSchemeNews_8;
-	// System.String System.Uri::UriSchemeNntp
-	String_t* ___UriSchemeNntp_9;
-	// System.String System.Uri::UriSchemeNetTcp
-	String_t* ___UriSchemeNetTcp_10;
-	// System.String System.Uri::UriSchemeNetPipe
-	String_t* ___UriSchemeNetPipe_11;
-	// System.String System.Uri::SchemeDelimiter
-	String_t* ___SchemeDelimiter_12;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitialized
-	bool ___s_ConfigInitialized_20;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitializing
-	bool ___s_ConfigInitializing_21;
-	// System.UriIdnScope modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IdnScope
-	int32_t ___s_IdnScope_22;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IriParsing
-	bool ___s_IriParsing_23;
-	// System.Boolean System.Uri::useDotNetRelativeOrAbsolute
-	bool ___useDotNetRelativeOrAbsolute_24;
-	// System.Boolean System.Uri::IsWindowsFileSystem
-	bool ___IsWindowsFileSystem_25;
-	// System.Object System.Uri::s_initLock
-	RuntimeObject* ___s_initLock_26;
-	// System.Char[] System.Uri::HexLowerChars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_27;
-	// System.Char[] System.Uri::_WSchars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_28;
 };
 
 // System.ValueType
@@ -2267,6 +1967,15 @@ struct Section_tEDD4920C6708ADCF290433A102F21FDCC3788219  : public RuntimeObject
 	String_t* ___url_3;
 };
 
+// TMPro.TMP_Dropdown/OptionData
+struct OptionData_tFDFBCB4A5FB860E95AE46FDAC112DB4140A8525E  : public RuntimeObject
+{
+	// System.String TMPro.TMP_Dropdown/OptionData::m_Text
+	String_t* ___m_Text_0;
+	// UnityEngine.Sprite TMPro.TMP_Dropdown/OptionData::m_Image
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_Image_1;
+};
+
 // System.Collections.Generic.List`1/Enumerator<System.Object>
 struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
 {
@@ -2280,17 +1989,17 @@ struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A
 	RuntimeObject* ____current_3;
 };
 
-// System.Collections.Generic.List`1/Enumerator<System.String>
-struct Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 
+// System.Collections.Generic.List`1/Enumerator<Photon.Realtime.RoomInfo>
+struct Enumerator_tE4AFECE813D7AFDD1AB30EBBCE376EEFDE795876 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::_list
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____list_0;
+	List_1_t2DCE8BA4B15DC3B666CEEA3E5A3E9E922B2F8CAE* ____list_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::_index
 	int32_t ____index_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::_version
 	int32_t ____version_2;
 	// T System.Collections.Generic.List`1/Enumerator::_current
-	String_t* ____current_3;
+	RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* ____current_3;
 };
 
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
@@ -2506,32 +2215,6 @@ struct Task_1_tE57E3A2330CE37367B7296D598E85906D967FF5B_StaticFields
 	TaskFactory_1_t7C8300A7F1C0B035B03E4868A6198B7D12FEA84F* ___s_defaultFactory_23;
 };
 
-// System.Threading.Tasks.Task`1<Google.GoogleSignInUser>
-struct Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
-{
-	// TResult System.Threading.Tasks.Task`1::m_result
-	GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* ___m_result_22;
-};
-
-struct Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926_StaticFields
-{
-	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_t0A909711F892E19F8AD55137B4F3B65578635A0A* ___s_defaultFactory_23;
-};
-
-// System.Threading.Tasks.Task`1<System.Object>
-struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
-{
-	// TResult System.Threading.Tasks.Task`1::m_result
-	RuntimeObject* ___m_result_22;
-};
-
-struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2_StaticFields
-{
-	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_t6F188FE70F3006B0386002E392B799D85100732B* ___s_defaultFactory_23;
-};
-
 // UnityEngine.Events.UnityEvent`1<System.Boolean>
 struct UnityEvent_1_tEEB36A367DCB5867E93AAF6BECAF3558CA71BECB  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
 {
@@ -2562,11 +2245,6 @@ struct ARFacesChangedEventArgs_tC05D4423CB2096FF5955C3A0A00056EE2B6301AE_marshal
 	List_1_tA11EBED64210DD13BB4303415D948E6CD964AAF9* ___U3CaddedU3Ek__BackingField_0;
 	List_1_tA11EBED64210DD13BB4303415D948E6CD964AAF9* ___U3CupdatedU3Ek__BackingField_1;
 	List_1_tA11EBED64210DD13BB4303415D948E6CD964AAF9* ___U3CremovedU3Ek__BackingField_2;
-};
-
-// UnityEngine.AndroidJavaClass
-struct AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03  : public AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0
-{
 };
 
 // UnityEngine.EventSystems.BaseEventData
@@ -2928,6 +2606,27 @@ struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D
 	float ___m_Height_3;
 };
 
+// Photon.Realtime.Room
+struct Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373  : public RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D
+{
+	// Photon.Realtime.LoadBalancingClient Photon.Realtime.Room::<LoadBalancingClient>k__BackingField
+	LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* ___U3CLoadBalancingClientU3Ek__BackingField_13;
+	// System.Boolean Photon.Realtime.Room::isOffline
+	bool ___isOffline_14;
+	// System.Collections.Generic.Dictionary`2<System.Int32,Photon.Realtime.Player> Photon.Realtime.Room::players
+	Dictionary_2_t090B48BACBD1134A0E2C74084CF2392C71A6812B* ___players_15;
+	// System.Boolean Photon.Realtime.Room::<BroadcastPropertiesChangeToAll>k__BackingField
+	bool ___U3CBroadcastPropertiesChangeToAllU3Ek__BackingField_16;
+	// System.Boolean Photon.Realtime.Room::<SuppressRoomEvents>k__BackingField
+	bool ___U3CSuppressRoomEventsU3Ek__BackingField_17;
+	// System.Boolean Photon.Realtime.Room::<SuppressPlayerInfo>k__BackingField
+	bool ___U3CSuppressPlayerInfoU3Ek__BackingField_18;
+	// System.Boolean Photon.Realtime.Room::<PublishUserId>k__BackingField
+	bool ___U3CPublishUserIdU3Ek__BackingField_19;
+	// System.Boolean Photon.Realtime.Room::<DeleteNullProperties>k__BackingField
+	bool ___U3CDeleteNullPropertiesU3Ek__BackingField_20;
+};
+
 // UnityEngine.SceneManagement.Scene
 struct Scene_tA1DC762B79745EB5140F054C884855B922318356 
 {
@@ -2969,27 +2668,6 @@ struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_com
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite_1;
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite_2;
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite_3;
-};
-
-// System.Runtime.Serialization.StreamingContext
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
-{
-	// System.Object System.Runtime.Serialization.StreamingContext::m_additionalContext
-	RuntimeObject* ___m_additionalContext_0;
-	// System.Runtime.Serialization.StreamingContextStates System.Runtime.Serialization.StreamingContext::m_state
-	int32_t ___m_state_1;
-};
-// Native definition for P/Invoke marshalling of System.Runtime.Serialization.StreamingContext
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
-{
-	Il2CppIUnknown* ___m_additionalContext_0;
-	int32_t ___m_state_1;
-};
-// Native definition for COM marshalling of System.Runtime.Serialization.StreamingContext
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
-{
-	Il2CppIUnknown* ___m_additionalContext_0;
-	int32_t ___m_state_1;
 };
 
 // TMPro.TMP_FontStyleStack
@@ -3060,24 +2738,11 @@ struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455
 	uint16_t ___m_value_0;
 };
 
-// System.UInt32
-struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
+// UnityEngine.Events.UnityEvent
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
 {
-	// System.UInt32 System.UInt32::m_value
-	uint32_t ___m_value_0;
-};
-
-// System.UIntPtr
-struct UIntPtr_t 
-{
-	// System.Void* System.UIntPtr::_pointer
-	void* ____pointer_1;
-};
-
-struct UIntPtr_t_StaticFields
-{
-	// System.UIntPtr System.UIntPtr::Zero
-	uintptr_t ___Zero_0;
+	// System.Object[] UnityEngine.Events.UnityEvent::m_InvokeArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray_3;
 };
 
 // UnityEngine.Vector2
@@ -3903,6 +3568,11 @@ struct XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4
 	NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 ___m_UVs_3;
 };
 
+// UnityEngine.UI.Button/ButtonClickedEvent
+struct ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C  : public UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977
+{
+};
+
 // UnityEngine.UI.Toggle/ToggleEvent
 struct ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02  : public UnityEvent_1_tEEB36A367DCB5867E93AAF6BECAF3558CA71BECB
 {
@@ -3947,31 +3617,9 @@ struct AggregateException_t51B6205846DFB356B94452702201DD239D44422F  : public Ex
 	ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886* ___m_innerExceptions_18;
 };
 
-// Google.Impl.BaseObject
-struct BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C  : public RuntimeObject
-{
-	// System.Runtime.InteropServices.HandleRef Google.Impl.BaseObject::selfHandleRef
-	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___selfHandleRef_0;
-};
-
-struct BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_StaticFields
-{
-	// System.Runtime.InteropServices.HandleRef Google.Impl.BaseObject::nullSelf
-	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___nullSelf_1;
-};
-
 // UnityEngine.Component
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
-};
-
-// Firebase.Auth.Credential
-struct Credential_t32FB2E0F8AAA0B6895D10531CE82C9FBD27E27D1  : public RuntimeObject
-{
-	// System.Runtime.InteropServices.HandleRef Firebase.Auth.Credential::swigCPtr
-	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___swigCPtr_0;
-	// System.Boolean Firebase.Auth.Credential::swigCMemOwn
-	bool ___swigCMemOwn_1;
 };
 
 // Firebase.Auth.FirebaseAuth
@@ -4214,32 +3862,8 @@ struct XRFaceSubsystem_t93DD9DDD21C06E5A591BB0094512BC8FD8A890D3  : public Track
 	ValidationUtility_1_tC497E899B80A0B87F5AC6C73AB295D6F5B2683EF* ___m_ValidationUtility_4;
 };
 
-// Google.GoogleSignIn/SignInException
-struct SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A  : public Exception_t
-{
-	// Google.GoogleSignInStatusCode Google.GoogleSignIn/SignInException::<Status>k__BackingField
-	int32_t ___U3CStatusU3Ek__BackingField_18;
-};
-
-// Google.Impl.NativeFuture/<>c__DisplayClass5_0
-struct U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08  : public RuntimeObject
-{
-	// System.Runtime.InteropServices.HandleRef Google.Impl.NativeFuture/<>c__DisplayClass5_0::userPtr
-	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___userPtr_0;
-};
-
 // System.Action`1<System.Threading.Tasks.Task`1<Firebase.DependencyStatus>>
 struct Action_1_t72552EB3CFD9D41493135164276F7EE71F1132FC  : public MulticastDelegate_t
-{
-};
-
-// System.Action`1<System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>>
-struct Action_1_t7A72BB5CDA51C7604122D1F351F54CD826121DA9  : public MulticastDelegate_t
-{
-};
-
-// System.Action`1<System.Threading.Tasks.Task`1<Google.GoogleSignInUser>>
-struct Action_1_tF52889A7B072E11E8880182FD8F7D44219989077  : public MulticastDelegate_t
 {
 };
 
@@ -4268,11 +3892,6 @@ struct ARCoreFaceSubsystem_tF4F2ADEB42EF501D168B4F54F0A2422628620841  : public X
 {
 };
 
-// System.AsyncCallback
-struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public MulticastDelegate_t
-{
-};
-
 // UnityEngine.Behaviour
 struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
 {
@@ -4290,21 +3909,6 @@ struct FirebaseUser_t119C5023B23CA61BCB1A51D0A2424DC7B4E42A3A  : public UserInfo
 	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___swigCPtr_2;
 	// Firebase.Auth.FirebaseAuth Firebase.Auth.FirebaseUser::authProxy
 	FirebaseAuth_tD2FC1EC1E5B6EF920276AFABA103B8B7E2AE2DAF* ___authProxy_3;
-};
-
-// Google.Impl.GoogleSignInImpl
-struct GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349  : public BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C
-{
-};
-
-// System.InvalidOperationException
-struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-};
-
-// Google.Impl.NativeFuture
-struct NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F  : public BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C
-{
 };
 
 // System.NotSupportedException
@@ -4351,6 +3955,11 @@ struct ServerSettings_t41BE4338E7E76BFB4919D4039BAFC6799E242152  : public Script
 
 // UnityEngine.Transform
 struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+
+// UnityEngine.Events.UnityAction
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7  : public MulticastDelegate_t
 {
 };
 
@@ -4627,11 +4236,6 @@ struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_marshaled_com
 	int32_t ___isNonBreakingSpace_64;
 };
 
-// Google.Impl.BaseObject/OutStringMethod
-struct OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5  : public MulticastDelegate_t
-{
-};
-
 // TMPro.TMP_TextProcessingStack`1<TMPro.WordWrapState>
 struct TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F 
 {
@@ -4902,19 +4506,6 @@ struct GameUI_t131F7F7F82473CAFC8221B739FABB71C0709C737_StaticFields
 	GameUI_t131F7F7F82473CAFC8221B739FABB71C0709C737* ___instance_4;
 };
 
-// GoogleSignInDemo
-struct GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.UI.Text GoogleSignInDemo::infoText
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___infoText_4;
-	// System.String GoogleSignInDemo::webClientId
-	String_t* ___webClientId_5;
-	// Firebase.Auth.FirebaseAuth GoogleSignInDemo::auth
-	FirebaseAuth_tD2FC1EC1E5B6EF920276AFABA103B8B7E2AE2DAF* ___auth_6;
-	// Google.GoogleSignInConfiguration GoogleSignInDemo::configuration
-	GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* ___configuration_7;
-};
-
 // Photon.Chat.Demo.IgnoreUiRaycastWhenInactive
 struct IgnoreUiRaycastWhenInactive_t4DD606784A41379E617458D4FF2D041690E7BAEF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -4988,32 +4579,6 @@ struct ScoreElement_t7861A21B8EE27740DDDB646CC4363C8145575F18  : public MonoBeha
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___scoreText_6;
 };
 
-// Google.Impl.SignInHelperObject
-struct SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-};
-
-struct SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_StaticFields
-{
-	// Google.Impl.SignInHelperObject Google.Impl.SignInHelperObject::instance
-	SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* ___instance_4;
-};
-
-// SignInSample.SigninSampleScript
-struct SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.UI.Text SignInSample.SigninSampleScript::statusText
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___statusText_4;
-	// System.String SignInSample.SigninSampleScript::webClientId
-	String_t* ___webClientId_5;
-	// Firebase.Auth.FirebaseAuth SignInSample.SigninSampleScript::auth
-	FirebaseAuth_tD2FC1EC1E5B6EF920276AFABA103B8B7E2AE2DAF* ___auth_6;
-	// Google.GoogleSignInConfiguration SignInSample.SigninSampleScript::configuration
-	GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* ___configuration_7;
-	// System.Collections.Generic.List`1<System.String> SignInSample.SigninSampleScript::messages
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___messages_8;
-};
-
 // Photon.Chat.UtilityScripts.TextButtonTransition
 struct TextButtonTransition_tBA8FE06DFC216C9FAD99778854F5D823595E6B10  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -5084,6 +4649,21 @@ struct UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields
 {
 	// UIManager UIManager::instance
 	UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* ___instance_4;
+};
+
+// study
+struct study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// TMPro.TMP_InputField study::userIdText
+	TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* ___userIdText_6;
+};
+
+struct study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_StaticFields
+{
+	// TMPro.TMP_Text study::RoomInfoText
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___RoomInfoText_4;
+	// Photon.Realtime.RoomInfo study::_roomInfo
+	RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* ____roomInfo_5;
 };
 
 // UnityEngine.XR.ARFoundation.ARTrackableManager`5<UnityEngine.XR.ARSubsystems.XRFaceSubsystem,UnityEngine.XR.ARSubsystems.XRFaceSubsystemDescriptor,UnityEngine.XR.ARSubsystems.XRFaceSubsystem/Provider,UnityEngine.XR.ARSubsystems.XRFace,UnityEngine.XR.ARFoundation.ARFace>
@@ -5341,15 +4921,30 @@ struct AuthManager_t0B9C7D3558DD3713DB6E7648217B8650A1EF5570  : public MonoBehav
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___warningRegisterText_17;
 };
 
-// CreateRooms
-struct CreateRooms_t8F637340D2C664CBA027E8DFAC5D7BACA057A99C  : public MonoBehaviourPunCallbacks_t0B3C6A2FD0A09450A8505ACD42A647F3BCE6D783
+// UnityEngine.UI.Button
+struct Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
 {
-	// UnityEngine.UI.Text CreateRooms::_roomName
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ____roomName_5;
-	// UnityEngine.UI.Text CreateRooms::_maxNum
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ____maxNum_6;
-	// UnityEngine.UI.Text CreateRooms::_password
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ____password_7;
+	// UnityEngine.UI.Button/ButtonClickedEvent UnityEngine.UI.Button::m_OnClick
+	ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* ___m_OnClick_20;
+};
+
+// CreateManager
+struct CreateManager_tBC3A227292771D21AE6084A86B239D95363F62BA  : public MonoBehaviourPunCallbacks_t0B3C6A2FD0A09450A8505ACD42A647F3BCE6D783
+{
+	// TMPro.TMP_InputField CreateManager::userIdText
+	TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* ___userIdText_5;
+	// TMPro.TMP_InputField CreateManager::roomNameText
+	TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* ___roomNameText_6;
+	// TMPro.TMP_Dropdown CreateManager::maxNum
+	TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* ___maxNum_7;
+	// TMPro.TMP_InputField CreateManager::passWord
+	TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* ___passWord_8;
+	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject> CreateManager::roomDict
+	Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* ___roomDict_9;
+	// UnityEngine.GameObject CreateManager::roomPrefab
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___roomPrefab_10;
+	// UnityEngine.Transform CreateManager::scrollContent
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___scrollContent_11;
 };
 
 // UnityEngine.UI.InputField
@@ -5463,6 +5058,27 @@ struct InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_StaticFields
 	bool ___s_IsQuestDevice_23;
 };
 
+// ListManager
+struct ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E  : public MonoBehaviourPunCallbacks_t0B3C6A2FD0A09450A8505ACD42A647F3BCE6D783
+{
+	// System.String ListManager::userId
+	String_t* ___userId_5;
+	// TMPro.TMP_Text ListManager::RoomInfoText
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___RoomInfoText_6;
+	// Photon.Realtime.RoomInfo ListManager::_roomInfo
+	RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* ____roomInfo_7;
+	// UnityEngine.GameObject ListManager::roomPrefab
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___roomPrefab_9;
+	// UnityEngine.Transform ListManager::scrollContent
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___scrollContent_10;
+};
+
+struct ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject> ListManager::roomDict
+	Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* ___roomDict_8;
+};
+
 // UnityEngine.UI.MaskableGraphic
 struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
 {
@@ -5488,6 +5104,24 @@ struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graph
 	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners_35;
 };
 
+// PhotonManager
+struct PhotonManager_tE7B7BB65B400FA3711AD3933F030339B19AB8701  : public MonoBehaviourPunCallbacks_t0B3C6A2FD0A09450A8505ACD42A647F3BCE6D783
+{
+	// System.String PhotonManager::userId
+	String_t* ___userId_5;
+};
+
+// PlayManager
+struct PlayManager_t2470BB88EEAFDBD1E0950039FF547015A6054588  : public MonoBehaviourPunCallbacks_t0B3C6A2FD0A09450A8505ACD42A647F3BCE6D783
+{
+	// TMPro.TMP_Text PlayManager::playerNum
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___playerNum_5;
+	// TMPro.TMP_Text PlayManager::maxNum
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___maxNum_6;
+	// UnityEngine.UI.Button PlayManager::back
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___back_7;
+};
+
 // UnityEngine.EventSystems.PointerInputModule
 struct PointerInputModule_tD71E11FA989C22D83883E120EAA4F05929907556  : public BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1
 {
@@ -5495,6 +5129,81 @@ struct PointerInputModule_tD71E11FA989C22D83883E120EAA4F05929907556  : public Ba
 	Dictionary_2_t489B023479196B8FC9709A9F834FC38729BD9493* ___m_PointerData_15;
 	// UnityEngine.EventSystems.PointerInputModule/MouseState UnityEngine.EventSystems.PointerInputModule::m_MouseState
 	MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* ___m_MouseState_16;
+};
+
+// PtManager
+struct PtManager_t8887E0870E41747994F9241D2027B7E47E34C255  : public MonoBehaviourPunCallbacks_t0B3C6A2FD0A09450A8505ACD42A647F3BCE6D783
+{
+	// System.String PtManager::gameVersion
+	String_t* ___gameVersion_5;
+	// System.String PtManager::userId
+	String_t* ___userId_6;
+	// TMPro.TMP_InputField PtManager::userIdText
+	TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* ___userIdText_7;
+	// TMPro.TMP_InputField PtManager::roomNameText
+	TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* ___roomNameText_8;
+	// TMPro.TMP_Dropdown PtManager::maxNum
+	TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* ___maxNum_9;
+	// TMPro.TMP_InputField PtManager::passWord
+	TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* ___passWord_10;
+};
+
+// RoomData
+struct RoomData_t71B5840FC00FB76330915516518BAF3070CD3956  : public MonoBehaviourPunCallbacks_t0B3C6A2FD0A09450A8505ACD42A647F3BCE6D783
+{
+	// TMPro.TMP_InputField RoomData::userIdText
+	TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* ___userIdText_7;
+};
+
+struct RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_StaticFields
+{
+	// TMPro.TMP_Text RoomData::RoomInfoText
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___RoomInfoText_5;
+	// Photon.Realtime.RoomInfo RoomData::_roomInfo
+	RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* ____roomInfo_6;
+};
+
+// TMPro.TMP_Dropdown
+struct TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	// UnityEngine.RectTransform TMPro.TMP_Dropdown::m_Template
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_Template_20;
+	// TMPro.TMP_Text TMPro.TMP_Dropdown::m_CaptionText
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___m_CaptionText_21;
+	// UnityEngine.UI.Image TMPro.TMP_Dropdown::m_CaptionImage
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_CaptionImage_22;
+	// UnityEngine.UI.Graphic TMPro.TMP_Dropdown::m_Placeholder
+	Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___m_Placeholder_23;
+	// TMPro.TMP_Text TMPro.TMP_Dropdown::m_ItemText
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___m_ItemText_24;
+	// UnityEngine.UI.Image TMPro.TMP_Dropdown::m_ItemImage
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_ItemImage_25;
+	// System.Int32 TMPro.TMP_Dropdown::m_Value
+	int32_t ___m_Value_26;
+	// TMPro.TMP_Dropdown/OptionDataList TMPro.TMP_Dropdown::m_Options
+	OptionDataList_tF66EA4801BFA499F010E6EFF89ED760BF4F0BEE1* ___m_Options_27;
+	// TMPro.TMP_Dropdown/DropdownEvent TMPro.TMP_Dropdown::m_OnValueChanged
+	DropdownEvent_tFD4609E80240BC887A6D31F9F3C252A8A6843E91* ___m_OnValueChanged_28;
+	// System.Single TMPro.TMP_Dropdown::m_AlphaFadeSpeed
+	float ___m_AlphaFadeSpeed_29;
+	// UnityEngine.GameObject TMPro.TMP_Dropdown::m_Dropdown
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_Dropdown_30;
+	// UnityEngine.GameObject TMPro.TMP_Dropdown::m_Blocker
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_Blocker_31;
+	// System.Collections.Generic.List`1<TMPro.TMP_Dropdown/DropdownItem> TMPro.TMP_Dropdown::m_Items
+	List_1_tA7EEECF976A6B4957450A4D235070C9324ED1A97* ___m_Items_32;
+	// TMPro.TweenRunner`1<TMPro.FloatTween> TMPro.TMP_Dropdown::m_AlphaTweenRunner
+	TweenRunner_1_tF277B20625C8B1939DC85508C4679C690757395E* ___m_AlphaTweenRunner_33;
+	// System.Boolean TMPro.TMP_Dropdown::validTemplate
+	bool ___validTemplate_34;
+	// UnityEngine.Coroutine TMPro.TMP_Dropdown::m_Coroutine
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___m_Coroutine_35;
+};
+
+struct TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504_StaticFields
+{
+	// TMPro.TMP_Dropdown/OptionData TMPro.TMP_Dropdown::s_NoOptionData
+	OptionData_tFDFBCB4A5FB860E95AE46FDAC112DB4140A8525E* ___s_NoOptionData_36;
 };
 
 // TMPro.TMP_InputField
@@ -6399,107 +6108,68 @@ struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4  : public Runtime
 		m_Items[index] = value;
 	}
 };
-// System.Delegate[]
-struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771  : public RuntimeArray
-{
-	ALIGN_FIELD (8) Delegate_t* m_Items[1];
-
-	inline Delegate_t* GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Delegate_t** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Delegate_t* value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-	inline Delegate_t* GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Delegate_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Delegate_t* value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-};
 
 
 // System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Threading.Tasks.Task System.Threading.Tasks.Task`1<System.Int32Enum>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<TResult>>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_1_ContinueWith_m80CB64874F84DB8EBDB9F3F28F5B6710670B1571_gshared (Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4BFB* __this, Action_1_tC3BD22662CBF7BCA7CF101E25DD9C3BC0C8058B4* ___continuationAction0, const RuntimeMethod* method) ;
-// System.Threading.Tasks.Task System.Threading.Tasks.Task`1<System.Object>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<TResult>>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_1_ContinueWith_mA0846133B2903064AAD1D23FE61AE736A033F866_gshared (Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* __this, Action_1_t0328A8A468C762DAECEC2BDBE23D4E47955D8678* ___continuationAction0, const RuntimeMethod* method) ;
-// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>::GetEnumerator()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ReadOnlyCollection_1_GetEnumerator_m487A0501D6F875A04F7D8F93F1CB3C813994AA64_gshared (ReadOnlyCollection_1_t5397DF0DB61D1090E7BBC89395CECB8D020CED92* __this, const RuntimeMethod* method) ;
-// TResult System.Threading.Tasks.Task`1<System.Object>::get_Result()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Task_1_get_Result_m6897AA7D4A583F9E81EC01C1BF788372D64C5A26_gshared (Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* __this, const RuntimeMethod* method) ;
-// TResult System.Threading.Tasks.Task`1<System.Int32Enum>::get_Result()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Task_1_get_Result_mF8B724FC6FD57DF2078A1F8927214003AAAC6286_gshared (Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4BFB* __this, const RuntimeMethod* method) ;
-// T System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>::get_Item(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ReadOnlyCollection_1_get_Item_m88FE6EF1106EAB22F63554956C77E25339159136_gshared (ReadOnlyCollection_1_t5397DF0DB61D1090E7BBC89395CECB8D020CED92* __this, int32_t ___index0, const RuntimeMethod* method) ;
 // System.Threading.Tasks.Task Firebase.Extensions.TaskExtension::ContinueWithOnMainThread<System.Int32Enum>(System.Threading.Tasks.Task`1<T>,System.Action`1<System.Threading.Tasks.Task`1<T>>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* TaskExtension_ContinueWithOnMainThread_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mEA70B631FF4CC999A2400934F2FD020F637EBE82_gshared (Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4BFB* ___task0, Action_1_tC3BD22662CBF7BCA7CF101E25DD9C3BC0C8058B4* ___continuation1, const RuntimeMethod* method) ;
+// TResult System.Threading.Tasks.Task`1<System.Int32Enum>::get_Result()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Task_1_get_Result_mF8B724FC6FD57DF2078A1F8927214003AAAC6286_gshared (Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4BFB* __this, const RuntimeMethod* method) ;
 // System.Void System.Func`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22_gshared (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
-// System.Void System.Action`1<UnityEngine.XR.ARFoundation.ARFacesChangedEventArgs>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m6B29F8F1F0039A82C7A8CE016F79E8D39054E4D4_gshared (Action_1_t0A16CC637B74FE43A20D2784BCA3172E7D13789C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
-// TSubsystem UnityEngine.XR.ARFoundation.SubsystemLifecycleManager`3<System.Object,System.Object,System.Object>::get_subsystem()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* SubsystemLifecycleManager_3_get_subsystem_mD3D899C68170AAB80E8086C46FC5C6C033A07C21_gshared_inline (SubsystemLifecycleManager_3_t499D76783B0F91C52B19F7183F077FAD1985AD55* __this, const RuntimeMethod* method) ;
+// TResult System.Threading.Tasks.Task`1<System.Object>::get_Result()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Task_1_get_Result_m6897AA7D4A583F9E81EC01C1BF788372D64C5A26_gshared (Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* __this, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
-// T System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
-// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::Reverse<System.Object>(System.Collections.Generic.IEnumerable`1<TSource>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Reverse_TisRuntimeObject_m16B9BEE6D92F770F21F1CC2F37BB8ABB894F93C9_gshared (RuntimeObject* ___source0, const RuntimeMethod* method) ;
-// T UnityEngine.Object::Instantiate<System.Object>(T,UnityEngine.Transform)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m872899879F710B2E55BC157F35464F03877C8DFA_gshared (RuntimeObject* ___original0, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___parent1, const RuntimeMethod* method) ;
-// T UnityEngine.GameObject::GetComponent<System.Object>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
-// T UnityEngine.Component::GetComponent<System.Object>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
-// T UnityEngine.Object::Instantiate<System.Object>(T,UnityEngine.Vector3,UnityEngine.Quaternion)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m2A2DD50EC8EB54C91AF71E02DFD6969174D82B08_gshared (RuntimeObject* ___original0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position1, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation2, const RuntimeMethod* method) ;
-// System.Void System.Collections.Generic.List`1<System.Object>::RemoveAt(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
-// System.Void System.Collections.Generic.List`1<System.Object>::Add(T)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.Object>::GetEnumerator()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1/Enumerator<System.Object>::Dispose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1/Enumerator<System.Object>::get_Current()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
-// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Object>::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
-// System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
-// T UnityEngine.Component::GetComponentInChildren<System.Object>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
-// T UnityEngine.Object::FindObjectOfType<System.Object>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_FindObjectOfType_TisRuntimeObject_m9990A7304DF02BA1ED160587D1C2F6DAE89BB343_gshared (const RuntimeMethod* method) ;
-// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::ContainsKey(TKey)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, const RuntimeMethod* method) ;
-// T[] System.Collections.Generic.List`1<System.Object>::ToArray()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* List_1_ToArray_mD7E4F8E7C11C3C67CB5739FCC0A6E86106A6291F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::TryGetValue(TKey,TValue&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, RuntimeObject** ___value1, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Remove(TKey)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, const RuntimeMethod* method) ;
-// T UnityEngine.Object::Instantiate<System.Object>(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_mCD6FC6BB14BA9EF1A4B314841EB4D40675E3C1DB_gshared (RuntimeObject* ___original0, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::ContainsKey(TKey)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, const RuntimeMethod* method) ;
+// T UnityEngine.Object::Instantiate<System.Object>(T,UnityEngine.Transform)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m872899879F710B2E55BC157F35464F03877C8DFA_gshared (RuntimeObject* ___original0, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___parent1, const RuntimeMethod* method) ;
+// T UnityEngine.GameObject::GetComponent<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Add(TKey,TValue)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Object>::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+// T System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+// T UnityEngine.Component::GetComponent<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+// T UnityEngine.Component::GetComponentInChildren<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`1<UnityEngine.XR.ARFoundation.ARFacesChangedEventArgs>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m6B29F8F1F0039A82C7A8CE016F79E8D39054E4D4_gshared (Action_1_t0A16CC637B74FE43A20D2784BCA3172E7D13789C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// TSubsystem UnityEngine.XR.ARFoundation.SubsystemLifecycleManager`3<System.Object,System.Object,System.Object>::get_subsystem()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* SubsystemLifecycleManager_3_get_subsystem_mD3D899C68170AAB80E8086C46FC5C6C033A07C21_gshared_inline (SubsystemLifecycleManager_3_t499D76783B0F91C52B19F7183F077FAD1985AD55* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::Reverse<System.Object>(System.Collections.Generic.IEnumerable`1<TSource>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Reverse_TisRuntimeObject_m16B9BEE6D92F770F21F1CC2F37BB8ABB894F93C9_gshared (RuntimeObject* ___source0, const RuntimeMethod* method) ;
+// T UnityEngine.Object::Instantiate<System.Object>(T,UnityEngine.Vector3,UnityEngine.Quaternion)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m2A2DD50EC8EB54C91AF71E02DFD6969174D82B08_gshared (RuntimeObject* ___original0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position1, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation2, const RuntimeMethod* method) ;
+// T UnityEngine.Object::FindObjectOfType<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_FindObjectOfType_TisRuntimeObject_m9990A7304DF02BA1ED160587D1C2F6DAE89BB343_gshared (const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.Object>::Add(T)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+// T[] System.Collections.Generic.List`1<System.Object>::ToArray()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* List_1_ToArray_mD7E4F8E7C11C3C67CB5739FCC0A6E86106A6291F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+// T UnityEngine.Object::Instantiate<System.Object>(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_mCD6FC6BB14BA9EF1A4B314841EB4D40675E3C1DB_gshared (RuntimeObject* ___original0, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::set_Item(TKey,TValue)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
 // TValue System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Item(TKey)
@@ -6518,8 +6188,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mEA5E01B81EB943B7003D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 Enumerator_get_Current_mE3475384B761E1C7971D3639BD09117FE8363422_gshared_inline (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mCD4950A75FFADD54AF354D48C6C0DB0B5A22A5F4_gshared (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) ;
-// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::AddComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
@@ -6528,23 +6196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m11A393DB3C00474B452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD_gshared (UnityEvent_1_tEEB36A367DCB5867E93AAF6BECAF3558CA71BECB* __this, UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9* ___call0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Boolean>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_RemoveListener_m5F1198F13FB2222BE8AABD6454B4D21086D0A130_gshared (UnityEvent_1_tEEB36A367DCB5867E93AAF6BECAF3558CA71BECB* __this, UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9* ___call0, const RuntimeMethod* method) ;
-// System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Object>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionSource_1__ctor_mBF9A903AD14C4E9CF044B227776C532BA9C40D60_gshared (TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* __this, const RuntimeMethod* method) ;
-// System.Collections.IEnumerator Google.Future`1<System.Object>::WaitForResult(System.Threading.Tasks.TaskCompletionSource`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Future_1_WaitForResult_m86C7BBC0D729D1190E2DE445649A1A7280004193_gshared (Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF* __this, TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* ___tcs0, const RuntimeMethod* method) ;
-// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1<System.Object>::get_Task()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* TaskCompletionSource_1_get_Task_mF44990297C25C7DBE1E65241C03D0120CB551552_gshared_inline (TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* __this, const RuntimeMethod* method) ;
-// System.Void System.Collections.Generic.List`1<System.Object>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___collection0, const RuntimeMethod* method) ;
-// System.Void Google.Future`1<System.Object>::.ctor(Google.FutureAPIImpl`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_1__ctor_mFAB04EC0EED034736749BA83776F629ED33AA046_gshared (Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF* __this, RuntimeObject* ___impl0, const RuntimeMethod* method) ;
-// FieldType UnityEngine.AndroidJavaObject::GetStatic<System.Object>(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, const RuntimeMethod* method) ;
 
-// System.Void Google.GoogleSignInConfiguration::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInConfiguration__ctor_m99891370EEB5D39D4F4492E576B1CB5665532589 (GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* __this, const RuntimeMethod* method) ;
-// System.Void GoogleSignInDemo::CheckFirebaseDependencies()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_CheckFirebaseDependencies_mA1DD76BB370E21108AB145F13C8FDB48BF0E87CB (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, const RuntimeMethod* method) ;
 // System.Threading.Tasks.Task`1<Firebase.DependencyStatus> Firebase.FirebaseApp::CheckAndFixDependenciesAsync()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tCDCA9B2073B1AC4ED4537A6D74742D20B122E1EF* FirebaseApp_CheckAndFixDependenciesAsync_mE6FF44FA1DDA2E2504A45F1F12696D9D089D7674 (const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Threading.Tasks.Task`1<Firebase.DependencyStatus>>::.ctor(System.Object,System.IntPtr)
@@ -6557,108 +6209,6 @@ inline Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_1_ContinueWith_mAB52
 {
 	return ((  Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* (*) (Task_1_tCDCA9B2073B1AC4ED4537A6D74742D20B122E1EF*, Action_1_t72552EB3CFD9D41493135164276F7EE71F1132FC*, const RuntimeMethod*))Task_1_ContinueWith_m80CB64874F84DB8EBDB9F3F28F5B6710670B1571_gshared)(__this, ___continuationAction0, method);
 }
-// System.Void GoogleSignInDemo::OnSignIn()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_OnSignIn_m835F735A3042412ABAA3709A93F541EB359B1913 (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, const RuntimeMethod* method) ;
-// System.Void GoogleSignInDemo::OnSignOut()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_OnSignOut_mDF377AA03059C63771F9079C374CF92D7F234F1C (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, const RuntimeMethod* method) ;
-// System.Void Google.GoogleSignIn::set_Configuration(Google.GoogleSignInConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignIn_set_Configuration_mF52DF04FFD80AA9BC83102B2F313D24C9D5FFA17 (GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* ___value0, const RuntimeMethod* method) ;
-// Google.GoogleSignInConfiguration Google.GoogleSignIn::get_Configuration()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* GoogleSignIn_get_Configuration_m4E2239E342D8DE7555911527A1919538C5EAE9A9 (const RuntimeMethod* method) ;
-// System.Void GoogleSignInDemo::AddToInformation(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, String_t* ___str0, const RuntimeMethod* method) ;
-// Google.GoogleSignIn Google.GoogleSignIn::get_DefaultInstance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* GoogleSignIn_get_DefaultInstance_m44367AA5151F8B71EA6BCBF805E59387F826C1AB (const RuntimeMethod* method) ;
-// System.Threading.Tasks.Task`1<Google.GoogleSignInUser> Google.GoogleSignIn::SignIn()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* GoogleSignIn_SignIn_mAAA8FC28D91B6CBAB324F888FE951EB9EA64E64D (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, const RuntimeMethod* method) ;
-// System.Void System.Action`1<System.Threading.Tasks.Task`1<Google.GoogleSignInUser>>::.ctor(System.Object,System.IntPtr)
-inline void Action_1__ctor_m24ECDBDFF2296BB9E1A0A6682131E87BADE4EADE (Action_1_tF52889A7B072E11E8880182FD8F7D44219989077* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	((  void (*) (Action_1_tF52889A7B072E11E8880182FD8F7D44219989077*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
-}
-// System.Threading.Tasks.Task System.Threading.Tasks.Task`1<Google.GoogleSignInUser>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<TResult>>)
-inline Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1 (Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* __this, Action_1_tF52889A7B072E11E8880182FD8F7D44219989077* ___continuationAction0, const RuntimeMethod* method)
-{
-	return ((  Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* (*) (Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926*, Action_1_tF52889A7B072E11E8880182FD8F7D44219989077*, const RuntimeMethod*))Task_1_ContinueWith_mA0846133B2903064AAD1D23FE61AE736A033F866_gshared)(__this, ___continuationAction0, method);
-}
-// System.Void Google.GoogleSignIn::SignOut()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignIn_SignOut_m1666034382C085A0EE0227035E57E5AD61FE43B6 (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, const RuntimeMethod* method) ;
-// System.Void Google.GoogleSignIn::Disconnect()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignIn_Disconnect_mD97724F96462EC3BB49B29CFDC92888EB5D11D00 (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, const RuntimeMethod* method) ;
-// System.Boolean System.Threading.Tasks.Task::get_IsFaulted()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_get_IsFaulted_mC0AD3EA4EAF3B47C1F5FE9624541F0A00B9426D9 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
-// System.AggregateException System.Threading.Tasks.Task::get_Exception()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AggregateException_t51B6205846DFB356B94452702201DD239D44422F* Task_get_Exception_m11317CABA220E351C84B3E94B8A98F1565F42B45 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception> System.AggregateException::get_InnerExceptions()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886* AggregateException_get_InnerExceptions_m3044DE61416F827389F2975C67AC1AD89EA050A5_inline (AggregateException_t51B6205846DFB356B94452702201DD239D44422F* __this, const RuntimeMethod* method) ;
-// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception>::GetEnumerator()
-inline RuntimeObject* ReadOnlyCollection_1_GetEnumerator_m7B522F5E33A2823F23DAD24EE1819E5278D111FC (ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886* __this, const RuntimeMethod* method)
-{
-	return ((  RuntimeObject* (*) (ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886*, const RuntimeMethod*))ReadOnlyCollection_1_GetEnumerator_m487A0501D6F875A04F7D8F93F1CB3C813994AA64_gshared)(__this, method);
-}
-// Google.GoogleSignInStatusCode Google.GoogleSignIn/SignInException::get_Status()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SignInException_get_Status_m2FBF33632A23C771EE5CEB65120E3DFEC8FF5A74_inline (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, const RuntimeMethod* method) ;
-// System.String System.Enum::ToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
-// System.String System.String::Concat(System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D (String_t* ___str00, String_t* ___str11, String_t* ___str22, String_t* ___str33, const RuntimeMethod* method) ;
-// System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
-// System.Boolean System.Threading.Tasks.Task::get_IsCanceled()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_get_IsCanceled_m96A8D3F85158A9CB3AEA50A00A55BE4E0F0E21FA (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
-// TResult System.Threading.Tasks.Task`1<Google.GoogleSignInUser>::get_Result()
-inline GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B (Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* __this, const RuntimeMethod* method)
-{
-	return ((  GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* (*) (Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926*, const RuntimeMethod*))Task_1_get_Result_m6897AA7D4A583F9E81EC01C1BF788372D64C5A26_gshared)(__this, method);
-}
-// System.String Google.GoogleSignInUser::get_DisplayName()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_DisplayName_mC14CD83AFB1364C729D09692732781672D9CEA9C_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) ;
-// System.String System.String::Concat(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0 (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
-// System.String Google.GoogleSignInUser::get_Email()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_Email_mA6E37F96BC90280CBA4D425743426CBE8D515551_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) ;
-// System.String Google.GoogleSignInUser::get_IdToken()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_IdToken_m58382F225E3065502A66AFA23F70053153DEA62A_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) ;
-// System.Void GoogleSignInDemo::SignInWithGoogleOnFirebase(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_SignInWithGoogleOnFirebase_mD37B9B5920211601B9913BEC13B599D2928E6EB1 (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, String_t* ___idToken0, const RuntimeMethod* method) ;
-// Firebase.Auth.Credential Firebase.Auth.GoogleAuthProvider::GetCredential(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Credential_t32FB2E0F8AAA0B6895D10531CE82C9FBD27E27D1* GoogleAuthProvider_GetCredential_m6246A8B861C270513177BE702FA0F70ADD5C84AD (String_t* ___idToken0, String_t* ___accessToken1, const RuntimeMethod* method) ;
-// System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser> Firebase.Auth.FirebaseAuth::SignInWithCredentialAsync(Firebase.Auth.Credential)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tE57E3A2330CE37367B7296D598E85906D967FF5B* FirebaseAuth_SignInWithCredentialAsync_m113AA2F02FEE5A28A9D49492AC5F33AA54A55D74 (FirebaseAuth_tD2FC1EC1E5B6EF920276AFABA103B8B7E2AE2DAF* __this, Credential_t32FB2E0F8AAA0B6895D10531CE82C9FBD27E27D1* ___credential0, const RuntimeMethod* method) ;
-// System.Void System.Action`1<System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>>::.ctor(System.Object,System.IntPtr)
-inline void Action_1__ctor_mA1A3987C0999C379F2DE5C4FC11270A1C6B91007 (Action_1_t7A72BB5CDA51C7604122D1F351F54CD826121DA9* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	((  void (*) (Action_1_t7A72BB5CDA51C7604122D1F351F54CD826121DA9*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
-}
-// System.Threading.Tasks.Task System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<TResult>>)
-inline Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_1_ContinueWith_m549608C19B9ED5ECA2FD9094527278477B3A2E38 (Task_1_tE57E3A2330CE37367B7296D598E85906D967FF5B* __this, Action_1_t7A72BB5CDA51C7604122D1F351F54CD826121DA9* ___continuationAction0, const RuntimeMethod* method)
-{
-	return ((  Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* (*) (Task_1_tE57E3A2330CE37367B7296D598E85906D967FF5B*, Action_1_t7A72BB5CDA51C7604122D1F351F54CD826121DA9*, const RuntimeMethod*))Task_1_ContinueWith_mA0846133B2903064AAD1D23FE61AE736A033F866_gshared)(__this, ___continuationAction0, method);
-}
-// System.Threading.Tasks.Task`1<Google.GoogleSignInUser> Google.GoogleSignIn::SignInSilently()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* GoogleSignIn_SignInSilently_mA667E9AAF7FA438217844D0BACC7DF68364DF7AD (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.MonoBehaviour::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
-// System.Boolean System.Threading.Tasks.Task::get_IsCompleted()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
-// TResult System.Threading.Tasks.Task`1<Firebase.DependencyStatus>::get_Result()
-inline int32_t Task_1_get_Result_m543F02EC56EEA4AAED7101434F488D890414A3DA (Task_1_tCDCA9B2073B1AC4ED4537A6D74742D20B122E1EF* __this, const RuntimeMethod* method)
-{
-	return ((  int32_t (*) (Task_1_tCDCA9B2073B1AC4ED4537A6D74742D20B122E1EF*, const RuntimeMethod*))Task_1_get_Result_mF8B724FC6FD57DF2078A1F8927214003AAAC6286_gshared)(__this, method);
-}
-// Firebase.Auth.FirebaseAuth Firebase.Auth.FirebaseAuth::get_DefaultInstance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseAuth_tD2FC1EC1E5B6EF920276AFABA103B8B7E2AE2DAF* FirebaseAuth_get_DefaultInstance_m1DAD548CF76FE2B9B9DFB407D5B3058A932D1B9D (const RuntimeMethod* method) ;
-// T System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception>::get_Item(System.Int32)
-inline Exception_t* ReadOnlyCollection_1_get_Item_mC1EEC8BBCB1499BF66A65D6A669B809CF9292628 (ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886* __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	return ((  Exception_t* (*) (ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886*, int32_t, const RuntimeMethod*))ReadOnlyCollection_1_get_Item_m88FE6EF1106EAB22F63554956C77E25339159136_gshared)(__this, ___index0, method);
-}
-// System.Int32 Firebase.FirebaseException::get_ErrorCode()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t FirebaseException_get_ErrorCode_mE665B1ADB8DD846C3C604DD72F25C1B476EB3A66_inline (FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* __this, const RuntimeMethod* method) ;
-// System.String System.Int32::ToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF (String_t* ___sceneName0, const RuntimeMethod* method) ;
 // System.Threading.Tasks.Task Firebase.Extensions.TaskExtension::ContinueWithOnMainThread<Firebase.DependencyStatus>(System.Threading.Tasks.Task`1<T>,System.Action`1<System.Threading.Tasks.Task`1<T>>)
 inline Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* TaskExtension_ContinueWithOnMainThread_TisDependencyStatus_t9DA2DB2B2AC17E9DA549331B93778091496D8195_m75CDDCA9A61829EC012413658686CE32A0360EB5 (Task_1_tCDCA9B2073B1AC4ED4537A6D74742D20B122E1EF* ___task0, Action_1_t72552EB3CFD9D41493135164276F7EE71F1132FC* ___continuation1, const RuntimeMethod* method)
 {
@@ -6666,6 +6216,8 @@ inline Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* TaskExtension_ContinueWit
 }
 // System.Void UnityEngine.Debug::Log(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// Firebase.Auth.FirebaseAuth Firebase.Auth.FirebaseAuth::get_DefaultInstance()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseAuth_tD2FC1EC1E5B6EF920276AFABA103B8B7E2AE2DAF* FirebaseAuth_get_DefaultInstance_m1DAD548CF76FE2B9B9DFB407D5B3058A932D1B9D (const RuntimeMethod* method) ;
 // Firebase.Database.FirebaseDatabase Firebase.Database.FirebaseDatabase::get_DefaultInstance()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseDatabase_t39655E1CF62FCA36F81637138EABB8E0E88FF960* FirebaseDatabase_get_DefaultInstance_mDBBF7C425ADE1219B7DF2BDFA3BBD197BDBCF34F (const RuntimeMethod* method) ;
 // Firebase.Database.DatabaseReference Firebase.Database.FirebaseDatabase::get_RootReference()
@@ -6686,6 +6238,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonNetwork_set_GameVersion_mB0D2CE96F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonNetwork_set_NickName_m6F257FCC8B5D45C65866AB96EAEBF5B5979006AE (String_t* ___value0, const RuntimeMethod* method) ;
 // System.Boolean Photon.Pun.PhotonNetwork::ConnectUsingSettings()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_ConnectUsingSettings_mB2A659A9684CAC6BBBA81F453E31C765DA29E13D (const RuntimeMethod* method) ;
+// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF (String_t* ___sceneName0, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator AuthManager::Register(System.String,System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AuthManager_Register_m0CD751F7BE9882772B934A2C3894509EA486A4B0 (AuthManager_t0B9C7D3558DD3713DB6E7648217B8650A1EF5570* __this, String_t* ____email0, String_t* ____password1, String_t* ____username2, const RuntimeMethod* method) ;
 // System.Void AuthManager/<Login>d__20::.ctor(System.Int32)
@@ -6694,14 +6248,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoginU3Ed__20__ctor_mAB5B67ACC93A3455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRegisterU3Ed__21__ctor_m1EE57D7AFA14F0B37E21E6143EABFC2934566D76 (U3CRegisterU3Ed__21_t2B0BE975578D25717047499BF44474ECCF9ADC5B* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
 // System.Void Photon.Pun.MonoBehaviourPunCallbacks::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviourPunCallbacks__ctor_m25DE2B188CA2481D58FBA9BB58CFBD65432B77E2 (MonoBehaviourPunCallbacks_t0B3C6A2FD0A09450A8505ACD42A647F3BCE6D783* __this, const RuntimeMethod* method) ;
+// TResult System.Threading.Tasks.Task`1<Firebase.DependencyStatus>::get_Result()
+inline int32_t Task_1_get_Result_m543F02EC56EEA4AAED7101434F488D890414A3DA (Task_1_tCDCA9B2073B1AC4ED4537A6D74742D20B122E1EF* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (Task_1_tCDCA9B2073B1AC4ED4537A6D74742D20B122E1EF*, const RuntimeMethod*))Task_1_get_Result_mF8B724FC6FD57DF2078A1F8927214003AAAC6286_gshared)(__this, method);
+}
 // System.Void AuthManager::InitializedFirebase()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthManager_InitializedFirebase_m0E12007AD5ED7E084E7B8FD4D516EF4FB240A7BD (AuthManager_t0B9C7D3558DD3713DB6E7648217B8650A1EF5570* __this, const RuntimeMethod* method) ;
+// System.String System.Enum::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogError(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // System.Void AuthManager::Awake()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthManager_Awake_mAD76EDE68AFA86FCF349B3F047D17CF221DB624D (AuthManager_t0B9C7D3558DD3713DB6E7648217B8650A1EF5570* __this, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Threading.Tasks.Task::get_IsCompleted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
 // System.Void AuthManager/<>c__DisplayClass20_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0__ctor_m6FA18D7A61229AF3E0EFE8DAA9B36CE06103A975 (U3CU3Ec__DisplayClass20_0_t5CFD6B2B8D7013F94F7D08AC7AF631A5EEA6F96F* __this, const RuntimeMethod* method) ;
 // System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser> Firebase.Auth.FirebaseAuth::SignInWithEmailAndPasswordAsync(System.String,System.String)
@@ -6713,10 +6278,14 @@ inline void Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22 (Func_1_t2BE7
 }
 // System.Void UnityEngine.WaitUntil::.ctor(System.Func`1<System.Boolean>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitUntil__ctor_m2C925CF39695C35F4CB1AC997531F203AE1434DF (WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD* __this, Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ___predicate0, const RuntimeMethod* method) ;
+// System.AggregateException System.Threading.Tasks.Task::get_Exception()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AggregateException_t51B6205846DFB356B94452702201DD239D44422F* Task_get_Exception_m11317CABA220E351C84B3E94B8A98F1565F42B45 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30 (String_t* ___format0, RuntimeObject* ___arg01, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogWarning(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_mEF15C6B17CE4E1FA7E379CDB82CE40FCD89A3F28 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.Int32 Firebase.FirebaseException::get_ErrorCode()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t FirebaseException_get_ErrorCode_mE665B1ADB8DD846C3C604DD72F25C1B476EB3A66_inline (FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* __this, const RuntimeMethod* method) ;
 // TResult System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>::get_Result()
 inline FirebaseUser_t119C5023B23CA61BCB1A51D0A2424DC7B4E42A3A* Task_1_get_Result_m26F14C4A359E9DF5528B9C5045782846D1ABE73F (Task_1_tE57E3A2330CE37367B7296D598E85906D967FF5B* __this, const RuntimeMethod* method)
 {
@@ -6746,20 +6315,166 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserProfile_set_DisplayName_m0761D316D0C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* FirebaseUser_UpdateUserProfileAsync_m5B9264DA1787BE70D6E9149B13C60F1A62524C2A (FirebaseUser_t119C5023B23CA61BCB1A51D0A2424DC7B4E42A3A* __this, UserProfile_t6D157B509640316F20D5DDD5A2BEA9FB952A269B* ___profile0, const RuntimeMethod* method) ;
 // System.Void UIManager::LoginScreen()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_LoginScreen_m8A8C785980DDFDC3B5EEEFB8E18ADDE3E77717EE (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, const RuntimeMethod* method) ;
-// System.Boolean Photon.Pun.PhotonNetwork::get_IsConnected()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_get_IsConnected_mDEEAF9E141501CCD9CD78A9F11B6D0CAEAE97B11 (const RuntimeMethod* method) ;
-// System.Void Photon.Realtime.RoomOptions::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions__ctor_m06A5DAB18D3385E8AED5DA84C8A89D9C7E8498F8 (RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* __this, const RuntimeMethod* method) ;
-// System.Int32 System.Int32::Parse(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Int32_Parse_m59B9CC9D5E5B6C99C14251E57FB43BE6AB658767 (String_t* ___s0, const RuntimeMethod* method) ;
-// System.Boolean Photon.Pun.PhotonNetwork::CreateRoom(System.String,Photon.Realtime.RoomOptions,Photon.Realtime.TypedLobby,System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_CreateRoom_m12D48FA7E2BFA9460038A06A7461B5D32404DD28 (String_t* ___roomName0, RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* ___roomOptions1, TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* ___typedLobby2, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___expectedUsers3, const RuntimeMethod* method) ;
 // UnityEngine.SceneManagement.Scene UnityEngine.SceneManagement.SceneManager::GetActiveScene()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 SceneManager_GetActiveScene_m2DB2A1ACB84805968A4B6396BFDFB92C0AF32BCE (const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.SceneManagement.Scene::get_buildIndex()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D (int32_t ___sceneBuildIndex0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.MonoBehaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+// System.Boolean Photon.Pun.PhotonNetwork::get_IsMasterClient()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_get_IsMasterClient_m267E5D638F89D200CCB3A9997F03EBB403D21307 (const RuntimeMethod* method) ;
+// System.Int32 System.Collections.Generic.List`1<Photon.Realtime.RoomInfo>::get_Count()
+inline int32_t List_1_get_Count_mD1A2E394D4FC47B9092FE11D1E27BC1AED671721_inline (List_1_t2DCE8BA4B15DC3B666CEEA3E5A3E9E922B2F8CAE* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t2DCE8BA4B15DC3B666CEEA3E5A3E9E922B2F8CAE*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<Photon.Realtime.RoomInfo>::GetEnumerator()
+inline Enumerator_tE4AFECE813D7AFDD1AB30EBBCE376EEFDE795876 List_1_GetEnumerator_m85AB5590D8E32D28B16798AC25EC6A3B8E68ABDE (List_1_t2DCE8BA4B15DC3B666CEEA3E5A3E9E922B2F8CAE* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_tE4AFECE813D7AFDD1AB30EBBCE376EEFDE795876 (*) (List_1_t2DCE8BA4B15DC3B666CEEA3E5A3E9E922B2F8CAE*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.List`1/Enumerator<Photon.Realtime.RoomInfo>::Dispose()
+inline void Enumerator_Dispose_m92719F2AB1E7C98F138B83CBF16EABD2F5396F68 (Enumerator_tE4AFECE813D7AFDD1AB30EBBCE376EEFDE795876* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_tE4AFECE813D7AFDD1AB30EBBCE376EEFDE795876*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+// T System.Collections.Generic.List`1/Enumerator<Photon.Realtime.RoomInfo>::get_Current()
+inline RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* Enumerator_get_Current_mDB93D545BDBD372A9CD6D03801E080A2A7F1B63F_inline (Enumerator_tE4AFECE813D7AFDD1AB30EBBCE376EEFDE795876* __this, const RuntimeMethod* method)
+{
+	return ((  RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* (*) (Enumerator_tE4AFECE813D7AFDD1AB30EBBCE376EEFDE795876*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+// System.String Photon.Realtime.RoomInfo::get_Name()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF (RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject>::TryGetValue(TKey,TValue&)
+inline bool Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7 (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* __this, String_t* ___key0, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** ___value1, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, String_t*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F**, const RuntimeMethod*))Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___obj0, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject>::Remove(TKey)
+inline bool Dictionary_2_Remove_mD172B7CDE8C2305E9FB368A39846E3C9B296EE32 (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* __this, String_t* ___key0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___key0, method);
+}
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject>::ContainsKey(TKey)
+inline bool Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52 (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* __this, String_t* ___key0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___key0, method);
+}
+// T UnityEngine.Object::Instantiate<UnityEngine.GameObject>(T,UnityEngine.Transform)
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m002192C406088F7BA156339AAA9B1BB5D69BE934 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___original0, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___parent1, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m872899879F710B2E55BC157F35464F03877C8DFA_gshared)(___original0, ___parent1, method);
+}
+// T UnityEngine.GameObject::GetComponent<RoomData>()
+inline RoomData_t71B5840FC00FB76330915516518BAF3070CD3956* GameObject_GetComponent_TisRoomData_t71B5840FC00FB76330915516518BAF3070CD3956_mBB50A862735CE05D3C4C9868AEE81FD1D2949CB7 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  RoomData_t71B5840FC00FB76330915516518BAF3070CD3956* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+// System.Void RoomData::set_RoomInfo(Photon.Realtime.RoomInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomData_set_RoomInfo_mFF3BC1F723EDCB03EC24435A957F46F0ED68A05B (RoomData_t71B5840FC00FB76330915516518BAF3070CD3956* __this, RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* ___value0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject>::Add(TKey,TValue)
+inline void Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* __this, String_t* ___key0, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___value1, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, String_t*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Boolean System.Collections.Generic.List`1/Enumerator<Photon.Realtime.RoomInfo>::MoveNext()
+inline bool Enumerator_MoveNext_m31C52E9AD3265C4BCC34BF3C5846DA6D587FCB8F (Enumerator_tE4AFECE813D7AFDD1AB30EBBCE376EEFDE795876* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_tE4AFECE813D7AFDD1AB30EBBCE376EEFDE795876*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+// System.Collections.Generic.List`1<TMPro.TMP_Dropdown/OptionData> TMPro.TMP_Dropdown::get_options()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tCADFA900711C24701A9C70EE674B91FC45D42A52* TMP_Dropdown_get_options_mA543A0EFE4D1953E73C6F60ECA8CE177182571C5 (TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* __this, const RuntimeMethod* method) ;
+// System.Int32 TMPro.TMP_Dropdown::get_value()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TMP_Dropdown_get_value_m5916A6D1897431E8ED789FEC24551A311D1B5C70 (TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* __this, const RuntimeMethod* method) ;
+// T System.Collections.Generic.List`1<TMPro.TMP_Dropdown/OptionData>::get_Item(System.Int32)
+inline OptionData_tFDFBCB4A5FB860E95AE46FDAC112DB4140A8525E* List_1_get_Item_mBE3176F40529BACB1E6DBB68BDFD5894B04BD1BA (List_1_tCADFA900711C24701A9C70EE674B91FC45D42A52* __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	return ((  OptionData_tFDFBCB4A5FB860E95AE46FDAC112DB4140A8525E* (*) (List_1_tCADFA900711C24701A9C70EE674B91FC45D42A52*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___index0, method);
+}
+// System.String TMPro.TMP_Dropdown/OptionData::get_text()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OptionData_get_text_m2E822D5D50B597BFBA7AB3485EF15B526A726A1A (OptionData_tFDFBCB4A5FB860E95AE46FDAC112DB4140A8525E* __this, const RuntimeMethod* method) ;
+// System.Byte System.Byte::Parse(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Byte_Parse_m1F9A08825A453496DA59DA47A1AAA6893CDAB087 (String_t* ___s0, const RuntimeMethod* method) ;
+// System.Void Photon.Realtime.RoomOptions::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions__ctor_m06A5DAB18D3385E8AED5DA84C8A89D9C7E8498F8 (RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* __this, const RuntimeMethod* method) ;
+// System.Void Photon.Realtime.RoomOptions::set_IsOpen(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions_set_IsOpen_mF3D109E3437275F0E1554E93F646A4F766F42271 (RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* __this, bool ___value0, const RuntimeMethod* method) ;
+// System.Void Photon.Realtime.RoomOptions::set_IsVisible(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions_set_IsVisible_m5D9ACD84A11FD6E37F023C2181653923AEE7AB25 (RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* __this, bool ___value0, const RuntimeMethod* method) ;
+// System.Boolean System.String::IsNullOrEmpty(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A (String_t* ___value0, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Random::Range(System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_Range_mD4D2DEE3D2E75D07740C9A6F93B3088B03BBB8F8 (int32_t ___minInclusive0, int32_t ___maxExclusive1, const RuntimeMethod* method) ;
+// System.Void TMPro.TMP_InputField::set_text(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_InputField_set_text_m684E9CDA2D9E82D1C497B5E03DBE79C00584FF62 (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Boolean Photon.Pun.PhotonNetwork::CreateRoom(System.String,Photon.Realtime.RoomOptions,Photon.Realtime.TypedLobby,System.String[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_CreateRoom_m12D48FA7E2BFA9460038A06A7461B5D32404DD28 (String_t* ___roomName0, RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* ___roomOptions1, TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* ___typedLobby2, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___expectedUsers3, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject>::.ctor()
+inline void Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
+// System.Void UnityEngine.MonoBehaviour::Invoke(System.String,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, String_t* ___methodName0, float ___time1, const RuntimeMethod* method) ;
+// Photon.Realtime.Room Photon.Pun.PhotonNetwork::get_CurrentRoom()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* PhotonNetwork_get_CurrentRoom_m93A0D4281360B3C1E2D9A0FD6EF1590D80BE7D97 (const RuntimeMethod* method) ;
+// System.String Photon.Realtime.Room::get_Name()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Room_get_Name_m8C466150335A007F72B11711AB64F9F62288D500 (Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* __this, const RuntimeMethod* method) ;
+// System.Boolean Photon.Pun.PhotonNetwork::LeaveRoom(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_LeaveRoom_mDCAACF6F9544774184AD90123492CAC3F811DC0A (bool ___becomeInactive0, const RuntimeMethod* method) ;
+// System.String UnityEngine.SceneManagement.Scene::get_name()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Scene_get_name_m3C818DFA663E159274DAD823B780C7616C5E2A8C (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
+// System.Void Photon.Pun.PhotonNetwork::set_AutomaticallySyncScene(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonNetwork_set_AutomaticallySyncScene_mBA0C0F252FB25C577151766C4407D269F5A6D651 (bool ___value0, const RuntimeMethod* method) ;
+// System.String UnityEngine.PlayerPrefs::GetString(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerPrefs_GetString_mC671EDA77D8D35BE514817F54950630327A74F63 (String_t* ___key0, String_t* ___defaultValue1, const RuntimeMethod* method) ;
+// System.Boolean Photon.Pun.PhotonNetwork::JoinLobby()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_JoinLobby_m9815B6661AB801FEE0FD3AC8AE9614990BBA2DE5 (const RuntimeMethod* method) ;
+// System.Int32 Photon.Realtime.RoomInfo::get_PlayerCount()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t RoomInfo_get_PlayerCount_m021CCF31A290BEADD0EECF2F3265D7D0BF2DD029_inline (RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* __this, const RuntimeMethod* method) ;
+// System.Byte Photon.Realtime.RoomInfo::get_MaxPlayers()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t RoomInfo_get_MaxPlayers_mA59AFE46C3C2CB64D2DC7F6DB200187913DDAF24 (RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* __this, const RuntimeMethod* method) ;
+// System.String System.String::Format(System.String,System.Object,System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m76BF8F3A6AD789E38B708848A2688D400AAC250A (String_t* ___format0, RuntimeObject* ___arg01, RuntimeObject* ___arg12, RuntimeObject* ___arg23, const RuntimeMethod* method) ;
+// T UnityEngine.Component::GetComponent<UnityEngine.UI.Button>()
+inline Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+// UnityEngine.UI.Button/ButtonClickedEvent UnityEngine.UI.Button::get_onClick()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___call0, const RuntimeMethod* method) ;
+// T UnityEngine.Component::GetComponentInChildren<TMPro.TMP_Text>()
+inline TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* Component_GetComponentInChildren_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA5C534600978A673C682FADEE1BBFE1B535981AA (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared)(__this, method);
+}
+// System.Boolean Photon.Pun.PhotonNetwork::JoinRoom(System.String,System.String[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_JoinRoom_mE8AD9F27587EDD8672667CB57098E07E9E2F7080 (String_t* ___roomName0, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___expectedUsers1, const RuntimeMethod* method) ;
+// System.Void RoomData::OnJoinRoom(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomData_OnJoinRoom_m8354A341DC42809022A7071EDAD8C69BC805EB27 (RoomData_t71B5840FC00FB76330915516518BAF3070CD3956* __this, String_t* ___roomName0, const RuntimeMethod* method) ;
+// UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_Find_mFF1D6C65A7E2CD82443F4DCE4C53472FB30B7F51 (String_t* ___name0, const RuntimeMethod* method) ;
+// T UnityEngine.GameObject::GetComponent<TMPro.TMP_InputField>()
+inline TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* GameObject_GetComponent_TisTMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F_m6CA031C91E5D203C24D3315721B6E3910B9C8729 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+// System.Boolean Photon.Pun.PhotonNetwork::JoinOrCreateRoom(System.String,Photon.Realtime.RoomOptions,Photon.Realtime.TypedLobby,System.String[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_JoinOrCreateRoom_m114BF24BB05155B4F18D2222630B14472ECFA243 (String_t* ___roomName0, RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* ___roomOptions1, TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* ___typedLobby2, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___expectedUsers3, const RuntimeMethod* method) ;
+// System.Void study::OnEnterRoom(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void study_OnEnterRoom_m8CFB23D5C56756090DFC55D1312E6BA3287CE0E5 (study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C* __this, String_t* ___roomName0, const RuntimeMethod* method) ;
+// System.Void PhotonManager::Connect()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonManager_Connect_m9CCCDD216972112E130262F7799B18A2CFA08BD4 (PhotonManager_tE7B7BB65B400FA3711AD3933F030339B19AB8701* __this, const RuntimeMethod* method) ;
+// System.Boolean Photon.Pun.PhotonNetwork::get_IsConnected()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_get_IsConnected_mDEEAF9E141501CCD9CD78A9F11B6D0CAEAE97B11 (const RuntimeMethod* method) ;
 // System.Void System.Action`1<UnityEngine.XR.ARFoundation.ARFacesChangedEventArgs>::.ctor(System.Object,System.IntPtr)
 inline void Action_1__ctor_m6B29F8F1F0039A82C7A8CE016F79E8D39054E4D4 (Action_1_t0A16CC637B74FE43A20D2784BCA3172E7D13789C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
@@ -6816,8 +6531,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tA11EBED64210DD13BB4303415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, String_t* ___tag0, const RuntimeMethod* method) ;
 // UnityEngine.GameObject UnityEngine.Component::get_gameObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___obj0, const RuntimeMethod* method) ;
+// System.String System.Int32::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator GameOverScript::UpdateUsernameDatabase(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameOverScript_UpdateUsernameDatabase_m88E76FB8D57ECE6B295E1D8E7DBC887EB6DFE9CE (GameOverScript_tDEBA863B007708C2DD3D1C4ED2F6C2AAC280EF29* __this, String_t* ____username0, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator GameOverScript::UpdateScores(System.Int32)
@@ -6870,11 +6585,8 @@ inline RuntimeObject* Enumerable_Reverse_TisDataSnapshot_tF8B2EB3F4F07CDF924E0D6
 }
 // Firebase.Database.DataSnapshot Firebase.Database.DataSnapshot::Child(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* DataSnapshot_Child_m308ABEC425ADE01909B1A318D61DC965802EF64C (DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* __this, String_t* ___path0, const RuntimeMethod* method) ;
-// T UnityEngine.Object::Instantiate<UnityEngine.GameObject>(T,UnityEngine.Transform)
-inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m002192C406088F7BA156339AAA9B1BB5D69BE934 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___original0, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___parent1, const RuntimeMethod* method)
-{
-	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m872899879F710B2E55BC157F35464F03877C8DFA_gshared)(___original0, ___parent1, method);
-}
+// System.Int32 System.Int32::Parse(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Int32_Parse_m59B9CC9D5E5B6C99C14251E57FB43BE6AB658767 (String_t* ___s0, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::GetComponent<ScoreElement>()
 inline ScoreElement_t7861A21B8EE27740DDDB646CC4363C8145575F18* GameObject_GetComponent_TisScoreElement_t7861A21B8EE27740DDDB646CC4363C8145575F18_m278487F3E473A15DF522B86743C8C7AAF78315F1 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
@@ -6928,52 +6640,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ClearScreen_mF77301BE19546D7AA0AEF1B6EC2A4EFCE58CB12A (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.ScriptableObject::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
-// System.Void SignInSample.SigninSampleScript::AddStatusText(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SigninSampleScript_AddStatusText_m4380CA7BAAE8C0B3367D39C82DAEFCB479427C48 (SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* __this, String_t* ___text0, const RuntimeMethod* method) ;
-// System.Void SignInSample.SigninSampleScript::AddToInformation(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SigninSampleScript_AddToInformation_mD78D3B89E73A0A525C7199E5A50346F2046D85B0 (SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* __this, String_t* ___str0, const RuntimeMethod* method) ;
-// System.Void SignInSample.SigninSampleScript::SignInWithGoogleOnFirebase(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SigninSampleScript_SignInWithGoogleOnFirebase_m522718CE0C71DAEB8257A1CF3E53DAD094F94981 (SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* __this, String_t* ___idToken0, const RuntimeMethod* method) ;
-// System.Int32 System.Collections.Generic.List`1<System.String>::get_Count()
-inline int32_t List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
-{
-	return ((  int32_t (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
-}
-// System.Void System.Collections.Generic.List`1<System.String>::RemoveAt(System.Int32)
-inline void List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___index0, method);
-}
-// System.Void System.Collections.Generic.List`1<System.String>::Add(T)
-inline void List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___item0, const RuntimeMethod* method)
-{
-	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___item0, method);
-}
-// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.String>::GetEnumerator()
-inline Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
-{
-	return ((  Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
-}
-// System.Void System.Collections.Generic.List`1/Enumerator<System.String>::Dispose()
-inline void Enumerator_Dispose_m592BCCE7B7933454DED2130C810F059F8D85B1D7 (Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1* __this, const RuntimeMethod* method)
-{
-	((  void (*) (Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
-}
-// T System.Collections.Generic.List`1/Enumerator<System.String>::get_Current()
-inline String_t* Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_inline (Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1* __this, const RuntimeMethod* method)
-{
-	return ((  String_t* (*) (Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
-}
-// System.Boolean System.Collections.Generic.List`1/Enumerator<System.String>::MoveNext()
-inline bool Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED (Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1* __this, const RuntimeMethod* method)
-{
-	return ((  bool (*) (Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
-}
-// System.Void System.Collections.Generic.List`1<System.String>::.ctor()
-inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
-{
-	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
-}
 // System.Void Photon.Realtime.LoadBalancingClient::.ctor(ExitGames.Client.Photon.ConnectionProtocol)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient__ctor_mC3FD7885A9F9E80E8949ACDE2590016410F1186C (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, uint8_t ___protocol0, const RuntimeMethod* method) ;
 // System.Void Photon.Realtime.LoadBalancingClient::AddCallbackTarget(System.Object)
@@ -6995,6 +6661,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LoadBalancingClient_get_State_m8553D8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D (String_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
 // System.Boolean Photon.Realtime.LoadBalancingClient::OpJoinRandomRoom(Photon.Realtime.OpJoinRandomRoomParams)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LoadBalancingClient_OpJoinRandomRoom_mCB018C45C5BAC6CB7F10FA13BA9EBAC3BD0F45A1 (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, OpJoinRandomRoomParams_t5DCB0B5EBE3D5C35A483669A8D997D47E17D6DBA* ___opJoinRandomRoomParams0, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0 (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
 // System.Void System.Action`1<Photon.Realtime.RegionHandler>::.ctor(System.Object,System.IntPtr)
 inline void Action_1__ctor_m215F7D57B46C05B7411E4B5B4C7DDB91EEA86681 (Action_1_tD013146E11DC5068784A80C11B7415DC9FE54B74* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
@@ -7036,8 +6704,6 @@ inline ChatGui_t95A365F823D02D80BB5F9C8AD147D503E7075F25* Object_FindObjectOfTyp
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatGui_ShowChannel_m9AB1B8EFCEA804119F7891EB21AA299D9EE9C211 (ChatGui_t95A365F823D02D80BB5F9C8AD147D503E7075F25* __this, String_t* ___channelName0, const RuntimeMethod* method) ;
 // Photon.Pun.ServerSettings Photon.Pun.PhotonNetwork::get_PhotonServerSettings()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ServerSettings_t41BE4338E7E76BFB4919D4039BAFC6799E242152* PhotonNetwork_get_PhotonServerSettings_m1B8E2B261E15DB33DECC60F93693C52504A8E9C9 (const RuntimeMethod* method) ;
-// System.Boolean System.String::IsNullOrEmpty(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A (String_t* ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m303AA1C4DC810349F285B4809E426CBBA8F834F9 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___target0, const RuntimeMethod* method) ;
 // System.String Photon.Chat.Demo.ChatGui::get_UserName()
@@ -7093,6 +6759,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Char_Equals_mEA7BFB45790C973DF6352091FA9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* String_Split_m3C63FA89A52BE352B4E49DB5379F7AAD6ACCA0E8 (String_t* __this, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___separator0, int32_t ___count1, const RuntimeMethod* method) ;
 // System.Void Photon.Chat.Demo.ChatGui::PostHelpToCurrentChannel()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatGui_PostHelpToCurrentChannel_m707B7D1D556EACB05EC03E08F91A8F1ECA3642E9 (ChatGui_t95A365F823D02D80BB5F9C8AD147D503E7075F25* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.String>::.ctor()
+inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.List`1<System.String>::Add(T)
+inline void List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___item0, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___item0, method);
+}
 // T[] System.Collections.Generic.List`1<System.String>::ToArray()
 inline StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
 {
@@ -7202,8 +6878,6 @@ inline Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* KeyValuePair_2_get_Valu
 }
 // System.Void UnityEngine.UI.Toggle::set_isOn(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F (Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* __this, bool ___value0, const RuntimeMethod* method) ;
-// System.String System.String::Format(System.String,System.Object,System.Object,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m76BF8F3A6AD789E38B708848A2688D400AAC250A (String_t* ___format0, RuntimeObject* ___arg01, RuntimeObject* ___arg12, RuntimeObject* ___arg23, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,Photon.Chat.Demo.FriendItem>::ContainsKey(TKey)
 inline bool Dictionary_2_ContainsKey_mFC86DBD8CA71ACF273A1F7FB6CD2DAD53449653E (Dictionary_2_t81CDBCC3EE792C8E1D91B3B813023F3869819C2E* __this, String_t* ___key0, const RuntimeMethod* method)
 {
@@ -7308,1072 +6982,13 @@ inline void UnityEvent_1_RemoveListener_m5F1198F13FB2222BE8AABD6454B4D21086D0A13
 {
 	((  void (*) (UnityEvent_1_tEEB36A367DCB5867E93AAF6BECAF3558CA71BECB*, UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m5F1198F13FB2222BE8AABD6454B4D21086D0A130_gshared)(__this, ___call0, method);
 }
-// System.Void Google.GoogleSignIn/SignInException::.ctor(Google.GoogleSignInStatusCode,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInException__ctor_m5C137C75DDEBA99BA9B0AC253EB36C075B2E2D8B (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___status0, String_t* ___message1, const RuntimeMethod* method) ;
-// System.Void Google.Impl.GoogleSignInImpl::.ctor(Google.GoogleSignInConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl__ctor_m28DE8315356ABCB9AB9B96F3D635BF83278D3A3A (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* __this, GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* ___configuration0, const RuntimeMethod* method) ;
-// System.Void Google.GoogleSignIn::.ctor(Google.Impl.GoogleSignInImpl)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignIn__ctor_m43C53EBCEC03FBAA1F634E76365E860595AC4D52 (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* ___impl0, const RuntimeMethod* method) ;
-// System.Void System.Threading.Tasks.TaskCompletionSource`1<Google.GoogleSignInUser>::.ctor()
-inline void TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84 (TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* __this, const RuntimeMethod* method)
-{
-	((  void (*) (TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA*, const RuntimeMethod*))TaskCompletionSource_1__ctor_mBF9A903AD14C4E9CF044B227776C532BA9C40D60_gshared)(__this, method);
-}
-// Google.Impl.SignInHelperObject Google.Impl.SignInHelperObject::get_Instance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* SignInHelperObject_get_Instance_m5DC1955B15AE32848E5EDC7F6DDE456DC3D0F3F1 (const RuntimeMethod* method) ;
-// System.Collections.IEnumerator Google.Future`1<Google.GoogleSignInUser>::WaitForResult(System.Threading.Tasks.TaskCompletionSource`1<T>)
-inline RuntimeObject* Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C (Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* __this, TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* ___tcs0, const RuntimeMethod* method)
-{
-	return ((  RuntimeObject* (*) (Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B*, TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA*, const RuntimeMethod*))Future_1_WaitForResult_m86C7BBC0D729D1190E2DE445649A1A7280004193_gshared)(__this, ___tcs0, method);
-}
-// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1<Google.GoogleSignInUser>::get_Task()
-inline Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_inline (TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* __this, const RuntimeMethod* method)
-{
-	return ((  Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* (*) (TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA*, const RuntimeMethod*))TaskCompletionSource_1_get_Task_mF44990297C25C7DBE1E65241C03D0120CB551552_gshared_inline)(__this, method);
-}
-// System.Void System.Exception::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m203319D1EA1274689B380A947B4ADC8445662B8F (Exception_t* __this, const RuntimeMethod* method) ;
-// System.Void Google.GoogleSignIn/SignInException::set_Status(Google.GoogleSignInStatusCode)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SignInException_set_Status_mC05194B06E64770DBD32F23D17A74DF3BE17103A_inline (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___value0, const RuntimeMethod* method) ;
-// System.Void System.Exception::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F (Exception_t* __this, String_t* ___message0, const RuntimeMethod* method) ;
-// System.Void System.Exception::.ctor(System.String,System.Exception)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m9BC141AAB08F47C34B7ED40C1A6C0C1ADDEC5CB3 (Exception_t* __this, String_t* ___message0, Exception_t* ___innerException1, const RuntimeMethod* method) ;
-// System.Void System.Exception::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m412D5FC4D69035738F1DB88FD771ABD6B0E9E120 (Exception_t* __this, SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* ___info0, StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 ___context1, const RuntimeMethod* method) ;
-// System.Void System.Runtime.InteropServices.HandleRef::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandleRef__ctor_m0298D55E5F35F77B6A6CCA75C8E828C3F3127DE7 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F* __this, RuntimeObject* ___wrapper0, intptr_t ___handle1, const RuntimeMethod* method) ;
-// System.Boolean System.ValueType::Equals(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D (RuntimeObject* __this, RuntimeObject* ___obj0, const RuntimeMethod* method) ;
-// System.Void System.InvalidOperationException::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162 (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* __this, String_t* ___message0, const RuntimeMethod* method) ;
-// System.UIntPtr Google.Impl.BaseObject/OutStringMethod::Invoke(System.Byte[],System.UIntPtr)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uintptr_t OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_inline (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_bytes0, uintptr_t ___out_size1, const RuntimeMethod* method) ;
-// System.Boolean System.UIntPtr::Equals(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UIntPtr_Equals_m7A952F9624311E28A8F6B7D48A27E897F59E7021 (uintptr_t* __this, RuntimeObject* ___obj0, const RuntimeMethod* method) ;
-// System.UInt32 System.UIntPtr::ToUInt32()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UIntPtr_ToUInt32_mAD7A6CD8C254052CAC60B29546BE796360E0B965 (uintptr_t* __this, const RuntimeMethod* method) ;
-// System.Text.Encoding System.Text.Encoding::get_UTF8()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* Encoding_get_UTF8_m9700ADA8E0F244002B2A89B483F1B2133B8FE336 (const RuntimeMethod* method) ;
-// System.IntPtr Google.Impl.GoogleSignInImpl::GetPlayerActivity()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GetPlayerActivity_m169EC762F973B91F66994B8CAED13BE2C051DC88 (const RuntimeMethod* method) ;
-// System.IntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_Create(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_Create_m1070B04B22E22F00DC950000AC3A713D25F7E56D (intptr_t ___data0, const RuntimeMethod* method) ;
-// System.Void Google.Impl.BaseObject::.ctor(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseObject__ctor_mDB4E06DEC48DC3204680E87119B46480BCECCB7A (BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C* __this, intptr_t ___intPtr0, const RuntimeMethod* method) ;
-// System.Void System.Collections.Generic.List`1<System.String>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
-inline void List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
-{
-	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, RuntimeObject*, const RuntimeMethod*))List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17_gshared)(__this, ___collection0, method);
-}
-// System.Runtime.InteropServices.HandleRef Google.Impl.BaseObject::SelfPtr()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9 (BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C* __this, const RuntimeMethod* method) ;
-// System.Boolean Google.Impl.GoogleSignInImpl::GoogleSignIn_Configure(System.Runtime.InteropServices.HandleRef,System.Boolean,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String[],System.Int32,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleSignInImpl_GoogleSignIn_Configure_mEFC2326B95CCED1ED88AADB020B7E16AF729097D (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, bool ___useGameSignIn1, String_t* ___webClientId2, bool ___requestAuthCode3, bool ___forceTokenRefresh4, bool ___requestEmail5, bool ___requestIdToken6, bool ___hidePopups7, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___additionalScopes8, int32_t ___scopeCount9, String_t* ___accountName10, const RuntimeMethod* method) ;
-// System.Void Google.Impl.GoogleSignInImpl::GoogleSignIn_EnableDebugLogging(System.Runtime.InteropServices.HandleRef,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_EnableDebugLogging_mCAB955A0724DA3B4169F22269035F8364F969F54 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, bool ___flag1, const RuntimeMethod* method) ;
-// System.IntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_SignIn(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_SignIn_mBE0D3B456393739737AFF12EC2637E30C4CC2C93 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) ;
-// System.Void Google.Impl.NativeFuture::.ctor(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeFuture__ctor_mBCE15D32B70A331E0A78785E89D695988FE027DC (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* __this, intptr_t ___ptr0, const RuntimeMethod* method) ;
-// System.Void Google.Future`1<Google.GoogleSignInUser>::.ctor(Google.FutureAPIImpl`1<T>)
-inline void Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6 (Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* __this, RuntimeObject* ___impl0, const RuntimeMethod* method)
-{
-	((  void (*) (Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B*, RuntimeObject*, const RuntimeMethod*))Future_1__ctor_mFAB04EC0EED034736749BA83776F629ED33AA046_gshared)(__this, ___impl0, method);
-}
-// System.IntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_SignInSilently(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_SignInSilently_m3C681D67798FB33AE3CEB8698E38D19D31554257 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) ;
-// System.Void Google.Impl.GoogleSignInImpl::GoogleSignIn_Signout(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_Signout_m4EEDBDF8AE74E08B8B4134A214B2DD095927123A (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) ;
-// System.Void Google.Impl.GoogleSignInImpl::GoogleSignIn_Disconnect(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_Disconnect_m63E4851DAF91832244BA195AEA854E038824C6FA (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.AndroidJavaClass::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389 (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* __this, String_t* ___className0, const RuntimeMethod* method) ;
-// FieldType UnityEngine.AndroidJavaObject::GetStatic<UnityEngine.AndroidJavaObject>(System.String)
-inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, const RuntimeMethod* method)
-{
-	return ((  AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, const RuntimeMethod*))AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared)(__this, ___fieldName0, method);
-}
-// System.IntPtr UnityEngine.AndroidJavaObject::GetRawObject()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJavaObject_GetRawObject_m536F043B5CE2C21369FF6173C9D2A9A62136BC48 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, const RuntimeMethod* method) ;
-// System.Void Google.Impl.GoogleSignInImpl::GoogleSignIn_DisposeFuture(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_DisposeFuture_m3199178F1C8C190E0296C35B1EE9C7553649E4B6 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) ;
-// System.Void Google.Impl.BaseObject::Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseObject_Dispose_m554F3F996634EC0E8C5C0D2212659D5FDECC582F (BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C* __this, const RuntimeMethod* method) ;
-// System.Boolean Google.Impl.GoogleSignInImpl::GoogleSignIn_Pending(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleSignInImpl_GoogleSignIn_Pending_mC9C5B9201B8DFFF7228D660613FC52AE8E754D42 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) ;
-// System.IntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_Result(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_Result_m239A56BE0FBB24DB7EBBEC5F7F8FF3B895B3A3E1 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) ;
-// System.Boolean System.IntPtr::op_Inequality(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m2F715312CBFCE7E1A81D0689F68B97218E37E5D1 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method) ;
-// System.Void Google.Impl.NativeFuture/<>c__DisplayClass5_0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m7497FAB21C83A976EB1558C8B99D253FA6DDF86A (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, const RuntimeMethod* method) ;
-// System.Void Google.GoogleSignInUser::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser__ctor_m0271D1B065D5BF40672070447A0D61EEDB88FF91 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) ;
-// System.Void Google.Impl.BaseObject/OutStringMethod::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
-// System.String Google.Impl.BaseObject::OutParamsToString(Google.Impl.BaseObject/OutStringMethod)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BaseObject_OutParamsToString_mE19711AC5572545ECA45524521CD9A404CF172CA (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* ___outStringMethod0, const RuntimeMethod* method) ;
-// System.Void Google.GoogleSignInUser::set_DisplayName(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_DisplayName_m33092BFF9954A242BCE80DF4A243C20FD583315B_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) ;
-// System.Void Google.GoogleSignInUser::set_Email(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_Email_m2036BD483DA25F84B60FCCEF63BBC20A5F1D5F9C_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) ;
-// System.Void Google.GoogleSignInUser::set_FamilyName(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_FamilyName_m23A309A857743C07F1CA856EA0ADCFB3B122A5A9_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) ;
-// System.Void Google.GoogleSignInUser::set_GivenName(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_GivenName_m22A6A6824200A97844AF62E12A29D32EC8215E7D_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) ;
-// System.Void Google.GoogleSignInUser::set_IdToken(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_IdToken_m9F8F42353CFF4647151698F50CD241BF4E405EC3_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) ;
-// System.Void Google.GoogleSignInUser::set_AuthCode(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_AuthCode_mFD2ACD2178A1E33BA97EE4DA65503CAFFAF595F7_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) ;
-// System.Int32 System.String::get_Length()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) ;
-// System.Void System.Uri::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* __this, String_t* ___uriString0, const RuntimeMethod* method) ;
-// System.Void Google.GoogleSignInUser::set_ImageUrl(System.Uri)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_ImageUrl_m757A1FC5F8E85B18081AD882F73F317DF6DEFE45_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___value0, const RuntimeMethod* method) ;
-// System.Void Google.GoogleSignInUser::set_UserId(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_UserId_m6311A410F1636E122903BF4F8A50E0421DF20270_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) ;
-// System.Int32 Google.Impl.GoogleSignInImpl::GoogleSignIn_Status(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GoogleSignInImpl_GoogleSignIn_Status_mC38EA2A49EF04B48137FBE4EE79BFB3C0A907C60 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) ;
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetDisplayName(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetDisplayName_m34F06EDAC247EFE16EE7D7003D60D269EDC7CD09 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) ;
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetEmail(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetEmail_m1277C16AB66AC5DC74B30EC4F5AFA102E362C04A (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) ;
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetFamilyName(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetFamilyName_m02592F285D3EE7D29159E76131BF9F5DBDD89012 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) ;
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetGivenName(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetGivenName_mEB8F331BE98ECD83858295890C2949B65C366B61 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) ;
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetIdToken(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetIdToken_mB26E5AC987D24266CB0C9BAFE9D595E1ACC2BA02 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) ;
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetServerAuthCode(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetServerAuthCode_m00E7C3D9FDE9B16B3D6F71B59784EDE946CF35E1 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) ;
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetImageUrl(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetImageUrl_mB63006D0ED8646930DC70C66AC3406785DC335D7 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) ;
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetUserId(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetUserId_mC964CA22A27A88616641F81A58ADABF103D55C46 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.Application::get_isPlaying()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isPlaying_m0B3B501E1093739F8887A0DAC5F61D9CB49CC337 (const RuntimeMethod* method) ;
-// T UnityEngine.GameObject::AddComponent<Google.Impl.SignInHelperObject>()
-inline SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* GameObject_AddComponent_TisSignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_m8DAAB2B6376C79FA30A3F2BCF3DB4DB73BBA61BF (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
-{
-	return ((  SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
-}
-// System.Void Google.Impl.SignInHelperObject::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInHelperObject__ctor_m049CB998CA9E1DA5929BE9CFCEA8C33EE915CDA3 (SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Color::.ctor(System.Single,System.Single,System.Single,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___r0, float ___g1, float ___b2, float ___a3, const RuntimeMethod* method) ;
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C intptr_t DEFAULT_CALL GoogleSignIn_Create(intptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C void DEFAULT_CALL GoogleSignIn_EnableDebugLogging(void*, int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL GoogleSignIn_Configure(void*, int32_t, char*, int32_t, int32_t, int32_t, int32_t, int32_t, char**, int32_t, char*);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C intptr_t DEFAULT_CALL GoogleSignIn_SignIn(void*);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C intptr_t DEFAULT_CALL GoogleSignIn_SignInSilently(void*);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C void DEFAULT_CALL GoogleSignIn_Signout(void*);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C void DEFAULT_CALL GoogleSignIn_Disconnect(void*);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C void DEFAULT_CALL GoogleSignIn_DisposeFuture(void*);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL GoogleSignIn_Pending(void*);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C intptr_t DEFAULT_CALL GoogleSignIn_Result(void*);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL GoogleSignIn_Status(void*);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetServerAuthCode(void*, uint8_t*, uintptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetDisplayName(void*, uint8_t*, uintptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetEmail(void*, uint8_t*, uintptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetFamilyName(void*, uint8_t*, uintptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetGivenName(void*, uint8_t*, uintptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetIdToken(void*, uint8_t*, uintptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetImageUrl(void*, uint8_t*, uintptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetUserId(void*, uint8_t*, uintptr_t);
-#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void GoogleSignInDemo::Awake()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_Awake_m4758F23A1A63E140853D183B60B6662E77AEDC50 (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// configuration = new GoogleSignInConfiguration { WebClientId = webClientId, RequestEmail = true, RequestIdToken = true };
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_0 = (GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8*)il2cpp_codegen_object_new(GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		GoogleSignInConfiguration__ctor_m99891370EEB5D39D4F4492E576B1CB5665532589(L_0, NULL);
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_1 = L_0;
-		String_t* L_2 = __this->___webClientId_5;
-		NullCheck(L_1);
-		L_1->___WebClientId_1 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&L_1->___WebClientId_1), (void*)L_2);
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_3 = L_1;
-		NullCheck(L_3);
-		L_3->___RequestEmail_4 = (bool)1;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_4 = L_3;
-		NullCheck(L_4);
-		L_4->___RequestIdToken_5 = (bool)1;
-		__this->___configuration_7 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___configuration_7), (void*)L_4);
-		// CheckFirebaseDependencies();
-		GoogleSignInDemo_CheckFirebaseDependencies_mA1DD76BB370E21108AB145F13C8FDB48BF0E87CB(__this, NULL);
-		// }
-		return;
-	}
-}
-// System.Void GoogleSignInDemo::CheckFirebaseDependencies()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_CheckFirebaseDependencies_mA1DD76BB370E21108AB145F13C8FDB48BF0E87CB (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t72552EB3CFD9D41493135164276F7EE71F1132FC_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignInDemo_U3CCheckFirebaseDependenciesU3Eb__5_0_mF9E7261AAB8E560C914C210EDFAA9DB6333C4284_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_ContinueWith_mAB52D6D57000543C9DD78F0D45BD7B66F819A0DD_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task =>
-		// {
-		//     if (task.IsCompleted)
-		//     {
-		//         if (task.Result == DependencyStatus.Available)
-		//             auth = FirebaseAuth.DefaultInstance;
-		//         else
-		//             AddToInformation("Could not resolve all Firebase dependencies: " + task.Result.ToString());
-		//     }
-		//     else
-		//     {
-		//         AddToInformation("Dependency check was not completed. Error : " + task.Exception.Message);
-		//     }
-		// });
-		il2cpp_codegen_runtime_class_init_inline(FirebaseApp_tD23C437863A3502177988D1382B58820B0571A25_il2cpp_TypeInfo_var);
-		Task_1_tCDCA9B2073B1AC4ED4537A6D74742D20B122E1EF* L_0;
-		L_0 = FirebaseApp_CheckAndFixDependenciesAsync_mE6FF44FA1DDA2E2504A45F1F12696D9D089D7674(NULL);
-		Action_1_t72552EB3CFD9D41493135164276F7EE71F1132FC* L_1 = (Action_1_t72552EB3CFD9D41493135164276F7EE71F1132FC*)il2cpp_codegen_object_new(Action_1_t72552EB3CFD9D41493135164276F7EE71F1132FC_il2cpp_TypeInfo_var);
-		NullCheck(L_1);
-		Action_1__ctor_m4F6B8318AD92B94ABD9C753FFD7CEE0687417DAC(L_1, __this, (intptr_t)((void*)GoogleSignInDemo_U3CCheckFirebaseDependenciesU3Eb__5_0_mF9E7261AAB8E560C914C210EDFAA9DB6333C4284_RuntimeMethod_var), NULL);
-		NullCheck(L_0);
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_2;
-		L_2 = Task_1_ContinueWith_mAB52D6D57000543C9DD78F0D45BD7B66F819A0DD(L_0, L_1, Task_1_ContinueWith_mAB52D6D57000543C9DD78F0D45BD7B66F819A0DD_RuntimeMethod_var);
-		// }
-		return;
-	}
-}
-// System.Void GoogleSignInDemo::SignInWithGoogle()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_SignInWithGoogle_m898BE3448EDC77B1E185572265F84FA9E823181E (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, const RuntimeMethod* method) 
-{
-	{
-		// public void SignInWithGoogle() { OnSignIn(); }
-		GoogleSignInDemo_OnSignIn_m835F735A3042412ABAA3709A93F541EB359B1913(__this, NULL);
-		// public void SignInWithGoogle() { OnSignIn(); }
-		return;
-	}
-}
-// System.Void GoogleSignInDemo::SignOutFromGoogle()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_SignOutFromGoogle_mEE7269E0C1E67311C5F5FD19BABAC8A14D9E5D75 (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, const RuntimeMethod* method) 
-{
-	{
-		// public void SignOutFromGoogle() { OnSignOut(); }
-		GoogleSignInDemo_OnSignOut_mDF377AA03059C63771F9079C374CF92D7F234F1C(__this, NULL);
-		// public void SignOutFromGoogle() { OnSignOut(); }
-		return;
-	}
-}
-// System.Void GoogleSignInDemo::OnSignIn()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_OnSignIn_m835F735A3042412ABAA3709A93F541EB359B1913 (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tF52889A7B072E11E8880182FD8F7D44219989077_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignInDemo_OnAuthenticationFinished_m0822D7344EA34A7887FB4161DAE21ECEC6F3272A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2C41540AEBC151A2E6CD9946AB44FF2F4AD09541);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// GoogleSignIn.Configuration = configuration;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_0 = __this->___configuration_7;
-		GoogleSignIn_set_Configuration_mF52DF04FFD80AA9BC83102B2F313D24C9D5FFA17(L_0, NULL);
-		// GoogleSignIn.Configuration.UseGameSignIn = false;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_1;
-		L_1 = GoogleSignIn_get_Configuration_m4E2239E342D8DE7555911527A1919538C5EAE9A9(NULL);
-		NullCheck(L_1);
-		L_1->___UseGameSignIn_0 = (bool)0;
-		// GoogleSignIn.Configuration.RequestIdToken = true;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_2;
-		L_2 = GoogleSignIn_get_Configuration_m4E2239E342D8DE7555911527A1919538C5EAE9A9(NULL);
-		NullCheck(L_2);
-		L_2->___RequestIdToken_5 = (bool)1;
-		// AddToInformation("Calling SignIn");
-		GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(__this, _stringLiteral2C41540AEBC151A2E6CD9946AB44FF2F4AD09541, NULL);
-		// GoogleSignIn.DefaultInstance.SignIn().ContinueWith(OnAuthenticationFinished);
-		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_3;
-		L_3 = GoogleSignIn_get_DefaultInstance_m44367AA5151F8B71EA6BCBF805E59387F826C1AB(NULL);
-		NullCheck(L_3);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_4;
-		L_4 = GoogleSignIn_SignIn_mAAA8FC28D91B6CBAB324F888FE951EB9EA64E64D(L_3, NULL);
-		Action_1_tF52889A7B072E11E8880182FD8F7D44219989077* L_5 = (Action_1_tF52889A7B072E11E8880182FD8F7D44219989077*)il2cpp_codegen_object_new(Action_1_tF52889A7B072E11E8880182FD8F7D44219989077_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Action_1__ctor_m24ECDBDFF2296BB9E1A0A6682131E87BADE4EADE(L_5, __this, (intptr_t)((void*)GoogleSignInDemo_OnAuthenticationFinished_m0822D7344EA34A7887FB4161DAE21ECEC6F3272A_RuntimeMethod_var), NULL);
-		NullCheck(L_4);
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
-		L_6 = Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1(L_4, L_5, Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1_RuntimeMethod_var);
-		// }
-		return;
-	}
-}
-// System.Void GoogleSignInDemo::OnSignOut()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_OnSignOut_mDF377AA03059C63771F9079C374CF92D7F234F1C (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2E1AD0E83130989E2515696D6D5B828CD141AAE6);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// AddToInformation("Calling SignOut");
-		GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(__this, _stringLiteral2E1AD0E83130989E2515696D6D5B828CD141AAE6, NULL);
-		// GoogleSignIn.DefaultInstance.SignOut();
-		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_0;
-		L_0 = GoogleSignIn_get_DefaultInstance_m44367AA5151F8B71EA6BCBF805E59387F826C1AB(NULL);
-		NullCheck(L_0);
-		GoogleSignIn_SignOut_m1666034382C085A0EE0227035E57E5AD61FE43B6(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void GoogleSignInDemo::OnDisconnect()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_OnDisconnect_mD9D60D157F29E3F14FF2ED41B6F03BD40A9EE18B (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral72479C2E2CD4DACBD6155ABD5D0DEC816E33D007);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// AddToInformation("Calling Disconnect");
-		GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(__this, _stringLiteral72479C2E2CD4DACBD6155ABD5D0DEC816E33D007, NULL);
-		// GoogleSignIn.DefaultInstance.Disconnect();
-		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_0;
-		L_0 = GoogleSignIn_get_DefaultInstance_m44367AA5151F8B71EA6BCBF805E59387F826C1AB(NULL);
-		NullCheck(L_0);
-		GoogleSignIn_Disconnect_mD97724F96462EC3BB49B29CFDC92888EB5D11D00(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void GoogleSignInDemo::OnAuthenticationFinished(System.Threading.Tasks.Task`1<Google.GoogleSignInUser>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_OnAuthenticationFinished_m0822D7344EA34A7887FB4161DAE21ECEC6F3272A (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* ___task0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignInStatusCode_t3AEC2A455C7DB2C736F01D352EA10EFDCB011D7B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_tF15715088C2FF1D64704AE886A3A152AFCECCC36_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlyCollection_1_GetEnumerator_m7B522F5E33A2823F23DAD24EE1819E5278D111FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral31CB1FB0AE3C8ADEC71025E6C3D308425A223BD7);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral68CCAEFA2D0D8C4A9C1B054BB5F1AF05C8E3F4AC);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral725A2F73B9AC862B4466B7C7B1287663C2C79392);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral769A2FDAB9A0B414C5BC97D6424E60561429FDA7);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8A3C71AF924D8E06B6442B912950178D34D1D459);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral962269072F3961C2E18D99209371CDF907485650);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	RuntimeObject* V_1 = NULL;
-	bool V_2 = false;
-	SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* V_3 = NULL;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	AggregateException_t51B6205846DFB356B94452702201DD239D44422F* G_B6_0 = NULL;
-	String_t* G_B6_1 = NULL;
-	GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* G_B6_2 = NULL;
-	AggregateException_t51B6205846DFB356B94452702201DD239D44422F* G_B5_0 = NULL;
-	String_t* G_B5_1 = NULL;
-	GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* G_B5_2 = NULL;
-	String_t* G_B7_0 = NULL;
-	String_t* G_B7_1 = NULL;
-	GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* G_B7_2 = NULL;
-	{
-		// if (task.IsFaulted)
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_0 = ___task0;
-		NullCheck(L_0);
-		bool L_1;
-		L_1 = Task_get_IsFaulted_mC0AD3EA4EAF3B47C1F5FE9624541F0A00B9426D9(L_0, NULL);
-		V_0 = L_1;
-		bool L_2 = V_0;
-		if (!L_2)
-		{
-			goto IL_00a5;
-		}
-	}
-	{
-		// using (IEnumerator<Exception> enumerator = task.Exception.InnerExceptions.GetEnumerator())
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_3 = ___task0;
-		NullCheck(L_3);
-		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_4;
-		L_4 = Task_get_Exception_m11317CABA220E351C84B3E94B8A98F1565F42B45(L_3, NULL);
-		NullCheck(L_4);
-		ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886* L_5;
-		L_5 = AggregateException_get_InnerExceptions_m3044DE61416F827389F2975C67AC1AD89EA050A5_inline(L_4, NULL);
-		NullCheck(L_5);
-		RuntimeObject* L_6;
-		L_6 = ReadOnlyCollection_1_GetEnumerator_m7B522F5E33A2823F23DAD24EE1819E5278D111FC(L_5, ReadOnlyCollection_1_GetEnumerator_m7B522F5E33A2823F23DAD24EE1819E5278D111FC_RuntimeMethod_var);
-		V_1 = L_6;
-	}
-	{
-		auto __finallyBlock = il2cpp::utils::Finally([&]
-		{
-
-FINALLY_0094:
-			{// begin finally (depth: 1)
-				{
-					RuntimeObject* L_7 = V_1;
-					if (!L_7)
-					{
-						goto IL_009e;
-					}
-				}
-				{
-					RuntimeObject* L_8 = V_1;
-					NullCheck(L_8);
-					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_8);
-				}
-
-IL_009e:
-				{
-					return;
-				}
-			}// end finally (depth: 1)
-		});
-		try
-		{// begin try (depth: 1)
-			{
-				// if (enumerator.MoveNext())
-				RuntimeObject* L_9 = V_1;
-				NullCheck(L_9);
-				bool L_10;
-				L_10 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_9);
-				V_2 = L_10;
-				bool L_11 = V_2;
-				if (!L_11)
-				{
-					goto IL_006c_1;
-				}
-			}
-			{
-				// GoogleSignIn.SignInException error = (GoogleSignIn.SignInException)enumerator.Current;
-				RuntimeObject* L_12 = V_1;
-				NullCheck(L_12);
-				Exception_t* L_13;
-				L_13 = InterfaceFuncInvoker0< Exception_t* >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<System.Exception>::get_Current() */, IEnumerator_1_tF15715088C2FF1D64704AE886A3A152AFCECCC36_il2cpp_TypeInfo_var, L_12);
-				V_3 = ((SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A*)CastclassClass((RuntimeObject*)L_13, SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A_il2cpp_TypeInfo_var));
-				// AddToInformation("Got Error: " + error.Status + " " + error.Message);
-				SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* L_14 = V_3;
-				NullCheck(L_14);
-				int32_t L_15;
-				L_15 = SignInException_get_Status_m2FBF33632A23C771EE5CEB65120E3DFEC8FF5A74_inline(L_14, NULL);
-				V_4 = L_15;
-				Il2CppFakeBox<int32_t> L_16(GoogleSignInStatusCode_t3AEC2A455C7DB2C736F01D352EA10EFDCB011D7B_il2cpp_TypeInfo_var, (&V_4));
-				String_t* L_17;
-				L_17 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_16), NULL);
-				SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* L_18 = V_3;
-				NullCheck(L_18);
-				String_t* L_19;
-				L_19 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, L_18);
-				String_t* L_20;
-				L_20 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(_stringLiteral68CCAEFA2D0D8C4A9C1B054BB5F1AF05C8E3F4AC, L_17, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_19, NULL);
-				GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(__this, L_20, NULL);
-				goto IL_0091_1;
-			}
-
-IL_006c_1:
-			{
-				// AddToInformation("Got Unexpected Exception?!?" + task.Exception);
-				Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_21 = ___task0;
-				NullCheck(L_21);
-				AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_22;
-				L_22 = Task_get_Exception_m11317CABA220E351C84B3E94B8A98F1565F42B45(L_21, NULL);
-				AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_23 = L_22;
-				G_B5_0 = L_23;
-				G_B5_1 = _stringLiteral725A2F73B9AC862B4466B7C7B1287663C2C79392;
-				G_B5_2 = __this;
-				if (L_23)
-				{
-					G_B6_0 = L_23;
-					G_B6_1 = _stringLiteral725A2F73B9AC862B4466B7C7B1287663C2C79392;
-					G_B6_2 = __this;
-					goto IL_0080_1;
-				}
-			}
-			{
-				G_B7_0 = ((String_t*)(NULL));
-				G_B7_1 = G_B5_1;
-				G_B7_2 = G_B5_2;
-				goto IL_0085_1;
-			}
-
-IL_0080_1:
-			{
-				NullCheck(G_B6_0);
-				String_t* L_24;
-				L_24 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B6_0);
-				G_B7_0 = L_24;
-				G_B7_1 = G_B6_1;
-				G_B7_2 = G_B6_2;
-			}
-
-IL_0085_1:
-			{
-				String_t* L_25;
-				L_25 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(G_B7_1, G_B7_0, NULL);
-				NullCheck(G_B7_2);
-				GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(G_B7_2, L_25, NULL);
-			}
-
-IL_0091_1:
-			{
-				goto IL_009f;
-			}
-		}// end try (depth: 1)
-		catch(Il2CppExceptionWrapper& e)
-		{
-			__finallyBlock.StoreException(e.ex);
-		}
-	}
-
-IL_009f:
-	{
-		goto IL_014d;
-	}
-
-IL_00a5:
-	{
-		// else if (task.IsCanceled)
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_26 = ___task0;
-		NullCheck(L_26);
-		bool L_27;
-		L_27 = Task_get_IsCanceled_m96A8D3F85158A9CB3AEA50A00A55BE4E0F0E21FA(L_26, NULL);
-		V_5 = L_27;
-		bool L_28 = V_5;
-		if (!L_28)
-		{
-			goto IL_00c4;
-		}
-	}
-	{
-		// AddToInformation("Canceled");
-		GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(__this, _stringLiteral8A3C71AF924D8E06B6442B912950178D34D1D459, NULL);
-		goto IL_014d;
-	}
-
-IL_00c4:
-	{
-		// AddToInformation("Welcome: " + task.Result.DisplayName + "!");
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_29 = ___task0;
-		NullCheck(L_29);
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_30;
-		L_30 = Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B(L_29, Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B_RuntimeMethod_var);
-		NullCheck(L_30);
-		String_t* L_31;
-		L_31 = GoogleSignInUser_get_DisplayName_mC14CD83AFB1364C729D09692732781672D9CEA9C_inline(L_30, NULL);
-		String_t* L_32;
-		L_32 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteral769A2FDAB9A0B414C5BC97D6424E60561429FDA7, L_31, _stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46, NULL);
-		GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(__this, L_32, NULL);
-		// AddToInformation("Email = " + task.Result.Email);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_33 = ___task0;
-		NullCheck(L_33);
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_34;
-		L_34 = Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B(L_33, Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B_RuntimeMethod_var);
-		NullCheck(L_34);
-		String_t* L_35;
-		L_35 = GoogleSignInUser_get_Email_mA6E37F96BC90280CBA4D425743426CBE8D515551_inline(L_34, NULL);
-		String_t* L_36;
-		L_36 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral962269072F3961C2E18D99209371CDF907485650, L_35, NULL);
-		GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(__this, L_36, NULL);
-		// AddToInformation("Google ID Token = " + task.Result.IdToken);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_37 = ___task0;
-		NullCheck(L_37);
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_38;
-		L_38 = Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B(L_37, Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B_RuntimeMethod_var);
-		NullCheck(L_38);
-		String_t* L_39;
-		L_39 = GoogleSignInUser_get_IdToken_m58382F225E3065502A66AFA23F70053153DEA62A_inline(L_38, NULL);
-		String_t* L_40;
-		L_40 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral31CB1FB0AE3C8ADEC71025E6C3D308425A223BD7, L_39, NULL);
-		GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(__this, L_40, NULL);
-		// AddToInformation("Email = " + task.Result.Email);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_41 = ___task0;
-		NullCheck(L_41);
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_42;
-		L_42 = Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B(L_41, Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B_RuntimeMethod_var);
-		NullCheck(L_42);
-		String_t* L_43;
-		L_43 = GoogleSignInUser_get_Email_mA6E37F96BC90280CBA4D425743426CBE8D515551_inline(L_42, NULL);
-		String_t* L_44;
-		L_44 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral962269072F3961C2E18D99209371CDF907485650, L_43, NULL);
-		GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(__this, L_44, NULL);
-		// SignInWithGoogleOnFirebase(task.Result.IdToken);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_45 = ___task0;
-		NullCheck(L_45);
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_46;
-		L_46 = Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B(L_45, Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B_RuntimeMethod_var);
-		NullCheck(L_46);
-		String_t* L_47;
-		L_47 = GoogleSignInUser_get_IdToken_m58382F225E3065502A66AFA23F70053153DEA62A_inline(L_46, NULL);
-		GoogleSignInDemo_SignInWithGoogleOnFirebase_mD37B9B5920211601B9913BEC13B599D2928E6EB1(__this, L_47, NULL);
-	}
-
-IL_014d:
-	{
-		// }
-		return;
-	}
-}
-// System.Void GoogleSignInDemo::SignInWithGoogleOnFirebase(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_SignInWithGoogleOnFirebase_mD37B9B5920211601B9913BEC13B599D2928E6EB1 (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, String_t* ___idToken0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t7A72BB5CDA51C7604122D1F351F54CD826121DA9_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAuthProvider_t646272DD18929729FAEDA1A1F2CAD87CC5DB8D6E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignInDemo_U3CSignInWithGoogleOnFirebaseU3Eb__12_0_m5F40E2976F925E6320FCB58131C54D3AA683037D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_ContinueWith_m549608C19B9ED5ECA2FD9094527278477B3A2E38_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Credential_t32FB2E0F8AAA0B6895D10531CE82C9FBD27E27D1* V_0 = NULL;
-	{
-		// Credential credential = GoogleAuthProvider.GetCredential(idToken, null);
-		String_t* L_0 = ___idToken0;
-		il2cpp_codegen_runtime_class_init_inline(GoogleAuthProvider_t646272DD18929729FAEDA1A1F2CAD87CC5DB8D6E_il2cpp_TypeInfo_var);
-		Credential_t32FB2E0F8AAA0B6895D10531CE82C9FBD27E27D1* L_1;
-		L_1 = GoogleAuthProvider_GetCredential_m6246A8B861C270513177BE702FA0F70ADD5C84AD(L_0, (String_t*)NULL, NULL);
-		V_0 = L_1;
-		// auth.SignInWithCredentialAsync(credential).ContinueWith(task =>
-		// {
-		//     AggregateException ex = task.Exception;
-		//     if (ex != null)
-		//     {
-		//         if (ex.InnerExceptions[0] is FirebaseException inner && (inner.ErrorCode != 0))
-		//             AddToInformation("\nError code = " + inner.ErrorCode + " Message = " + inner.Message);
-		//     }
-		//     else
-		//     {
-		//         AddToInformation("Sign In Successful.");
-		//         SceneManager.LoadScene("MainMenu");
-		// 
-		//     }
-		// });
-		FirebaseAuth_tD2FC1EC1E5B6EF920276AFABA103B8B7E2AE2DAF* L_2 = __this->___auth_6;
-		Credential_t32FB2E0F8AAA0B6895D10531CE82C9FBD27E27D1* L_3 = V_0;
-		NullCheck(L_2);
-		Task_1_tE57E3A2330CE37367B7296D598E85906D967FF5B* L_4;
-		L_4 = FirebaseAuth_SignInWithCredentialAsync_m113AA2F02FEE5A28A9D49492AC5F33AA54A55D74(L_2, L_3, NULL);
-		Action_1_t7A72BB5CDA51C7604122D1F351F54CD826121DA9* L_5 = (Action_1_t7A72BB5CDA51C7604122D1F351F54CD826121DA9*)il2cpp_codegen_object_new(Action_1_t7A72BB5CDA51C7604122D1F351F54CD826121DA9_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Action_1__ctor_mA1A3987C0999C379F2DE5C4FC11270A1C6B91007(L_5, __this, (intptr_t)((void*)GoogleSignInDemo_U3CSignInWithGoogleOnFirebaseU3Eb__12_0_m5F40E2976F925E6320FCB58131C54D3AA683037D_RuntimeMethod_var), NULL);
-		NullCheck(L_4);
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
-		L_6 = Task_1_ContinueWith_m549608C19B9ED5ECA2FD9094527278477B3A2E38(L_4, L_5, Task_1_ContinueWith_m549608C19B9ED5ECA2FD9094527278477B3A2E38_RuntimeMethod_var);
-		// }
-		return;
-	}
-}
-// System.Void GoogleSignInDemo::OnSignInSilently()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_OnSignInSilently_m7D882F45723AAD290F5E3AE70747ECA3CE5080A7 (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tF52889A7B072E11E8880182FD8F7D44219989077_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignInDemo_OnAuthenticationFinished_m0822D7344EA34A7887FB4161DAE21ECEC6F3272A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA01907B77A31AFB8179089C6C1315EF4D713C528);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// GoogleSignIn.Configuration = configuration;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_0 = __this->___configuration_7;
-		GoogleSignIn_set_Configuration_mF52DF04FFD80AA9BC83102B2F313D24C9D5FFA17(L_0, NULL);
-		// GoogleSignIn.Configuration.UseGameSignIn = false;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_1;
-		L_1 = GoogleSignIn_get_Configuration_m4E2239E342D8DE7555911527A1919538C5EAE9A9(NULL);
-		NullCheck(L_1);
-		L_1->___UseGameSignIn_0 = (bool)0;
-		// GoogleSignIn.Configuration.RequestIdToken = true;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_2;
-		L_2 = GoogleSignIn_get_Configuration_m4E2239E342D8DE7555911527A1919538C5EAE9A9(NULL);
-		NullCheck(L_2);
-		L_2->___RequestIdToken_5 = (bool)1;
-		// AddToInformation("Calling SignIn Silently");
-		GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(__this, _stringLiteralA01907B77A31AFB8179089C6C1315EF4D713C528, NULL);
-		// GoogleSignIn.DefaultInstance.SignInSilently().ContinueWith(OnAuthenticationFinished);
-		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_3;
-		L_3 = GoogleSignIn_get_DefaultInstance_m44367AA5151F8B71EA6BCBF805E59387F826C1AB(NULL);
-		NullCheck(L_3);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_4;
-		L_4 = GoogleSignIn_SignInSilently_mA667E9AAF7FA438217844D0BACC7DF68364DF7AD(L_3, NULL);
-		Action_1_tF52889A7B072E11E8880182FD8F7D44219989077* L_5 = (Action_1_tF52889A7B072E11E8880182FD8F7D44219989077*)il2cpp_codegen_object_new(Action_1_tF52889A7B072E11E8880182FD8F7D44219989077_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Action_1__ctor_m24ECDBDFF2296BB9E1A0A6682131E87BADE4EADE(L_5, __this, (intptr_t)((void*)GoogleSignInDemo_OnAuthenticationFinished_m0822D7344EA34A7887FB4161DAE21ECEC6F3272A_RuntimeMethod_var), NULL);
-		NullCheck(L_4);
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
-		L_6 = Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1(L_4, L_5, Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1_RuntimeMethod_var);
-		// }
-		return;
-	}
-}
-// System.Void GoogleSignInDemo::OnGamesSignIn()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_OnGamesSignIn_m2FDAC6684A0F2049F1745CDED0D88E6D7C04D90C (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tF52889A7B072E11E8880182FD8F7D44219989077_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignInDemo_OnAuthenticationFinished_m0822D7344EA34A7887FB4161DAE21ECEC6F3272A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral56AD00A3BBD3193180AA5FC557AB2FB212F215AE);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// GoogleSignIn.Configuration = configuration;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_0 = __this->___configuration_7;
-		GoogleSignIn_set_Configuration_mF52DF04FFD80AA9BC83102B2F313D24C9D5FFA17(L_0, NULL);
-		// GoogleSignIn.Configuration.UseGameSignIn = true;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_1;
-		L_1 = GoogleSignIn_get_Configuration_m4E2239E342D8DE7555911527A1919538C5EAE9A9(NULL);
-		NullCheck(L_1);
-		L_1->___UseGameSignIn_0 = (bool)1;
-		// GoogleSignIn.Configuration.RequestIdToken = false;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_2;
-		L_2 = GoogleSignIn_get_Configuration_m4E2239E342D8DE7555911527A1919538C5EAE9A9(NULL);
-		NullCheck(L_2);
-		L_2->___RequestIdToken_5 = (bool)0;
-		// AddToInformation("Calling Games SignIn");
-		GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(__this, _stringLiteral56AD00A3BBD3193180AA5FC557AB2FB212F215AE, NULL);
-		// GoogleSignIn.DefaultInstance.SignIn().ContinueWith(OnAuthenticationFinished);
-		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_3;
-		L_3 = GoogleSignIn_get_DefaultInstance_m44367AA5151F8B71EA6BCBF805E59387F826C1AB(NULL);
-		NullCheck(L_3);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_4;
-		L_4 = GoogleSignIn_SignIn_mAAA8FC28D91B6CBAB324F888FE951EB9EA64E64D(L_3, NULL);
-		Action_1_tF52889A7B072E11E8880182FD8F7D44219989077* L_5 = (Action_1_tF52889A7B072E11E8880182FD8F7D44219989077*)il2cpp_codegen_object_new(Action_1_tF52889A7B072E11E8880182FD8F7D44219989077_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Action_1__ctor_m24ECDBDFF2296BB9E1A0A6682131E87BADE4EADE(L_5, __this, (intptr_t)((void*)GoogleSignInDemo_OnAuthenticationFinished_m0822D7344EA34A7887FB4161DAE21ECEC6F3272A_RuntimeMethod_var), NULL);
-		NullCheck(L_4);
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
-		L_6 = Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1(L_4, L_5, Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1_RuntimeMethod_var);
-		// }
-		return;
-	}
-}
-// System.Void GoogleSignInDemo::AddToInformation(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, String_t* ___str0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// private void AddToInformation(string str) { infoText.text += "\n" + str; }
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___infoText_4;
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = L_0;
-		NullCheck(L_1);
-		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_1);
-		String_t* L_3 = ___str0;
-		String_t* L_4;
-		L_4 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(L_2, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, L_3, NULL);
-		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_1, L_4);
-		// private void AddToInformation(string str) { infoText.text += "\n" + str; }
-		return;
-	}
-}
-// System.Void GoogleSignInDemo::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo__ctor_mC7FAB31E0D50FD719F5C755BEC369D58BA1C44EC (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1B563236F0487C13B4A443A8D3714AFEA0BA4D09);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// public string webClientId = "<your client id here>";
-		__this->___webClientId_5 = _stringLiteral1B563236F0487C13B4A443A8D3714AFEA0BA4D09;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___webClientId_5), (void*)_stringLiteral1B563236F0487C13B4A443A8D3714AFEA0BA4D09);
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-// System.Void GoogleSignInDemo::<CheckFirebaseDependencies>b__5_0(System.Threading.Tasks.Task`1<Firebase.DependencyStatus>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_U3CCheckFirebaseDependenciesU3Eb__5_0_mF9E7261AAB8E560C914C210EDFAA9DB6333C4284 (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, Task_1_tCDCA9B2073B1AC4ED4537A6D74742D20B122E1EF* ___task0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DependencyStatus_t9DA2DB2B2AC17E9DA549331B93778091496D8195_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseAuth_tD2FC1EC1E5B6EF920276AFABA103B8B7E2AE2DAF_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_get_Result_m543F02EC56EEA4AAED7101434F488D890414A3DA_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9A80AEC2241FE68DD38E9B7CE61BB9FF44CA1C9C);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC0FB029805CBCB22337E4FACB58390B826F18767);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	bool V_1 = false;
-	int32_t V_2 = 0;
-	{
-		// if (task.IsCompleted)
-		Task_1_tCDCA9B2073B1AC4ED4537A6D74742D20B122E1EF* L_0 = ___task0;
-		NullCheck(L_0);
-		bool L_1;
-		L_1 = Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831(L_0, NULL);
-		V_0 = L_1;
-		bool L_2 = V_0;
-		if (!L_2)
-		{
-			goto IL_004e;
-		}
-	}
-	{
-		// if (task.Result == DependencyStatus.Available)
-		Task_1_tCDCA9B2073B1AC4ED4537A6D74742D20B122E1EF* L_3 = ___task0;
-		NullCheck(L_3);
-		int32_t L_4;
-		L_4 = Task_1_get_Result_m543F02EC56EEA4AAED7101434F488D890414A3DA(L_3, Task_1_get_Result_m543F02EC56EEA4AAED7101434F488D890414A3DA_RuntimeMethod_var);
-		V_1 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
-		bool L_5 = V_1;
-		if (!L_5)
-		{
-			goto IL_0026;
-		}
-	}
-	{
-		// auth = FirebaseAuth.DefaultInstance;
-		il2cpp_codegen_runtime_class_init_inline(FirebaseAuth_tD2FC1EC1E5B6EF920276AFABA103B8B7E2AE2DAF_il2cpp_TypeInfo_var);
-		FirebaseAuth_tD2FC1EC1E5B6EF920276AFABA103B8B7E2AE2DAF* L_6;
-		L_6 = FirebaseAuth_get_DefaultInstance_m1DAD548CF76FE2B9B9DFB407D5B3058A932D1B9D(NULL);
-		__this->___auth_6 = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___auth_6), (void*)L_6);
-		goto IL_004b;
-	}
-
-IL_0026:
-	{
-		// AddToInformation("Could not resolve all Firebase dependencies: " + task.Result.ToString());
-		Task_1_tCDCA9B2073B1AC4ED4537A6D74742D20B122E1EF* L_7 = ___task0;
-		NullCheck(L_7);
-		int32_t L_8;
-		L_8 = Task_1_get_Result_m543F02EC56EEA4AAED7101434F488D890414A3DA(L_7, Task_1_get_Result_m543F02EC56EEA4AAED7101434F488D890414A3DA_RuntimeMethod_var);
-		V_2 = L_8;
-		Il2CppFakeBox<int32_t> L_9(DependencyStatus_t9DA2DB2B2AC17E9DA549331B93778091496D8195_il2cpp_TypeInfo_var, (&V_2));
-		String_t* L_10;
-		L_10 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_9), NULL);
-		String_t* L_11;
-		L_11 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral9A80AEC2241FE68DD38E9B7CE61BB9FF44CA1C9C, L_10, NULL);
-		GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(__this, L_11, NULL);
-	}
-
-IL_004b:
-	{
-		goto IL_006c;
-	}
-
-IL_004e:
-	{
-		// AddToInformation("Dependency check was not completed. Error : " + task.Exception.Message);
-		Task_1_tCDCA9B2073B1AC4ED4537A6D74742D20B122E1EF* L_12 = ___task0;
-		NullCheck(L_12);
-		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_13;
-		L_13 = Task_get_Exception_m11317CABA220E351C84B3E94B8A98F1565F42B45(L_12, NULL);
-		NullCheck(L_13);
-		String_t* L_14;
-		L_14 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, L_13);
-		String_t* L_15;
-		L_15 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralC0FB029805CBCB22337E4FACB58390B826F18767, L_14, NULL);
-		GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(__this, L_15, NULL);
-	}
-
-IL_006c:
-	{
-		// });
-		return;
-	}
-}
-// System.Void GoogleSignInDemo::<SignInWithGoogleOnFirebase>b__12_0(System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInDemo_U3CSignInWithGoogleOnFirebaseU3Eb__12_0_m5F40E2976F925E6320FCB58131C54D3AA683037D (GoogleSignInDemo_t9CE44C86EDA93074B93E91D1E3263689806865EA* __this, Task_1_tE57E3A2330CE37367B7296D598E85906D967FF5B* ___task0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlyCollection_1_get_Item_mC1EEC8BBCB1499BF66A65D6A669B809CF9292628_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6E40237CE35F568B52E1573FB6FC9FCF01431DB1);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB634F91633E984D468333150C9AD36DE0AEE1313);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC0754FDF23997684A1B21D12B3615491395FF300);
-		s_Il2CppMethodInitialized = true;
-	}
-	AggregateException_t51B6205846DFB356B94452702201DD239D44422F* V_0 = NULL;
-	bool V_1 = false;
-	FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* V_2 = NULL;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	int32_t G_B4_0 = 0;
-	{
-		// AggregateException ex = task.Exception;
-		Task_1_tE57E3A2330CE37367B7296D598E85906D967FF5B* L_0 = ___task0;
-		NullCheck(L_0);
-		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_1;
-		L_1 = Task_get_Exception_m11317CABA220E351C84B3E94B8A98F1565F42B45(L_0, NULL);
-		V_0 = L_1;
-		// if (ex != null)
-		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_2 = V_0;
-		V_1 = (bool)((!(((RuntimeObject*)(AggregateException_t51B6205846DFB356B94452702201DD239D44422F*)L_2) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_3 = V_1;
-		if (!L_3)
-		{
-			goto IL_0064;
-		}
-	}
-	{
-		// if (ex.InnerExceptions[0] is FirebaseException inner && (inner.ErrorCode != 0))
-		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_4 = V_0;
-		NullCheck(L_4);
-		ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886* L_5;
-		L_5 = AggregateException_get_InnerExceptions_m3044DE61416F827389F2975C67AC1AD89EA050A5_inline(L_4, NULL);
-		NullCheck(L_5);
-		Exception_t* L_6;
-		L_6 = ReadOnlyCollection_1_get_Item_mC1EEC8BBCB1499BF66A65D6A669B809CF9292628(L_5, 0, ReadOnlyCollection_1_get_Item_mC1EEC8BBCB1499BF66A65D6A669B809CF9292628_RuntimeMethod_var);
-		V_2 = ((FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED*)IsInstSealed((RuntimeObject*)L_6, FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED_il2cpp_TypeInfo_var));
-		FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* L_7 = V_2;
-		if (!L_7)
-		{
-			goto IL_0031;
-		}
-	}
-	{
-		FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* L_8 = V_2;
-		NullCheck(L_8);
-		int32_t L_9;
-		L_9 = FirebaseException_get_ErrorCode_mE665B1ADB8DD846C3C604DD72F25C1B476EB3A66_inline(L_8, NULL);
-		G_B4_0 = ((!(((uint32_t)L_9) <= ((uint32_t)0)))? 1 : 0);
-		goto IL_0032;
-	}
-
-IL_0031:
-	{
-		G_B4_0 = 0;
-	}
-
-IL_0032:
-	{
-		V_3 = (bool)G_B4_0;
-		bool L_10 = V_3;
-		if (!L_10)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		// AddToInformation("\nError code = " + inner.ErrorCode + " Message = " + inner.Message);
-		FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* L_11 = V_2;
-		NullCheck(L_11);
-		int32_t L_12;
-		L_12 = FirebaseException_get_ErrorCode_mE665B1ADB8DD846C3C604DD72F25C1B476EB3A66_inline(L_11, NULL);
-		V_4 = L_12;
-		String_t* L_13;
-		L_13 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_4), NULL);
-		FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* L_14 = V_2;
-		NullCheck(L_14);
-		String_t* L_15;
-		L_15 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, L_14);
-		String_t* L_16;
-		L_16 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(_stringLiteral6E40237CE35F568B52E1573FB6FC9FCF01431DB1, L_13, _stringLiteralB634F91633E984D468333150C9AD36DE0AEE1313, L_15, NULL);
-		GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(__this, L_16, NULL);
-	}
-
-IL_0061:
-	{
-		goto IL_007d;
-	}
-
-IL_0064:
-	{
-		// AddToInformation("Sign In Successful.");
-		GoogleSignInDemo_AddToInformation_m5A3AF64E879AA95DAF4103E8FFFC957D05086AAE(__this, _stringLiteralC0754FDF23997684A1B21D12B3615491395FF300, NULL);
-		// SceneManager.LoadScene("MainMenu");
-		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF(_stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719, NULL);
-	}
-
-IL_007d:
-	{
-		// });
-		return;
-	}
-}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -9846,124 +8461,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRegisterU3Ed__21_System_Col
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void CreateRooms::OnClick_CreateRoom()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateRooms_OnClick_CreateRoom_m015B04F04AFD997AFE38AC09B4915409BA4F2CAD (CreateRooms_t8F637340D2C664CBA027E8DFAC5D7BACA057A99C* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* V_0 = NULL;
-	bool V_1 = false;
-	{
-		// if (!PhotonNetwork.IsConnected) return;
-		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
-		bool L_0;
-		L_0 = PhotonNetwork_get_IsConnected_mDEEAF9E141501CCD9CD78A9F11B6D0CAEAE97B11(NULL);
-		V_1 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		bool L_1 = V_1;
-		if (!L_1)
-		{
-			goto IL_000f;
-		}
-	}
-	{
-		// if (!PhotonNetwork.IsConnected) return;
-		goto IL_0044;
-	}
-
-IL_000f:
-	{
-		// RoomOptions options = new RoomOptions();
-		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_2 = (RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23*)il2cpp_codegen_object_new(RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23_il2cpp_TypeInfo_var);
-		NullCheck(L_2);
-		RoomOptions__ctor_m06A5DAB18D3385E8AED5DA84C8A89D9C7E8498F8(L_2, NULL);
-		V_0 = L_2;
-		// options.MaxPlayers = (byte)int.Parse(_maxNum.text);
-		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_3 = V_0;
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->____maxNum_6;
-		NullCheck(L_4);
-		String_t* L_5;
-		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_4);
-		int32_t L_6;
-		L_6 = Int32_Parse_m59B9CC9D5E5B6C99C14251E57FB43BE6AB658767(L_5, NULL);
-		NullCheck(L_3);
-		L_3->___MaxPlayers_2 = (uint8_t)((int32_t)(uint8_t)L_6);
-		// PhotonNetwork.CreateRoom(_roomName.text, options, TypedLobby.Default);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = __this->____roomName_5;
-		NullCheck(L_7);
-		String_t* L_8;
-		L_8 = VirtualFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_7);
-		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_9 = V_0;
-		il2cpp_codegen_runtime_class_init_inline(TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9_il2cpp_TypeInfo_var);
-		TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* L_10 = ((TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9_StaticFields*)il2cpp_codegen_static_fields_for(TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9_il2cpp_TypeInfo_var))->___Default_2;
-		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
-		bool L_11;
-		L_11 = PhotonNetwork_CreateRoom_m12D48FA7E2BFA9460038A06A7461B5D32404DD28(L_8, L_9, L_10, (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL, NULL);
-	}
-
-IL_0044:
-	{
-		// }
-		return;
-	}
-}
-// System.Void CreateRooms::OnCreatedRoom()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateRooms_OnCreatedRoom_m92856CF64403D7F5E4EBF8E3FDD76E4CCBB66FDF (CreateRooms_t8F637340D2C664CBA027E8DFAC5D7BACA057A99C* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7067AB5E2CC204BF29B7F45AC481487A7577D24A);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Debug.Log("Created Room Successfully");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral7067AB5E2CC204BF29B7F45AC481487A7577D24A, NULL);
-		// }
-		return;
-	}
-}
-// System.Void CreateRooms::OnCreateRoomFailed(System.Int16,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateRooms_OnCreateRoomFailed_mC6F23DC30562A54B984AB77646FB00F0F727F0DE (CreateRooms_t8F637340D2C664CBA027E8DFAC5D7BACA057A99C* __this, int16_t ___returnCode0, String_t* ___message1, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA50A6E76F74CB37393FE5A385EC3A6B2292828BB);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Debug.Log("Failed to Create Room");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralA50A6E76F74CB37393FE5A385EC3A6B2292828BB, NULL);
-		// }
-		return;
-	}
-}
-// System.Void CreateRooms::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateRooms__ctor_m8A90750FDDF49D6801C6415656A7AB0E84F4C625 (CreateRooms_t8F637340D2C664CBA027E8DFAC5D7BACA057A99C* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviourPunCallbacks__ctor_m25DE2B188CA2481D58FBA9BB58CFBD65432B77E2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void GameUI::Previous()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameUI_Previous_mE75097DD9685B67F2E8306EB88A261A96A7412BA (GameUI_t131F7F7F82473CAFC8221B739FABB71C0709C737* __this, const RuntimeMethod* method) 
 {
@@ -10163,6 +8660,1724 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameUI__ctor_m2FD08F8B3345F733C4E363D208
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void CreateManager::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateManager_Start_m74BE8817FED9075A9AD86C4BA4429ED84067E99A (CreateManager_tBC3A227292771D21AE6084A86B239D95363F62BA* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void CreateManager::OnCreatedRoom()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateManager_OnCreatedRoom_m1FF94FBC148A20B04632FAC560B17592315914DD (CreateManager_tBC3A227292771D21AE6084A86B239D95363F62BA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE60E4C22A5878096D3426A40B0444E051D1A14FB);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("03.? ?? ??-create");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralE60E4C22A5878096D3426A40B0444E051D1A14FB, NULL);
+		// }
+		return;
+	}
+}
+// System.Void CreateManager::OnJoinedRoom()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateManager_OnJoinedRoom_m620192AAEF5C002C912A1047ACBEA1D1696C4FA9 (CreateManager_tBC3A227292771D21AE6084A86B239D95363F62BA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2EFB4501D2CC45CE6947269EDD2EC421A585AB27);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD556640CA939A396A502C8EF9F6218C38169D791);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDC77ED0D5D0C98459905864105D3E3DE54F734E9);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// Debug.Log("04.? ?? ??. ? ??? ??.-create");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralD556640CA939A396A502C8EF9F6218C38169D791, NULL);
+		// SceneManager.LoadScene("RoomMain");
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF(_stringLiteralDC77ED0D5D0C98459905864105D3E3DE54F734E9, NULL);
+		// if(PhotonNetwork.IsMasterClient)
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = PhotonNetwork_get_IsMasterClient_m267E5D638F89D200CCB3A9997F03EBB403D21307(NULL);
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		// Debug.Log("IF");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral2EFB4501D2CC45CE6947269EDD2EC421A585AB27, NULL);
+	}
+
+IL_002d:
+	{
+		// }
+		return;
+	}
+}
+// System.Void CreateManager::OnCreateRoomFailed()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateManager_OnCreateRoomFailed_m9FB3F1B33E62B4B4135D626BC6187BBCE2F67CCD (CreateManager_tBC3A227292771D21AE6084A86B239D95363F62BA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC0C79EC81FEA68E400EC63F0A48D8B0898311DB6);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("05.? ?? ??");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralC0C79EC81FEA68E400EC63F0A48D8B0898311DB6, NULL);
+		// }
+		return;
+	}
+}
+// System.Void CreateManager::OnRoomListUpdate(System.Collections.Generic.List`1<Photon.Realtime.RoomInfo>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateManager_OnRoomListUpdate_mC8EB97BFEC7F13F6FE9094AD7DEE40AD7583F65A (CreateManager_tBC3A227292771D21AE6084A86B239D95363F62BA* __this, List_1_t2DCE8BA4B15DC3B666CEEA3E5A3E9E922B2F8CAE* ___roomList0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mD172B7CDE8C2305E9FB368A39846E3C9B296EE32_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m92719F2AB1E7C98F138B83CBF16EABD2F5396F68_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m31C52E9AD3265C4BCC34BF3C5846DA6D587FCB8F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mDB93D545BDBD372A9CD6D03801E080A2A7F1B63F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisRoomData_t71B5840FC00FB76330915516518BAF3070CD3956_mBB50A862735CE05D3C4C9868AEE81FD1D2949CB7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m85AB5590D8E32D28B16798AC25EC6A3B8E68ABDE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mD1A2E394D4FC47B9092FE11D1E27BC1AED671721_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m002192C406088F7BA156339AAA9B1BB5D69BE934_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral41A669C3436C19EF8AA234E394071BDC3207CDEF);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	Enumerator_tE4AFECE813D7AFDD1AB30EBBCE376EEFDE795876 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* V_2 = NULL;
+	bool V_3 = false;
+	bool V_4 = false;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_5 = NULL;
+	{
+		// Debug.Log($"? ??? ???? ::::::: ?? ? ?? : {roomList.Count}");
+		List_1_t2DCE8BA4B15DC3B666CEEA3E5A3E9E922B2F8CAE* L_0 = ___roomList0;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = List_1_get_Count_mD1A2E394D4FC47B9092FE11D1E27BC1AED671721_inline(L_0, List_1_get_Count_mD1A2E394D4FC47B9092FE11D1E27BC1AED671721_RuntimeMethod_var);
+		int32_t L_2 = L_1;
+		RuntimeObject* L_3 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_2);
+		String_t* L_4;
+		L_4 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(_stringLiteral41A669C3436C19EF8AA234E394071BDC3207CDEF, L_3, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_4, NULL);
+		// GameObject tempRoom = null;
+		V_0 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		// foreach(var room in roomList)
+		List_1_t2DCE8BA4B15DC3B666CEEA3E5A3E9E922B2F8CAE* L_5 = ___roomList0;
+		NullCheck(L_5);
+		Enumerator_tE4AFECE813D7AFDD1AB30EBBCE376EEFDE795876 L_6;
+		L_6 = List_1_GetEnumerator_m85AB5590D8E32D28B16798AC25EC6A3B8E68ABDE(L_5, List_1_GetEnumerator_m85AB5590D8E32D28B16798AC25EC6A3B8E68ABDE_RuntimeMethod_var);
+		V_1 = L_6;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_00f6:
+			{// begin finally (depth: 1)
+				Enumerator_Dispose_m92719F2AB1E7C98F138B83CBF16EABD2F5396F68((&V_1), Enumerator_Dispose_m92719F2AB1E7C98F138B83CBF16EABD2F5396F68_RuntimeMethod_var);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			{
+				goto IL_00e8_1;
+			}
+
+IL_002b_1:
+			{
+				// foreach(var room in roomList)
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_7;
+				L_7 = Enumerator_get_Current_mDB93D545BDBD372A9CD6D03801E080A2A7F1B63F_inline((&V_1), Enumerator_get_Current_mDB93D545BDBD372A9CD6D03801E080A2A7F1B63F_RuntimeMethod_var);
+				V_2 = L_7;
+				// if (room.RemovedFromList == true)
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_8 = V_2;
+				NullCheck(L_8);
+				bool L_9 = L_8->___RemovedFromList_0;
+				V_3 = L_9;
+				bool L_10 = V_3;
+				if (!L_10)
+				{
+					goto IL_006f_1;
+				}
+			}
+			{
+				// roomDict.TryGetValue(room.Name, out tempRoom);
+				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_11 = __this->___roomDict_9;
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_12 = V_2;
+				NullCheck(L_12);
+				String_t* L_13;
+				L_13 = RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF(L_12, NULL);
+				NullCheck(L_11);
+				bool L_14;
+				L_14 = Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7(L_11, L_13, (&V_0), Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7_RuntimeMethod_var);
+				// Destroy(tempRoom);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_0;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA(L_15, NULL);
+				// roomDict.Remove(room.Name);
+				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_16 = __this->___roomDict_9;
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_17 = V_2;
+				NullCheck(L_17);
+				String_t* L_18;
+				L_18 = RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF(L_17, NULL);
+				NullCheck(L_16);
+				bool L_19;
+				L_19 = Dictionary_2_Remove_mD172B7CDE8C2305E9FB368A39846E3C9B296EE32(L_16, L_18, Dictionary_2_Remove_mD172B7CDE8C2305E9FB368A39846E3C9B296EE32_RuntimeMethod_var);
+				goto IL_00e7_1;
+			}
+
+IL_006f_1:
+			{
+				// if (roomDict.ContainsKey(room.Name) == false)
+				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_20 = __this->___roomDict_9;
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_21 = V_2;
+				NullCheck(L_21);
+				String_t* L_22;
+				L_22 = RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF(L_21, NULL);
+				NullCheck(L_20);
+				bool L_23;
+				L_23 = Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52(L_20, L_22, Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52_RuntimeMethod_var);
+				V_4 = (bool)((((int32_t)L_23) == ((int32_t)0))? 1 : 0);
+				bool L_24 = V_4;
+				if (!L_24)
+				{
+					goto IL_00c3_1;
+				}
+			}
+			{
+				// GameObject _room = Instantiate(roomPrefab, scrollContent);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___roomPrefab_10;
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26 = __this->___scrollContent_11;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27;
+				L_27 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m002192C406088F7BA156339AAA9B1BB5D69BE934(L_25, L_26, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m002192C406088F7BA156339AAA9B1BB5D69BE934_RuntimeMethod_var);
+				V_5 = L_27;
+				// _room.GetComponent<RoomData>().RoomInfo = room;
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = V_5;
+				NullCheck(L_28);
+				RoomData_t71B5840FC00FB76330915516518BAF3070CD3956* L_29;
+				L_29 = GameObject_GetComponent_TisRoomData_t71B5840FC00FB76330915516518BAF3070CD3956_mBB50A862735CE05D3C4C9868AEE81FD1D2949CB7(L_28, GameObject_GetComponent_TisRoomData_t71B5840FC00FB76330915516518BAF3070CD3956_mBB50A862735CE05D3C4C9868AEE81FD1D2949CB7_RuntimeMethod_var);
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_30 = V_2;
+				NullCheck(L_29);
+				RoomData_set_RoomInfo_mFF3BC1F723EDCB03EC24435A957F46F0ED68A05B(L_29, L_30, NULL);
+				// roomDict.Add(room.Name, _room);
+				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_31 = __this->___roomDict_9;
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_32 = V_2;
+				NullCheck(L_32);
+				String_t* L_33;
+				L_33 = RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF(L_32, NULL);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = V_5;
+				NullCheck(L_31);
+				Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF(L_31, L_33, L_34, Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var);
+				goto IL_00e6_1;
+			}
+
+IL_00c3_1:
+			{
+				// roomDict.TryGetValue(room.Name, out tempRoom);
+				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_35 = __this->___roomDict_9;
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_36 = V_2;
+				NullCheck(L_36);
+				String_t* L_37;
+				L_37 = RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF(L_36, NULL);
+				NullCheck(L_35);
+				bool L_38;
+				L_38 = Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7(L_35, L_37, (&V_0), Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7_RuntimeMethod_var);
+				// tempRoom.GetComponent<RoomData>().RoomInfo = room;
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39 = V_0;
+				NullCheck(L_39);
+				RoomData_t71B5840FC00FB76330915516518BAF3070CD3956* L_40;
+				L_40 = GameObject_GetComponent_TisRoomData_t71B5840FC00FB76330915516518BAF3070CD3956_mBB50A862735CE05D3C4C9868AEE81FD1D2949CB7(L_39, GameObject_GetComponent_TisRoomData_t71B5840FC00FB76330915516518BAF3070CD3956_mBB50A862735CE05D3C4C9868AEE81FD1D2949CB7_RuntimeMethod_var);
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_41 = V_2;
+				NullCheck(L_40);
+				RoomData_set_RoomInfo_mFF3BC1F723EDCB03EC24435A957F46F0ED68A05B(L_40, L_41, NULL);
+			}
+
+IL_00e6_1:
+			{
+			}
+
+IL_00e7_1:
+			{
+			}
+
+IL_00e8_1:
+			{
+				// foreach(var room in roomList)
+				bool L_42;
+				L_42 = Enumerator_MoveNext_m31C52E9AD3265C4BCC34BF3C5846DA6D587FCB8F((&V_1), Enumerator_MoveNext_m31C52E9AD3265C4BCC34BF3C5846DA6D587FCB8F_RuntimeMethod_var);
+				if (L_42)
+				{
+					goto IL_002b_1;
+				}
+			}
+			{
+				goto IL_0105;
+			}
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0105:
+	{
+		// }
+		return;
+	}
+}
+// System.Void CreateManager::RoomCreate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateManager_RoomCreate_mD29AC7EED54B3E0D8971DB90772D9E850D379DBF (CreateManager_tBC3A227292771D21AE6084A86B239D95363F62BA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mBE3176F40529BACB1E6DBB68BDFD5894B04BD1BA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral949DC6B7D0D0C6725A186D9C74E5BEB3177BEC0B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC4DE1419362BF6A7F99BBEDAB9EE716C0186D651);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint8_t V_0 = 0x0;
+	RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* V_1 = NULL;
+	bool V_2 = false;
+	{
+		// byte maxPlayers = byte.Parse(maxNum.options[maxNum.value].text); // ?????? ? ????.
+		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_0 = __this->___maxNum_7;
+		NullCheck(L_0);
+		List_1_tCADFA900711C24701A9C70EE674B91FC45D42A52* L_1;
+		L_1 = TMP_Dropdown_get_options_mA543A0EFE4D1953E73C6F60ECA8CE177182571C5(L_0, NULL);
+		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_2 = __this->___maxNum_7;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = TMP_Dropdown_get_value_m5916A6D1897431E8ED789FEC24551A311D1B5C70(L_2, NULL);
+		NullCheck(L_1);
+		OptionData_tFDFBCB4A5FB860E95AE46FDAC112DB4140A8525E* L_4;
+		L_4 = List_1_get_Item_mBE3176F40529BACB1E6DBB68BDFD5894B04BD1BA(L_1, L_3, List_1_get_Item_mBE3176F40529BACB1E6DBB68BDFD5894B04BD1BA_RuntimeMethod_var);
+		NullCheck(L_4);
+		String_t* L_5;
+		L_5 = OptionData_get_text_m2E822D5D50B597BFBA7AB3485EF15B526A726A1A(L_4, NULL);
+		uint8_t L_6;
+		L_6 = Byte_Parse_m1F9A08825A453496DA59DA47A1AAA6893CDAB087(L_5, NULL);
+		V_0 = L_6;
+		// RoomOptions ro = new RoomOptions();
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_7 = (RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23*)il2cpp_codegen_object_new(RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		RoomOptions__ctor_m06A5DAB18D3385E8AED5DA84C8A89D9C7E8498F8(L_7, NULL);
+		V_1 = L_7;
+		// ro.MaxPlayers = maxPlayers;
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_8 = V_1;
+		uint8_t L_9 = V_0;
+		NullCheck(L_8);
+		L_8->___MaxPlayers_2 = L_9;
+		// ro.IsOpen = true;
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_10 = V_1;
+		NullCheck(L_10);
+		RoomOptions_set_IsOpen_mF3D109E3437275F0E1554E93F646A4F766F42271(L_10, (bool)1, NULL);
+		// ro.IsVisible = true;
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_11 = V_1;
+		NullCheck(L_11);
+		RoomOptions_set_IsVisible_m5D9ACD84A11FD6E37F023C2181653923AEE7AB25(L_11, (bool)1, NULL);
+		// if(string.IsNullOrEmpty(roomNameText.text))
+		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_12 = __this->___roomNameText_6;
+		NullCheck(L_12);
+		String_t* L_13;
+		L_13 = TMP_InputField_get_text_mA4ACBF52435893D9DFD822A492454301740B3C6A(L_12, NULL);
+		bool L_14;
+		L_14 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_13, NULL);
+		V_2 = L_14;
+		bool L_15 = V_2;
+		if (!L_15)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		// roomNameText.text = $"ROOM_{Random.Range(1, 100):000}";
+		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_16 = __this->___roomNameText_6;
+		int32_t L_17;
+		L_17 = Random_Range_mD4D2DEE3D2E75D07740C9A6F93B3088B03BBB8F8(1, ((int32_t)100), NULL);
+		int32_t L_18 = L_17;
+		RuntimeObject* L_19 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_18);
+		String_t* L_20;
+		L_20 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(_stringLiteral949DC6B7D0D0C6725A186D9C74E5BEB3177BEC0B, L_19, NULL);
+		NullCheck(L_16);
+		TMP_InputField_set_text_m684E9CDA2D9E82D1C497B5E03DBE79C00584FF62(L_16, L_20, NULL);
+	}
+
+IL_007d:
+	{
+		// PhotonNetwork.CreateRoom(roomNameText.text, ro);
+		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_21 = __this->___roomNameText_6;
+		NullCheck(L_21);
+		String_t* L_22;
+		L_22 = TMP_InputField_get_text_mA4ACBF52435893D9DFD822A492454301740B3C6A(L_21, NULL);
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_23 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		bool L_24;
+		L_24 = PhotonNetwork_CreateRoom_m12D48FA7E2BFA9460038A06A7461B5D32404DD28(L_22, L_23, (TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9*)NULL, (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL, NULL);
+		// Debug.Log("??? ??? ???.-Room");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralC4DE1419362BF6A7F99BBEDAB9EE716C0186D651, NULL);
+		// }
+		return;
+	}
+}
+// System.Void CreateManager::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateManager_Update_m2C7F8683BA68BACC17ECAA50B8421E9F01DA338B (CreateManager_tBC3A227292771D21AE6084A86B239D95363F62BA* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void CreateManager::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateManager__ctor_m96309B87BEA7C6DC37884BC4D5F605CE4D20EE81 (CreateManager_tBC3A227292771D21AE6084A86B239D95363F62BA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private Dictionary<string, GameObject> roomDict = new Dictionary<string, GameObject>();
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_0 = (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*)il2cpp_codegen_object_new(Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B(L_0, Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B_RuntimeMethod_var);
+		__this->___roomDict_9 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___roomDict_9), (void*)L_0);
+		MonoBehaviourPunCallbacks__ctor_m25DE2B188CA2481D58FBA9BB58CFBD65432B77E2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void ListManager::OnRoomListUpdate(System.Collections.Generic.List`1<Photon.Realtime.RoomInfo>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListManager_OnRoomListUpdate_mD31BEF8C9E69BBECFFD20A1905AABA7A19833816 (ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E* __this, List_1_t2DCE8BA4B15DC3B666CEEA3E5A3E9E922B2F8CAE* ___roomList0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mD172B7CDE8C2305E9FB368A39846E3C9B296EE32_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m92719F2AB1E7C98F138B83CBF16EABD2F5396F68_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m31C52E9AD3265C4BCC34BF3C5846DA6D587FCB8F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mDB93D545BDBD372A9CD6D03801E080A2A7F1B63F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisRoomData_t71B5840FC00FB76330915516518BAF3070CD3956_mBB50A862735CE05D3C4C9868AEE81FD1D2949CB7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m85AB5590D8E32D28B16798AC25EC6A3B8E68ABDE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m002192C406088F7BA156339AAA9B1BB5D69BE934_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	Enumerator_tE4AFECE813D7AFDD1AB30EBBCE376EEFDE795876 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* V_2 = NULL;
+	bool V_3 = false;
+	bool V_4 = false;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_5 = NULL;
+	{
+		// GameObject tempRoom = null;
+		V_0 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		// foreach(var room in roomList)
+		List_1_t2DCE8BA4B15DC3B666CEEA3E5A3E9E922B2F8CAE* L_0 = ___roomList0;
+		NullCheck(L_0);
+		Enumerator_tE4AFECE813D7AFDD1AB30EBBCE376EEFDE795876 L_1;
+		L_1 = List_1_GetEnumerator_m85AB5590D8E32D28B16798AC25EC6A3B8E68ABDE(L_0, List_1_GetEnumerator_m85AB5590D8E32D28B16798AC25EC6A3B8E68ABDE_RuntimeMethod_var);
+		V_1 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_00d6:
+			{// begin finally (depth: 1)
+				Enumerator_Dispose_m92719F2AB1E7C98F138B83CBF16EABD2F5396F68((&V_1), Enumerator_Dispose_m92719F2AB1E7C98F138B83CBF16EABD2F5396F68_RuntimeMethod_var);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			{
+				goto IL_00c8_1;
+			}
+
+IL_0010_1:
+			{
+				// foreach(var room in roomList)
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_2;
+				L_2 = Enumerator_get_Current_mDB93D545BDBD372A9CD6D03801E080A2A7F1B63F_inline((&V_1), Enumerator_get_Current_mDB93D545BDBD372A9CD6D03801E080A2A7F1B63F_RuntimeMethod_var);
+				V_2 = L_2;
+				// if (room.RemovedFromList == true)
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_3 = V_2;
+				NullCheck(L_3);
+				bool L_4 = L_3->___RemovedFromList_0;
+				V_3 = L_4;
+				bool L_5 = V_3;
+				if (!L_5)
+				{
+					goto IL_0052_1;
+				}
+			}
+			{
+				// roomDict.TryGetValue(room.Name, out tempRoom);
+				il2cpp_codegen_runtime_class_init_inline(ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_il2cpp_TypeInfo_var);
+				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_6 = ((ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_StaticFields*)il2cpp_codegen_static_fields_for(ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_il2cpp_TypeInfo_var))->___roomDict_8;
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_7 = V_2;
+				NullCheck(L_7);
+				String_t* L_8;
+				L_8 = RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF(L_7, NULL);
+				NullCheck(L_6);
+				bool L_9;
+				L_9 = Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7(L_6, L_8, (&V_0), Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7_RuntimeMethod_var);
+				// Destroy(tempRoom);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = V_0;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA(L_10, NULL);
+				// roomDict.Remove(room.Name);
+				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_11 = ((ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_StaticFields*)il2cpp_codegen_static_fields_for(ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_il2cpp_TypeInfo_var))->___roomDict_8;
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_12 = V_2;
+				NullCheck(L_12);
+				String_t* L_13;
+				L_13 = RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF(L_12, NULL);
+				NullCheck(L_11);
+				bool L_14;
+				L_14 = Dictionary_2_Remove_mD172B7CDE8C2305E9FB368A39846E3C9B296EE32(L_11, L_13, Dictionary_2_Remove_mD172B7CDE8C2305E9FB368A39846E3C9B296EE32_RuntimeMethod_var);
+				goto IL_00c7_1;
+			}
+
+IL_0052_1:
+			{
+				// if (roomDict.ContainsKey(room.Name) == false)
+				il2cpp_codegen_runtime_class_init_inline(ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_il2cpp_TypeInfo_var);
+				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_15 = ((ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_StaticFields*)il2cpp_codegen_static_fields_for(ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_il2cpp_TypeInfo_var))->___roomDict_8;
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_16 = V_2;
+				NullCheck(L_16);
+				String_t* L_17;
+				L_17 = RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF(L_16, NULL);
+				NullCheck(L_15);
+				bool L_18;
+				L_18 = Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52(L_15, L_17, Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52_RuntimeMethod_var);
+				V_4 = (bool)((((int32_t)L_18) == ((int32_t)0))? 1 : 0);
+				bool L_19 = V_4;
+				if (!L_19)
+				{
+					goto IL_00a4_1;
+				}
+			}
+			{
+				// GameObject _room = Instantiate(roomPrefab, scrollContent);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___roomPrefab_9;
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21 = __this->___scrollContent_10;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
+				L_22 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m002192C406088F7BA156339AAA9B1BB5D69BE934(L_20, L_21, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m002192C406088F7BA156339AAA9B1BB5D69BE934_RuntimeMethod_var);
+				V_5 = L_22;
+				// _room.GetComponent<RoomData>().RoomInfo = room;
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = V_5;
+				NullCheck(L_23);
+				RoomData_t71B5840FC00FB76330915516518BAF3070CD3956* L_24;
+				L_24 = GameObject_GetComponent_TisRoomData_t71B5840FC00FB76330915516518BAF3070CD3956_mBB50A862735CE05D3C4C9868AEE81FD1D2949CB7(L_23, GameObject_GetComponent_TisRoomData_t71B5840FC00FB76330915516518BAF3070CD3956_mBB50A862735CE05D3C4C9868AEE81FD1D2949CB7_RuntimeMethod_var);
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_25 = V_2;
+				NullCheck(L_24);
+				RoomData_set_RoomInfo_mFF3BC1F723EDCB03EC24435A957F46F0ED68A05B(L_24, L_25, NULL);
+				// roomDict.Add(room.Name, _room);
+				il2cpp_codegen_runtime_class_init_inline(ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_il2cpp_TypeInfo_var);
+				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_26 = ((ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_StaticFields*)il2cpp_codegen_static_fields_for(ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_il2cpp_TypeInfo_var))->___roomDict_8;
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_27 = V_2;
+				NullCheck(L_27);
+				String_t* L_28;
+				L_28 = RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF(L_27, NULL);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = V_5;
+				NullCheck(L_26);
+				Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF(L_26, L_28, L_29, Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var);
+				goto IL_00c6_1;
+			}
+
+IL_00a4_1:
+			{
+				// roomDict.TryGetValue(room.Name, out tempRoom);
+				il2cpp_codegen_runtime_class_init_inline(ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_il2cpp_TypeInfo_var);
+				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_30 = ((ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_StaticFields*)il2cpp_codegen_static_fields_for(ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_il2cpp_TypeInfo_var))->___roomDict_8;
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_31 = V_2;
+				NullCheck(L_31);
+				String_t* L_32;
+				L_32 = RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF(L_31, NULL);
+				NullCheck(L_30);
+				bool L_33;
+				L_33 = Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7(L_30, L_32, (&V_0), Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7_RuntimeMethod_var);
+				// tempRoom.GetComponent<RoomData>().RoomInfo = room;
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = V_0;
+				NullCheck(L_34);
+				RoomData_t71B5840FC00FB76330915516518BAF3070CD3956* L_35;
+				L_35 = GameObject_GetComponent_TisRoomData_t71B5840FC00FB76330915516518BAF3070CD3956_mBB50A862735CE05D3C4C9868AEE81FD1D2949CB7(L_34, GameObject_GetComponent_TisRoomData_t71B5840FC00FB76330915516518BAF3070CD3956_mBB50A862735CE05D3C4C9868AEE81FD1D2949CB7_RuntimeMethod_var);
+				RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_36 = V_2;
+				NullCheck(L_35);
+				RoomData_set_RoomInfo_mFF3BC1F723EDCB03EC24435A957F46F0ED68A05B(L_35, L_36, NULL);
+			}
+
+IL_00c6_1:
+			{
+			}
+
+IL_00c7_1:
+			{
+			}
+
+IL_00c8_1:
+			{
+				// foreach(var room in roomList)
+				bool L_37;
+				L_37 = Enumerator_MoveNext_m31C52E9AD3265C4BCC34BF3C5846DA6D587FCB8F((&V_1), Enumerator_MoveNext_m31C52E9AD3265C4BCC34BF3C5846DA6D587FCB8F_RuntimeMethod_var);
+				if (L_37)
+				{
+					goto IL_0010_1;
+				}
+			}
+			{
+				goto IL_00e5;
+			}
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_00e5:
+	{
+		// }
+		return;
+	}
+}
+// System.Void ListManager::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListManager_Start_m9517A82D9D247ECC2FA00F432B99E7EFFF7A0DCE (ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void ListManager::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListManager_Update_m29802E83B6A1622F11EB1489395A8618912814D9 (ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void ListManager::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListManager__ctor_mE30A94A47BA37FF1C54EF45D9170063A30A9B743 (ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviourPunCallbacks__ctor_m25DE2B188CA2481D58FBA9BB58CFBD65432B77E2(__this, NULL);
+		return;
+	}
+}
+// System.Void ListManager::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListManager__cctor_mAA576AFF083E77395E25D2CDB62BB28A0C28FC03 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private static Dictionary<string, GameObject> roomDict = new Dictionary<string, GameObject>();
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_0 = (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*)il2cpp_codegen_object_new(Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B(L_0, Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B_RuntimeMethod_var);
+		((ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_StaticFields*)il2cpp_codegen_static_fields_for(ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_il2cpp_TypeInfo_var))->___roomDict_8 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_StaticFields*)il2cpp_codegen_static_fields_for(ListManager_t81B1C3786FB4F6DA91566CCA1C652AE7467A638E_il2cpp_TypeInfo_var))->___roomDict_8), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void PlayManager::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayManager_Start_mF51086540D3A671FB80256602B7B329DCF1C3905 (PlayManager_t2470BB88EEAFDBD1E0950039FF547015A6054588* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC3C4194F28A1CE9A08BA2AEBABF2BC72C8DB6917);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Invoke("CheckPlayerCount", 0.5f);
+		MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB(__this, _stringLiteralC3C4194F28A1CE9A08BA2AEBABF2BC72C8DB6917, (0.5f), NULL);
+		// Debug.Log(PhotonNetwork.CurrentRoom.Name);
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_0;
+		L_0 = PhotonNetwork_get_CurrentRoom_m93A0D4281360B3C1E2D9A0FD6EF1590D80BE7D97(NULL);
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = Room_get_Name_m8C466150335A007F72B11711AB64F9F62288D500(L_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void PlayManager::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayManager_Update_m18D8C5D814E7E770973039CF0D2A25842C31305E (PlayManager_t2470BB88EEAFDBD1E0950039FF547015A6054588* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void PlayManager::RoomData()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayManager_RoomData_mE5CE4E6612F636B749B4F590321A897A48356901 (PlayManager_t2470BB88EEAFDBD1E0950039FF547015A6054588* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void PlayManager::LeaveRoom()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayManager_LeaveRoom_mA3D9421B422CAEB67C4BDD0C56AF875DFAAA630A (PlayManager_t2470BB88EEAFDBD1E0950039FF547015A6054588* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral423161D572C0F173F181EBD180567D0C737EDB7C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PhotonNetwork.LeaveRoom();
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = PhotonNetwork_LeaveRoom_mDCAACF6F9544774184AD90123492CAC3F811DC0A((bool)1, NULL);
+		// Debug.Log("LeaveRoom();?????.");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral423161D572C0F173F181EBD180567D0C737EDB7C, NULL);
+		// }
+		return;
+	}
+}
+// System.Void PlayManager::OnLeftRoom()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayManager_OnLeftRoom_m67C9FD009255D61C75903C99A2CB51A697C4A0A6 (PlayManager_t2470BB88EEAFDBD1E0950039FF547015A6054588* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0452993E7E39F6C1DC0BF5E853F347E87AD7E059);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral27CB707154B10ABD5CC4DF65CB8CBCE3370185BE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDC77ED0D5D0C98459905864105D3E3DE54F734E9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE968FA644085002C5024DB96D3FADA81F4FF5156);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		// Debug.Log("OnLeftRoom()??? ????.");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralE968FA644085002C5024DB96D3FADA81F4FF5156, NULL);
+		// if(SceneManager.GetActiveScene().name == "RoomMain")
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_0;
+		L_0 = SceneManager_GetActiveScene_m2DB2A1ACB84805968A4B6396BFDFB92C0AF32BCE(NULL);
+		V_1 = L_0;
+		String_t* L_1;
+		L_1 = Scene_get_name_m3C818DFA663E159274DAD823B780C7616C5E2A8C((&V_1), NULL);
+		bool L_2;
+		L_2 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_1, _stringLiteralDC77ED0D5D0C98459905864105D3E3DE54F734E9, NULL);
+		V_0 = L_2;
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		// SceneManager.LoadScene("RoomList");
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF(_stringLiteral0452993E7E39F6C1DC0BF5E853F347E87AD7E059, NULL);
+		// Debug.Log("LoadScene?????.");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral27CB707154B10ABD5CC4DF65CB8CBCE3370185BE, NULL);
+		// return;
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		// }
+		return;
+	}
+}
+// System.Void PlayManager::OnCreatedRoom()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayManager_OnCreatedRoom_m51B37805ECB3D40B7321E884C4017D97D214D12C (PlayManager_t2470BB88EEAFDBD1E0950039FF547015A6054588* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral78AC7D7C60C77BDAFA4214037F5C75E49F19D9EC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("03.? ?? ??-play");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral78AC7D7C60C77BDAFA4214037F5C75E49F19D9EC, NULL);
+		// }
+		return;
+	}
+}
+// System.Void PlayManager::OnJoinedRoom()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayManager_OnJoinedRoom_m0478A4C006E24CE50BFFAD984305C103AAE1B21A (PlayManager_t2470BB88EEAFDBD1E0950039FF547015A6054588* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2EFB4501D2CC45CE6947269EDD2EC421A585AB27);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFD97CE386A14430AC34652D84EFD63971F1F9D92);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// Debug.Log("04.? ?? ??-play");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralFD97CE386A14430AC34652D84EFD63971F1F9D92, NULL);
+		// if(PhotonNetwork.IsMasterClient)
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = PhotonNetwork_get_IsMasterClient_m267E5D638F89D200CCB3A9997F03EBB403D21307(NULL);
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		// Debug.Log("IF");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral2EFB4501D2CC45CE6947269EDD2EC421A585AB27, NULL);
+	}
+
+IL_0022:
+	{
+		// }
+		return;
+	}
+}
+// System.Void PlayManager::ListSceneGo()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayManager_ListSceneGo_mD7F5E8EF72D17C22229F96FE09C57D0B907EF93F (PlayManager_t2470BB88EEAFDBD1E0950039FF547015A6054588* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0452993E7E39F6C1DC0BF5E853F347E87AD7E059);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SceneManager.LoadScene("RoomList");
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF(_stringLiteral0452993E7E39F6C1DC0BF5E853F347E87AD7E059, NULL);
+		// }
+		return;
+	}
+}
+// System.Void PlayManager::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayManager__ctor_m60142907B05BD1814F90F152F07EE089A5C7D297 (PlayManager_t2470BB88EEAFDBD1E0950039FF547015A6054588* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviourPunCallbacks__ctor_m25DE2B188CA2481D58FBA9BB58CFBD65432B77E2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void PtManager::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PtManager_Awake_m91EFA35FDC76622088580AAAB62624FA4B294EA6 (PtManager_t8887E0870E41747994F9241D2027B7E47E34C255* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PhotonNetwork.AutomaticallySyncScene = true;
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		PhotonNetwork_set_AutomaticallySyncScene_mBA0C0F252FB25C577151766C4407D269F5A6D651((bool)1, NULL);
+		// PhotonNetwork.GameVersion = gameVersion;
+		String_t* L_0 = __this->___gameVersion_5;
+		PhotonNetwork_set_GameVersion_mB0D2CE96F0F56E32D766759F4A8156797C414731(L_0, NULL);
+		// PhotonNetwork.ConnectUsingSettings();
+		bool L_1;
+		L_1 = PhotonNetwork_ConnectUsingSettings_mB2A659A9684CAC6BBBA81F453E31C765DA29E13D(NULL);
+		// }
+		return;
+	}
+}
+// System.Void PtManager::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PtManager_Start_m55EA426E80CE6EF5804E4B9A0F9FA86162F8D543 (PtManager_t8887E0870E41747994F9241D2027B7E47E34C255* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBD69126B1E29CEDDB426B9A2EBFC9D4F63297CDF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC9EB4D5EDED6C499E39DBC0747B03DBCD05A4B56);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEAF6E0AF7D1D9CC936455F2E7B448D4044C5F795);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("00.?? ??? ?? ");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralEAF6E0AF7D1D9CC936455F2E7B448D4044C5F795, NULL);
+		// userId = PlayerPrefs.GetString("USER_ID", $"USER_{Random.Range(0, 100):00}");
+		int32_t L_0;
+		L_0 = Random_Range_mD4D2DEE3D2E75D07740C9A6F93B3088B03BBB8F8(0, ((int32_t)100), NULL);
+		int32_t L_1 = L_0;
+		RuntimeObject* L_2 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_1);
+		String_t* L_3;
+		L_3 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(_stringLiteralC9EB4D5EDED6C499E39DBC0747B03DBCD05A4B56, L_2, NULL);
+		String_t* L_4;
+		L_4 = PlayerPrefs_GetString_mC671EDA77D8D35BE514817F54950630327A74F63(_stringLiteralBD69126B1E29CEDDB426B9A2EBFC9D4F63297CDF, L_3, NULL);
+		__this->___userId_6 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___userId_6), (void*)L_4);
+		// userIdText.text = userId;
+		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_5 = __this->___userIdText_7;
+		String_t* L_6 = __this->___userId_6;
+		NullCheck(L_5);
+		TMP_InputField_set_text_m684E9CDA2D9E82D1C497B5E03DBE79C00584FF62(L_5, L_6, NULL);
+		// PhotonNetwork.NickName = userId;
+		String_t* L_7 = __this->___userId_6;
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		PhotonNetwork_set_NickName_m6F257FCC8B5D45C65866AB96EAEBF5B5979006AE(L_7, NULL);
+		// }
+		return;
+	}
+}
+// System.Void PtManager::OnConnectedToMaster()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PtManager_OnConnectedToMaster_m868EAE3D228F2701A78F71B68C607B46F949E7C6 (PtManager_t8887E0870E41747994F9241D2027B7E47E34C255* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B4D41CA4D61B88FD06F9A4C1428B11259718880);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("01. ?? ??? ?? ");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral4B4D41CA4D61B88FD06F9A4C1428B11259718880, NULL);
+		// PhotonNetwork.JoinLobby();
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = PhotonNetwork_JoinLobby_m9815B6661AB801FEE0FD3AC8AE9614990BBA2DE5(NULL);
+		// }
+		return;
+	}
+}
+// System.Void PtManager::OnJoinedLobby()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PtManager_OnJoinedLobby_m4DB62B777FF1F6E0E411FFB01CF0A05EE4F285D9 (PtManager_t8887E0870E41747994F9241D2027B7E47E34C255* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE8C2F4C855D425CAF74198B39CDD87CE604E52D3);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("02. ??? ?? ");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralE8C2F4C855D425CAF74198B39CDD87CE604E52D3, NULL);
+		// }
+		return;
+	}
+}
+// System.Void PtManager::OnClick_CreateRoom()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PtManager_OnClick_CreateRoom_m569B4D338C33E4CEFE201354F3D777FAC737EB3F (PtManager_t8887E0870E41747994F9241D2027B7E47E34C255* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mBE3176F40529BACB1E6DBB68BDFD5894B04BD1BA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral76C7E2B6863239C9C0BDC686A19A515F4A193272);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral949DC6B7D0D0C6725A186D9C74E5BEB3177BEC0B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9C3FB791F016B7BFCF083947D04F31460AAF7256);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D14E5362643052CBC1272D33647E288FFD2D3DE);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint8_t V_0 = 0x0;
+	RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* V_1 = NULL;
+	bool V_2 = false;
+	{
+		// Debug.Log("??.");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral76C7E2B6863239C9C0BDC686A19A515F4A193272, NULL);
+		// byte maxPlayers = byte.Parse(maxNum.options[maxNum.value].text); // ?????? ? ????.
+		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_0 = __this->___maxNum_9;
+		NullCheck(L_0);
+		List_1_tCADFA900711C24701A9C70EE674B91FC45D42A52* L_1;
+		L_1 = TMP_Dropdown_get_options_mA543A0EFE4D1953E73C6F60ECA8CE177182571C5(L_0, NULL);
+		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_2 = __this->___maxNum_9;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = TMP_Dropdown_get_value_m5916A6D1897431E8ED789FEC24551A311D1B5C70(L_2, NULL);
+		NullCheck(L_1);
+		OptionData_tFDFBCB4A5FB860E95AE46FDAC112DB4140A8525E* L_4;
+		L_4 = List_1_get_Item_mBE3176F40529BACB1E6DBB68BDFD5894B04BD1BA(L_1, L_3, List_1_get_Item_mBE3176F40529BACB1E6DBB68BDFD5894B04BD1BA_RuntimeMethod_var);
+		NullCheck(L_4);
+		String_t* L_5;
+		L_5 = OptionData_get_text_m2E822D5D50B597BFBA7AB3485EF15B526A726A1A(L_4, NULL);
+		uint8_t L_6;
+		L_6 = Byte_Parse_m1F9A08825A453496DA59DA47A1AAA6893CDAB087(L_5, NULL);
+		V_0 = L_6;
+		// RoomOptions ro = new RoomOptions();
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_7 = (RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23*)il2cpp_codegen_object_new(RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		RoomOptions__ctor_m06A5DAB18D3385E8AED5DA84C8A89D9C7E8498F8(L_7, NULL);
+		V_1 = L_7;
+		// ro.MaxPlayers = maxPlayers;
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_8 = V_1;
+		uint8_t L_9 = V_0;
+		NullCheck(L_8);
+		L_8->___MaxPlayers_2 = L_9;
+		// ro.IsOpen = true;
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_10 = V_1;
+		NullCheck(L_10);
+		RoomOptions_set_IsOpen_mF3D109E3437275F0E1554E93F646A4F766F42271(L_10, (bool)1, NULL);
+		// ro.IsVisible = true;
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_11 = V_1;
+		NullCheck(L_11);
+		RoomOptions_set_IsVisible_m5D9ACD84A11FD6E37F023C2181653923AEE7AB25(L_11, (bool)1, NULL);
+		// Debug.Log(" ??.");
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral9C3FB791F016B7BFCF083947D04F31460AAF7256, NULL);
+		// if(string.IsNullOrEmpty(roomNameText.text))
+		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_12 = __this->___roomNameText_8;
+		NullCheck(L_12);
+		String_t* L_13;
+		L_13 = TMP_InputField_get_text_mA4ACBF52435893D9DFD822A492454301740B3C6A(L_12, NULL);
+		bool L_14;
+		L_14 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_13, NULL);
+		V_2 = L_14;
+		bool L_15 = V_2;
+		if (!L_15)
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		// roomNameText.text = $"ROOM_{Random.Range(1, 100):000}";
+		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_16 = __this->___roomNameText_8;
+		int32_t L_17;
+		L_17 = Random_Range_mD4D2DEE3D2E75D07740C9A6F93B3088B03BBB8F8(1, ((int32_t)100), NULL);
+		int32_t L_18 = L_17;
+		RuntimeObject* L_19 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_18);
+		String_t* L_20;
+		L_20 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(_stringLiteral949DC6B7D0D0C6725A186D9C74E5BEB3177BEC0B, L_19, NULL);
+		NullCheck(L_16);
+		TMP_InputField_set_text_m684E9CDA2D9E82D1C497B5E03DBE79C00584FF62(L_16, L_20, NULL);
+	}
+
+IL_0093:
+	{
+		// PhotonNetwork.CreateRoom(roomNameText.text, ro);
+		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_21 = __this->___roomNameText_8;
+		NullCheck(L_21);
+		String_t* L_22;
+		L_22 = TMP_InputField_get_text_mA4ACBF52435893D9DFD822A492454301740B3C6A(L_21, NULL);
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_23 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		bool L_24;
+		L_24 = PhotonNetwork_CreateRoom_m12D48FA7E2BFA9460038A06A7461B5D32404DD28(L_22, L_23, (TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9*)NULL, (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL, NULL);
+		// Debug.Log("??? ??? ???.-photon");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral9D14E5362643052CBC1272D33647E288FFD2D3DE, NULL);
+		// }
+		return;
+	}
+}
+// System.Void PtManager::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PtManager_Update_m0A7433F8AC417794B7F3B1578BF0478FA9AAFCEC (PtManager_t8887E0870E41747994F9241D2027B7E47E34C255* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void PtManager::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PtManager__ctor_mC49BAEDCB84BA5DAC36593CAFA46F1043D32C510 (PtManager_t8887E0870E41747994F9241D2027B7E47E34C255* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB84DC5040CB137628BF548FA31487845DD3AEE05);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3AAC41F392245954F6C99977B9B207A44747BCA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private readonly string gameVersion = "v1.0";
+		__this->___gameVersion_5 = _stringLiteralF3AAC41F392245954F6C99977B9B207A44747BCA;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___gameVersion_5), (void*)_stringLiteralF3AAC41F392245954F6C99977B9B207A44747BCA);
+		// private string userId = "mineo";
+		__this->___userId_6 = _stringLiteralB84DC5040CB137628BF548FA31487845DD3AEE05;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___userId_6), (void*)_stringLiteralB84DC5040CB137628BF548FA31487845DD3AEE05);
+		MonoBehaviourPunCallbacks__ctor_m25DE2B188CA2481D58FBA9BB58CFBD65432B77E2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Photon.Realtime.RoomInfo RoomData::get_RoomInfo()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* RoomData_get_RoomInfo_m83DC72499D87202912AEFC9D0676317594F41D4F (RoomData_t71B5840FC00FB76330915516518BAF3070CD3956* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* V_0 = NULL;
+	{
+		// return _roomInfo;
+		RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_0 = ((RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_StaticFields*)il2cpp_codegen_static_fields_for(RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_il2cpp_TypeInfo_var))->____roomInfo_6;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void RoomData::set_RoomInfo(Photon.Realtime.RoomInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomData_set_RoomInfo_mFF3BC1F723EDCB03EC24435A957F46F0ED68A05B (RoomData_t71B5840FC00FB76330915516518BAF3070CD3956* __this, RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RoomData_U3Cset_RoomInfoU3Eb__5_0_mE4744DE9A5B29AEE8C18FD77FE95A901B102794E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral41B6C0CA414D79DC2165A96CE14B74ABD51B54D8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCBFC6719607AF2CE4247A7787DA0E43EC996C3BA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _roomInfo = value;
+		RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_0 = ___value0;
+		((RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_StaticFields*)il2cpp_codegen_static_fields_for(RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_il2cpp_TypeInfo_var))->____roomInfo_6 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_StaticFields*)il2cpp_codegen_static_fields_for(RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_il2cpp_TypeInfo_var))->____roomInfo_6), (void*)L_0);
+		// RoomInfoText.text = $"{_roomInfo.Name} ({_roomInfo.PlayerCount}/{_roomInfo.MaxPlayers})";
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = ((RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_StaticFields*)il2cpp_codegen_static_fields_for(RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_il2cpp_TypeInfo_var))->___RoomInfoText_5;
+		RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_2 = ((RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_StaticFields*)il2cpp_codegen_static_fields_for(RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_il2cpp_TypeInfo_var))->____roomInfo_6;
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF(L_2, NULL);
+		RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_4 = ((RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_StaticFields*)il2cpp_codegen_static_fields_for(RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_il2cpp_TypeInfo_var))->____roomInfo_6;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = RoomInfo_get_PlayerCount_m021CCF31A290BEADD0EECF2F3265D7D0BF2DD029_inline(L_4, NULL);
+		int32_t L_6 = L_5;
+		RuntimeObject* L_7 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_6);
+		RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_8 = ((RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_StaticFields*)il2cpp_codegen_static_fields_for(RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_il2cpp_TypeInfo_var))->____roomInfo_6;
+		NullCheck(L_8);
+		uint8_t L_9;
+		L_9 = RoomInfo_get_MaxPlayers_mA59AFE46C3C2CB64D2DC7F6DB200187913DDAF24(L_8, NULL);
+		uint8_t L_10 = L_9;
+		RuntimeObject* L_11 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_10);
+		String_t* L_12;
+		L_12 = String_Format_m76BF8F3A6AD789E38B708848A2688D400AAC250A(_stringLiteralCBFC6719607AF2CE4247A7787DA0E43EC996C3BA, L_3, L_7, L_11, NULL);
+		NullCheck(L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, L_12);
+		// GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => OnJoinRoom(_roomInfo.Name));
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_13;
+		L_13 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(__this, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
+		NullCheck(L_13);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_14;
+		L_14 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C(L_13, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_15 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		NullCheck(L_15);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_15, __this, (intptr_t)((void*)RoomData_U3Cset_RoomInfoU3Eb__5_0_mE4744DE9A5B29AEE8C18FD77FE95A901B102794E_RuntimeMethod_var), NULL);
+		NullCheck(L_14);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_14, L_15, NULL);
+		// Debug.Log("set??? ?????.");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral41B6C0CA414D79DC2165A96CE14B74ABD51B54D8, NULL);
+		// }
+		return;
+	}
+}
+// System.Void RoomData::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomData_Awake_m90B225497275C4346D1558ACE3AEB45578DA236D (RoomData_t71B5840FC00FB76330915516518BAF3070CD3956* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInChildren_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA5C534600978A673C682FADEE1BBFE1B535981AA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// RoomInfoText = GetComponentInChildren<TMP_Text>();
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0;
+		L_0 = Component_GetComponentInChildren_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA5C534600978A673C682FADEE1BBFE1B535981AA(__this, Component_GetComponentInChildren_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA5C534600978A673C682FADEE1BBFE1B535981AA_RuntimeMethod_var);
+		((RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_StaticFields*)il2cpp_codegen_static_fields_for(RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_il2cpp_TypeInfo_var))->___RoomInfoText_5 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_StaticFields*)il2cpp_codegen_static_fields_for(RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_il2cpp_TypeInfo_var))->___RoomInfoText_5), (void*)L_0);
+		// }
+		return;
+	}
+}
+// System.Void RoomData::OnJoinRoom(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomData_OnJoinRoom_m8354A341DC42809022A7071EDAD8C69BC805EB27 (RoomData_t71B5840FC00FB76330915516518BAF3070CD3956* __this, String_t* ___roomName0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PhotonNetwork.JoinRoom(roomName);
+		String_t* L_0 = ___roomName0;
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = PhotonNetwork_JoinRoom_mE8AD9F27587EDD8672667CB57098E07E9E2F7080(L_0, (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL, NULL);
+		// }
+		return;
+	}
+}
+// System.Void RoomData::OnJoinedRoom()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomData_OnJoinedRoom_m3A5FDD8B400D62D779185991F52477FF25B9DC8D (RoomData_t71B5840FC00FB76330915516518BAF3070CD3956* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2EFB4501D2CC45CE6947269EDD2EC421A585AB27);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6EAF513ECC771F6CCDF6B1A84E073A795DA4F019);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDC77ED0D5D0C98459905864105D3E3DE54F734E9);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// Debug.Log("04.? ?? ??. ? ??? ??.-Room???");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral6EAF513ECC771F6CCDF6B1A84E073A795DA4F019, NULL);
+		// SceneManager.LoadScene("RoomMain");
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF(_stringLiteralDC77ED0D5D0C98459905864105D3E3DE54F734E9, NULL);
+		// if(PhotonNetwork.IsMasterClient)
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = PhotonNetwork_get_IsMasterClient_m267E5D638F89D200CCB3A9997F03EBB403D21307(NULL);
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		// Debug.Log("IF");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral2EFB4501D2CC45CE6947269EDD2EC421A585AB27, NULL);
+	}
+
+IL_002d:
+	{
+		// }
+		return;
+	}
+}
+// System.Void RoomData::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomData__ctor_mC68684E4B2861153F107FA5CD6A86485D8041552 (RoomData_t71B5840FC00FB76330915516518BAF3070CD3956* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviourPunCallbacks__ctor_m25DE2B188CA2481D58FBA9BB58CFBD65432B77E2(__this, NULL);
+		return;
+	}
+}
+// System.Void RoomData::<set_RoomInfo>b__5_0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomData_U3Cset_RoomInfoU3Eb__5_0_mE4744DE9A5B29AEE8C18FD77FE95A901B102794E (RoomData_t71B5840FC00FB76330915516518BAF3070CD3956* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => OnJoinRoom(_roomInfo.Name));
+		RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_0 = ((RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_StaticFields*)il2cpp_codegen_static_fields_for(RoomData_t71B5840FC00FB76330915516518BAF3070CD3956_il2cpp_TypeInfo_var))->____roomInfo_6;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF(L_0, NULL);
+		RoomData_OnJoinRoom_m8354A341DC42809022A7071EDAD8C69BC805EB27(__this, L_1, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Photon.Realtime.RoomInfo study::get_RoomInfo()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* study_get_RoomInfo_mD00D3C35A5A735BE0FE5C2162306E644FEC60D84 (study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* V_0 = NULL;
+	{
+		// return _roomInfo;
+		RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_0 = ((study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_StaticFields*)il2cpp_codegen_static_fields_for(study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_il2cpp_TypeInfo_var))->____roomInfo_5;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void study::set_RoomInfo(Photon.Realtime.RoomInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void study_set_RoomInfo_m4939A57022914D0D92A15DF78A7C0C3615CDFF62 (study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C* __this, RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCBFC6719607AF2CE4247A7787DA0E43EC996C3BA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&study_U3Cset_RoomInfoU3Eb__5_0_m2EACEBE262AF335206FA75D87CB6FFA418DE82BF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _roomInfo = value;
+		RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_0 = ___value0;
+		((study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_StaticFields*)il2cpp_codegen_static_fields_for(study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_il2cpp_TypeInfo_var))->____roomInfo_5 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_StaticFields*)il2cpp_codegen_static_fields_for(study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_il2cpp_TypeInfo_var))->____roomInfo_5), (void*)L_0);
+		// RoomInfoText.text = $"{_roomInfo.Name} ({_roomInfo.PlayerCount}/{_roomInfo.MaxPlayers})";
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = ((study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_StaticFields*)il2cpp_codegen_static_fields_for(study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_il2cpp_TypeInfo_var))->___RoomInfoText_4;
+		RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_2 = ((study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_StaticFields*)il2cpp_codegen_static_fields_for(study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_il2cpp_TypeInfo_var))->____roomInfo_5;
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF(L_2, NULL);
+		RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_4 = ((study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_StaticFields*)il2cpp_codegen_static_fields_for(study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_il2cpp_TypeInfo_var))->____roomInfo_5;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = RoomInfo_get_PlayerCount_m021CCF31A290BEADD0EECF2F3265D7D0BF2DD029_inline(L_4, NULL);
+		int32_t L_6 = L_5;
+		RuntimeObject* L_7 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_6);
+		RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_8 = ((study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_StaticFields*)il2cpp_codegen_static_fields_for(study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_il2cpp_TypeInfo_var))->____roomInfo_5;
+		NullCheck(L_8);
+		uint8_t L_9;
+		L_9 = RoomInfo_get_MaxPlayers_mA59AFE46C3C2CB64D2DC7F6DB200187913DDAF24(L_8, NULL);
+		uint8_t L_10 = L_9;
+		RuntimeObject* L_11 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_10);
+		String_t* L_12;
+		L_12 = String_Format_m76BF8F3A6AD789E38B708848A2688D400AAC250A(_stringLiteralCBFC6719607AF2CE4247A7787DA0E43EC996C3BA, L_3, L_7, L_11, NULL);
+		NullCheck(L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, L_12);
+		// GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => OnEnterRoom(_roomInfo.Name));
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_13;
+		L_13 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(__this, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
+		NullCheck(L_13);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_14;
+		L_14 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C(L_13, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_15 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		NullCheck(L_15);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_15, __this, (intptr_t)((void*)study_U3Cset_RoomInfoU3Eb__5_0_m2EACEBE262AF335206FA75D87CB6FFA418DE82BF_RuntimeMethod_var), NULL);
+		NullCheck(L_14);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_14, L_15, NULL);
+		// }
+		return;
+	}
+}
+// System.Void study::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void study_Awake_m1A73F1BB80C8E03343065654A73C83F65B36FDFA (study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInChildren_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA5C534600978A673C682FADEE1BBFE1B535981AA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F_m6CA031C91E5D203C24D3315721B6E3910B9C8729_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0877B694B974C44CB75EC02B68E8ED0946D9C4E0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// RoomInfoText = GetComponentInChildren<TMP_Text>();
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0;
+		L_0 = Component_GetComponentInChildren_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA5C534600978A673C682FADEE1BBFE1B535981AA(__this, Component_GetComponentInChildren_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA5C534600978A673C682FADEE1BBFE1B535981AA_RuntimeMethod_var);
+		((study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_StaticFields*)il2cpp_codegen_static_fields_for(study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_il2cpp_TypeInfo_var))->___RoomInfoText_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_StaticFields*)il2cpp_codegen_static_fields_for(study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_il2cpp_TypeInfo_var))->___RoomInfoText_4), (void*)L_0);
+		// userIdText = GameObject.Find("InputField (TMP) - Nickname").GetComponent<TMP_InputField>();
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
+		L_1 = GameObject_Find_mFF1D6C65A7E2CD82443F4DCE4C53472FB30B7F51(_stringLiteral0877B694B974C44CB75EC02B68E8ED0946D9C4E0, NULL);
+		NullCheck(L_1);
+		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_2;
+		L_2 = GameObject_GetComponent_TisTMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F_m6CA031C91E5D203C24D3315721B6E3910B9C8729(L_1, GameObject_GetComponent_TisTMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F_m6CA031C91E5D203C24D3315721B6E3910B9C8729_RuntimeMethod_var);
+		__this->___userIdText_6 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___userIdText_6), (void*)L_2);
+		// }
+		return;
+	}
+}
+// System.Void study::OnEnterRoom(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void study_OnEnterRoom_m8CFB23D5C56756090DFC55D1312E6BA3287CE0E5 (study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C* __this, String_t* ___roomName0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* V_0 = NULL;
+	{
+		// RoomOptions ro = new RoomOptions();
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_0 = (RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23*)il2cpp_codegen_object_new(RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		RoomOptions__ctor_m06A5DAB18D3385E8AED5DA84C8A89D9C7E8498F8(L_0, NULL);
+		V_0 = L_0;
+		// ro.IsOpen = true;
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_1 = V_0;
+		NullCheck(L_1);
+		RoomOptions_set_IsOpen_mF3D109E3437275F0E1554E93F646A4F766F42271(L_1, (bool)1, NULL);
+		// ro.IsVisible = true;
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_2 = V_0;
+		NullCheck(L_2);
+		RoomOptions_set_IsVisible_m5D9ACD84A11FD6E37F023C2181653923AEE7AB25(L_2, (bool)1, NULL);
+		// ro.MaxPlayers = 10;
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_3 = V_0;
+		NullCheck(L_3);
+		L_3->___MaxPlayers_2 = (uint8_t)((int32_t)10);
+		// PhotonNetwork.NickName = userIdText.text;
+		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_4 = __this->___userIdText_6;
+		NullCheck(L_4);
+		String_t* L_5;
+		L_5 = TMP_InputField_get_text_mA4ACBF52435893D9DFD822A492454301740B3C6A(L_4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		PhotonNetwork_set_NickName_m6F257FCC8B5D45C65866AB96EAEBF5B5979006AE(L_5, NULL);
+		// PhotonNetwork.JoinOrCreateRoom(roomName, ro, TypedLobby.Default);
+		String_t* L_6 = ___roomName0;
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_7 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9_il2cpp_TypeInfo_var);
+		TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* L_8 = ((TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9_StaticFields*)il2cpp_codegen_static_fields_for(TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9_il2cpp_TypeInfo_var))->___Default_2;
+		bool L_9;
+		L_9 = PhotonNetwork_JoinOrCreateRoom_m114BF24BB05155B4F18D2222630B14472ECFA243(L_6, L_7, L_8, (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL, NULL);
+		// }
+		return;
+	}
+}
+// System.Void study::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void study__ctor_m11B7B99D0942C33DBD766557E5CDB6542B110072 (study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// System.Void study::<set_RoomInfo>b__5_0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void study_U3Cset_RoomInfoU3Eb__5_0_m2EACEBE262AF335206FA75D87CB6FFA418DE82BF (study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => OnEnterRoom(_roomInfo.Name));
+		RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* L_0 = ((study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_StaticFields*)il2cpp_codegen_static_fields_for(study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C_il2cpp_TypeInfo_var))->____roomInfo_5;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF(L_0, NULL);
+		study_OnEnterRoom_m8CFB23D5C56756090DFC55D1312E6BA3287CE0E5(__this, L_1, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void PhotonManager::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonManager_Start_mA9A31E3D5EC2188952C23273EBE046844CD8BF97 (PhotonManager_tE7B7BB65B400FA3711AD3933F030339B19AB8701* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B45CA1576D910692CC3B5D14C08CBCDFAD7B89E);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PhotonNetwork.GameVersion = "0.1";
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		PhotonNetwork_set_GameVersion_mB0D2CE96F0F56E32D766759F4A8156797C414731(_stringLiteral4B45CA1576D910692CC3B5D14C08CBCDFAD7B89E, NULL);
+		// PhotonNetwork.NickName = userId;
+		String_t* L_0 = __this->___userId_5;
+		PhotonNetwork_set_NickName_m6F257FCC8B5D45C65866AB96EAEBF5B5979006AE(L_0, NULL);
+		// Connect();
+		PhotonManager_Connect_m9CCCDD216972112E130262F7799B18A2CFA08BD4(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void PhotonManager::Connect()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonManager_Connect_m9CCCDD216972112E130262F7799B18A2CFA08BD4 (PhotonManager_tE7B7BB65B400FA3711AD3933F030339B19AB8701* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7161076D7395E50E54C499BBB6A349DFD8B4206B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD01C20974A262C6DE75E128E2A1DA068CC95FA45);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// if (PhotonNetwork.IsConnected)
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = PhotonNetwork_get_IsConnected_mDEEAF9E141501CCD9CD78A9F11B6D0CAEAE97B11(NULL);
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		// Debug.Log("02.?? ??????.");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralD01C20974A262C6DE75E128E2A1DA068CC95FA45, NULL);
+		goto IL_002c;
+	}
+
+IL_0019:
+	{
+		// PhotonNetwork.ConnectUsingSettings();
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = PhotonNetwork_ConnectUsingSettings_mB2A659A9684CAC6BBBA81F453E31C765DA29E13D(NULL);
+		// Debug.Log("01.?? ??? ?? ");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral7161076D7395E50E54C499BBB6A349DFD8B4206B, NULL);
+	}
+
+IL_002c:
+	{
+		// }
+		return;
+	}
+}
+// System.Void PhotonManager::OnConnectedToMaster()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonManager_OnConnectedToMaster_m327632D21494879748F45E4BEBFFB58D9DCA60BF (PhotonManager_tE7B7BB65B400FA3711AD3933F030339B19AB8701* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral89D33A783CE8A53A51ACF82D07882722D22D94F0);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("02.?? ??? ?? ??");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral89D33A783CE8A53A51ACF82D07882722D22D94F0, NULL);
+		// PhotonNetwork.JoinLobby();
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = PhotonNetwork_JoinLobby_m9815B6661AB801FEE0FD3AC8AE9614990BBA2DE5(NULL);
+		// }
+		return;
+	}
+}
+// System.Void PhotonManager::OnJoinedLobby()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonManager_OnJoinedLobby_m7E50E38B783A7E27D7DB04317DC9D72273949866 (PhotonManager_tE7B7BB65B400FA3711AD3933F030339B19AB8701* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDEA81F6F6A0F01BA9447AF6F9F890D5FCD2564CD);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("03.??? ?? ??");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralDEA81F6F6A0F01BA9447AF6F9F890D5FCD2564CD, NULL);
+		// }
+		return;
+	}
+}
+// System.Void PhotonManager::OnDisconnected(Photon.Realtime.DisconnectCause)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonManager_OnDisconnected_m2EE1C8AE1409B83AE7D038F8B44977CAC1F8BF3B (PhotonManager_tE7B7BB65B400FA3711AD3933F030339B19AB8701* __this, int32_t ___cause0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDAD7233DE88ECEAC1AC9C73422213CBAA14D6413);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("00.??? ???");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralDAD7233DE88ECEAC1AC9C73422213CBAA14D6413, NULL);
+		// Connect();
+		PhotonManager_Connect_m9CCCDD216972112E130262F7799B18A2CFA08BD4(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void PhotonManager::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonManager_Update_m31334405E6ED4488BF86A5F7AA2B275368D415E0 (PhotonManager_tE7B7BB65B400FA3711AD3933F030339B19AB8701* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void PhotonManager::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonManager__ctor_m65C7C9C660591EF57F061A875E294883CFB6164D (PhotonManager_tE7B7BB65B400FA3711AD3933F030339B19AB8701* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB84DC5040CB137628BF548FA31487845DD3AEE05);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private string userId = "mineo";
+		__this->___userId_5 = _stringLiteralB84DC5040CB137628BF548FA31487845DD3AEE05;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___userId_5), (void*)_stringLiteralB84DC5040CB137628BF548FA31487845DD3AEE05);
+		MonoBehaviourPunCallbacks__ctor_m25DE2B188CA2481D58FBA9BB58CFBD65432B77E2(__this, NULL);
 		return;
 	}
 }
@@ -12915,830 +13130,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveBackground__ctor_mBE84294DFCA64A2344
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void SignInSample.SigninSampleScript::Awake()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SigninSampleScript_Awake_m09DB64B8D0CC210321AE791E6EE28479C8BC8A60 (SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// configuration = new GoogleSignInConfiguration {
-		//       WebClientId = webClientId,
-		//       RequestIdToken = true
-		// };
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_0 = (GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8*)il2cpp_codegen_object_new(GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		GoogleSignInConfiguration__ctor_m99891370EEB5D39D4F4492E576B1CB5665532589(L_0, NULL);
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_1 = L_0;
-		String_t* L_2 = __this->___webClientId_5;
-		NullCheck(L_1);
-		L_1->___WebClientId_1 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&L_1->___WebClientId_1), (void*)L_2);
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_3 = L_1;
-		NullCheck(L_3);
-		L_3->___RequestIdToken_5 = (bool)1;
-		__this->___configuration_7 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___configuration_7), (void*)L_3);
-		// }
-		return;
-	}
-}
-// System.Void SignInSample.SigninSampleScript::OnSignIn()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SigninSampleScript_OnSignIn_mE7BF4BBA3E0EC61A569E457E2CF9BFE0EC2E0527 (SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tF52889A7B072E11E8880182FD8F7D44219989077_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SigninSampleScript_OnAuthenticationFinished_m0680666536E9A264F02810790D6576D326A725C4_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2C41540AEBC151A2E6CD9946AB44FF2F4AD09541);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// GoogleSignIn.Configuration = configuration;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_0 = __this->___configuration_7;
-		GoogleSignIn_set_Configuration_mF52DF04FFD80AA9BC83102B2F313D24C9D5FFA17(L_0, NULL);
-		// GoogleSignIn.Configuration.UseGameSignIn = false;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_1;
-		L_1 = GoogleSignIn_get_Configuration_m4E2239E342D8DE7555911527A1919538C5EAE9A9(NULL);
-		NullCheck(L_1);
-		L_1->___UseGameSignIn_0 = (bool)0;
-		// GoogleSignIn.Configuration.RequestIdToken = true;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_2;
-		L_2 = GoogleSignIn_get_Configuration_m4E2239E342D8DE7555911527A1919538C5EAE9A9(NULL);
-		NullCheck(L_2);
-		L_2->___RequestIdToken_5 = (bool)1;
-		// AddStatusText("Calling SignIn");
-		SigninSampleScript_AddStatusText_m4380CA7BAAE8C0B3367D39C82DAEFCB479427C48(__this, _stringLiteral2C41540AEBC151A2E6CD9946AB44FF2F4AD09541, NULL);
-		// GoogleSignIn.DefaultInstance.SignIn().ContinueWith(
-		//   OnAuthenticationFinished);
-		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_3;
-		L_3 = GoogleSignIn_get_DefaultInstance_m44367AA5151F8B71EA6BCBF805E59387F826C1AB(NULL);
-		NullCheck(L_3);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_4;
-		L_4 = GoogleSignIn_SignIn_mAAA8FC28D91B6CBAB324F888FE951EB9EA64E64D(L_3, NULL);
-		Action_1_tF52889A7B072E11E8880182FD8F7D44219989077* L_5 = (Action_1_tF52889A7B072E11E8880182FD8F7D44219989077*)il2cpp_codegen_object_new(Action_1_tF52889A7B072E11E8880182FD8F7D44219989077_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Action_1__ctor_m24ECDBDFF2296BB9E1A0A6682131E87BADE4EADE(L_5, __this, (intptr_t)((void*)SigninSampleScript_OnAuthenticationFinished_m0680666536E9A264F02810790D6576D326A725C4_RuntimeMethod_var), NULL);
-		NullCheck(L_4);
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
-		L_6 = Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1(L_4, L_5, Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1_RuntimeMethod_var);
-		// }
-		return;
-	}
-}
-// System.Void SignInSample.SigninSampleScript::OnSignOut()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SigninSampleScript_OnSignOut_m5E01CB015A5576D4F24556655AEED1BAAFDF0BE3 (SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2E1AD0E83130989E2515696D6D5B828CD141AAE6);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// AddStatusText("Calling SignOut");
-		SigninSampleScript_AddStatusText_m4380CA7BAAE8C0B3367D39C82DAEFCB479427C48(__this, _stringLiteral2E1AD0E83130989E2515696D6D5B828CD141AAE6, NULL);
-		// GoogleSignIn.DefaultInstance.SignOut();
-		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_0;
-		L_0 = GoogleSignIn_get_DefaultInstance_m44367AA5151F8B71EA6BCBF805E59387F826C1AB(NULL);
-		NullCheck(L_0);
-		GoogleSignIn_SignOut_m1666034382C085A0EE0227035E57E5AD61FE43B6(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void SignInSample.SigninSampleScript::OnDisconnect()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SigninSampleScript_OnDisconnect_mCC40E5F0DFBCF5A56B94DA5F3CEEDFEEC477E5BD (SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral72479C2E2CD4DACBD6155ABD5D0DEC816E33D007);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// AddStatusText("Calling Disconnect");
-		SigninSampleScript_AddStatusText_m4380CA7BAAE8C0B3367D39C82DAEFCB479427C48(__this, _stringLiteral72479C2E2CD4DACBD6155ABD5D0DEC816E33D007, NULL);
-		// GoogleSignIn.DefaultInstance.Disconnect();
-		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_0;
-		L_0 = GoogleSignIn_get_DefaultInstance_m44367AA5151F8B71EA6BCBF805E59387F826C1AB(NULL);
-		NullCheck(L_0);
-		GoogleSignIn_Disconnect_mD97724F96462EC3BB49B29CFDC92888EB5D11D00(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void SignInSample.SigninSampleScript::OnAuthenticationFinished(System.Threading.Tasks.Task`1<Google.GoogleSignInUser>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SigninSampleScript_OnAuthenticationFinished_m0680666536E9A264F02810790D6576D326A725C4 (SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* __this, Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* ___task0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignInStatusCode_t3AEC2A455C7DB2C736F01D352EA10EFDCB011D7B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_tF15715088C2FF1D64704AE886A3A152AFCECCC36_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlyCollection_1_GetEnumerator_m7B522F5E33A2823F23DAD24EE1819E5278D111FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral31CB1FB0AE3C8ADEC71025E6C3D308425A223BD7);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral68CCAEFA2D0D8C4A9C1B054BB5F1AF05C8E3F4AC);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral725A2F73B9AC862B4466B7C7B1287663C2C79392);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral769A2FDAB9A0B414C5BC97D6424E60561429FDA7);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8A3C71AF924D8E06B6442B912950178D34D1D459);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral962269072F3961C2E18D99209371CDF907485650);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	RuntimeObject* V_1 = NULL;
-	bool V_2 = false;
-	SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* V_3 = NULL;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	AggregateException_t51B6205846DFB356B94452702201DD239D44422F* G_B6_0 = NULL;
-	String_t* G_B6_1 = NULL;
-	SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* G_B6_2 = NULL;
-	AggregateException_t51B6205846DFB356B94452702201DD239D44422F* G_B5_0 = NULL;
-	String_t* G_B5_1 = NULL;
-	SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* G_B5_2 = NULL;
-	String_t* G_B7_0 = NULL;
-	String_t* G_B7_1 = NULL;
-	SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* G_B7_2 = NULL;
-	{
-		// if (task.IsFaulted) {
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_0 = ___task0;
-		NullCheck(L_0);
-		bool L_1;
-		L_1 = Task_get_IsFaulted_mC0AD3EA4EAF3B47C1F5FE9624541F0A00B9426D9(L_0, NULL);
-		V_0 = L_1;
-		bool L_2 = V_0;
-		if (!L_2)
-		{
-			goto IL_00a5;
-		}
-	}
-	{
-		// using (IEnumerator<System.Exception> enumerator =
-		//         task.Exception.InnerExceptions.GetEnumerator()) {
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_3 = ___task0;
-		NullCheck(L_3);
-		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_4;
-		L_4 = Task_get_Exception_m11317CABA220E351C84B3E94B8A98F1565F42B45(L_3, NULL);
-		NullCheck(L_4);
-		ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886* L_5;
-		L_5 = AggregateException_get_InnerExceptions_m3044DE61416F827389F2975C67AC1AD89EA050A5_inline(L_4, NULL);
-		NullCheck(L_5);
-		RuntimeObject* L_6;
-		L_6 = ReadOnlyCollection_1_GetEnumerator_m7B522F5E33A2823F23DAD24EE1819E5278D111FC(L_5, ReadOnlyCollection_1_GetEnumerator_m7B522F5E33A2823F23DAD24EE1819E5278D111FC_RuntimeMethod_var);
-		V_1 = L_6;
-	}
-	{
-		auto __finallyBlock = il2cpp::utils::Finally([&]
-		{
-
-FINALLY_0094:
-			{// begin finally (depth: 1)
-				{
-					RuntimeObject* L_7 = V_1;
-					if (!L_7)
-					{
-						goto IL_009e;
-					}
-				}
-				{
-					RuntimeObject* L_8 = V_1;
-					NullCheck(L_8);
-					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_8);
-				}
-
-IL_009e:
-				{
-					return;
-				}
-			}// end finally (depth: 1)
-		});
-		try
-		{// begin try (depth: 1)
-			{
-				// if (enumerator.MoveNext()) {
-				RuntimeObject* L_9 = V_1;
-				NullCheck(L_9);
-				bool L_10;
-				L_10 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_9);
-				V_2 = L_10;
-				bool L_11 = V_2;
-				if (!L_11)
-				{
-					goto IL_006c_1;
-				}
-			}
-			{
-				// GoogleSignIn.SignInException error =
-				//         (GoogleSignIn.SignInException)enumerator.Current;
-				RuntimeObject* L_12 = V_1;
-				NullCheck(L_12);
-				Exception_t* L_13;
-				L_13 = InterfaceFuncInvoker0< Exception_t* >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<System.Exception>::get_Current() */, IEnumerator_1_tF15715088C2FF1D64704AE886A3A152AFCECCC36_il2cpp_TypeInfo_var, L_12);
-				V_3 = ((SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A*)CastclassClass((RuntimeObject*)L_13, SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A_il2cpp_TypeInfo_var));
-				// AddStatusText("Got Error: " + error.Status + " " + error.Message);
-				SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* L_14 = V_3;
-				NullCheck(L_14);
-				int32_t L_15;
-				L_15 = SignInException_get_Status_m2FBF33632A23C771EE5CEB65120E3DFEC8FF5A74_inline(L_14, NULL);
-				V_4 = L_15;
-				Il2CppFakeBox<int32_t> L_16(GoogleSignInStatusCode_t3AEC2A455C7DB2C736F01D352EA10EFDCB011D7B_il2cpp_TypeInfo_var, (&V_4));
-				String_t* L_17;
-				L_17 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_16), NULL);
-				SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* L_18 = V_3;
-				NullCheck(L_18);
-				String_t* L_19;
-				L_19 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, L_18);
-				String_t* L_20;
-				L_20 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(_stringLiteral68CCAEFA2D0D8C4A9C1B054BB5F1AF05C8E3F4AC, L_17, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_19, NULL);
-				SigninSampleScript_AddStatusText_m4380CA7BAAE8C0B3367D39C82DAEFCB479427C48(__this, L_20, NULL);
-				goto IL_0091_1;
-			}
-
-IL_006c_1:
-			{
-				// AddStatusText("Got Unexpected Exception?!?" + task.Exception);
-				Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_21 = ___task0;
-				NullCheck(L_21);
-				AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_22;
-				L_22 = Task_get_Exception_m11317CABA220E351C84B3E94B8A98F1565F42B45(L_21, NULL);
-				AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_23 = L_22;
-				G_B5_0 = L_23;
-				G_B5_1 = _stringLiteral725A2F73B9AC862B4466B7C7B1287663C2C79392;
-				G_B5_2 = __this;
-				if (L_23)
-				{
-					G_B6_0 = L_23;
-					G_B6_1 = _stringLiteral725A2F73B9AC862B4466B7C7B1287663C2C79392;
-					G_B6_2 = __this;
-					goto IL_0080_1;
-				}
-			}
-			{
-				G_B7_0 = ((String_t*)(NULL));
-				G_B7_1 = G_B5_1;
-				G_B7_2 = G_B5_2;
-				goto IL_0085_1;
-			}
-
-IL_0080_1:
-			{
-				NullCheck(G_B6_0);
-				String_t* L_24;
-				L_24 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B6_0);
-				G_B7_0 = L_24;
-				G_B7_1 = G_B6_1;
-				G_B7_2 = G_B6_2;
-			}
-
-IL_0085_1:
-			{
-				String_t* L_25;
-				L_25 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(G_B7_1, G_B7_0, NULL);
-				NullCheck(G_B7_2);
-				SigninSampleScript_AddStatusText_m4380CA7BAAE8C0B3367D39C82DAEFCB479427C48(G_B7_2, L_25, NULL);
-			}
-
-IL_0091_1:
-			{
-				goto IL_009f;
-			}
-		}// end try (depth: 1)
-		catch(Il2CppExceptionWrapper& e)
-		{
-			__finallyBlock.StoreException(e.ex);
-		}
-	}
-
-IL_009f:
-	{
-		goto IL_014d;
-	}
-
-IL_00a5:
-	{
-		// } else if(task.IsCanceled) {
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_26 = ___task0;
-		NullCheck(L_26);
-		bool L_27;
-		L_27 = Task_get_IsCanceled_m96A8D3F85158A9CB3AEA50A00A55BE4E0F0E21FA(L_26, NULL);
-		V_5 = L_27;
-		bool L_28 = V_5;
-		if (!L_28)
-		{
-			goto IL_00c4;
-		}
-	}
-	{
-		// AddStatusText("Canceled");
-		SigninSampleScript_AddStatusText_m4380CA7BAAE8C0B3367D39C82DAEFCB479427C48(__this, _stringLiteral8A3C71AF924D8E06B6442B912950178D34D1D459, NULL);
-		goto IL_014d;
-	}
-
-IL_00c4:
-	{
-		// AddToInformation("Welcome: " + task.Result.DisplayName + "!");
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_29 = ___task0;
-		NullCheck(L_29);
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_30;
-		L_30 = Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B(L_29, Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B_RuntimeMethod_var);
-		NullCheck(L_30);
-		String_t* L_31;
-		L_31 = GoogleSignInUser_get_DisplayName_mC14CD83AFB1364C729D09692732781672D9CEA9C_inline(L_30, NULL);
-		String_t* L_32;
-		L_32 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteral769A2FDAB9A0B414C5BC97D6424E60561429FDA7, L_31, _stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46, NULL);
-		SigninSampleScript_AddToInformation_mD78D3B89E73A0A525C7199E5A50346F2046D85B0(__this, L_32, NULL);
-		// AddToInformation("Email = " + task.Result.Email);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_33 = ___task0;
-		NullCheck(L_33);
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_34;
-		L_34 = Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B(L_33, Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B_RuntimeMethod_var);
-		NullCheck(L_34);
-		String_t* L_35;
-		L_35 = GoogleSignInUser_get_Email_mA6E37F96BC90280CBA4D425743426CBE8D515551_inline(L_34, NULL);
-		String_t* L_36;
-		L_36 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral962269072F3961C2E18D99209371CDF907485650, L_35, NULL);
-		SigninSampleScript_AddToInformation_mD78D3B89E73A0A525C7199E5A50346F2046D85B0(__this, L_36, NULL);
-		// AddToInformation("Google ID Token = " + task.Result.IdToken);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_37 = ___task0;
-		NullCheck(L_37);
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_38;
-		L_38 = Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B(L_37, Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B_RuntimeMethod_var);
-		NullCheck(L_38);
-		String_t* L_39;
-		L_39 = GoogleSignInUser_get_IdToken_m58382F225E3065502A66AFA23F70053153DEA62A_inline(L_38, NULL);
-		String_t* L_40;
-		L_40 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral31CB1FB0AE3C8ADEC71025E6C3D308425A223BD7, L_39, NULL);
-		SigninSampleScript_AddToInformation_mD78D3B89E73A0A525C7199E5A50346F2046D85B0(__this, L_40, NULL);
-		// AddToInformation("Email = " + task.Result.Email);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_41 = ___task0;
-		NullCheck(L_41);
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_42;
-		L_42 = Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B(L_41, Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B_RuntimeMethod_var);
-		NullCheck(L_42);
-		String_t* L_43;
-		L_43 = GoogleSignInUser_get_Email_mA6E37F96BC90280CBA4D425743426CBE8D515551_inline(L_42, NULL);
-		String_t* L_44;
-		L_44 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral962269072F3961C2E18D99209371CDF907485650, L_43, NULL);
-		SigninSampleScript_AddToInformation_mD78D3B89E73A0A525C7199E5A50346F2046D85B0(__this, L_44, NULL);
-		// SignInWithGoogleOnFirebase(task.Result.IdToken);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_45 = ___task0;
-		NullCheck(L_45);
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_46;
-		L_46 = Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B(L_45, Task_1_get_Result_m675AD0303A1F87A03A5AD976E7708A31F3707E0B_RuntimeMethod_var);
-		NullCheck(L_46);
-		String_t* L_47;
-		L_47 = GoogleSignInUser_get_IdToken_m58382F225E3065502A66AFA23F70053153DEA62A_inline(L_46, NULL);
-		SigninSampleScript_SignInWithGoogleOnFirebase_m522718CE0C71DAEB8257A1CF3E53DAD094F94981(__this, L_47, NULL);
-	}
-
-IL_014d:
-	{
-		// }
-		return;
-	}
-}
-// System.Void SignInSample.SigninSampleScript::SignInWithGoogleOnFirebase(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SigninSampleScript_SignInWithGoogleOnFirebase_m522718CE0C71DAEB8257A1CF3E53DAD094F94981 (SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* __this, String_t* ___idToken0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t7A72BB5CDA51C7604122D1F351F54CD826121DA9_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAuthProvider_t646272DD18929729FAEDA1A1F2CAD87CC5DB8D6E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SigninSampleScript_U3CSignInWithGoogleOnFirebaseU3Eb__9_0_m97255D1312A063FF70CA55C26CAEA13EC2DDE635_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_ContinueWith_m549608C19B9ED5ECA2FD9094527278477B3A2E38_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Credential_t32FB2E0F8AAA0B6895D10531CE82C9FBD27E27D1* V_0 = NULL;
-	{
-		// Credential credential = GoogleAuthProvider.GetCredential(idToken, null);
-		String_t* L_0 = ___idToken0;
-		il2cpp_codegen_runtime_class_init_inline(GoogleAuthProvider_t646272DD18929729FAEDA1A1F2CAD87CC5DB8D6E_il2cpp_TypeInfo_var);
-		Credential_t32FB2E0F8AAA0B6895D10531CE82C9FBD27E27D1* L_1;
-		L_1 = GoogleAuthProvider_GetCredential_m6246A8B861C270513177BE702FA0F70ADD5C84AD(L_0, (String_t*)NULL, NULL);
-		V_0 = L_1;
-		// auth.SignInWithCredentialAsync(credential).ContinueWith(task =>
-		// {
-		//     AggregateException ex = task.Exception;
-		//     if (ex != null)
-		//     {
-		//         if (ex.InnerExceptions[0] is FirebaseException inner && (inner.ErrorCode != 0))
-		//             AddToInformation("\nError code = " + inner.ErrorCode + " Message = " + inner.Message);
-		//     }
-		//     else
-		//     {
-		//         AddToInformation("Sign In Successful.");
-		//         SceneManager.LoadScene("MainMenu");
-		//     }
-		// });
-		FirebaseAuth_tD2FC1EC1E5B6EF920276AFABA103B8B7E2AE2DAF* L_2 = __this->___auth_6;
-		Credential_t32FB2E0F8AAA0B6895D10531CE82C9FBD27E27D1* L_3 = V_0;
-		NullCheck(L_2);
-		Task_1_tE57E3A2330CE37367B7296D598E85906D967FF5B* L_4;
-		L_4 = FirebaseAuth_SignInWithCredentialAsync_m113AA2F02FEE5A28A9D49492AC5F33AA54A55D74(L_2, L_3, NULL);
-		Action_1_t7A72BB5CDA51C7604122D1F351F54CD826121DA9* L_5 = (Action_1_t7A72BB5CDA51C7604122D1F351F54CD826121DA9*)il2cpp_codegen_object_new(Action_1_t7A72BB5CDA51C7604122D1F351F54CD826121DA9_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Action_1__ctor_mA1A3987C0999C379F2DE5C4FC11270A1C6B91007(L_5, __this, (intptr_t)((void*)SigninSampleScript_U3CSignInWithGoogleOnFirebaseU3Eb__9_0_m97255D1312A063FF70CA55C26CAEA13EC2DDE635_RuntimeMethod_var), NULL);
-		NullCheck(L_4);
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
-		L_6 = Task_1_ContinueWith_m549608C19B9ED5ECA2FD9094527278477B3A2E38(L_4, L_5, Task_1_ContinueWith_m549608C19B9ED5ECA2FD9094527278477B3A2E38_RuntimeMethod_var);
-		// }
-		return;
-	}
-}
-// System.Void SignInSample.SigninSampleScript::AddToInformation(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SigninSampleScript_AddToInformation_mD78D3B89E73A0A525C7199E5A50346F2046D85B0 (SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* __this, String_t* ___str0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// private void AddToInformation(string str) { statusText.text += "\n" + str; }
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___statusText_4;
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = L_0;
-		NullCheck(L_1);
-		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_1);
-		String_t* L_3 = ___str0;
-		String_t* L_4;
-		L_4 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(L_2, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, L_3, NULL);
-		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_1, L_4);
-		// private void AddToInformation(string str) { statusText.text += "\n" + str; }
-		return;
-	}
-}
-// System.Void SignInSample.SigninSampleScript::OnSignInSilently()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SigninSampleScript_OnSignInSilently_mFE7472B7181C3785B9AF04DE14691B8DB2DB45AB (SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tF52889A7B072E11E8880182FD8F7D44219989077_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SigninSampleScript_OnAuthenticationFinished_m0680666536E9A264F02810790D6576D326A725C4_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA01907B77A31AFB8179089C6C1315EF4D713C528);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// GoogleSignIn.Configuration = configuration;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_0 = __this->___configuration_7;
-		GoogleSignIn_set_Configuration_mF52DF04FFD80AA9BC83102B2F313D24C9D5FFA17(L_0, NULL);
-		// GoogleSignIn.Configuration.UseGameSignIn = false;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_1;
-		L_1 = GoogleSignIn_get_Configuration_m4E2239E342D8DE7555911527A1919538C5EAE9A9(NULL);
-		NullCheck(L_1);
-		L_1->___UseGameSignIn_0 = (bool)0;
-		// GoogleSignIn.Configuration.RequestIdToken = true;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_2;
-		L_2 = GoogleSignIn_get_Configuration_m4E2239E342D8DE7555911527A1919538C5EAE9A9(NULL);
-		NullCheck(L_2);
-		L_2->___RequestIdToken_5 = (bool)1;
-		// AddStatusText("Calling SignIn Silently");
-		SigninSampleScript_AddStatusText_m4380CA7BAAE8C0B3367D39C82DAEFCB479427C48(__this, _stringLiteralA01907B77A31AFB8179089C6C1315EF4D713C528, NULL);
-		// GoogleSignIn.DefaultInstance.SignInSilently()
-		//       .ContinueWith(OnAuthenticationFinished);
-		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_3;
-		L_3 = GoogleSignIn_get_DefaultInstance_m44367AA5151F8B71EA6BCBF805E59387F826C1AB(NULL);
-		NullCheck(L_3);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_4;
-		L_4 = GoogleSignIn_SignInSilently_mA667E9AAF7FA438217844D0BACC7DF68364DF7AD(L_3, NULL);
-		Action_1_tF52889A7B072E11E8880182FD8F7D44219989077* L_5 = (Action_1_tF52889A7B072E11E8880182FD8F7D44219989077*)il2cpp_codegen_object_new(Action_1_tF52889A7B072E11E8880182FD8F7D44219989077_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Action_1__ctor_m24ECDBDFF2296BB9E1A0A6682131E87BADE4EADE(L_5, __this, (intptr_t)((void*)SigninSampleScript_OnAuthenticationFinished_m0680666536E9A264F02810790D6576D326A725C4_RuntimeMethod_var), NULL);
-		NullCheck(L_4);
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
-		L_6 = Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1(L_4, L_5, Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1_RuntimeMethod_var);
-		// }
-		return;
-	}
-}
-// System.Void SignInSample.SigninSampleScript::OnGamesSignIn()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SigninSampleScript_OnGamesSignIn_m11565587479C1085DB3E760DAA72E85CA98257FC (SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tF52889A7B072E11E8880182FD8F7D44219989077_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SigninSampleScript_OnAuthenticationFinished_m0680666536E9A264F02810790D6576D326A725C4_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral56AD00A3BBD3193180AA5FC557AB2FB212F215AE);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// GoogleSignIn.Configuration = configuration;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_0 = __this->___configuration_7;
-		GoogleSignIn_set_Configuration_mF52DF04FFD80AA9BC83102B2F313D24C9D5FFA17(L_0, NULL);
-		// GoogleSignIn.Configuration.UseGameSignIn = true;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_1;
-		L_1 = GoogleSignIn_get_Configuration_m4E2239E342D8DE7555911527A1919538C5EAE9A9(NULL);
-		NullCheck(L_1);
-		L_1->___UseGameSignIn_0 = (bool)1;
-		// GoogleSignIn.Configuration.RequestIdToken = false;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_2;
-		L_2 = GoogleSignIn_get_Configuration_m4E2239E342D8DE7555911527A1919538C5EAE9A9(NULL);
-		NullCheck(L_2);
-		L_2->___RequestIdToken_5 = (bool)0;
-		// AddStatusText("Calling Games SignIn");
-		SigninSampleScript_AddStatusText_m4380CA7BAAE8C0B3367D39C82DAEFCB479427C48(__this, _stringLiteral56AD00A3BBD3193180AA5FC557AB2FB212F215AE, NULL);
-		// GoogleSignIn.DefaultInstance.SignIn().ContinueWith(
-		//   OnAuthenticationFinished);
-		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_3;
-		L_3 = GoogleSignIn_get_DefaultInstance_m44367AA5151F8B71EA6BCBF805E59387F826C1AB(NULL);
-		NullCheck(L_3);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_4;
-		L_4 = GoogleSignIn_SignIn_mAAA8FC28D91B6CBAB324F888FE951EB9EA64E64D(L_3, NULL);
-		Action_1_tF52889A7B072E11E8880182FD8F7D44219989077* L_5 = (Action_1_tF52889A7B072E11E8880182FD8F7D44219989077*)il2cpp_codegen_object_new(Action_1_tF52889A7B072E11E8880182FD8F7D44219989077_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Action_1__ctor_m24ECDBDFF2296BB9E1A0A6682131E87BADE4EADE(L_5, __this, (intptr_t)((void*)SigninSampleScript_OnAuthenticationFinished_m0680666536E9A264F02810790D6576D326A725C4_RuntimeMethod_var), NULL);
-		NullCheck(L_4);
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
-		L_6 = Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1(L_4, L_5, Task_1_ContinueWith_m0B40A8BB452D64D2539DE93F7B3E0096F7DB70B1_RuntimeMethod_var);
-		// }
-		return;
-	}
-}
-// System.Void SignInSample.SigninSampleScript::AddStatusText(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SigninSampleScript_AddStatusText_m4380CA7BAAE8C0B3367D39C82DAEFCB479427C48 (SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* __this, String_t* ___text0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m592BCCE7B7933454DED2130C810F059F8D85B1D7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		s_Il2CppMethodInitialized = true;
-	}
-	String_t* V_0 = NULL;
-	bool V_1 = false;
-	Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	String_t* V_3 = NULL;
-	{
-		// if (messages.Count == 5) {
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___messages_8;
-		NullCheck(L_0);
-		int32_t L_1;
-		L_1 = List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline(L_0, List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
-		V_1 = (bool)((((int32_t)L_1) == ((int32_t)5))? 1 : 0);
-		bool L_2 = V_1;
-		if (!L_2)
-		{
-			goto IL_0022;
-		}
-	}
-	{
-		// messages.RemoveAt(0);
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = __this->___messages_8;
-		NullCheck(L_3);
-		List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D(L_3, 0, List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D_RuntimeMethod_var);
-	}
-
-IL_0022:
-	{
-		// messages.Add(text);
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_4 = __this->___messages_8;
-		String_t* L_5 = ___text0;
-		NullCheck(L_4);
-		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_4, L_5, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		// string txt = "";
-		V_0 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-		// foreach (string s in messages) {
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_6 = __this->___messages_8;
-		NullCheck(L_6);
-		Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 L_7;
-		L_7 = List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D(L_6, List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D_RuntimeMethod_var);
-		V_2 = L_7;
-	}
-	{
-		auto __finallyBlock = il2cpp::utils::Finally([&]
-		{
-
-FINALLY_0066:
-			{// begin finally (depth: 1)
-				Enumerator_Dispose_m592BCCE7B7933454DED2130C810F059F8D85B1D7((&V_2), Enumerator_Dispose_m592BCCE7B7933454DED2130C810F059F8D85B1D7_RuntimeMethod_var);
-				return;
-			}// end finally (depth: 1)
-		});
-		try
-		{// begin try (depth: 1)
-			{
-				goto IL_005b_1;
-			}
-
-IL_0044_1:
-			{
-				// foreach (string s in messages) {
-				String_t* L_8;
-				L_8 = Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_inline((&V_2), Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_RuntimeMethod_var);
-				V_3 = L_8;
-				// txt += "\n" + s;
-				String_t* L_9 = V_0;
-				String_t* L_10 = V_3;
-				String_t* L_11;
-				L_11 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(L_9, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, L_10, NULL);
-				V_0 = L_11;
-			}
-
-IL_005b_1:
-			{
-				// foreach (string s in messages) {
-				bool L_12;
-				L_12 = Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED((&V_2), Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED_RuntimeMethod_var);
-				if (L_12)
-				{
-					goto IL_0044_1;
-				}
-			}
-			{
-				goto IL_0075;
-			}
-		}// end try (depth: 1)
-		catch(Il2CppExceptionWrapper& e)
-		{
-			__finallyBlock.StoreException(e.ex);
-		}
-	}
-
-IL_0075:
-	{
-		// statusText.text = txt;
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___statusText_4;
-		String_t* L_14 = V_0;
-		NullCheck(L_13);
-		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_13, L_14);
-		// }
-		return;
-	}
-}
-// System.Void SignInSample.SigninSampleScript::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SigninSampleScript__ctor_mF0AA40A79D40EA3F6EAF8C4E0B0B4AAB4153E142 (SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1B563236F0487C13B4A443A8D3714AFEA0BA4D09);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// public string webClientId = "<your client id here>";
-		__this->___webClientId_5 = _stringLiteral1B563236F0487C13B4A443A8D3714AFEA0BA4D09;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___webClientId_5), (void*)_stringLiteral1B563236F0487C13B4A443A8D3714AFEA0BA4D09);
-		// private List<string> messages = new List<string>();
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_0, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
-		__this->___messages_8 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___messages_8), (void*)L_0);
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-// System.Void SignInSample.SigninSampleScript::<SignInWithGoogleOnFirebase>b__9_0(System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SigninSampleScript_U3CSignInWithGoogleOnFirebaseU3Eb__9_0_m97255D1312A063FF70CA55C26CAEA13EC2DDE635 (SigninSampleScript_t8EB3B9F92F47EFEB72A451E7B978307125D9E4C0* __this, Task_1_tE57E3A2330CE37367B7296D598E85906D967FF5B* ___task0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlyCollection_1_get_Item_mC1EEC8BBCB1499BF66A65D6A669B809CF9292628_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6E40237CE35F568B52E1573FB6FC9FCF01431DB1);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB634F91633E984D468333150C9AD36DE0AEE1313);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC0754FDF23997684A1B21D12B3615491395FF300);
-		s_Il2CppMethodInitialized = true;
-	}
-	AggregateException_t51B6205846DFB356B94452702201DD239D44422F* V_0 = NULL;
-	bool V_1 = false;
-	FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* V_2 = NULL;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	int32_t G_B4_0 = 0;
-	{
-		// AggregateException ex = task.Exception;
-		Task_1_tE57E3A2330CE37367B7296D598E85906D967FF5B* L_0 = ___task0;
-		NullCheck(L_0);
-		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_1;
-		L_1 = Task_get_Exception_m11317CABA220E351C84B3E94B8A98F1565F42B45(L_0, NULL);
-		V_0 = L_1;
-		// if (ex != null)
-		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_2 = V_0;
-		V_1 = (bool)((!(((RuntimeObject*)(AggregateException_t51B6205846DFB356B94452702201DD239D44422F*)L_2) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_3 = V_1;
-		if (!L_3)
-		{
-			goto IL_0064;
-		}
-	}
-	{
-		// if (ex.InnerExceptions[0] is FirebaseException inner && (inner.ErrorCode != 0))
-		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_4 = V_0;
-		NullCheck(L_4);
-		ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886* L_5;
-		L_5 = AggregateException_get_InnerExceptions_m3044DE61416F827389F2975C67AC1AD89EA050A5_inline(L_4, NULL);
-		NullCheck(L_5);
-		Exception_t* L_6;
-		L_6 = ReadOnlyCollection_1_get_Item_mC1EEC8BBCB1499BF66A65D6A669B809CF9292628(L_5, 0, ReadOnlyCollection_1_get_Item_mC1EEC8BBCB1499BF66A65D6A669B809CF9292628_RuntimeMethod_var);
-		V_2 = ((FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED*)IsInstSealed((RuntimeObject*)L_6, FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED_il2cpp_TypeInfo_var));
-		FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* L_7 = V_2;
-		if (!L_7)
-		{
-			goto IL_0031;
-		}
-	}
-	{
-		FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* L_8 = V_2;
-		NullCheck(L_8);
-		int32_t L_9;
-		L_9 = FirebaseException_get_ErrorCode_mE665B1ADB8DD846C3C604DD72F25C1B476EB3A66_inline(L_8, NULL);
-		G_B4_0 = ((!(((uint32_t)L_9) <= ((uint32_t)0)))? 1 : 0);
-		goto IL_0032;
-	}
-
-IL_0031:
-	{
-		G_B4_0 = 0;
-	}
-
-IL_0032:
-	{
-		V_3 = (bool)G_B4_0;
-		bool L_10 = V_3;
-		if (!L_10)
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		// AddToInformation("\nError code = " + inner.ErrorCode + " Message = " + inner.Message);
-		FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* L_11 = V_2;
-		NullCheck(L_11);
-		int32_t L_12;
-		L_12 = FirebaseException_get_ErrorCode_mE665B1ADB8DD846C3C604DD72F25C1B476EB3A66_inline(L_11, NULL);
-		V_4 = L_12;
-		String_t* L_13;
-		L_13 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_4), NULL);
-		FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* L_14 = V_2;
-		NullCheck(L_14);
-		String_t* L_15;
-		L_15 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, L_14);
-		String_t* L_16;
-		L_16 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(_stringLiteral6E40237CE35F568B52E1573FB6FC9FCF01431DB1, L_13, _stringLiteralB634F91633E984D468333150C9AD36DE0AEE1313, L_15, NULL);
-		SigninSampleScript_AddToInformation_mD78D3B89E73A0A525C7199E5A50346F2046D85B0(__this, L_16, NULL);
-	}
-
-IL_0061:
-	{
-		goto IL_007d;
-	}
-
-IL_0064:
-	{
-		// AddToInformation("Sign In Successful.");
-		SigninSampleScript_AddToInformation_mD78D3B89E73A0A525C7199E5A50346F2046D85B0(__this, _stringLiteralC0754FDF23997684A1B21D12B3615491395FF300, NULL);
-		// SceneManager.LoadScene("MainMenu");
-		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF(_stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719, NULL);
-	}
-
-IL_007d:
-	{
-		// });
 		return;
 	}
 }
@@ -18499,2502 +17890,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextToggleIsOnTransition__ctor_m31BCC409
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Google.GoogleSignIn::set_Configuration(Google.GoogleSignInConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignIn_set_Configuration_mF52DF04FFD80AA9BC83102B2F313D24C9D5FFA17 (GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* ___value0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	int32_t G_B4_0 = 0;
-	{
-		// if (theInstance == null || theConfiguration == value || theConfiguration == null) {
-		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_0 = ((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theInstance_0;
-		if (!L_0)
-		{
-			goto IL_001a;
-		}
-	}
-	{
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_1 = ((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theConfiguration_1;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_2 = ___value0;
-		if ((((RuntimeObject*)(GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8*)L_1) == ((RuntimeObject*)(GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8*)L_2)))
-		{
-			goto IL_001a;
-		}
-	}
-	{
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_3 = ((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theConfiguration_1;
-		G_B4_0 = ((((RuntimeObject*)(GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8*)L_3) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		goto IL_001b;
-	}
-
-IL_001a:
-	{
-		G_B4_0 = 1;
-	}
-
-IL_001b:
-	{
-		V_0 = (bool)G_B4_0;
-		bool L_4 = V_0;
-		if (!L_4)
-		{
-			goto IL_0029;
-		}
-	}
-	{
-		// theConfiguration = value;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_5 = ___value0;
-		((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theConfiguration_1 = L_5;
-		Il2CppCodeGenWriteBarrier((void**)(&((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theConfiguration_1), (void*)L_5);
-		goto IL_0036;
-	}
-
-IL_0029:
-	{
-		// throw new SignInException(GoogleSignInStatusCode.DeveloperError,
-		//     "DefaultInstance already created. " +
-		//     " Cannot change configuration after creation.");
-		SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* L_6 = (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A_il2cpp_TypeInfo_var)));
-		NullCheck(L_6);
-		SignInException__ctor_m5C137C75DDEBA99BA9B0AC253EB36C075B2E2D8B(L_6, 6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralD400EB487C20E145E8637C4026A2356D9E546258)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GoogleSignIn_set_Configuration_mF52DF04FFD80AA9BC83102B2F313D24C9D5FFA17_RuntimeMethod_var)));
-	}
-
-IL_0036:
-	{
-		// }
-		return;
-	}
-}
-// Google.GoogleSignInConfiguration Google.GoogleSignIn::get_Configuration()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* GoogleSignIn_get_Configuration_m4E2239E342D8DE7555911527A1919538C5EAE9A9 (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* V_0 = NULL;
-	{
-		// return theConfiguration;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_0 = ((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theConfiguration_1;
-		V_0 = L_0;
-		goto IL_0009;
-	}
-
-IL_0009:
-	{
-		// }
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_1 = V_0;
-		return L_1;
-	}
-}
-// Google.GoogleSignIn Google.GoogleSignIn::get_DefaultInstance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* GoogleSignIn_get_DefaultInstance_m44367AA5151F8B71EA6BCBF805E59387F826C1AB (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* V_1 = NULL;
-	{
-		// if (theInstance == null) {
-		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_0 = ((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theInstance_0;
-		V_0 = (bool)((((RuntimeObject*)(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0023;
-		}
-	}
-	{
-		// theInstance = new GoogleSignIn(new GoogleSignInImpl(Configuration));
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_2;
-		L_2 = GoogleSignIn_get_Configuration_m4E2239E342D8DE7555911527A1919538C5EAE9A9(NULL);
-		GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* L_3 = (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349*)il2cpp_codegen_object_new(GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349_il2cpp_TypeInfo_var);
-		NullCheck(L_3);
-		GoogleSignInImpl__ctor_m28DE8315356ABCB9AB9B96F3D635BF83278D3A3A(L_3, L_2, NULL);
-		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_4 = (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA*)il2cpp_codegen_object_new(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var);
-		NullCheck(L_4);
-		GoogleSignIn__ctor_m43C53EBCEC03FBAA1F634E76365E860595AC4D52(L_4, L_3, NULL);
-		((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theInstance_0 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theInstance_0), (void*)L_4);
-	}
-
-IL_0023:
-	{
-		// return theInstance;
-		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_5 = ((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theInstance_0;
-		V_1 = L_5;
-		goto IL_002b;
-	}
-
-IL_002b:
-	{
-		// }
-		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_6 = V_1;
-		return L_6;
-	}
-}
-// System.Void Google.GoogleSignIn::.ctor(Google.Impl.GoogleSignInImpl)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignIn__ctor_m43C53EBCEC03FBAA1F634E76365E860595AC4D52 (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* ___impl0, const RuntimeMethod* method) 
-{
-	{
-		// internal GoogleSignIn(GoogleSignInImpl impl) {
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		// this.impl = impl;
-		GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* L_0 = ___impl0;
-		__this->___impl_2 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___impl_2), (void*)L_0);
-		// }
-		return;
-	}
-}
-// System.Void Google.GoogleSignIn::EnableDebugLogging(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignIn_EnableDebugLogging_m14A29DE697ECC64D8A0A5CBA47278ECAE9D26F29 (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, bool ___flag0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// impl.EnableDebugLogging(flag);
-		RuntimeObject* L_0 = __this->___impl_2;
-		bool L_1 = ___flag0;
-		NullCheck(L_0);
-		InterfaceActionInvoker1< bool >::Invoke(2 /* System.Void Google.ISignInImpl::EnableDebugLogging(System.Boolean) */, ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var, L_0, L_1);
-		// }
-		return;
-	}
-}
-// System.Threading.Tasks.Task`1<Google.GoogleSignInUser> Google.GoogleSignIn::SignIn()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* GoogleSignIn_SignIn_mAAA8FC28D91B6CBAB324F888FE951EB9EA64E64D (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* V_0 = NULL;
-	Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* V_1 = NULL;
-	{
-		// var tcs = new TaskCompletionSource<GoogleSignInUser>();
-		TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* L_0 = (TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA*)il2cpp_codegen_object_new(TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84(L_0, TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84_RuntimeMethod_var);
-		V_0 = L_0;
-		// SignInHelperObject.Instance.StartCoroutine(
-		//   impl.SignIn().WaitForResult(tcs));
-		SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* L_1;
-		L_1 = SignInHelperObject_get_Instance_m5DC1955B15AE32848E5EDC7F6DDE456DC3D0F3F1(NULL);
-		RuntimeObject* L_2 = __this->___impl_2;
-		NullCheck(L_2);
-		Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* L_3;
-		L_3 = InterfaceFuncInvoker0< Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* >::Invoke(0 /* Google.Future`1<Google.GoogleSignInUser> Google.ISignInImpl::SignIn() */, ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var, L_2);
-		TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* L_4 = V_0;
-		NullCheck(L_3);
-		RuntimeObject* L_5;
-		L_5 = Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C(L_3, L_4, Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C_RuntimeMethod_var);
-		NullCheck(L_1);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
-		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_1, L_5, NULL);
-		// return tcs.Task;
-		TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* L_7 = V_0;
-		NullCheck(L_7);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_8;
-		L_8 = TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_inline(L_7, TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_RuntimeMethod_var);
-		V_1 = L_8;
-		goto IL_002c;
-	}
-
-IL_002c:
-	{
-		// }
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_9 = V_1;
-		return L_9;
-	}
-}
-// System.Threading.Tasks.Task`1<Google.GoogleSignInUser> Google.GoogleSignIn::SignInSilently()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* GoogleSignIn_SignInSilently_mA667E9AAF7FA438217844D0BACC7DF68364DF7AD (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* V_0 = NULL;
-	Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* V_1 = NULL;
-	{
-		// var tcs = new TaskCompletionSource<GoogleSignInUser>();
-		TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* L_0 = (TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA*)il2cpp_codegen_object_new(TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84(L_0, TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84_RuntimeMethod_var);
-		V_0 = L_0;
-		// SignInHelperObject.Instance.StartCoroutine(
-		//     impl.SignInSilently().WaitForResult(tcs));
-		SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* L_1;
-		L_1 = SignInHelperObject_get_Instance_m5DC1955B15AE32848E5EDC7F6DDE456DC3D0F3F1(NULL);
-		RuntimeObject* L_2 = __this->___impl_2;
-		NullCheck(L_2);
-		Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* L_3;
-		L_3 = InterfaceFuncInvoker0< Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* >::Invoke(1 /* Google.Future`1<Google.GoogleSignInUser> Google.ISignInImpl::SignInSilently() */, ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var, L_2);
-		TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* L_4 = V_0;
-		NullCheck(L_3);
-		RuntimeObject* L_5;
-		L_5 = Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C(L_3, L_4, Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C_RuntimeMethod_var);
-		NullCheck(L_1);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
-		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_1, L_5, NULL);
-		// return tcs.Task;
-		TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* L_7 = V_0;
-		NullCheck(L_7);
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_8;
-		L_8 = TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_inline(L_7, TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_RuntimeMethod_var);
-		V_1 = L_8;
-		goto IL_002c;
-	}
-
-IL_002c:
-	{
-		// }
-		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_9 = V_1;
-		return L_9;
-	}
-}
-// System.Void Google.GoogleSignIn::SignOut()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignIn_SignOut_m1666034382C085A0EE0227035E57E5AD61FE43B6 (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// theConfiguration = null;
-		((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theConfiguration_1 = (GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theConfiguration_1), (void*)(GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8*)NULL);
-		// impl.SignOut();
-		RuntimeObject* L_0 = __this->___impl_2;
-		NullCheck(L_0);
-		InterfaceActionInvoker0::Invoke(3 /* System.Void Google.ISignInImpl::SignOut() */, ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var, L_0);
-		// }
-		return;
-	}
-}
-// System.Void Google.GoogleSignIn::Disconnect()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignIn_Disconnect_mD97724F96462EC3BB49B29CFDC92888EB5D11D00 (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// impl.Disconnect();
-		RuntimeObject* L_0 = __this->___impl_2;
-		NullCheck(L_0);
-		InterfaceActionInvoker0::Invoke(4 /* System.Void Google.ISignInImpl::Disconnect() */, ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var, L_0);
-		// }
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Google.GoogleSignIn/SignInException::.ctor(Google.GoogleSignInStatusCode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInException__ctor_mF0A5634485EAF28ED443E3FB31248C2C1B1BE942 (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___status0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// internal SignInException(GoogleSignInStatusCode status) {
-		il2cpp_codegen_runtime_class_init_inline(Exception_t_il2cpp_TypeInfo_var);
-		Exception__ctor_m203319D1EA1274689B380A947B4ADC8445662B8F(__this, NULL);
-		// Status = status;
-		int32_t L_0 = ___status0;
-		SignInException_set_Status_mC05194B06E64770DBD32F23D17A74DF3BE17103A_inline(__this, L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Google.GoogleSignIn/SignInException::.ctor(Google.GoogleSignInStatusCode,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInException__ctor_m5C137C75DDEBA99BA9B0AC253EB36C075B2E2D8B (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___status0, String_t* ___message1, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// base(message) {
-		String_t* L_0 = ___message1;
-		il2cpp_codegen_runtime_class_init_inline(Exception_t_il2cpp_TypeInfo_var);
-		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(__this, L_0, NULL);
-		// Status = status;
-		int32_t L_1 = ___status0;
-		SignInException_set_Status_mC05194B06E64770DBD32F23D17A74DF3BE17103A_inline(__this, L_1, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Google.GoogleSignIn/SignInException::.ctor(Google.GoogleSignInStatusCode,System.String,System.Exception)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInException__ctor_m84BD804BE5ECAFDF85A48095572AA861C1E9D931 (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___status0, String_t* ___message1, Exception_t* ___innerException2, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Exception innerException) : base(message, innerException) {
-		String_t* L_0 = ___message1;
-		Exception_t* L_1 = ___innerException2;
-		il2cpp_codegen_runtime_class_init_inline(Exception_t_il2cpp_TypeInfo_var);
-		Exception__ctor_m9BC141AAB08F47C34B7ED40C1A6C0C1ADDEC5CB3(__this, L_0, L_1, NULL);
-		// Status = status;
-		int32_t L_2 = ___status0;
-		SignInException_set_Status_mC05194B06E64770DBD32F23D17A74DF3BE17103A_inline(__this, L_2, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Google.GoogleSignIn/SignInException::.ctor(Google.GoogleSignInStatusCode,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInException__ctor_m97D47EE86A6870059BDA9F858818670FBAFA3812 (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___status0, SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* ___info1, StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 ___context2, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// base(info, context) {
-		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_0 = ___info1;
-		StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 L_1 = ___context2;
-		il2cpp_codegen_runtime_class_init_inline(Exception_t_il2cpp_TypeInfo_var);
-		Exception__ctor_m412D5FC4D69035738F1DB88FD771ABD6B0E9E120(__this, L_0, L_1, NULL);
-		// Status = status;
-		int32_t L_2 = ___status0;
-		SignInException_set_Status_mC05194B06E64770DBD32F23D17A74DF3BE17103A_inline(__this, L_2, NULL);
-		// }
-		return;
-	}
-}
-// Google.GoogleSignInStatusCode Google.GoogleSignIn/SignInException::get_Status()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SignInException_get_Status_m2FBF33632A23C771EE5CEB65120E3DFEC8FF5A74 (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, const RuntimeMethod* method) 
-{
-	{
-		// get;
-		int32_t L_0 = __this->___U3CStatusU3Ek__BackingField_18;
-		return L_0;
-	}
-}
-// System.Void Google.GoogleSignIn/SignInException::set_Status(Google.GoogleSignInStatusCode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInException_set_Status_mC05194B06E64770DBD32F23D17A74DF3BE17103A (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		int32_t L_0 = ___value0;
-		__this->___U3CStatusU3Ek__BackingField_18 = L_0;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Google.GoogleSignInConfiguration::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInConfiguration__ctor_m99891370EEB5D39D4F4492E576B1CB5665532589 (GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* __this, const RuntimeMethod* method) 
-{
-	{
-		// public bool UseGameSignIn = false;
-		__this->___UseGameSignIn_0 = (bool)0;
-		// public string WebClientId = null;
-		__this->___WebClientId_1 = (String_t*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___WebClientId_1), (void*)(String_t*)NULL);
-		// public bool RequestAuthCode = false;
-		__this->___RequestAuthCode_2 = (bool)0;
-		// public bool ForceTokenRefresh = false;
-		__this->___ForceTokenRefresh_3 = (bool)0;
-		// public bool RequestEmail = false;
-		__this->___RequestEmail_4 = (bool)0;
-		// public bool RequestIdToken = false;
-		__this->___RequestIdToken_5 = (bool)0;
-		// public bool RequestProfile = false;
-		__this->___RequestProfile_6 = (bool)0;
-		// public bool HidePopups = false;
-		__this->___HidePopups_7 = (bool)0;
-		// public string AccountName = null;
-		__this->___AccountName_8 = (String_t*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___AccountName_8), (void*)(String_t*)NULL);
-		// public IEnumerable<string> AdditionalScopes = null;
-		__this->___AdditionalScopes_9 = (RuntimeObject*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___AdditionalScopes_9), (void*)(RuntimeObject*)NULL);
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.String Google.GoogleSignInUser::get_AuthCode()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_AuthCode_m086556E7DADF3850F2A70EC022F5BF9870DAAE34 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
-{
-	{
-		// get;
-		String_t* L_0 = __this->___U3CAuthCodeU3Ek__BackingField_0;
-		return L_0;
-	}
-}
-// System.Void Google.GoogleSignInUser::set_AuthCode(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_AuthCode_mFD2ACD2178A1E33BA97EE4DA65503CAFFAF595F7 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		String_t* L_0 = ___value0;
-		__this->___U3CAuthCodeU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAuthCodeU3Ek__BackingField_0), (void*)L_0);
-		return;
-	}
-}
-// System.String Google.GoogleSignInUser::get_Email()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_Email_mA6E37F96BC90280CBA4D425743426CBE8D515551 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
-{
-	{
-		// get;
-		String_t* L_0 = __this->___U3CEmailU3Ek__BackingField_1;
-		return L_0;
-	}
-}
-// System.Void Google.GoogleSignInUser::set_Email(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_Email_m2036BD483DA25F84B60FCCEF63BBC20A5F1D5F9C (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		String_t* L_0 = ___value0;
-		__this->___U3CEmailU3Ek__BackingField_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CEmailU3Ek__BackingField_1), (void*)L_0);
-		return;
-	}
-}
-// System.String Google.GoogleSignInUser::get_IdToken()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_IdToken_m58382F225E3065502A66AFA23F70053153DEA62A (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
-{
-	{
-		// get;
-		String_t* L_0 = __this->___U3CIdTokenU3Ek__BackingField_2;
-		return L_0;
-	}
-}
-// System.Void Google.GoogleSignInUser::set_IdToken(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_IdToken_m9F8F42353CFF4647151698F50CD241BF4E405EC3 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		String_t* L_0 = ___value0;
-		__this->___U3CIdTokenU3Ek__BackingField_2 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CIdTokenU3Ek__BackingField_2), (void*)L_0);
-		return;
-	}
-}
-// System.String Google.GoogleSignInUser::get_DisplayName()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_DisplayName_mC14CD83AFB1364C729D09692732781672D9CEA9C (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
-{
-	{
-		// get;
-		String_t* L_0 = __this->___U3CDisplayNameU3Ek__BackingField_3;
-		return L_0;
-	}
-}
-// System.Void Google.GoogleSignInUser::set_DisplayName(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_DisplayName_m33092BFF9954A242BCE80DF4A243C20FD583315B (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		String_t* L_0 = ___value0;
-		__this->___U3CDisplayNameU3Ek__BackingField_3 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDisplayNameU3Ek__BackingField_3), (void*)L_0);
-		return;
-	}
-}
-// System.String Google.GoogleSignInUser::get_GivenName()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_GivenName_m1955EAFF719827C4118F9B7D2DF30E490F6A6797 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
-{
-	{
-		// get;
-		String_t* L_0 = __this->___U3CGivenNameU3Ek__BackingField_4;
-		return L_0;
-	}
-}
-// System.Void Google.GoogleSignInUser::set_GivenName(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_GivenName_m22A6A6824200A97844AF62E12A29D32EC8215E7D (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		String_t* L_0 = ___value0;
-		__this->___U3CGivenNameU3Ek__BackingField_4 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CGivenNameU3Ek__BackingField_4), (void*)L_0);
-		return;
-	}
-}
-// System.String Google.GoogleSignInUser::get_FamilyName()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_FamilyName_mB8E944CF7D941E7F823C079410D45071ECE203A7 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
-{
-	{
-		// get;
-		String_t* L_0 = __this->___U3CFamilyNameU3Ek__BackingField_5;
-		return L_0;
-	}
-}
-// System.Void Google.GoogleSignInUser::set_FamilyName(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_FamilyName_m23A309A857743C07F1CA856EA0ADCFB3B122A5A9 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		String_t* L_0 = ___value0;
-		__this->___U3CFamilyNameU3Ek__BackingField_5 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CFamilyNameU3Ek__BackingField_5), (void*)L_0);
-		return;
-	}
-}
-// System.Uri Google.GoogleSignInUser::get_ImageUrl()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* GoogleSignInUser_get_ImageUrl_m81F36356F02F01B392A614BD17F639499FB5EDA4 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
-{
-	{
-		// get;
-		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_0 = __this->___U3CImageUrlU3Ek__BackingField_6;
-		return L_0;
-	}
-}
-// System.Void Google.GoogleSignInUser::set_ImageUrl(System.Uri)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_ImageUrl_m757A1FC5F8E85B18081AD882F73F317DF6DEFE45 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_0 = ___value0;
-		__this->___U3CImageUrlU3Ek__BackingField_6 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CImageUrlU3Ek__BackingField_6), (void*)L_0);
-		return;
-	}
-}
-// System.String Google.GoogleSignInUser::get_UserId()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_UserId_mCBF326EFC373DEF983AB1E87082AF49D81D1082E (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
-{
-	{
-		// get;
-		String_t* L_0 = __this->___U3CUserIdU3Ek__BackingField_7;
-		return L_0;
-	}
-}
-// System.Void Google.GoogleSignInUser::set_UserId(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_UserId_m6311A410F1636E122903BF4F8A50E0421DF20270 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		String_t* L_0 = ___value0;
-		__this->___U3CUserIdU3Ek__BackingField_7 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CUserIdU3Ek__BackingField_7), (void*)L_0);
-		return;
-	}
-}
-// System.Void Google.GoogleSignInUser::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser__ctor_m0271D1B065D5BF40672070447A0D61EEDB88FF91 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Google.Impl.BaseObject::.ctor(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseObject__ctor_mDB4E06DEC48DC3204680E87119B46480BCECCB7A (BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C* __this, intptr_t ___intPtr0, const RuntimeMethod* method) 
-{
-	{
-		// public BaseObject(IntPtr intPtr) {
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		// selfHandleRef = new HandleRef(this, intPtr);
-		intptr_t L_0 = ___intPtr0;
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_1;
-		memset((&L_1), 0, sizeof(L_1));
-		HandleRef__ctor_m0298D55E5F35F77B6A6CCA75C8E828C3F3127DE7((&L_1), __this, L_0, /*hidden argument*/NULL);
-		__this->___selfHandleRef_0 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___selfHandleRef_0))->____wrapper_0), (void*)NULL);
-		// }
-		return;
-	}
-}
-// System.Runtime.InteropServices.HandleRef Google.Impl.BaseObject::SelfPtr()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9 (BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	{
-		// if (selfHandleRef.Equals(nullSelf)) {
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F* L_0 = (&__this->___selfHandleRef_0);
-		il2cpp_codegen_runtime_class_init_inline(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_1 = ((BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_StaticFields*)il2cpp_codegen_static_fields_for(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var))->___nullSelf_1;
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_2 = L_1;
-		RuntimeObject* L_3 = Box(HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F_il2cpp_TypeInfo_var, &L_2);
-		Il2CppFakeBox<HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F> L_4(HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F_il2cpp_TypeInfo_var, L_0);
-		bool L_5;
-		L_5 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_4), L_3, NULL);
-		V_0 = L_5;
-		bool L_6 = V_0;
-		if (!L_6)
-		{
-			goto IL_002c;
-		}
-	}
-	{
-		// throw new InvalidOperationException(
-		//   "Attempted to use object after it was cleaned up");
-		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_7 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
-		NullCheck(L_7);
-		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_7, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralD6AEB00E2908EDBFDB9EF7E0BC9A94A5D2742E6C)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9_RuntimeMethod_var)));
-	}
-
-IL_002c:
-	{
-		// return selfHandleRef;
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_8 = __this->___selfHandleRef_0;
-		V_1 = L_8;
-		goto IL_0035;
-	}
-
-IL_0035:
-	{
-		// }
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_9 = V_1;
-		return L_9;
-	}
-}
-// System.Void Google.Impl.BaseObject::Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseObject_Dispose_m554F3F996634EC0E8C5C0D2212659D5FDECC582F (BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// selfHandleRef = nullSelf;
-		il2cpp_codegen_runtime_class_init_inline(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = ((BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_StaticFields*)il2cpp_codegen_static_fields_for(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var))->___nullSelf_1;
-		__this->___selfHandleRef_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___selfHandleRef_0))->____wrapper_0), (void*)NULL);
-		// }
-		return;
-	}
-}
-// System.String Google.Impl.BaseObject::OutParamsToString(Google.Impl.BaseObject/OutStringMethod)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BaseObject_OutParamsToString_mE19711AC5572545ECA45524521CD9A404CF172CA (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* ___outStringMethod0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIntPtr_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	uintptr_t V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	String_t* V_1 = NULL;
-	bool V_2 = false;
-	String_t* V_3 = NULL;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_4 = NULL;
-	Exception_t* V_5 = NULL;
-	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
-	Exception_t* G_B6_0 = NULL;
-	String_t* G_B6_1 = NULL;
-	Exception_t* G_B5_0 = NULL;
-	String_t* G_B5_1 = NULL;
-	String_t* G_B7_0 = NULL;
-	String_t* G_B7_1 = NULL;
-	{
-		// UIntPtr requiredSize = outStringMethod(null, UIntPtr.Zero);
-		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_0 = ___outStringMethod0;
-		il2cpp_codegen_runtime_class_init_inline(UIntPtr_t_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		uintptr_t L_1;
-		L_1 = OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_inline(L_0, (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, (0), NULL);
-		V_0 = L_1;
-		// if (requiredSize.Equals(UIntPtr.Zero)) {
-		uintptr_t L_2 = (0);
-		RuntimeObject* L_3 = Box(UIntPtr_t_il2cpp_TypeInfo_var, &L_2);
-		bool L_4;
-		L_4 = UIntPtr_Equals_m7A952F9624311E28A8F6B7D48A27E897F59E7021((&V_0), L_3, NULL);
-		V_2 = L_4;
-		bool L_5 = V_2;
-		if (!L_5)
-		{
-			goto IL_0028;
-		}
-	}
-	{
-		// return null;
-		V_3 = (String_t*)NULL;
-		goto IL_008b;
-	}
-
-IL_0028:
-	{
-		// string str = null;
-		V_1 = (String_t*)NULL;
-	}
-	try
-	{// begin try (depth: 1)
-		// byte[] array = new byte[requiredSize.ToUInt32()];
-		uint32_t L_6;
-		L_6 = UIntPtr_ToUInt32_mAD7A6CD8C254052CAC60B29546BE796360E0B965((&V_0), NULL);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_6);
-		V_4 = L_7;
-		// outStringMethod(array, requiredSize);
-		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_8 = ___outStringMethod0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9 = V_4;
-		uintptr_t L_10 = V_0;
-		NullCheck(L_8);
-		uintptr_t L_11;
-		L_11 = OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_inline(L_8, L_9, L_10, NULL);
-		// str = Encoding.UTF8.GetString(array, 0,
-		//         (int)requiredSize.ToUInt32() - 1);
-		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_12;
-		L_12 = Encoding_get_UTF8_m9700ADA8E0F244002B2A89B483F1B2133B8FE336(NULL);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13 = V_4;
-		uint32_t L_14;
-		L_14 = UIntPtr_ToUInt32_mAD7A6CD8C254052CAC60B29546BE796360E0B965((&V_0), NULL);
-		NullCheck(L_12);
-		String_t* L_15;
-		L_15 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_12, L_13, 0, ((int32_t)il2cpp_codegen_subtract((int32_t)L_14, 1)));
-		V_1 = L_15;
-		goto IL_0087;
-	}// end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
-		{
-			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_005d;
-		}
-		throw e;
-	}
-
-CATCH_005d:
-	{// begin catch(System.Exception)
-		{
-			// } catch (Exception e) {
-			V_5 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
-			// Debug.LogError("Exception creating string from char array: " + e);
-			Exception_t* L_16 = V_5;
-			Exception_t* L_17 = L_16;
-			G_B5_0 = L_17;
-			G_B5_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral79098B9D29578596CA3BA3FCEDAFB6AF622D9AFD));
-			if (L_17)
-			{
-				G_B6_0 = L_17;
-				G_B6_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral79098B9D29578596CA3BA3FCEDAFB6AF622D9AFD));
-				goto IL_006e;
-			}
-		}
-		{
-			G_B7_0 = ((String_t*)(NULL));
-			G_B7_1 = G_B5_1;
-			goto IL_0073;
-		}
-
-IL_006e:
-		{
-			NullCheck(G_B6_0);
-			String_t* L_18;
-			L_18 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B6_0);
-			G_B7_0 = L_18;
-			G_B7_1 = G_B6_1;
-		}
-
-IL_0073:
-		{
-			String_t* L_19;
-			L_19 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(G_B7_1, G_B7_0, NULL);
-			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
-			Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(L_19, NULL);
-			// str = string.Empty;
-			String_t* L_20 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&String_t_il2cpp_TypeInfo_var))))->___Empty_6;
-			V_1 = L_20;
-			IL2CPP_POP_ACTIVE_EXCEPTION();
-			goto IL_0087;
-		}
-	}// end catch (depth: 1)
-
-IL_0087:
-	{
-		// return str;
-		String_t* L_21 = V_1;
-		V_3 = L_21;
-		goto IL_008b;
-	}
-
-IL_008b:
-	{
-		// }
-		String_t* L_22 = V_3;
-		return L_22;
-	}
-}
-// System.Void Google.Impl.BaseObject::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseObject__cctor_m5F932A577375E70C1A127B6FA5694F4B57989711 (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// private static HandleRef nullSelf = new HandleRef();
-		il2cpp_codegen_initobj((&((BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_StaticFields*)il2cpp_codegen_static_fields_for(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var))->___nullSelf_1), sizeof(HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F));
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-uintptr_t OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_Multicast(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_bytes0, uintptr_t ___out_size1, const RuntimeMethod* method)
-{
-	il2cpp_array_size_t length = __this->___delegates_13->max_length;
-	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
-	uintptr_t retVal;
-	memset((&retVal), 0, sizeof(retVal));
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* currentDelegate = reinterpret_cast<OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*>(delegatesToInvoke[i]);
-		typedef uintptr_t (*FunctionPointerType) (RuntimeObject*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, uintptr_t, const RuntimeMethod*);
-		retVal = ((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___out_bytes0, ___out_size1, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
-	}
-	return retVal;
-}
-uintptr_t OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_OpenInst(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_bytes0, uintptr_t ___out_size1, const RuntimeMethod* method)
-{
-	NullCheck(___out_bytes0);
-	typedef uintptr_t (*FunctionPointerType) (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, uintptr_t, const RuntimeMethod*);
-	return ((FunctionPointerType)__this->___method_ptr_0)(___out_bytes0, ___out_size1, method);
-}
-uintptr_t OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_OpenStatic(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_bytes0, uintptr_t ___out_size1, const RuntimeMethod* method)
-{
-	typedef uintptr_t (*FunctionPointerType) (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, uintptr_t, const RuntimeMethod*);
-	return ((FunctionPointerType)__this->___method_ptr_0)(___out_bytes0, ___out_size1, method);
-}
-uintptr_t OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_OpenStaticInvoker(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_bytes0, uintptr_t ___out_size1, const RuntimeMethod* method)
-{
-	return InvokerFuncInvoker2< uintptr_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, uintptr_t >::Invoke(__this->___method_ptr_0, method, NULL, ___out_bytes0, ___out_size1);
-}
-uintptr_t OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_ClosedStaticInvoker(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_bytes0, uintptr_t ___out_size1, const RuntimeMethod* method)
-{
-	return InvokerFuncInvoker3< uintptr_t, RuntimeObject*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, uintptr_t >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___out_bytes0, ___out_size1);
-}
-IL2CPP_EXTERN_C  uintptr_t DelegatePInvokeWrapper_OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5 (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_bytes0, uintptr_t ___out_size1, const RuntimeMethod* method)
-{
-	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc)(uint8_t*, uintptr_t);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
-	// Marshaling of parameter '___out_bytes0' to native representation
-	uint8_t* ____out_bytes0_marshaled = NULL;
-	if (___out_bytes0 != NULL)
-	{
-		____out_bytes0_marshaled = reinterpret_cast<uint8_t*>((___out_bytes0)->GetAddressAtUnchecked(0));
-	}
-
-	// Native function invocation
-	uintptr_t returnValue = il2cppPInvokeFunc(____out_bytes0_marshaled, ___out_size1);
-
-	return returnValue;
-}
-// System.Void Google.Impl.BaseObject/OutStringMethod::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
-{
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
-	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
-	{
-		bool isOpen = parameterCount == 2;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
-			if (isOpen)
-				__this->___invoke_impl_1 = (intptr_t)&OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_OpenStaticInvoker;
-			else
-				__this->___invoke_impl_1 = (intptr_t)&OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_ClosedStaticInvoker;
-		else
-			if (isOpen)
-				__this->___invoke_impl_1 = (intptr_t)&OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_OpenStatic;
-			else
-				{
-					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
-					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
-				}
-	}
-	else
-	{
-		bool isOpen = parameterCount == 1;
-		if (isOpen)
-		{
-			__this->___invoke_impl_1 = (intptr_t)&OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_OpenInst;
-		}
-		else
-		{
-			if (___object0 == NULL)
-				il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
-			__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
-			__this->___method_code_6 = (intptr_t)__this->___m_target_2;
-		}
-	}
-	__this->___extra_arg_5 = (intptr_t)&OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_Multicast;
-}
-// System.UIntPtr Google.Impl.BaseObject/OutStringMethod::Invoke(System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_bytes0, uintptr_t ___out_size1, const RuntimeMethod* method) 
-{
-	typedef uintptr_t (*FunctionPointerType) (RuntimeObject*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, uintptr_t, const RuntimeMethod*);
-	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___out_bytes0, ___out_size1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
-}
-// System.IAsyncResult Google.Impl.BaseObject/OutStringMethod::BeginInvoke(System.Byte[],System.UIntPtr,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OutStringMethod_BeginInvoke_m608A23F502DE02D618CCA39D6D865C7D18CDFDF7 (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_bytes0, uintptr_t ___out_size1, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback2, RuntimeObject* ___object3, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIntPtr_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[3] = {0};
-	__d_args[0] = ___out_bytes0;
-	__d_args[1] = Box(UIntPtr_t_il2cpp_TypeInfo_var, &___out_size1);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
-}
-// System.UIntPtr Google.Impl.BaseObject/OutStringMethod::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t OutStringMethod_EndInvoke_m1559888E67A55BCBDCFA90C6873D68C33E8AFE2A (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
-{
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-	return *(uintptr_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Google.Impl.GoogleSignInImpl::.ctor(Google.GoogleSignInConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl__ctor_m28DE8315356ABCB9AB9B96F3D635BF83278D3A3A (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* __this, GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* ___configuration0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* V_1 = NULL;
-	bool V_2 = false;
-	{
-		// : base(GoogleSignIn_Create(GetPlayerActivity())) {
-		intptr_t L_0;
-		L_0 = GoogleSignInImpl_GetPlayerActivity_m169EC762F973B91F66994B8CAED13BE2C051DC88(NULL);
-		intptr_t L_1;
-		L_1 = GoogleSignInImpl_GoogleSignIn_Create_m1070B04B22E22F00DC950000AC3A713D25F7E56D(L_0, NULL);
-		il2cpp_codegen_runtime_class_init_inline(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
-		BaseObject__ctor_mDB4E06DEC48DC3204680E87119B46480BCECCB7A(__this, L_1, NULL);
-		// if (configuration != null) {
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_2 = ___configuration0;
-		V_0 = (bool)((!(((RuntimeObject*)(GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8*)L_2) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_3 = V_0;
-		if (!L_3)
-		{
-			goto IL_0086;
-		}
-	}
-	{
-		// List<string> scopes = new List<string>();
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_4 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
-		NullCheck(L_4);
-		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_4, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
-		V_1 = L_4;
-		// if (configuration.AdditionalScopes != null) {
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_5 = ___configuration0;
-		NullCheck(L_5);
-		RuntimeObject* L_6 = L_5->___AdditionalScopes_9;
-		V_2 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_6) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_7 = V_2;
-		if (!L_7)
-		{
-			goto IL_003d;
-		}
-	}
-	{
-		// scopes.AddRange(configuration.AdditionalScopes);
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_8 = V_1;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_9 = ___configuration0;
-		NullCheck(L_9);
-		RuntimeObject* L_10 = L_9->___AdditionalScopes_9;
-		NullCheck(L_8);
-		List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E(L_8, L_10, List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E_RuntimeMethod_var);
-	}
-
-IL_003d:
-	{
-		// GoogleSignIn_Configure(SelfPtr(), configuration.UseGameSignIn,
-		//              configuration.WebClientId,
-		//              configuration.RequestAuthCode,
-		//              configuration.ForceTokenRefresh,
-		//              configuration.RequestEmail,
-		//              configuration.RequestIdToken,
-		//              configuration.HidePopups,
-		//              scopes.ToArray(),
-		//              scopes.Count,
-		//              configuration.AccountName);
-		il2cpp_codegen_runtime_class_init_inline(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_11;
-		L_11 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_12 = ___configuration0;
-		NullCheck(L_12);
-		bool L_13 = L_12->___UseGameSignIn_0;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_14 = ___configuration0;
-		NullCheck(L_14);
-		String_t* L_15 = L_14->___WebClientId_1;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_16 = ___configuration0;
-		NullCheck(L_16);
-		bool L_17 = L_16->___RequestAuthCode_2;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_18 = ___configuration0;
-		NullCheck(L_18);
-		bool L_19 = L_18->___ForceTokenRefresh_3;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_20 = ___configuration0;
-		NullCheck(L_20);
-		bool L_21 = L_20->___RequestEmail_4;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_22 = ___configuration0;
-		NullCheck(L_22);
-		bool L_23 = L_22->___RequestIdToken_5;
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_24 = ___configuration0;
-		NullCheck(L_24);
-		bool L_25 = L_24->___HidePopups_7;
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_26 = V_1;
-		NullCheck(L_26);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_27;
-		L_27 = List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A(L_26, List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A_RuntimeMethod_var);
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_28 = V_1;
-		NullCheck(L_28);
-		int32_t L_29;
-		L_29 = List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline(L_28, List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
-		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_30 = ___configuration0;
-		NullCheck(L_30);
-		String_t* L_31 = L_30->___AccountName_8;
-		bool L_32;
-		L_32 = GoogleSignInImpl_GoogleSignIn_Configure_mEFC2326B95CCED1ED88AADB020B7E16AF729097D(L_11, L_13, L_15, L_17, L_19, L_21, L_23, L_25, L_27, L_29, L_31, NULL);
-	}
-
-IL_0086:
-	{
-		// }
-		return;
-	}
-}
-// System.Void Google.Impl.GoogleSignInImpl::EnableDebugLogging(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_EnableDebugLogging_m527A8F7AAE6B947A8EC6DC25E23E661D2B6E117F (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* __this, bool ___flag0, const RuntimeMethod* method) 
-{
-	{
-		// GoogleSignIn_EnableDebugLogging(SelfPtr(), flag);
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
-		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
-		bool L_1 = ___flag0;
-		GoogleSignInImpl_GoogleSignIn_EnableDebugLogging_mCAB955A0724DA3B4169F22269035F8364F969F54(L_0, L_1, NULL);
-		// }
-		return;
-	}
-}
-// Google.Future`1<Google.GoogleSignInUser> Google.Impl.GoogleSignInImpl::SignIn()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* GoogleSignInImpl_SignIn_m859A15256A86DF1873867F49B79B69163EAB9BE8 (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	intptr_t V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* V_1 = NULL;
-	{
-		// IntPtr nativeFuture = GoogleSignIn_SignIn(SelfPtr());
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
-		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
-		intptr_t L_1;
-		L_1 = GoogleSignInImpl_GoogleSignIn_SignIn_mBE0D3B456393739737AFF12EC2637E30C4CC2C93(L_0, NULL);
-		V_0 = L_1;
-		// return new Future<GoogleSignInUser>(new NativeFuture(nativeFuture));
-		intptr_t L_2 = V_0;
-		NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* L_3 = (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F*)il2cpp_codegen_object_new(NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F_il2cpp_TypeInfo_var);
-		NullCheck(L_3);
-		NativeFuture__ctor_mBCE15D32B70A331E0A78785E89D695988FE027DC(L_3, L_2, NULL);
-		Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* L_4 = (Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B*)il2cpp_codegen_object_new(Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B_il2cpp_TypeInfo_var);
-		NullCheck(L_4);
-		Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6(L_4, L_3, Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6_RuntimeMethod_var);
-		V_1 = L_4;
-		goto IL_001b;
-	}
-
-IL_001b:
-	{
-		// }
-		Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* L_5 = V_1;
-		return L_5;
-	}
-}
-// Google.Future`1<Google.GoogleSignInUser> Google.Impl.GoogleSignInImpl::SignInSilently()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* GoogleSignInImpl_SignInSilently_mE92B6CCBDA838381A21703691FB9C5F461A477F8 (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	intptr_t V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* V_1 = NULL;
-	{
-		// IntPtr nativeFuture = GoogleSignIn_SignInSilently(SelfPtr());
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
-		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
-		intptr_t L_1;
-		L_1 = GoogleSignInImpl_GoogleSignIn_SignInSilently_m3C681D67798FB33AE3CEB8698E38D19D31554257(L_0, NULL);
-		V_0 = L_1;
-		// return new Future<GoogleSignInUser>(new NativeFuture(nativeFuture));
-		intptr_t L_2 = V_0;
-		NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* L_3 = (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F*)il2cpp_codegen_object_new(NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F_il2cpp_TypeInfo_var);
-		NullCheck(L_3);
-		NativeFuture__ctor_mBCE15D32B70A331E0A78785E89D695988FE027DC(L_3, L_2, NULL);
-		Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* L_4 = (Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B*)il2cpp_codegen_object_new(Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B_il2cpp_TypeInfo_var);
-		NullCheck(L_4);
-		Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6(L_4, L_3, Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6_RuntimeMethod_var);
-		V_1 = L_4;
-		goto IL_001b;
-	}
-
-IL_001b:
-	{
-		// }
-		Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* L_5 = V_1;
-		return L_5;
-	}
-}
-// System.Void Google.Impl.GoogleSignInImpl::SignOut()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_SignOut_m88FED0CCBAA20F403B838BAA20FBD5FC5CC2416B (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* __this, const RuntimeMethod* method) 
-{
-	{
-		// GoogleSignIn_Signout(SelfPtr());
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
-		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
-		GoogleSignInImpl_GoogleSignIn_Signout_m4EEDBDF8AE74E08B8B4134A214B2DD095927123A(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Google.Impl.GoogleSignInImpl::Disconnect()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_Disconnect_m136F2268A549DA9A13D7BBB198BE4B286380ECA1 (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* __this, const RuntimeMethod* method) 
-{
-	{
-		// GoogleSignIn_Disconnect(SelfPtr());
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
-		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
-		GoogleSignInImpl_GoogleSignIn_Disconnect_m63E4851DAF91832244BA195AEA854E038824C6FA(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.IntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_Create(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_Create_m1070B04B22E22F00DC950000AC3A713D25F7E56D (intptr_t ___data0, const RuntimeMethod* method) 
-{
-	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_Create", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_Create)(___data0);
-	#else
-	intptr_t returnValue = il2cppPInvokeFunc(___data0);
-	#endif
-
-	return returnValue;
-}
-// System.Void Google.Impl.GoogleSignInImpl::GoogleSignIn_EnableDebugLogging(System.Runtime.InteropServices.HandleRef,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_EnableDebugLogging_mCAB955A0724DA3B4169F22269035F8364F969F54 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, bool ___flag1, const RuntimeMethod* method) 
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*) + 4;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_EnableDebugLogging", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	reinterpret_cast<PInvokeFunc>(GoogleSignIn_EnableDebugLogging)(____self0_marshaled, static_cast<int32_t>(___flag1));
-	#else
-	il2cppPInvokeFunc(____self0_marshaled, static_cast<int32_t>(___flag1));
-	#endif
-
-}
-// System.Boolean Google.Impl.GoogleSignInImpl::GoogleSignIn_Configure(System.Runtime.InteropServices.HandleRef,System.Boolean,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String[],System.Int32,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleSignInImpl_GoogleSignIn_Configure_mEFC2326B95CCED1ED88AADB020B7E16AF729097D (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, bool ___useGameSignIn1, String_t* ___webClientId2, bool ___requestAuthCode3, bool ___forceTokenRefresh4, bool ___requestEmail5, bool ___requestIdToken6, bool ___hidePopups7, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___additionalScopes8, int32_t ___scopeCount9, String_t* ___accountName10, const RuntimeMethod* method) 
-{
-	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*, int32_t, char*, int32_t, int32_t, int32_t, int32_t, int32_t, char**, int32_t, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*) + 4 + sizeof(char*) + 4 + 4 + 4 + 4 + 4 + sizeof(void*) + sizeof(int32_t) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_Configure", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Marshaling of parameter '___webClientId2' to native representation
-	char* ____webClientId2_marshaled = NULL;
-	____webClientId2_marshaled = il2cpp_codegen_marshal_string(___webClientId2);
-
-	// Marshaling of parameter '___additionalScopes8' to native representation
-	char** ____additionalScopes8_marshaled = NULL;
-	if (___additionalScopes8 != NULL)
-	{
-		il2cpp_array_size_t ____additionalScopes8_Length = (___additionalScopes8)->max_length;
-		____additionalScopes8_marshaled = il2cpp_codegen_marshal_allocate_array<char*>(____additionalScopes8_Length + 1);
-		(____additionalScopes8_marshaled)[____additionalScopes8_Length] = NULL;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____additionalScopes8_Length); i++)
-		{
-			(____additionalScopes8_marshaled)[i] = il2cpp_codegen_marshal_string((___additionalScopes8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
-		}
-	}
-	else
-	{
-		____additionalScopes8_marshaled = NULL;
-	}
-
-	// Marshaling of parameter '___accountName10' to native representation
-	char* ____accountName10_marshaled = NULL;
-	____accountName10_marshaled = il2cpp_codegen_marshal_string(___accountName10);
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_Configure)(____self0_marshaled, static_cast<int32_t>(___useGameSignIn1), ____webClientId2_marshaled, static_cast<int32_t>(___requestAuthCode3), static_cast<int32_t>(___forceTokenRefresh4), static_cast<int32_t>(___requestEmail5), static_cast<int32_t>(___requestIdToken6), static_cast<int32_t>(___hidePopups7), ____additionalScopes8_marshaled, ___scopeCount9, ____accountName10_marshaled);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(____self0_marshaled, static_cast<int32_t>(___useGameSignIn1), ____webClientId2_marshaled, static_cast<int32_t>(___requestAuthCode3), static_cast<int32_t>(___forceTokenRefresh4), static_cast<int32_t>(___requestEmail5), static_cast<int32_t>(___requestIdToken6), static_cast<int32_t>(___hidePopups7), ____additionalScopes8_marshaled, ___scopeCount9, ____accountName10_marshaled);
-	#endif
-
-	// Marshaling cleanup of parameter '___webClientId2' native representation
-	il2cpp_codegen_marshal_free(____webClientId2_marshaled);
-	____webClientId2_marshaled = NULL;
-
-	// Marshaling cleanup of parameter '___additionalScopes8' native representation
-	if (____additionalScopes8_marshaled != NULL)
-	{
-		const il2cpp_array_size_t ____additionalScopes8_marshaled_CleanupLoopCount = (___additionalScopes8 != NULL) ? (___additionalScopes8)->max_length : 0;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____additionalScopes8_marshaled_CleanupLoopCount); i++)
-		{
-			il2cpp_codegen_marshal_free((____additionalScopes8_marshaled)[i]);
-			(____additionalScopes8_marshaled)[i] = NULL;
-		}
-		il2cpp_codegen_marshal_free(____additionalScopes8_marshaled);
-		____additionalScopes8_marshaled = NULL;
-	}
-
-	// Marshaling cleanup of parameter '___accountName10' native representation
-	il2cpp_codegen_marshal_free(____accountName10_marshaled);
-	____accountName10_marshaled = NULL;
-
-	return static_cast<bool>(returnValue);
-}
-// System.IntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_SignIn(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_SignIn_mBE0D3B456393739737AFF12EC2637E30C4CC2C93 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) 
-{
-	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_SignIn", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_SignIn)(____self0_marshaled);
-	#else
-	intptr_t returnValue = il2cppPInvokeFunc(____self0_marshaled);
-	#endif
-
-	return returnValue;
-}
-// System.IntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_SignInSilently(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_SignInSilently_m3C681D67798FB33AE3CEB8698E38D19D31554257 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) 
-{
-	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_SignInSilently", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_SignInSilently)(____self0_marshaled);
-	#else
-	intptr_t returnValue = il2cppPInvokeFunc(____self0_marshaled);
-	#endif
-
-	return returnValue;
-}
-// System.Void Google.Impl.GoogleSignInImpl::GoogleSignIn_Signout(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_Signout_m4EEDBDF8AE74E08B8B4134A214B2DD095927123A (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) 
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_Signout", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	reinterpret_cast<PInvokeFunc>(GoogleSignIn_Signout)(____self0_marshaled);
-	#else
-	il2cppPInvokeFunc(____self0_marshaled);
-	#endif
-
-}
-// System.Void Google.Impl.GoogleSignInImpl::GoogleSignIn_Disconnect(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_Disconnect_m63E4851DAF91832244BA195AEA854E038824C6FA (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) 
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_Disconnect", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	reinterpret_cast<PInvokeFunc>(GoogleSignIn_Disconnect)(____self0_marshaled);
-	#else
-	il2cppPInvokeFunc(____self0_marshaled);
-	#endif
-
-}
-// System.Void Google.Impl.GoogleSignInImpl::GoogleSignIn_DisposeFuture(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_DisposeFuture_m3199178F1C8C190E0296C35B1EE9C7553649E4B6 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) 
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_DisposeFuture", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	reinterpret_cast<PInvokeFunc>(GoogleSignIn_DisposeFuture)(____self0_marshaled);
-	#else
-	il2cppPInvokeFunc(____self0_marshaled);
-	#endif
-
-}
-// System.Boolean Google.Impl.GoogleSignInImpl::GoogleSignIn_Pending(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleSignInImpl_GoogleSignIn_Pending_mC9C5B9201B8DFFF7228D660613FC52AE8E754D42 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) 
-{
-	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_Pending", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_Pending)(____self0_marshaled);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(____self0_marshaled);
-	#endif
-
-	return static_cast<bool>(returnValue);
-}
-// System.IntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_Result(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_Result_m239A56BE0FBB24DB7EBBEC5F7F8FF3B895B3A3E1 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) 
-{
-	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_Result", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_Result)(____self0_marshaled);
-	#else
-	intptr_t returnValue = il2cppPInvokeFunc(____self0_marshaled);
-	#endif
-
-	return returnValue;
-}
-// System.Int32 Google.Impl.GoogleSignInImpl::GoogleSignIn_Status(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GoogleSignInImpl_GoogleSignIn_Status_mC38EA2A49EF04B48137FBE4EE79BFB3C0A907C60 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, const RuntimeMethod* method) 
-{
-	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_Status", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_Status)(____self0_marshaled);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(____self0_marshaled);
-	#endif
-
-	return returnValue;
-}
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetServerAuthCode(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetServerAuthCode_m00E7C3D9FDE9B16B3D6F71B59784EDE946CF35E1 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) 
-{
-	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetServerAuthCode", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Marshaling of parameter '___bytes1' to native representation
-	uint8_t* ____bytes1_marshaled = NULL;
-	if (___bytes1 != NULL)
-	{
-		____bytes1_marshaled = reinterpret_cast<uint8_t*>((___bytes1)->GetAddressAtUnchecked(0));
-	}
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetServerAuthCode)(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#else
-	uintptr_t returnValue = il2cppPInvokeFunc(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#endif
-
-	return returnValue;
-}
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetDisplayName(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetDisplayName_m34F06EDAC247EFE16EE7D7003D60D269EDC7CD09 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) 
-{
-	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetDisplayName", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Marshaling of parameter '___bytes1' to native representation
-	uint8_t* ____bytes1_marshaled = NULL;
-	if (___bytes1 != NULL)
-	{
-		____bytes1_marshaled = reinterpret_cast<uint8_t*>((___bytes1)->GetAddressAtUnchecked(0));
-	}
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetDisplayName)(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#else
-	uintptr_t returnValue = il2cppPInvokeFunc(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#endif
-
-	return returnValue;
-}
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetEmail(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetEmail_m1277C16AB66AC5DC74B30EC4F5AFA102E362C04A (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) 
-{
-	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetEmail", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Marshaling of parameter '___bytes1' to native representation
-	uint8_t* ____bytes1_marshaled = NULL;
-	if (___bytes1 != NULL)
-	{
-		____bytes1_marshaled = reinterpret_cast<uint8_t*>((___bytes1)->GetAddressAtUnchecked(0));
-	}
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetEmail)(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#else
-	uintptr_t returnValue = il2cppPInvokeFunc(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#endif
-
-	return returnValue;
-}
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetFamilyName(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetFamilyName_m02592F285D3EE7D29159E76131BF9F5DBDD89012 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) 
-{
-	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetFamilyName", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Marshaling of parameter '___bytes1' to native representation
-	uint8_t* ____bytes1_marshaled = NULL;
-	if (___bytes1 != NULL)
-	{
-		____bytes1_marshaled = reinterpret_cast<uint8_t*>((___bytes1)->GetAddressAtUnchecked(0));
-	}
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetFamilyName)(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#else
-	uintptr_t returnValue = il2cppPInvokeFunc(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#endif
-
-	return returnValue;
-}
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetGivenName(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetGivenName_mEB8F331BE98ECD83858295890C2949B65C366B61 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) 
-{
-	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetGivenName", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Marshaling of parameter '___bytes1' to native representation
-	uint8_t* ____bytes1_marshaled = NULL;
-	if (___bytes1 != NULL)
-	{
-		____bytes1_marshaled = reinterpret_cast<uint8_t*>((___bytes1)->GetAddressAtUnchecked(0));
-	}
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetGivenName)(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#else
-	uintptr_t returnValue = il2cppPInvokeFunc(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#endif
-
-	return returnValue;
-}
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetIdToken(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetIdToken_mB26E5AC987D24266CB0C9BAFE9D595E1ACC2BA02 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) 
-{
-	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetIdToken", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Marshaling of parameter '___bytes1' to native representation
-	uint8_t* ____bytes1_marshaled = NULL;
-	if (___bytes1 != NULL)
-	{
-		____bytes1_marshaled = reinterpret_cast<uint8_t*>((___bytes1)->GetAddressAtUnchecked(0));
-	}
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetIdToken)(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#else
-	uintptr_t returnValue = il2cppPInvokeFunc(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#endif
-
-	return returnValue;
-}
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetImageUrl(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetImageUrl_mB63006D0ED8646930DC70C66AC3406785DC335D7 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) 
-{
-	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetImageUrl", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Marshaling of parameter '___bytes1' to native representation
-	uint8_t* ____bytes1_marshaled = NULL;
-	if (___bytes1 != NULL)
-	{
-		____bytes1_marshaled = reinterpret_cast<uint8_t*>((___bytes1)->GetAddressAtUnchecked(0));
-	}
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetImageUrl)(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#else
-	uintptr_t returnValue = il2cppPInvokeFunc(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#endif
-
-	return returnValue;
-}
-// System.UIntPtr Google.Impl.GoogleSignInImpl::GoogleSignIn_GetUserId(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetUserId_mC964CA22A27A88616641F81A58ADABF103D55C46 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___self0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, uintptr_t ___len2, const RuntimeMethod* method) 
-{
-	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetUserId", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Marshaling of parameter '___self0' to native representation
-	void* ____self0_marshaled = NULL;
-	____self0_marshaled = (void*)___self0.____handle_1;
-
-	// Marshaling of parameter '___bytes1' to native representation
-	uint8_t* ____bytes1_marshaled = NULL;
-	if (___bytes1 != NULL)
-	{
-		____bytes1_marshaled = reinterpret_cast<uint8_t*>((___bytes1)->GetAddressAtUnchecked(0));
-	}
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
-	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetUserId)(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#else
-	uintptr_t returnValue = il2cppPInvokeFunc(____self0_marshaled, ____bytes1_marshaled, ___len2);
-	#endif
-
-	return returnValue;
-}
-// System.IntPtr Google.Impl.GoogleSignInImpl::GetPlayerActivity()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GetPlayerActivity_m169EC762F973B91F66994B8CAED13BE2C051DC88 (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9);
-		s_Il2CppMethodInitialized = true;
-	}
-	AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* V_0 = NULL;
-	intptr_t V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	{
-		// UnityEngine.AndroidJavaClass jc = new UnityEngine.AndroidJavaClass(
-		//   "com.unity3d.player.UnityPlayer");
-		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_0 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_0, _stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078, NULL);
-		V_0 = L_0;
-		// return jc.GetStatic<UnityEngine.AndroidJavaObject>("currentActivity")
-		//          .GetRawObject();
-		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_1 = V_0;
-		NullCheck(L_1);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2;
-		L_2 = AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD(L_1, _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9, AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
-		NullCheck(L_2);
-		intptr_t L_3;
-		L_3 = AndroidJavaObject_GetRawObject_m536F043B5CE2C21369FF6173C9D2A9A62136BC48(L_2, NULL);
-		V_1 = L_3;
-		goto IL_001f;
-	}
-
-IL_001f:
-	{
-		// }
-		intptr_t L_4 = V_1;
-		return L_4;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Google.Impl.NativeFuture::.ctor(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeFuture__ctor_mBCE15D32B70A331E0A78785E89D695988FE027DC (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* __this, intptr_t ___ptr0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// internal NativeFuture(IntPtr ptr) : base(ptr) {
-		intptr_t L_0 = ___ptr0;
-		il2cpp_codegen_runtime_class_init_inline(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
-		BaseObject__ctor_mDB4E06DEC48DC3204680E87119B46480BCECCB7A(__this, L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Google.Impl.NativeFuture::Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeFuture_Dispose_m86BBFC01575F8083B39FAEFDD779267FE212C669 (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* __this, const RuntimeMethod* method) 
-{
-	{
-		// GoogleSignInImpl.GoogleSignIn_DisposeFuture(SelfPtr());
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
-		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
-		GoogleSignInImpl_GoogleSignIn_DisposeFuture_m3199178F1C8C190E0296C35B1EE9C7553649E4B6(L_0, NULL);
-		// base.Dispose();
-		BaseObject_Dispose_m554F3F996634EC0E8C5C0D2212659D5FDECC582F(__this, NULL);
-		// }
-		return;
-	}
-}
-// System.Boolean Google.Impl.NativeFuture::get_Pending()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeFuture_get_Pending_mF70898B348D8019990176CA0B7D46936E7EDA741 (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* __this, const RuntimeMethod* method) 
-{
-	bool V_0 = false;
-	{
-		// return GoogleSignInImpl.GoogleSignIn_Pending(SelfPtr());
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
-		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
-		bool L_1;
-		L_1 = GoogleSignInImpl_GoogleSignIn_Pending_mC9C5B9201B8DFFF7228D660613FC52AE8E754D42(L_0, NULL);
-		V_0 = L_1;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		// }
-		bool L_2 = V_0;
-		return L_2;
-	}
-}
-// Google.GoogleSignInUser Google.Impl.NativeFuture::get_Result()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* NativeFuture_get_Result_m9A5DF2B826B14BC6D847C0CB12ACC2F5549B1A2A (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__0_mAB7700145D3F1F675831CDCE9BEACC834D4BF96E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__1_m370A13175EEDCF49601E661321C8DD88FF6A1946_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__2_m8D0E1DF9DE52B683EF57BD1A25567E701CD782B5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__3_m49F63C5CB22AC3D69146172A0DF82EAAC45ACCD7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__4_mFABC6CF05697AC3A309FDF438B8AF5D6CED62147_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__5_mC2AB488643100B8EF8939922F768AB85AD2D284C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__6_m9DDEF005B688BBCB60877AC369DD209AA023D5B5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__7_mD0783088AA1B5B1F825807F640392ABFC3A3E5CA_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	intptr_t V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	bool V_1 = false;
-	U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* V_2 = NULL;
-	GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* V_3 = NULL;
-	String_t* V_4 = NULL;
-	bool V_5 = false;
-	GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* V_6 = NULL;
-	{
-		// IntPtr ptr = GoogleSignInImpl.GoogleSignIn_Result(SelfPtr());
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
-		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
-		intptr_t L_1;
-		L_1 = GoogleSignInImpl_GoogleSignIn_Result_m239A56BE0FBB24DB7EBBEC5F7F8FF3B895B3A3E1(L_0, NULL);
-		V_0 = L_1;
-		// if (ptr != IntPtr.Zero) {
-		intptr_t L_2 = V_0;
-		bool L_3;
-		L_3 = IntPtr_op_Inequality_m2F715312CBFCE7E1A81D0689F68B97218E37E5D1(L_2, (0), NULL);
-		V_1 = L_3;
-		bool L_4 = V_1;
-		if (!L_4)
-		{
-			goto IL_0119;
-		}
-	}
-	{
-		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_5 = (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		U3CU3Ec__DisplayClass5_0__ctor_m7497FAB21C83A976EB1558C8B99D253FA6DDF86A(L_5, NULL);
-		V_2 = L_5;
-		// GoogleSignInUser user = new GoogleSignInUser();
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_6 = (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA*)il2cpp_codegen_object_new(GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA_il2cpp_TypeInfo_var);
-		NullCheck(L_6);
-		GoogleSignInUser__ctor_m0271D1B065D5BF40672070447A0D61EEDB88FF91(L_6, NULL);
-		V_3 = L_6;
-		// HandleRef userPtr = new HandleRef(user, ptr);
-		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_7 = V_2;
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_8 = V_3;
-		intptr_t L_9 = V_0;
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_10;
-		memset((&L_10), 0, sizeof(L_10));
-		HandleRef__ctor_m0298D55E5F35F77B6A6CCA75C8E828C3F3127DE7((&L_10), L_8, L_9, /*hidden argument*/NULL);
-		NullCheck(L_7);
-		L_7->___userPtr_0 = L_10;
-		Il2CppCodeGenWriteBarrier((void**)&(((&L_7->___userPtr_0))->____wrapper_0), (void*)NULL);
-		// user.DisplayName = OutParamsToString((out_string, out_size) =>
-		//         GoogleSignInImpl.GoogleSignIn_GetDisplayName(userPtr,
-		//                                                      out_string,
-		//                                                      out_size));
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_11 = V_3;
-		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_12 = V_2;
-		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_13 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
-		NullCheck(L_13);
-		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_13, L_12, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__0_mAB7700145D3F1F675831CDCE9BEACC834D4BF96E_RuntimeMethod_var), NULL);
-		il2cpp_codegen_runtime_class_init_inline(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
-		String_t* L_14;
-		L_14 = BaseObject_OutParamsToString_mE19711AC5572545ECA45524521CD9A404CF172CA(L_13, NULL);
-		NullCheck(L_11);
-		GoogleSignInUser_set_DisplayName_m33092BFF9954A242BCE80DF4A243C20FD583315B_inline(L_11, L_14, NULL);
-		// user.Email = OutParamsToString((out_string, out_size) =>
-		//     GoogleSignInImpl.GoogleSignIn_GetEmail(userPtr, out_string,
-		//                                            out_size));
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_15 = V_3;
-		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_16 = V_2;
-		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_17 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
-		NullCheck(L_17);
-		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_17, L_16, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__1_m370A13175EEDCF49601E661321C8DD88FF6A1946_RuntimeMethod_var), NULL);
-		String_t* L_18;
-		L_18 = BaseObject_OutParamsToString_mE19711AC5572545ECA45524521CD9A404CF172CA(L_17, NULL);
-		NullCheck(L_15);
-		GoogleSignInUser_set_Email_m2036BD483DA25F84B60FCCEF63BBC20A5F1D5F9C_inline(L_15, L_18, NULL);
-		// user.FamilyName = OutParamsToString((out_string, out_size) =>
-		//     GoogleSignInImpl.GoogleSignIn_GetFamilyName(userPtr, out_string,
-		//                                                 out_size));
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_19 = V_3;
-		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_20 = V_2;
-		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_21 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
-		NullCheck(L_21);
-		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_21, L_20, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__2_m8D0E1DF9DE52B683EF57BD1A25567E701CD782B5_RuntimeMethod_var), NULL);
-		String_t* L_22;
-		L_22 = BaseObject_OutParamsToString_mE19711AC5572545ECA45524521CD9A404CF172CA(L_21, NULL);
-		NullCheck(L_19);
-		GoogleSignInUser_set_FamilyName_m23A309A857743C07F1CA856EA0ADCFB3B122A5A9_inline(L_19, L_22, NULL);
-		// user.GivenName = OutParamsToString((out_string, out_size) =>
-		//     GoogleSignInImpl.GoogleSignIn_GetGivenName(userPtr, out_string,
-		//                                                out_size));
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_23 = V_3;
-		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_24 = V_2;
-		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_25 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
-		NullCheck(L_25);
-		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_25, L_24, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__3_m49F63C5CB22AC3D69146172A0DF82EAAC45ACCD7_RuntimeMethod_var), NULL);
-		String_t* L_26;
-		L_26 = BaseObject_OutParamsToString_mE19711AC5572545ECA45524521CD9A404CF172CA(L_25, NULL);
-		NullCheck(L_23);
-		GoogleSignInUser_set_GivenName_m22A6A6824200A97844AF62E12A29D32EC8215E7D_inline(L_23, L_26, NULL);
-		// user.IdToken = OutParamsToString((out_string, out_size) =>
-		//     GoogleSignInImpl.GoogleSignIn_GetIdToken(userPtr, out_string,
-		//                                              out_size));
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_27 = V_3;
-		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_28 = V_2;
-		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_29 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
-		NullCheck(L_29);
-		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_29, L_28, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__4_mFABC6CF05697AC3A309FDF438B8AF5D6CED62147_RuntimeMethod_var), NULL);
-		String_t* L_30;
-		L_30 = BaseObject_OutParamsToString_mE19711AC5572545ECA45524521CD9A404CF172CA(L_29, NULL);
-		NullCheck(L_27);
-		GoogleSignInUser_set_IdToken_m9F8F42353CFF4647151698F50CD241BF4E405EC3_inline(L_27, L_30, NULL);
-		// user.AuthCode = OutParamsToString((out_string, out_size) =>
-		//     GoogleSignInImpl.GoogleSignIn_GetServerAuthCode(userPtr, out_string,
-		//                                                     out_size));
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_31 = V_3;
-		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_32 = V_2;
-		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_33 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
-		NullCheck(L_33);
-		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_33, L_32, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__5_mC2AB488643100B8EF8939922F768AB85AD2D284C_RuntimeMethod_var), NULL);
-		String_t* L_34;
-		L_34 = BaseObject_OutParamsToString_mE19711AC5572545ECA45524521CD9A404CF172CA(L_33, NULL);
-		NullCheck(L_31);
-		GoogleSignInUser_set_AuthCode_mFD2ACD2178A1E33BA97EE4DA65503CAFFAF595F7_inline(L_31, L_34, NULL);
-		// string url = OutParamsToString((out_string, out_size) =>
-		//     GoogleSignInImpl.GoogleSignIn_GetImageUrl(userPtr, out_string,
-		//                                               out_size));
-		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_35 = V_2;
-		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_36 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
-		NullCheck(L_36);
-		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_36, L_35, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__6_m9DDEF005B688BBCB60877AC369DD209AA023D5B5_RuntimeMethod_var), NULL);
-		String_t* L_37;
-		L_37 = BaseObject_OutParamsToString_mE19711AC5572545ECA45524521CD9A404CF172CA(L_36, NULL);
-		V_4 = L_37;
-		// if (url.Length > 0) {
-		String_t* L_38 = V_4;
-		NullCheck(L_38);
-		int32_t L_39;
-		L_39 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_38, NULL);
-		V_5 = (bool)((((int32_t)L_39) > ((int32_t)0))? 1 : 0);
-		bool L_40 = V_5;
-		if (!L_40)
-		{
-			goto IL_00fc;
-		}
-	}
-	{
-		// user.ImageUrl = new System.Uri(url);
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_41 = V_3;
-		String_t* L_42 = V_4;
-		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_43 = (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*)il2cpp_codegen_object_new(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
-		NullCheck(L_43);
-		Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A(L_43, L_42, NULL);
-		NullCheck(L_41);
-		GoogleSignInUser_set_ImageUrl_m757A1FC5F8E85B18081AD882F73F317DF6DEFE45_inline(L_41, L_43, NULL);
-	}
-
-IL_00fc:
-	{
-		// user.UserId = OutParamsToString((out_string, out_size) =>
-		//     GoogleSignInImpl.GoogleSignIn_GetUserId(userPtr, out_string,
-		//                                             out_size));
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_44 = V_3;
-		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_45 = V_2;
-		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_46 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
-		NullCheck(L_46);
-		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_46, L_45, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__7_mD0783088AA1B5B1F825807F640392ABFC3A3E5CA_RuntimeMethod_var), NULL);
-		il2cpp_codegen_runtime_class_init_inline(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
-		String_t* L_47;
-		L_47 = BaseObject_OutParamsToString_mE19711AC5572545ECA45524521CD9A404CF172CA(L_46, NULL);
-		NullCheck(L_44);
-		GoogleSignInUser_set_UserId_m6311A410F1636E122903BF4F8A50E0421DF20270_inline(L_44, L_47, NULL);
-		// return user;
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_48 = V_3;
-		V_6 = L_48;
-		goto IL_011f;
-	}
-
-IL_0119:
-	{
-		// return null;
-		V_6 = (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA*)NULL;
-		goto IL_011f;
-	}
-
-IL_011f:
-	{
-		// }
-		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_49 = V_6;
-		return L_49;
-	}
-}
-// Google.GoogleSignInStatusCode Google.Impl.NativeFuture::get_Status()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeFuture_get_Status_mC727AD36BDCDD64E381FA4991E58694ABA9561F4 (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* __this, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	{
-		// return (GoogleSignInStatusCode)GoogleSignInImpl.GoogleSignIn_Status(
-		//   SelfPtr());
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
-		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
-		int32_t L_1;
-		L_1 = GoogleSignInImpl_GoogleSignIn_Status_mC38EA2A49EF04B48137FBE4EE79BFB3C0A907C60(L_0, NULL);
-		V_0 = L_1;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		// }
-		int32_t L_2 = V_0;
-		return L_2;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Google.Impl.NativeFuture/<>c__DisplayClass5_0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m7497FAB21C83A976EB1558C8B99D253FA6DDF86A (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-// System.UIntPtr Google.Impl.NativeFuture/<>c__DisplayClass5_0::<get_Result>b__0(System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__0_mAB7700145D3F1F675831CDCE9BEACC834D4BF96E (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_string0, uintptr_t ___out_size1, const RuntimeMethod* method) 
-{
-	{
-		// GoogleSignInImpl.GoogleSignIn_GetDisplayName(userPtr,
-		//                                              out_string,
-		//                                              out_size));
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr_0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___out_string0;
-		uintptr_t L_2 = ___out_size1;
-		uintptr_t L_3;
-		L_3 = GoogleSignInImpl_GoogleSignIn_GetDisplayName_m34F06EDAC247EFE16EE7D7003D60D269EDC7CD09(L_0, L_1, L_2, NULL);
-		return L_3;
-	}
-}
-// System.UIntPtr Google.Impl.NativeFuture/<>c__DisplayClass5_0::<get_Result>b__1(System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__1_m370A13175EEDCF49601E661321C8DD88FF6A1946 (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_string0, uintptr_t ___out_size1, const RuntimeMethod* method) 
-{
-	{
-		// GoogleSignInImpl.GoogleSignIn_GetEmail(userPtr, out_string,
-		//                                        out_size));
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr_0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___out_string0;
-		uintptr_t L_2 = ___out_size1;
-		uintptr_t L_3;
-		L_3 = GoogleSignInImpl_GoogleSignIn_GetEmail_m1277C16AB66AC5DC74B30EC4F5AFA102E362C04A(L_0, L_1, L_2, NULL);
-		return L_3;
-	}
-}
-// System.UIntPtr Google.Impl.NativeFuture/<>c__DisplayClass5_0::<get_Result>b__2(System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__2_m8D0E1DF9DE52B683EF57BD1A25567E701CD782B5 (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_string0, uintptr_t ___out_size1, const RuntimeMethod* method) 
-{
-	{
-		// GoogleSignInImpl.GoogleSignIn_GetFamilyName(userPtr, out_string,
-		//                                             out_size));
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr_0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___out_string0;
-		uintptr_t L_2 = ___out_size1;
-		uintptr_t L_3;
-		L_3 = GoogleSignInImpl_GoogleSignIn_GetFamilyName_m02592F285D3EE7D29159E76131BF9F5DBDD89012(L_0, L_1, L_2, NULL);
-		return L_3;
-	}
-}
-// System.UIntPtr Google.Impl.NativeFuture/<>c__DisplayClass5_0::<get_Result>b__3(System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__3_m49F63C5CB22AC3D69146172A0DF82EAAC45ACCD7 (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_string0, uintptr_t ___out_size1, const RuntimeMethod* method) 
-{
-	{
-		// GoogleSignInImpl.GoogleSignIn_GetGivenName(userPtr, out_string,
-		//                                            out_size));
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr_0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___out_string0;
-		uintptr_t L_2 = ___out_size1;
-		uintptr_t L_3;
-		L_3 = GoogleSignInImpl_GoogleSignIn_GetGivenName_mEB8F331BE98ECD83858295890C2949B65C366B61(L_0, L_1, L_2, NULL);
-		return L_3;
-	}
-}
-// System.UIntPtr Google.Impl.NativeFuture/<>c__DisplayClass5_0::<get_Result>b__4(System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__4_mFABC6CF05697AC3A309FDF438B8AF5D6CED62147 (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_string0, uintptr_t ___out_size1, const RuntimeMethod* method) 
-{
-	{
-		// GoogleSignInImpl.GoogleSignIn_GetIdToken(userPtr, out_string,
-		//                                          out_size));
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr_0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___out_string0;
-		uintptr_t L_2 = ___out_size1;
-		uintptr_t L_3;
-		L_3 = GoogleSignInImpl_GoogleSignIn_GetIdToken_mB26E5AC987D24266CB0C9BAFE9D595E1ACC2BA02(L_0, L_1, L_2, NULL);
-		return L_3;
-	}
-}
-// System.UIntPtr Google.Impl.NativeFuture/<>c__DisplayClass5_0::<get_Result>b__5(System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__5_mC2AB488643100B8EF8939922F768AB85AD2D284C (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_string0, uintptr_t ___out_size1, const RuntimeMethod* method) 
-{
-	{
-		// GoogleSignInImpl.GoogleSignIn_GetServerAuthCode(userPtr, out_string,
-		//                                                 out_size));
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr_0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___out_string0;
-		uintptr_t L_2 = ___out_size1;
-		uintptr_t L_3;
-		L_3 = GoogleSignInImpl_GoogleSignIn_GetServerAuthCode_m00E7C3D9FDE9B16B3D6F71B59784EDE946CF35E1(L_0, L_1, L_2, NULL);
-		return L_3;
-	}
-}
-// System.UIntPtr Google.Impl.NativeFuture/<>c__DisplayClass5_0::<get_Result>b__6(System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__6_m9DDEF005B688BBCB60877AC369DD209AA023D5B5 (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_string0, uintptr_t ___out_size1, const RuntimeMethod* method) 
-{
-	{
-		// GoogleSignInImpl.GoogleSignIn_GetImageUrl(userPtr, out_string,
-		//                                           out_size));
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr_0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___out_string0;
-		uintptr_t L_2 = ___out_size1;
-		uintptr_t L_3;
-		L_3 = GoogleSignInImpl_GoogleSignIn_GetImageUrl_mB63006D0ED8646930DC70C66AC3406785DC335D7(L_0, L_1, L_2, NULL);
-		return L_3;
-	}
-}
-// System.UIntPtr Google.Impl.NativeFuture/<>c__DisplayClass5_0::<get_Result>b__7(System.Byte[],System.UIntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__7_mD0783088AA1B5B1F825807F640392ABFC3A3E5CA (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_string0, uintptr_t ___out_size1, const RuntimeMethod* method) 
-{
-	{
-		// GoogleSignInImpl.GoogleSignIn_GetUserId(userPtr, out_string,
-		//                                         out_size));
-		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr_0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___out_string0;
-		uintptr_t L_2 = ___out_size1;
-		uintptr_t L_3;
-		L_3 = GoogleSignInImpl_GoogleSignIn_GetUserId_mC964CA22A27A88616641F81A58ADABF103D55C46(L_0, L_1, L_2, NULL);
-		return L_3;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// Google.Impl.SignInHelperObject Google.Impl.SignInHelperObject::get_Instance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* SignInHelperObject_get_Instance_m5DC1955B15AE32848E5EDC7F6DDE456DC3D0F3F1 (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisSignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_m8DAAB2B6376C79FA30A3F2BCF3DB4DB73BBA61BF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDAFAF1BA7E22CC639E69C44B0308455A786E3D91);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
-	SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* V_2 = NULL;
-	{
-		// if (Application.isPlaying) {
-		bool L_0;
-		L_0 = Application_get_isPlaying_m0B3B501E1093739F8887A0DAC5F61D9CB49CC337(NULL);
-		V_0 = L_0;
-		bool L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_002b;
-		}
-	}
-	{
-		// GameObject obj = new GameObject("GoogleSignInHelperObject");
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
-		NullCheck(L_2);
-		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_2, _stringLiteralDAFAF1BA7E22CC639E69C44B0308455A786E3D91, NULL);
-		V_1 = L_2;
-		// DontDestroyOnLoad(obj);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = V_1;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object_DontDestroyOnLoad_m303AA1C4DC810349F285B4809E426CBBA8F834F9(L_3, NULL);
-		// instance = obj.AddComponent<SignInHelperObject>();
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = V_1;
-		NullCheck(L_4);
-		SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* L_5;
-		L_5 = GameObject_AddComponent_TisSignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_m8DAAB2B6376C79FA30A3F2BCF3DB4DB73BBA61BF(L_4, GameObject_AddComponent_TisSignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_m8DAAB2B6376C79FA30A3F2BCF3DB4DB73BBA61BF_RuntimeMethod_var);
-		((SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_StaticFields*)il2cpp_codegen_static_fields_for(SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var))->___instance_4 = L_5;
-		Il2CppCodeGenWriteBarrier((void**)(&((SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_StaticFields*)il2cpp_codegen_static_fields_for(SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var))->___instance_4), (void*)L_5);
-		goto IL_0037;
-	}
-
-IL_002b:
-	{
-		// instance = new SignInHelperObject();
-		SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* L_6 = (SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B*)il2cpp_codegen_object_new(SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var);
-		NullCheck(L_6);
-		SignInHelperObject__ctor_m049CB998CA9E1DA5929BE9CFCEA8C33EE915CDA3(L_6, NULL);
-		((SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_StaticFields*)il2cpp_codegen_static_fields_for(SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var))->___instance_4 = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&((SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_StaticFields*)il2cpp_codegen_static_fields_for(SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var))->___instance_4), (void*)L_6);
-	}
-
-IL_0037:
-	{
-		// return instance;
-		SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* L_7 = ((SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_StaticFields*)il2cpp_codegen_static_fields_for(SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var))->___instance_4;
-		V_2 = L_7;
-		goto IL_003f;
-	}
-
-IL_003f:
-	{
-		// }
-		SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* L_8 = V_2;
-		return L_8;
-	}
-}
-// System.Void Google.Impl.SignInHelperObject::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInHelperObject__ctor_m049CB998CA9E1DA5929BE9CFCEA8C33EE915CDA3 (SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886* AggregateException_get_InnerExceptions_m3044DE61416F827389F2975C67AC1AD89EA050A5_inline (AggregateException_t51B6205846DFB356B94452702201DD239D44422F* __this, const RuntimeMethod* method) 
-{
-	{
-		ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886* L_0 = __this->___m_innerExceptions_18;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SignInException_get_Status_m2FBF33632A23C771EE5CEB65120E3DFEC8FF5A74_inline (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, const RuntimeMethod* method) 
-{
-	{
-		// get;
-		int32_t L_0 = __this->___U3CStatusU3Ek__BackingField_18;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_DisplayName_mC14CD83AFB1364C729D09692732781672D9CEA9C_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
-{
-	{
-		// get;
-		String_t* L_0 = __this->___U3CDisplayNameU3Ek__BackingField_3;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_Email_mA6E37F96BC90280CBA4D425743426CBE8D515551_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
-{
-	{
-		// get;
-		String_t* L_0 = __this->___U3CEmailU3Ek__BackingField_1;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_IdToken_m58382F225E3065502A66AFA23F70053153DEA62A_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
-{
-	{
-		// get;
-		String_t* L_0 = __this->___U3CIdTokenU3Ek__BackingField_2;
-		return L_0;
-	}
-}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t FirebaseException_get_ErrorCode_mE665B1ADB8DD846C3C604DD72F25C1B476EB3A66_inline (FirebaseException_t9E9B64098EF276E794C8CFFFA87E23904F33F3ED* __this, const RuntimeMethod* method) 
 {
 	{
 		int32_t L_0 = __this->___U3CErrorCodeU3Ek__BackingField_18;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t RoomInfo_get_PlayerCount_m021CCF31A290BEADD0EECF2F3265D7D0BF2DD029_inline (RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int PlayerCount { get; private set; }
+		int32_t L_0 = __this->___U3CPlayerCountU3Ek__BackingField_12;
 		return L_0;
 	}
 }
@@ -21212,105 +18119,18 @@ IL_001d:
 		return L_1;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SignInException_set_Status_mC05194B06E64770DBD32F23D17A74DF3BE17103A_inline (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	{
-		// internal set;
-		int32_t L_0 = ___value0;
-		__this->___U3CStatusU3Ek__BackingField_18 = L_0;
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uintptr_t OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_inline (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___out_bytes0, uintptr_t ___out_size1, const RuntimeMethod* method) 
-{
-	typedef uintptr_t (*FunctionPointerType) (RuntimeObject*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, uintptr_t, const RuntimeMethod*);
-	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___out_bytes0, ___out_size1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_DisplayName_m33092BFF9954A242BCE80DF4A243C20FD583315B_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		String_t* L_0 = ___value0;
-		__this->___U3CDisplayNameU3Ek__BackingField_3 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDisplayNameU3Ek__BackingField_3), (void*)L_0);
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_Email_m2036BD483DA25F84B60FCCEF63BBC20A5F1D5F9C_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		String_t* L_0 = ___value0;
-		__this->___U3CEmailU3Ek__BackingField_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CEmailU3Ek__BackingField_1), (void*)L_0);
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_FamilyName_m23A309A857743C07F1CA856EA0ADCFB3B122A5A9_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		String_t* L_0 = ___value0;
-		__this->___U3CFamilyNameU3Ek__BackingField_5 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CFamilyNameU3Ek__BackingField_5), (void*)L_0);
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_GivenName_m22A6A6824200A97844AF62E12A29D32EC8215E7D_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		String_t* L_0 = ___value0;
-		__this->___U3CGivenNameU3Ek__BackingField_4 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CGivenNameU3Ek__BackingField_4), (void*)L_0);
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_IdToken_m9F8F42353CFF4647151698F50CD241BF4E405EC3_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		String_t* L_0 = ___value0;
-		__this->___U3CIdTokenU3Ek__BackingField_2 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CIdTokenU3Ek__BackingField_2), (void*)L_0);
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_AuthCode_mFD2ACD2178A1E33BA97EE4DA65503CAFFAF595F7_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		String_t* L_0 = ___value0;
-		__this->___U3CAuthCodeU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAuthCodeU3Ek__BackingField_0), (void*)L_0);
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
-{
-	{
-		int32_t L_0 = __this->____stringLength_4;
+		int32_t L_0 = (int32_t)__this->____size_2;
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_ImageUrl_m757A1FC5F8E85B18081AD882F73F317DF6DEFE45_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
 {
 	{
-		// internal set;
-		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_0 = ___value0;
-		__this->___U3CImageUrlU3Ek__BackingField_6 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CImageUrlU3Ek__BackingField_6), (void*)L_0);
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_UserId_m6311A410F1636E122903BF4F8A50E0421DF20270_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		// internal set;
-		String_t* L_0 = ___value0;
-		__this->___U3CUserIdU3Ek__BackingField_7 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CUserIdU3Ek__BackingField_7), (void*)L_0);
-		return;
+		RuntimeObject* L_0 = (RuntimeObject*)__this->____current_3;
+		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* SubsystemLifecycleManager_3_get_subsystem_mD3D899C68170AAB80E8086C46FC5C6C033A07C21_gshared_inline (SubsystemLifecycleManager_3_t499D76783B0F91C52B19F7183F077FAD1985AD55* __this, const RuntimeMethod* method) 
@@ -21318,13 +18138,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* SubsystemLifecycle
 	{
 		// public TSubsystem subsystem { get; private set; }
 		RuntimeObject* L_0 = (RuntimeObject*)__this->___U3CsubsystemU3Ek__BackingField_4;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
-{
-	{
-		int32_t L_0 = (int32_t)__this->____size_2;
 		return L_0;
 	}
 }
@@ -21365,13 +18178,6 @@ IL_0034:
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->____current_3;
-		return L_0;
-	}
-}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Key_mBD8EA7557C27E6956F2AF29DA3F7499B2F51A282_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21390,13 +18196,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tFC32D250721629385
 {
 	{
 		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 L_0 = (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230)__this->____current_3;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* TaskCompletionSource_1_get_Task_mF44990297C25C7DBE1E65241C03D0120CB551552_gshared_inline (TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* __this, const RuntimeMethod* method) 
-{
-	{
-		Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* L_0 = (Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2*)__this->____task_0;
 		return L_0;
 	}
 }
