@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml",
+            "outputFile": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml",
             "map": [
                 {
                     "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/d89e1e31e5231384541ac74e0e1cc900/res/values-da/values-da.xml",
@@ -18,6 +18,23 @@
                         "startOffsets": "2699,2811,2910,3017",
                         "endColumns": "111,98,106,96",
                         "endOffsets": "2806,2905,3012,3109"
+                    }
+                },
+                {
+                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/7003235e1c638fb82b6ee2577d1d02dc/res/values-da/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,239,289,403,526",
+                        "endColumns": "48,49,113,122,85",
+                        "endOffsets": "238,288,402,525,611"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,108,162,280,407",
+                        "endColumns": "52,53,117,126,89",
+                        "endOffsets": "103,157,275,402,492"
                     }
                 },
                 {
@@ -52,23 +69,6 @@
                         "startOffsets": "3114",
                         "endColumns": "100",
                         "endOffsets": "3210"
-                    }
-                },
-                {
-                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/res/values-da/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,239,289,403,526",
-                        "endColumns": "48,49,113,122,85",
-                        "endOffsets": "238,288,402,525,611"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,108,162,280,407",
-                        "endColumns": "52,53,117,126,89",
-                        "endOffsets": "103,157,275,402,492"
                     }
                 },
                 {

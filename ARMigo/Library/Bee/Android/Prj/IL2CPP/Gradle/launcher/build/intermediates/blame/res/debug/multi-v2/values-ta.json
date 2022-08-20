@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml",
+            "outputFile": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml",
             "map": [
-                {
-                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/res/values-ta/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,240,289,409,536",
-                        "endColumns": "49,48,119,126,90",
-                        "endOffsets": "239,288,408,535,626"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,109,162,286,417",
-                        "endColumns": "53,52,123,130,94",
-                        "endOffsets": "104,157,281,412,507"
-                    }
-                },
                 {
                     "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/5bba6e183a3bd22e961548abcf43220c/res/values-ta/values.xml",
                     "from": {
@@ -86,6 +69,23 @@
                         "startOffsets": "1496",
                         "endColumns": "160",
                         "endOffsets": "1652"
+                    }
+                },
+                {
+                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/7003235e1c638fb82b6ee2577d1d02dc/res/values-ta/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,240,289,409,536",
+                        "endColumns": "49,48,119,126,90",
+                        "endOffsets": "239,288,408,535,626"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,109,162,286,417",
+                        "endColumns": "53,52,123,130,94",
+                        "endOffsets": "104,157,281,412,507"
                     }
                 }
             ]

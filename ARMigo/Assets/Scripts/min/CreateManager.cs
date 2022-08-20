@@ -21,6 +21,8 @@ public class CreateManager : MonoBehaviourPunCallbacks
     public GameObject roomPrefab;
     // Room 프리팹이 차일드화 시킬 부모 객체 
     public Transform scrollContent;
+
+    private string userId = "mineo";
     
 /*
     private void Awake()
@@ -35,6 +37,8 @@ public class CreateManager : MonoBehaviourPunCallbacks
         //Debug.Log("00.포톤 매니저 시작 ");
         // 서버 접속 
         //PhotonNetwork.ConnectUsingSettings();
+        userIdText.text = userId; //나중에 파베 아이디를 가져올것
+        PhotonNetwork.NickName = userId;
     }
 /*
     public override void OnConnectedToMaster()
@@ -107,6 +111,8 @@ public class CreateManager : MonoBehaviourPunCallbacks
             }
         }
     }
+
+    
     
     public void RoomCreate()
     {
@@ -125,7 +131,7 @@ public class CreateManager : MonoBehaviourPunCallbacks
             roomNameText.text = $"ROOM_{Random.Range(1, 100):000}";
         }
         //생성과 동시에 입장.성공. 
-        PhotonNetwork.CreateRoom(roomNameText.text, ro);
+        PhotonNetwork.CreateRoom(roomNameText.text,ro);
         Debug.Log("코드가 작동은 되었다.-Room");
         
     }

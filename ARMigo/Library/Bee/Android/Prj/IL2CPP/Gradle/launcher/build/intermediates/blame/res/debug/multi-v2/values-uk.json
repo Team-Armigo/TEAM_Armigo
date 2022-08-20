@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml",
+            "outputFile": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml",
             "map": [
                 {
                     "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/5bba6e183a3bd22e961548abcf43220c/res/values-uk/values.xml",
@@ -18,6 +18,23 @@
                         "startOffsets": "535,643,806,933,1043,1197,1326,1441,1692,1860,1966,2128,2253,2400,2542,2612,2673",
                         "endColumns": "107,162,126,109,153,128,114,104,167,105,161,124,146,141,69,60,87",
                         "endOffsets": "638,801,928,1038,1192,1321,1436,1541,1855,1961,2123,2248,2395,2537,2607,2668,2756"
+                    }
+                },
+                {
+                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/7003235e1c638fb82b6ee2577d1d02dc/res/values-uk/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,240,293,427,564",
+                        "endColumns": "49,52,133,136,85",
+                        "endOffsets": "239,292,426,563,649"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,109,166,304,445",
+                        "endColumns": "53,56,137,140,89",
+                        "endOffsets": "104,161,299,440,530"
                     }
                 },
                 {
@@ -69,23 +86,6 @@
                         "startOffsets": "3206",
                         "endColumns": "100",
                         "endOffsets": "3302"
-                    }
-                },
-                {
-                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/res/values-uk/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,240,293,427,564",
-                        "endColumns": "49,52,133,136,85",
-                        "endOffsets": "239,292,426,563,649"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,109,166,304,445",
-                        "endColumns": "53,56,137,140,89",
-                        "endOffsets": "104,161,299,440,530"
                     }
                 }
             ]

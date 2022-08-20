@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
-                {
-                    "source": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,112,168,217,263",
-                        "endColumns": "56,55,48,45,46",
-                        "endOffsets": "107,163,212,258,305"
-                    },
-                    "to": {
-                        "startLines": "94,95,96,97,98",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "5896,5953,6009,6058,6104",
-                        "endColumns": "56,55,48,45,46",
-                        "endOffsets": "5948,6004,6053,6099,6146"
-                    }
-                },
                 {
                     "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/03dbd316ee3cdc43d3d50cc8ba4bbb68/res/values/values.xml",
                     "from": {
@@ -40,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
+                    "source": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "2,2",
@@ -54,6 +37,23 @@
                         "startOffsets": "6597,9669",
                         "endColumns": "43,67",
                         "endOffsets": "6636,9732"
+                    }
+                },
+                {
+                    "source": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/ids.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    },
+                    "to": {
+                        "startLines": "91",
+                        "startColumns": "4",
+                        "startOffsets": "5712",
+                        "endColumns": "45",
+                        "endOffsets": "5753"
                     }
                 },
                 {
@@ -71,25 +71,6 @@
                         "startOffsets": "5758,7681",
                         "endColumns": "67,166",
                         "endOffsets": "5821,7843"
-                    }
-                },
-                {
-                    "source": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "5,2,7",
-                        "startColumns": "0,0,0",
-                        "startOffsets": "190,53,288",
-                        "endLines": "6,4,10",
-                        "endColumns": "8,8,8",
-                        "endOffsets": "286,188,513"
-                    },
-                    "to": {
-                        "startLines": "138,151,154",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "10392,11250,11388",
-                        "endLines": "139,153,157",
-                        "endColumns": "8,8,8",
-                        "endOffsets": "10487,11383,11610"
                     }
                 },
                 {
@@ -131,7 +112,26 @@
                     }
                 },
                 {
-                    "source": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/FirebaseApp.androidlib/build/intermediates/packaged_res/debug/values/values.xml",
+                    "source": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "138,151,154",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "10392,11250,11388",
+                        "endLines": "139,153,157",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "10487,11383,11610"
+                    }
+                },
+                {
+                    "source": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/FirebaseApp.androidlib/build/intermediates/packaged_res/debug/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -148,24 +148,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/ids.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "46",
-                        "endOffsets": "97"
-                    },
-                    "to": {
-                        "startLines": "91",
-                        "startColumns": "4",
-                        "startOffsets": "5712",
-                        "endColumns": "45",
-                        "endOffsets": "5753"
-                    }
-                },
-                {
-                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/res/values/values.xml",
+                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/7003235e1c638fb82b6ee2577d1d02dc/res/values/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8",
                         "startColumns": "0,0,0,0,0",
@@ -196,6 +179,23 @@
                         "startOffsets": "166,224,290,353,1350,1421,8974,9334,9401,9480",
                         "endColumns": "57,65,62,61,70,71,67,66,78,68",
                         "endOffsets": "219,285,348,410,1416,1488,9037,9396,9475,9544"
+                    }
+                },
+                {
+                    "source": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,112,168,217,263",
+                        "endColumns": "56,55,48,45,46",
+                        "endOffsets": "107,163,212,258,305"
+                    },
+                    "to": {
+                        "startLines": "94,95,96,97,98",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "5896,5953,6009,6058,6104",
+                        "endColumns": "56,55,48,45,46",
+                        "endOffsets": "5948,6004,6053,6099,6146"
                     }
                 }
             ]
