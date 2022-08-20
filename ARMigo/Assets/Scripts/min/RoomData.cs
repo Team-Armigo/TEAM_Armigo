@@ -20,6 +20,7 @@ public class RoomData : MonoBehaviourPunCallbacks
     {
         get
         {
+            Debug.Log("get함수가 실행되었다.");
             return _roomInfo;
         }
 
@@ -54,6 +55,11 @@ public class RoomData : MonoBehaviourPunCallbacks
             //PhotonNetwork.LoadLevel("Level_1");
             Debug.Log("IF");
         }
+    }
+
+    public void UpdateInfo()
+    {
+        //RoomInfoText.text = string.Format("{0} [{1}/{2}]",_roomInfo.Name )
     }
 
 }

@@ -15,7 +15,7 @@ public class PhotonManager : MonoBehaviourPunCallbacks
     void Start()
     {
         // 게임 버전 지정 
-        PhotonNetwork.GameVersion = "0.1";
+        //PhotonNetwork.GameVersion = "0.1";
         //유저 아이디 설정
         PhotonNetwork.NickName = userId;
         //마스터 서버에 접속을 위한 함수
@@ -33,6 +33,8 @@ public class PhotonManager : MonoBehaviourPunCallbacks
         }            
         else
         {
+            // 게임 버전 지정 
+            PhotonNetwork.GameVersion = "0.1";
             // #Critical, we must first and foremost connect to Photon Online Server.
             //PhotonNetwork.GameVersion = gameVersion;                
             PhotonNetwork.ConnectUsingSettings();
