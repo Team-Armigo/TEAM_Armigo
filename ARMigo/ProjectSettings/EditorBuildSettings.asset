@@ -33,6 +33,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Games/rune.unity
     guid: da4ec7e6fc54f4dd69e9e185a2e8460c
   - enabled: 1
+    path: Assets/Scenes/Games/rune 1.unity
+    guid: 59728b2ea176cc1429554448e581d893
+  - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 3d42795df8eb8e649965143821bea702
   m_configObjects:

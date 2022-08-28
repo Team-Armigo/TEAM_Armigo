@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "C:\\Github\\TEAM_Armigox\\ARMigo\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/f4401d89f1b819b006bc27dfd534dc2b/res/values-watch-v20/values.xml",
+                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\bd6905ac0aaddc5f1497aaa27f344547\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

@@ -1,44 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml",
+            "outputFile": "C:\\Github\\TEAM_Armigox\\ARMigo\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
             "map": [
                 {
-                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/f3dfa2339783edc9eaef3206b5fcb5ff/res/values-iw/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "113",
-                        "endOffsets": "308"
-                    },
-                    "to": {
-                        "startLines": "15",
-                        "startColumns": "4",
-                        "startOffsets": "1468",
-                        "endColumns": "117",
-                        "endOffsets": "1581"
-                    }
-                },
-                {
-                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/7003235e1c638fb82b6ee2577d1d02dc/res/values-iw/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,236,283,403,524",
-                        "endColumns": "45,46,119,120,93",
-                        "endOffsets": "235,282,402,523,617"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,105,156,280,405",
-                        "endColumns": "49,50,123,124,97",
-                        "endOffsets": "100,151,275,400,498"
-                    }
-                },
-                {
-                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/d89e1e31e5231384541ac74e0e1cc900/res/values-iw/values-iw.xml",
+                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\51d581c214fc88123bfefca039e7b860\\res\\values-iw\\values-iw.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -55,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/0b6a9c7b778ad5c9ece4fd5f22c8506b/res/values-iw/values-iw.xml",
+                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\0e0a40984e3b3a724a9859d9b17384b4\\res\\values-iw\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "113",
+                        "endOffsets": "308"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "1468",
+                        "endColumns": "117",
+                        "endOffsets": "1581"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\de1258d874b75a19cf47b1f8476936a8\\res\\values-iw\\values-iw.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -72,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/5bba6e183a3bd22e961548abcf43220c/res/values-iw/values.xml",
+                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\f9339baec6ca61abd35892cd7b59cbbd\\res\\values-iw\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -86,6 +69,23 @@
                         "startOffsets": "503,606,760,885,989,1128,1253,1365,1586,1722,1826,1971,2094,2228,2373,2433,2493",
                         "endColumns": "102,153,124,103,138,124,111,102,135,103,144,122,133,144,59,59,80",
                         "endOffsets": "601,755,880,984,1123,1248,1360,1463,1717,1821,1966,2089,2223,2368,2428,2488,2569"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\7d7a60bfe38838e58b39e45d4393b562\\res\\values-iw\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,236,283,403,524",
+                        "endColumns": "45,46,119,120,93",
+                        "endOffsets": "235,282,402,523,617"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,105,156,280,405",
+                        "endColumns": "49,50,123,124,97",
+                        "endOffsets": "100,151,275,400,498"
                     }
                 }
             ]

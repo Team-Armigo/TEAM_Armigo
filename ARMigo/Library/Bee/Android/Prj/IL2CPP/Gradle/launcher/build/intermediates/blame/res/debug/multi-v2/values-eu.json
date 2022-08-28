@@ -1,61 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mineo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
+            "outputFile": "C:\\Github\\TEAM_Armigox\\ARMigo\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu\\values-eu.xml",
             "map": [
                 {
-                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/f3dfa2339783edc9eaef3206b5fcb5ff/res/values-eu/values.xml",
+                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\7d7a60bfe38838e58b39e45d4393b562\\res\\values-eu\\values.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "138",
-                        "endOffsets": "333"
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,235,290,428,566",
+                        "endColumns": "44,54,137,137,102",
+                        "endOffsets": "234,289,427,565,668"
                     },
                     "to": {
-                        "startLines": "15",
-                        "startColumns": "4",
-                        "startOffsets": "1572",
-                        "endColumns": "142",
-                        "endOffsets": "1710"
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,104,163,305,447",
+                        "endColumns": "48,58,141,141,106",
+                        "endOffsets": "99,158,300,442,549"
                     }
                 },
                 {
-                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/0b6a9c7b778ad5c9ece4fd5f22c8506b/res/values-eu/values-eu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "29",
-                        "startColumns": "4",
-                        "startOffsets": "3249",
-                        "endColumns": "100",
-                        "endOffsets": "3345"
-                    }
-                },
-                {
-                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/d89e1e31e5231384541ac74e0e1cc900/res/values-eu/values-eu.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,155,257,370",
-                        "endColumns": "99,101,112,104",
-                        "endOffsets": "150,252,365,470"
-                    },
-                    "to": {
-                        "startLines": "25,26,27,28",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "2829,2929,3031,3144",
-                        "endColumns": "99,101,112,104",
-                        "endOffsets": "2924,3026,3139,3244"
-                    }
-                },
-                {
-                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/5bba6e183a3bd22e961548abcf43220c/res/values-eu/values.xml",
+                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\f9339baec6ca61abd35892cd7b59cbbd\\res\\values-eu\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -72,20 +38,54 @@
                     }
                 },
                 {
-                    "source": "/Users/mineo/.gradle/caches/transforms-2/files-2.1/7003235e1c638fb82b6ee2577d1d02dc/res/values-eu/values.xml",
+                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\0e0a40984e3b3a724a9859d9b17384b4\\res\\values-eu\\values.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,235,290,428,566",
-                        "endColumns": "44,54,137,137,102",
-                        "endOffsets": "234,289,427,565,668"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "138",
+                        "endOffsets": "333"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,104,163,305,447",
-                        "endColumns": "48,58,141,141,106",
-                        "endOffsets": "99,158,300,442,549"
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "1572",
+                        "endColumns": "142",
+                        "endOffsets": "1710"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\de1258d874b75a19cf47b1f8476936a8\\res\\values-eu\\values-eu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "29",
+                        "startColumns": "4",
+                        "startOffsets": "3249",
+                        "endColumns": "100",
+                        "endOffsets": "3345"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\parkk\\.gradle\\caches\\transforms-2\\files-2.1\\51d581c214fc88123bfefca039e7b860\\res\\values-eu\\values-eu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,155,257,370",
+                        "endColumns": "99,101,112,104",
+                        "endOffsets": "150,252,365,470"
+                    },
+                    "to": {
+                        "startLines": "25,26,27,28",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2829,2929,3031,3144",
+                        "endColumns": "99,101,112,104",
+                        "endOffsets": "2924,3026,3139,3244"
                     }
                 }
             ]

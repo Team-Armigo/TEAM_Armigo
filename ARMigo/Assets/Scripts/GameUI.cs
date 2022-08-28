@@ -65,4 +65,9 @@ public class GameUI : MonoBehaviour
     {
         SceneManager.LoadScene("rune");
     }
+
+    public void GameRune1()
+    {
+        SceneManager.LoadScene("rune 1");
+    }
 }
