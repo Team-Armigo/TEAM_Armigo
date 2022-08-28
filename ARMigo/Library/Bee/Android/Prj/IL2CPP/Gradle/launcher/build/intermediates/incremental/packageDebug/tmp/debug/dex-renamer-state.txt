@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 #Sat Aug 20 20:48:25 KST 2022
+=======
+#Sun Aug 28 14:34:21 KST 2022
+>>>>>>> Stashed changes
 path.3=classes.dex
 path.2=classes.dex
 path.1=classes.dex

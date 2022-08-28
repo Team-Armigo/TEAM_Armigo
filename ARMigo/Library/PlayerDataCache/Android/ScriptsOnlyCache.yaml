@@ -16,6 +16,10 @@ ScriptsOnlyBuild:
     - TumbleGenerator
     - Tumbleweed
     - UIManager
+<<<<<<< Updated upstream
+=======
+    - UserManager
+>>>>>>> Stashed changes
     - roomlist
     PhotonUnityNetworking.Demos.dll:
     - Photon.Pun.Demo.Asteroids.Asteroid
@@ -913,6 +917,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1664}
+<<<<<<< Updated upstream
     - Class: 114
       Script: {instanceID: 1666}
     - Class: 114
@@ -931,6 +936,30 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4222}
     - Class: 114
       Script: {instanceID: 4862}
+=======
+    - Class: 114
+      Script: {instanceID: 1666}
+    - Class: 114
+      Script: {instanceID: 1848}
+    - Class: 114
+      Script: {instanceID: 2584}
+    - Class: 114
+      Script: {instanceID: 3214}
+    - Class: 114
+      Script: {instanceID: 3320}
+    - Class: 114
+      Script: {instanceID: 3534}
+    - Class: 114
+      Script: {instanceID: 3958}
+    - Class: 114
+      Script: {instanceID: 4222}
+    - Class: 114
+      Script: {instanceID: 4228}
+    - Class: 114
+      Script: {instanceID: 4862}
+    - Class: 114
+      Script: {instanceID: 5116}
+>>>>>>> Stashed changes
     - Class: 114
       Script: {instanceID: 6976}
     - Class: 114
@@ -942,11 +971,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8554}
     - Class: 114
+<<<<<<< Updated upstream
       Script: {instanceID: 8978}
     - Class: 114
       Script: {instanceID: 9220}
     - Class: 114
       Script: {instanceID: 10104}
+=======
+      Script: {instanceID: 8566}
+    - Class: 114
+      Script: {instanceID: 8978}
+    - Class: 114
+      Script: {instanceID: 9196}
+    - Class: 114
+      Script: {instanceID: 9220}
+    - Class: 114
+      Script: {instanceID: 10104}
+    - Class: 114
+      Script: {instanceID: 10178}
+    - Class: 114
+      Script: {instanceID: 27390}
+>>>>>>> Stashed changes
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3239,6 +3284,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UserManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/LoginScene.unity

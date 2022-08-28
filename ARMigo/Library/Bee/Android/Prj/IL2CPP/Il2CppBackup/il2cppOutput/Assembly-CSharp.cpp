@@ -762,6 +762,8 @@ struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
 struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E;
 // System.UriParser
 struct UriParser_t920B0868286118827C08B08A15A9456AF6C19D81;
+// UserManager
+struct UserManager_t49EBD0DC1389A285F3A3C22337EF856664337FA3;
 // Firebase.Auth.UserProfile
 struct UserProfile_t6D157B509640316F20D5DDD5A2BEA9FB952A269B;
 // System.ValueType
@@ -5224,6 +5226,14 @@ struct UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields
 	UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* ___instance_4;
 };
 
+<<<<<<< Updated upstream
+=======
+// UserManager
+struct UserManager_t49EBD0DC1389A285F3A3C22337EF856664337FA3  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+
+>>>>>>> Stashed changes
 // study
 struct study_t2827E89DF3B1330F0795FD1A69DBE82F47F2194C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -11200,6 +11210,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void study_U3Cset_RoomInfoU3Eb__5_0_m2EACEBE2
 		String_t* L_1;
 		L_1 = RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF(L_0, NULL);
 		study_OnEnterRoom_m8CFB23D5C56756090DFC55D1312E6BA3287CE0E5(__this, L_1, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UserManager::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserManager_Start_m7DE888B12CEFA1B0BEE82C6FAF59597295013CE4 (UserManager_t49EBD0DC1389A285F3A3C22337EF856664337FA3* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void UserManager::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserManager_Update_mC69B4B02D1334DEF2B3781DA05C3A90677DAD446 (UserManager_t49EBD0DC1389A285F3A3C22337EF856664337FA3* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void UserManager::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserManager__ctor_m50FAB3E5339CB07D00FD24E560AE4189A4C8B7E8 (UserManager_t49EBD0DC1389A285F3A3C22337EF856664337FA3* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }

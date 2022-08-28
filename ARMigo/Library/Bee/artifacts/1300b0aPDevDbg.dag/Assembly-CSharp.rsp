@@ -381,6 +381,7 @@
 "Assets/Scripts/min/PtManager.cs"
 "Assets/Scripts/min/RoomData.cs"
 "Assets/Scripts/min/study.cs"
+"Assets/Scripts/min/UserManager.cs"
 "Assets/Scripts/PhotonManager.cs"
 "Assets/Scripts/roomlist.cs"
 "Assets/Scripts/Rune/ARFaceDetector.cs"
