@@ -17,10 +17,6 @@ ScriptsOnlyBuild:
     - Tumbleweed
     - UIManager
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-    - UserManager
->>>>>>> Stashed changes
 =======
     - UserManager
 >>>>>>> Stashed changes
@@ -922,14 +918,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1664}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
     - Class: 114
       Script: {instanceID: 1666}
     - Class: 114
       Script: {instanceID: 1848}
-<<<<<<< Updated upstream
     - Class: 114
       Script: {instanceID: 2584}
     - Class: 114
@@ -990,41 +982,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8978}
     - Class: 114
-=======
-    - Class: 114
-      Script: {instanceID: 2584}
-    - Class: 114
-      Script: {instanceID: 3214}
-    - Class: 114
-      Script: {instanceID: 3320}
-    - Class: 114
-      Script: {instanceID: 3534}
-    - Class: 114
-      Script: {instanceID: 3958}
-    - Class: 114
-      Script: {instanceID: 4222}
-    - Class: 114
-      Script: {instanceID: 4228}
-    - Class: 114
-      Script: {instanceID: 4862}
-    - Class: 114
-      Script: {instanceID: 5116}
-    - Class: 114
-      Script: {instanceID: 6976}
-    - Class: 114
-      Script: {instanceID: 7840}
-    - Class: 114
-      Script: {instanceID: 7874}
-    - Class: 114
-      Script: {instanceID: 8068}
-    - Class: 114
-      Script: {instanceID: 8554}
-    - Class: 114
-      Script: {instanceID: 8566}
-    - Class: 114
-      Script: {instanceID: 8978}
-    - Class: 114
->>>>>>> Stashed changes
       Script: {instanceID: 9196}
     - Class: 114
       Script: {instanceID: 9220}
@@ -1034,9 +991,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10178}
     - Class: 114
       Script: {instanceID: 27390}
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
     - Class: 115
       Script: {instanceID: 0}
