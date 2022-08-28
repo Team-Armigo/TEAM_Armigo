@@ -23,11 +23,7 @@ AssetImportWorker1
 Logs/AssetImportWorker1.log
 -srvPort
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 54043
-=======
-62521
->>>>>>> Stashed changes
 =======
 62521
 >>>>>>> Stashed changes
@@ -63,11 +59,7 @@ Successfully changed project path to: /Users/mineo/ARMigo
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 133.05 ms, found 6 plugins.
-=======
-Refreshing native plugins compatible for Editor in 123.29 ms, found 6 plugins.
->>>>>>> Stashed changes
 =======
 Refreshing native plugins compatible for Editor in 123.29 ms, found 6 plugins.
 >>>>>>> Stashed changes
@@ -86,11 +78,7 @@ Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Man
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56406
-=======
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
->>>>>>> Stashed changes
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
 >>>>>>> Stashed changes
@@ -98,7 +86,6 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.002442 seconds.
 Native extension for Android target not found
@@ -122,23 +109,10 @@ Domain Reload Profiling:
 	ReloadAssembly (1795ms)
 		BeginReloadAssembly (158ms)
 >>>>>>> Stashed changes
-=======
-Registered in 0.001623 seconds.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 137.39 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.792 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1795ms)
-		BeginReloadAssembly (158ms)
->>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			CreateAndSetChildDomain (3ms)
 		EndReloadAssembly (1114ms)
@@ -165,26 +139,12 @@ Domain Reload Profiling:
 			RebuildScriptCaches (36ms)
 			SetupLoadedEditorAssemblies (1037ms)
 				LogAssemblyErrors (0ms)
-=======
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1386ms)
-			LoadAssemblies (157ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (146ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (1037ms)
-				LogAssemblyErrors (0ms)
->>>>>>> Stashed changes
 				InitializePlatformSupportModulesInManaged (232ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (137ms)
 				BeforeProcessingInitializeOnLoad (4ms)
 				ProcessInitializeOnLoadAttributes (387ms)
 				ProcessInitializeOnLoadMethodAttributes (275ms)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
@@ -193,11 +153,7 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 Registered in 0.006128 seconds.
-=======
-Registered in 0.005347 seconds.
->>>>>>> Stashed changes
 =======
 Registered in 0.005347 seconds.
 >>>>>>> Stashed changes
@@ -206,7 +162,6 @@ Symbol file LoadedFromMemory doesn't match image /Users/mineo/ARMigo/Library/Pac
 Symbol file LoadedFromMemory doesn't match image /Users/mineo/ARMigo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 123.22 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -272,44 +227,10 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (13ms)
 >>>>>>> Stashed changes
-=======
-Refreshing native plugins compatible for Editor in 129.45 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Package Manager log level set to [2]
-Mono: successfully reloaded assembly
-- Completed reload, in  4.067 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4070ms)
-		BeginReloadAssembly (460ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (42ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (144ms)
-		EndReloadAssembly (3202ms)
-			LoadAssemblies (211ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (427ms)
-			ReleaseScriptCaches (8ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (2196ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (55ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (129ms)
-				BeforeProcessingInitializeOnLoad (198ms)
-				ProcessInitializeOnLoadAttributes (1618ms)
-				ProcessInitializeOnLoadMethodAttributes (193ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
->>>>>>> Stashed changes
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
 Refreshing native plugins compatible for Editor in 1.06 ms, found 6 plugins.
@@ -319,8 +240,6 @@ Unloading 145 unused Assets / (60.9 KB). Loaded Objects now: 5281.
 Memory consumption went from 319.2 MB to 319.1 MB.
 Total: 3.972375 ms (FindLiveObjects: 0.239375 ms CreateObjectMapping: 0.127416 ms MarkObjects: 3.392792 ms  DeleteObjects: 0.212000 ms)
 =======
-=======
->>>>>>> Stashed changes
 Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
 Refreshing native plugins compatible for Editor in 1.55 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -328,9 +247,6 @@ Unloading 4905 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 145 unused Assets / (60.9 KB). Loaded Objects now: 5282.
 Memory consumption went from 319.2 MB to 319.2 MB.
 Total: 4.492875 ms (FindLiveObjects: 0.329125 ms CreateObjectMapping: 0.141333 ms MarkObjects: 3.818458 ms  DeleteObjects: 0.202625 ms)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -344,7 +260,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Received Import Request.
   Time since last request: 179470.537527 seconds.
@@ -360,17 +275,11 @@ Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.004234 seconds.
 >>>>>>> Stashed changes
-=======
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004234 seconds.
->>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/mineo/ARMigo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/mineo/ARMigo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 1.12 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -430,28 +339,6 @@ Domain Reload Profiling:
 			RebuildScriptCaches (59ms)
 			SetupLoadedEditorAssemblies (1786ms)
 				LogAssemblyErrors (0ms)
-=======
-Refreshing native plugins compatible for Editor in 1.17 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.124 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3127ms)
-		BeginReloadAssembly (282ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (46ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (2599ms)
-			LoadAssemblies (127ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (399ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (1786ms)
-				LogAssemblyErrors (0ms)
->>>>>>> Stashed changes
 				InitializePlatformSupportModulesInManaged (65ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
@@ -469,9 +356,6 @@ Unloading 4875 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 65 unused Assets / (37.5 KB). Loaded Objects now: 5287.
 Memory consumption went from 317.0 MB to 317.0 MB.
 Total: 3.607250 ms (FindLiveObjects: 0.293625 ms CreateObjectMapping: 0.129000 ms MarkObjects: 3.092667 ms  DeleteObjects: 0.090375 ms)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -488,11 +372,7 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 Registered in 0.004169 seconds.
-=======
-Registered in 0.004163 seconds.
->>>>>>> Stashed changes
 =======
 Registered in 0.004163 seconds.
 >>>>>>> Stashed changes
@@ -501,7 +381,6 @@ Symbol file LoadedFromMemory doesn't match image /Users/mineo/ARMigo/Library/Pac
 Symbol file LoadedFromMemory doesn't match image /Users/mineo/ARMigo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 1.23 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -550,44 +429,18 @@ Domain Reload Profiling:
 			RebuildScriptCaches (56ms)
 			SetupLoadedEditorAssemblies (1764ms)
 				LogAssemblyErrors (0ms)
-=======
-Refreshing native plugins compatible for Editor in 1.09 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.188 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3190ms)
-		BeginReloadAssembly (325ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (48ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (90ms)
-		EndReloadAssembly (2612ms)
-			LoadAssemblies (181ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (407ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (1764ms)
-				LogAssemblyErrors (0ms)
->>>>>>> Stashed changes
 				InitializePlatformSupportModulesInManaged (62ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (144ms)
 				ProcessInitializeOnLoadAttributes (1377ms)
 				ProcessInitializeOnLoadMethodAttributes (177ms)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 2.97 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -598,17 +451,10 @@ Total: 3.454500 ms (FindLiveObjects: 0.248750 ms CreateObjectMapping: 0.131750 m
 =======
 Refreshing native plugins compatible for Editor in 2.77 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-=======
-Refreshing native plugins compatible for Editor in 2.77 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
->>>>>>> Stashed changes
 Unloading 4875 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 65 unused Assets / (37.6 KB). Loaded Objects now: 5292.
 Memory consumption went from 317.3 MB to 317.2 MB.
 Total: 3.341375 ms (FindLiveObjects: 0.250250 ms CreateObjectMapping: 0.137666 ms MarkObjects: 2.884042 ms  DeleteObjects: 0.068000 ms)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -675,9 +521,6 @@ Unloading 4875 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 65 unused Assets / (38.2 KB). Loaded Objects now: 5297.
 Memory consumption went from 318.0 MB to 318.0 MB.
 Total: 3.445291 ms (FindLiveObjects: 0.257583 ms CreateObjectMapping: 0.123292 ms MarkObjects: 2.798375 ms  DeleteObjects: 0.265125 ms)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -692,7 +535,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registering precompiled user dll's ...
 Registered in 0.004093 seconds.
@@ -739,17 +581,12 @@ Unloading 64 unused Assets / (23.1 KB). Loaded Objects now: 5297.
 Memory consumption went from 321.8 MB to 321.8 MB.
 Total: 3.472916 ms (FindLiveObjects: 0.294959 ms CreateObjectMapping: 0.139291 ms MarkObjects: 2.981250 ms  DeleteObjects: 0.056292 ms)
 =======
-=======
->>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 12.53 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 64 unused Assets / (23.0 KB). Loaded Objects now: 5298.
 Memory consumption went from 221.4 MB to 221.4 MB.
 Total: 9.398875 ms (FindLiveObjects: 0.370542 ms CreateObjectMapping: 0.124250 ms MarkObjects: 8.837833 ms  DeleteObjects: 0.065166 ms)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
