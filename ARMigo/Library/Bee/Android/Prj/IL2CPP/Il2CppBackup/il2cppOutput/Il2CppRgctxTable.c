@@ -21,9 +21,15 @@ IL2CPP_EXTERN_C_END
 const uint32_t g_rgctx_ARCorePromise_1_Resolve_m37A69BE7188648E09E5A3BD3F8F3E1BE1A57C4F0 = 235;
 const uint32_t g_rgctx_ARCorePromise_1__ctor_m8FAAE77B5E7596D3BCBC5343903F5DB34407837F = 234;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ARCorePromise_1_t1805CA5BC6317A02908907C361BFD7ADB1B44FE5 = 15316;
 const uint32_t g_rgctx_ARCorePromise_1_t39173C769B9641ED7F517E029E150FAD6E0B6D86 = 15317;
 const uint32_t g_rgctx_ARCorePromise_1_t8C67B79F3BE7421243BD4C6A13D209DD1EDF32F6 = 15315;
+=======
+const uint32_t g_rgctx_ARCorePromise_1_t1805CA5BC6317A02908907C361BFD7ADB1B44FE5 = 15317;
+const uint32_t g_rgctx_ARCorePromise_1_t39173C769B9641ED7F517E029E150FAD6E0B6D86 = 15318;
+const uint32_t g_rgctx_ARCorePromise_1_t8C67B79F3BE7421243BD4C6A13D209DD1EDF32F6 = 15316;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ARCorePromise_1_t1805CA5BC6317A02908907C361BFD7ADB1B44FE5 = 15317;
 const uint32_t g_rgctx_ARCorePromise_1_t39173C769B9641ED7F517E029E150FAD6E0B6D86 = 15318;
@@ -61,7 +67,11 @@ const uint32_t g_rgctx_ARTrackable_2_t34A41EA233B11F2502D0992EE6AFCE849FD17D76 =
 const uint32_t g_rgctx_ActionQueryMatcher__ctor_mD0125F259DFA7E13C1636B00E367006B22AAC6E1 = 795;
 const uint32_t g_rgctx_ActionQueryMatcher_get_callBack_m5349D94D60FFAB997B839E8FA3FD609163B050FC = 796;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ActionQueryMatcher_tE86F09AFA3919905FAEF3DE2B691F03E32FC1701 = 15318;
+=======
+const uint32_t g_rgctx_ActionQueryMatcher_tE86F09AFA3919905FAEF3DE2B691F03E32FC1701 = 15319;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ActionQueryMatcher_tE86F09AFA3919905FAEF3DE2B691F03E32FC1701 = 15319;
 >>>>>>> Stashed changes
@@ -77,6 +87,7 @@ const uint32_t g_rgctx_Action_1_Invoke_mD207BC1B3DA843EF8932F60D9A5F70B46DCA862E
 const uint32_t g_rgctx_Action_1__ctor_m350A7A6DFDCAD4E687015C5633B16DED34A86F0F = 806;
 const uint32_t g_rgctx_Action_1__ctor_m5D4DE6984C42AAD6BA6FE2D8FBD1F839050CB78D = 801;
 const uint32_t g_rgctx_Action_1__ctor_m8FA3994DBCE9D10819FAF6FBFFBF53737641B443 = 811;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_Action_1_t2240BB3645E5503F927F7E5D41D0FB527502DBCE = 15322;
 const uint32_t g_rgctx_Action_1_t319B30C0C250095179CB0186D8274BD28256964E = 1091;
@@ -104,13 +115,31 @@ const uint32_t g_rgctx_Action_1_tB4A5977DE92A16771DF5DBBF9284929E67AB5F07 = 1100
 const uint32_t g_rgctx_Action_1_tB8912CBE45C2FFEF1FAC672F7FABF4DD5283D741 = 1092;
 const uint32_t g_rgctx_Action_1_tED35A2C46FDF64B332C1461301A5EB9A86687483 = 15321;
 >>>>>>> Stashed changes
+=======
+const uint32_t g_rgctx_Action_1_t2240BB3645E5503F927F7E5D41D0FB527502DBCE = 15323;
+const uint32_t g_rgctx_Action_1_t319B30C0C250095179CB0186D8274BD28256964E = 1091;
+const uint32_t g_rgctx_Action_1_t4D3400CCC7A0899CF79A7812A39237BA49676E65 = 1094;
+const uint32_t g_rgctx_Action_1_t4EAFE4DF4B7FFF2AB10BB627EA1DEE394EAA6338 = 1089;
+const uint32_t g_rgctx_Action_1_t50C04C2495C30CBC5847493709EB7BDF650F18EC = 15322;
+const uint32_t g_rgctx_Action_1_t52ACB8023D4E8B45F5FE1D92643F781A13327D7A = 15324;
+const uint32_t g_rgctx_Action_1_t5D75BE6B8BD5296208AA4FE7D0865393664F61B7 = 1097;
+const uint32_t g_rgctx_Action_1_t6376CBD339623DBD6CC40C9F00F365E6E59F80BB = 15325;
+const uint32_t g_rgctx_Action_1_t80D55DE3AD8221E0F566C71FCBD9992DAC8FECA3 = 15320;
+const uint32_t g_rgctx_Action_1_tB4A5977DE92A16771DF5DBBF9284929E67AB5F07 = 1100;
+const uint32_t g_rgctx_Action_1_tB8912CBE45C2FFEF1FAC672F7FABF4DD5283D741 = 1092;
+const uint32_t g_rgctx_Action_1_tED35A2C46FDF64B332C1461301A5EB9A86687483 = 15321;
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_Action_2_Invoke_m2BF6F38179AB6D2D912869DADBB2927F1E1DE320 = 877;
 const uint32_t g_rgctx_Action_2_Invoke_m81466D57C8C5C16EE3DFA48564A8CB6AF41B5CDA = 906;
 const uint32_t g_rgctx_Action_2_Invoke_m969D599195458C3D42C44CAE648E93DFBB840700 = 876;
 const uint32_t g_rgctx_Action_2_t483D916A2AEF08FED8E715A7FFCE7ED5F569D970 = 1264;
 const uint32_t g_rgctx_Action_2_tF7AA36EB258601432BAA09A7EC0C3B9433680F32 = 1241;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Action_2_tFCD8307B8F10D97E0C6C51CFE88C1E518346FDEB = 15341;
+=======
+const uint32_t g_rgctx_Action_2_tFCD8307B8F10D97E0C6C51CFE88C1E518346FDEB = 15342;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_Action_2_tFCD8307B8F10D97E0C6C51CFE88C1E518346FDEB = 15342;
 >>>>>>> Stashed changes
@@ -172,8 +201,13 @@ const uint32_t g_rgctx_AnimationDataSet_2_Replace_m5D37AC73332BD332B076D9370ADD8
 const uint32_t g_rgctx_AnimationDataSet_2_get_capacity_m76707DE7CE5BF896A22D5BB2A94042FCB857747A = 920;
 const uint32_t g_rgctx_AnimationDataSet_2_set_capacity_m6AC7A546F193F5BACEDC20EB411A5A0327AF7EBA = 921;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_AnimationDataSet_2_t79E33ECE649108D933CF7F799B59173B73C936AB = 15343;
 const uint32_t g_rgctx_AnimationDataSet_2_tB7C803F058B609B6C3A3720B5C7B6FB199A147D0 = 15344;
+=======
+const uint32_t g_rgctx_AnimationDataSet_2_t79E33ECE649108D933CF7F799B59173B73C936AB = 15344;
+const uint32_t g_rgctx_AnimationDataSet_2_tB7C803F058B609B6C3A3720B5C7B6FB199A147D0 = 15345;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_AnimationDataSet_2_t79E33ECE649108D933CF7F799B59173B73C936AB = 15344;
 const uint32_t g_rgctx_AnimationDataSet_2_tB7C803F058B609B6C3A3720B5C7B6FB199A147D0 = 15345;
@@ -192,10 +226,17 @@ const uint32_t g_rgctx_ArrayPool_1__ctor_m15BEC958B6447E7265BC2EC4A9EEA326CACA85
 const uint32_t g_rgctx_ArrayPool_1_get_Shared_m1992B72A302318B5A74633D26273A877D27EB4EF = 1227;
 const uint32_t g_rgctx_ArrayPool_1_get_Shared_m9C0D9225B1B4FE10A0CE1516772B7623042B2A62 = 1230;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ArrayPool_1_t58F3AC60669102F215C83BF8491B2CFFADF20417 = 15345;
 const uint32_t g_rgctx_ArrayPool_1_t6CA1863E62F89ADA8539D8C539761CF77376DD5E = 1334;
 const uint32_t g_rgctx_ArrayPool_1_t9B79E00CA232D419E87B553DAD20CC5DEFBB6F96 = 15346;
 const uint32_t g_rgctx_ArrayPool_1_tB86E3577012FC8F8E898FAF0B54DA70EFB81913F = 15347;
+=======
+const uint32_t g_rgctx_ArrayPool_1_t58F3AC60669102F215C83BF8491B2CFFADF20417 = 15346;
+const uint32_t g_rgctx_ArrayPool_1_t6CA1863E62F89ADA8539D8C539761CF77376DD5E = 1334;
+const uint32_t g_rgctx_ArrayPool_1_t9B79E00CA232D419E87B553DAD20CC5DEFBB6F96 = 15347;
+const uint32_t g_rgctx_ArrayPool_1_tB86E3577012FC8F8E898FAF0B54DA70EFB81913F = 15348;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ArrayPool_1_t58F3AC60669102F215C83BF8491B2CFFADF20417 = 15346;
 const uint32_t g_rgctx_ArrayPool_1_t6CA1863E62F89ADA8539D8C539761CF77376DD5E = 1334;
@@ -245,17 +286,23 @@ const uint32_t g_rgctx_ArraySortHelper_1__ctor_m8364363797099BD14594FEA960CE8D47
 const uint32_t g_rgctx_ArraySortHelper_1_get_Default_m59FAAD7FCC9F84F6FD70DDBC6FA6DC62A6167614 = 1428;
 const uint32_t g_rgctx_ArraySortHelper_1_get_Default_mB19792F2378C546B0C93A9409992017892880211 = 1425;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ArraySortHelper_1_t0B69B36E8E1F97490E6BE32C23AE1784AB1ADA3A = 15353;
 const uint32_t g_rgctx_ArraySortHelper_1_t12ACD5D4B1FBD05D5754D7AAD19101DE86191AE7 = 1345;
 const uint32_t g_rgctx_ArraySortHelper_1_t8757751A4B4668C1748B2213590AA5D982A43FAD = 15351;
 const uint32_t g_rgctx_ArraySortHelper_1_tC9FB39465C7EEF6DB3E0DE31940E132AE357C89D = 15350;
 const uint32_t g_rgctx_ArraySortHelper_1_tE4EA728EAD87A390078E07004A1A3ECCAEAF00C9 = 15352;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_ArraySortHelper_1_t0B69B36E8E1F97490E6BE32C23AE1784AB1ADA3A = 15354;
 const uint32_t g_rgctx_ArraySortHelper_1_t12ACD5D4B1FBD05D5754D7AAD19101DE86191AE7 = 1345;
 const uint32_t g_rgctx_ArraySortHelper_1_t8757751A4B4668C1748B2213590AA5D982A43FAD = 15352;
 const uint32_t g_rgctx_ArraySortHelper_1_tC9FB39465C7EEF6DB3E0DE31940E132AE357C89D = 15351;
 const uint32_t g_rgctx_ArraySortHelper_1_tE4EA728EAD87A390078E07004A1A3ECCAEAF00C9 = 15353;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_ArraySortHelper_2_DownHeap_m2002E9F82D19BCBD167AD170797158ADB67E1F24 = 2448;
 const uint32_t g_rgctx_ArraySortHelper_2_Heapsort_m7F9B9B85D2CBECA59C0A181629768B62B5AD52E0 = 2449;
@@ -270,7 +317,11 @@ const uint32_t g_rgctx_ArraySortHelper_2__ctor_mC92E5DA8D2E2A30CE9BE47A2D0133384
 const uint32_t g_rgctx_ArraySortHelper_2_get_Default_m2CF3FD59BB1AE36D4F29367E060F13F0C4717EEC = 2446;
 const uint32_t g_rgctx_ArraySortHelper_2_tE8A8BD84B9DFAA4BBC7CEC609355C93A366542A3 = 1347;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ArraySortHelper_2_tF6A422428F79B277990A81F2EB94C7D232446190 = 15354;
+=======
+const uint32_t g_rgctx_ArraySortHelper_2_tF6A422428F79B277990A81F2EB94C7D232446190 = 15355;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ArraySortHelper_2_tF6A422428F79B277990A81F2EB94C7D232446190 = 15355;
 >>>>>>> Stashed changes
@@ -363,7 +414,11 @@ const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_get_Task_m2743D6DA411C78BAE83E32
 const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_get_Task_m37958906EF09500CBE18DDC76BBFB0C4EAB75743 = 2488;
 const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_get_Task_m6552A5FA3588DB3D8AE7119468A60B6A1F7B71EA = 2482;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_t5A0EE3C0F498D5354E5B5E24D3DFBFA09DA93E5A = 15355;
+=======
+const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_t5A0EE3C0F498D5354E5B5E24D3DFBFA09DA93E5A = 15356;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_t5A0EE3C0F498D5354E5B5E24D3DFBFA09DA93E5A = 15356;
 >>>>>>> Stashed changes
@@ -377,7 +432,11 @@ const uint32_t g_rgctx_AsyncValueTaskMethodBuilder_1_SetStateMachine_m21E5013BD2
 const uint32_t g_rgctx_AsyncValueTaskMethodBuilder_1_Start_TisU3CReceiveAsyncPrivateU3Ed__61_2_t9B2ACDA1C8E5691E8DD4BF1273C9C4CCD3FA72B5_mB9A3D2105BF2482FB13FD64DEE4932FDBA6412E2 = 2585;
 const uint32_t g_rgctx_AsyncValueTaskMethodBuilder_1_get_Task_m9A325E1DE7B8209E9ACF7E80227CBEBE24B924BF = 2587;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_AsyncValueTaskMethodBuilder_1_tC7D03AC09F8C7E7C36A09F28FA4C94CA3C346F5F = 15363;
+=======
+const uint32_t g_rgctx_AsyncValueTaskMethodBuilder_1_tC7D03AC09F8C7E7C36A09F28FA4C94CA3C346F5F = 15364;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_AsyncValueTaskMethodBuilder_1_tC7D03AC09F8C7E7C36A09F28FA4C94CA3C346F5F = 15364;
 >>>>>>> Stashed changes
@@ -411,15 +470,21 @@ const uint32_t g_rgctx_BaseField_1_set_value_m359789DA6540AE4A5D436EB62D9DBECB1C
 const uint32_t g_rgctx_BaseField_1_set_value_m3F66C5570472550B426DA408D86721D518FE8EB4 = 2651;
 const uint32_t g_rgctx_BaseField_1_set_visualInput_mED73B8B721088F9511B43268BC3F66E660CFF2F0 = 2630;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_BaseField_1_t123250458FE8E898BA341E32F4C867C5B34FFB17 = 15364;
 const uint32_t g_rgctx_BaseField_1_t27BEA2F97F0C7A9FF775A0C2A7DC9601229341E5 = 15365;
 const uint32_t g_rgctx_BaseField_1_t48D35AFCBED4A86A933EC5C07A4DDFA777730067 = 1371;
 const uint32_t g_rgctx_BaseField_1_tBE7A176FB06F9EA1130F839F62EDF827FC55EABB = 15366;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_BaseField_1_t123250458FE8E898BA341E32F4C867C5B34FFB17 = 15365;
 const uint32_t g_rgctx_BaseField_1_t27BEA2F97F0C7A9FF775A0C2A7DC9601229341E5 = 15366;
 const uint32_t g_rgctx_BaseField_1_t48D35AFCBED4A86A933EC5C07A4DDFA777730067 = 1371;
 const uint32_t g_rgctx_BaseField_1_tBE7A176FB06F9EA1130F839F62EDF827FC55EABB = 15367;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_BaseField_1_tF84D039029306109345547C9D224C9248F0BE37D = 1370;
 const uint32_t g_rgctx_BaseInvokableCall_ThrowOnInvalidArg_TisT1_t4A7981CB01490A2A7DA9FBF2B6226DF5A138F42E_m04E26D717AEDDA5FECFF175AD172D7666F245104 = 33003;
@@ -474,7 +539,11 @@ const uint32_t g_rgctx_BaseSlider_1_set_inputTextField_m186B712F098D83E9BD8F38F1
 const uint32_t g_rgctx_BaseSlider_1_set_lowValue_m963903905FB7EEA1AFAB3A429C93833DE5525C55 = 2809;
 const uint32_t g_rgctx_BaseSlider_1_set_pageSize_mBA3B536216BBEE40B8573B205BA42464B8740160 = 2810;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_BaseSlider_1_tB2507F269BABFDCEB403DEEBE47B93FDB1E72E1B = 15367;
+=======
+const uint32_t g_rgctx_BaseSlider_1_tB2507F269BABFDCEB403DEEBE47B93FDB1E72E1B = 15368;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_BaseSlider_1_tB2507F269BABFDCEB403DEEBE47B93FDB1E72E1B = 15368;
 >>>>>>> Stashed changes
@@ -509,7 +578,11 @@ const uint32_t g_rgctx_BindingList_1_get_SupportsChangeNotificationCore_mA83FE68
 const uint32_t g_rgctx_BindingList_1_get_SupportsSearchingCore_m0D8E9DB17BCB93C33F49A2D9FE38E00F59AE4E6F = 3008;
 const uint32_t g_rgctx_BindingList_1_get_SupportsSortingCore_mCC99BF2F6DB83D0F624FBA035D2907AF5CCC423E = 3009;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_BindingList_1_t20797D38C386BEB15639820023AD07CFB04E8311 = 15370;
+=======
+const uint32_t g_rgctx_BindingList_1_t20797D38C386BEB15639820023AD07CFB04E8311 = 15371;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_BindingList_1_t20797D38C386BEB15639820023AD07CFB04E8311 = 15371;
 >>>>>>> Stashed changes
@@ -518,9 +591,15 @@ const uint32_t g_rgctx_Buffer_1__ctor_m3FB9EADB6600E16BE09444D9398D589EF1181BCF 
 const uint32_t g_rgctx_Buffer_1__ctor_mA99E4505CFF1FED56FB8272A49E274F14DBB6727 = 3072;
 const uint32_t g_rgctx_Buffer_1__ctor_mFC970B5257CDD5F29512BC0CAAE5CB958E6B849A = 3071;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Buffer_1_t2FB4898A41FF3F1E31AEA4758C8EC7FCB2A6D500 = 15372;
 const uint32_t g_rgctx_Buffer_1_t41F8077A5F13608D5270B50E18148B45F5F315C7 = 15373;
 const uint32_t g_rgctx_Buffer_1_tE1DE8755D64B058C0ADA242840D34CF5699C6E71 = 15371;
+=======
+const uint32_t g_rgctx_Buffer_1_t2FB4898A41FF3F1E31AEA4758C8EC7FCB2A6D500 = 15373;
+const uint32_t g_rgctx_Buffer_1_t41F8077A5F13608D5270B50E18148B45F5F315C7 = 15374;
+const uint32_t g_rgctx_Buffer_1_tE1DE8755D64B058C0ADA242840D34CF5699C6E71 = 15372;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_Buffer_1_t2FB4898A41FF3F1E31AEA4758C8EC7FCB2A6D500 = 15373;
 const uint32_t g_rgctx_Buffer_1_t41F8077A5F13608D5270B50E18148B45F5F315C7 = 15374;
@@ -531,8 +610,13 @@ const uint32_t g_rgctx_Buffer_Memmove_TisT_tE7A3A53452487AB9BCB918AC1C5A795CF215
 const uint32_t g_rgctx_ByReference_1__ctor_m7DB3E90CB374AFEAB2D7A58B578DA955E1F0264C = 3079;
 const uint32_t g_rgctx_ByReference_1__ctor_mB1D92E921C6FCC9E5DD22F9155EBDE0D88ED075B = 3080;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ByReference_1_t0406BB766E677461DCC5925EF17213FDDADDEDC3 = 15374;
 const uint32_t g_rgctx_ByReference_1_tFCBE8142DC873CCF212E11FCC70F3A1D749B2F21 = 15375;
+=======
+const uint32_t g_rgctx_ByReference_1_t0406BB766E677461DCC5925EF17213FDDADDEDC3 = 15375;
+const uint32_t g_rgctx_ByReference_1_tFCBE8142DC873CCF212E11FCC70F3A1D749B2F21 = 15376;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ByReference_1_t0406BB766E677461DCC5925EF17213FDDADDEDC3 = 15375;
 const uint32_t g_rgctx_ByReference_1_tFCBE8142DC873CCF212E11FCC70F3A1D749B2F21 = 15376;
@@ -545,8 +629,13 @@ const uint32_t g_rgctx_CallbackStorage_1_get_Result_mBB7B9B4DB0B9E1EFFCA683DE4A2
 const uint32_t g_rgctx_CallbackStorage_1_set_Exception_m887533D3C7F42085737117EC2DCDA1F3D43E234A = 3108;
 const uint32_t g_rgctx_CallbackStorage_1_set_Result_mCBDDA466301919AA366AF37B49667BE362006858 = 3109;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_CallbackStorage_1_t2B132D5758BCF811DDA857C86DBC66C659EB4468 = 15381;
 const uint32_t g_rgctx_CallbackStorage_1_tB18F32E2253122C593C3C978F0DD0F29292E6CAD = 15380;
+=======
+const uint32_t g_rgctx_CallbackStorage_1_t2B132D5758BCF811DDA857C86DBC66C659EB4468 = 15382;
+const uint32_t g_rgctx_CallbackStorage_1_tB18F32E2253122C593C3C978F0DD0F29292E6CAD = 15381;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_CallbackStorage_1_t2B132D5758BCF811DDA857C86DBC66C659EB4468 = 15382;
 const uint32_t g_rgctx_CallbackStorage_1_tB18F32E2253122C593C3C978F0DD0F29292E6CAD = 15381;
@@ -556,7 +645,11 @@ const uint32_t g_rgctx_ChangeEvent_1_LocalInit_mBA27E6C7885CC8DDAEA3B13122C0A21A
 const uint32_t g_rgctx_ChangeEvent_1_set_newValue_m8D1F17A9C1E173E91B27AA77D7DD43A912D166B5 = 3122;
 const uint32_t g_rgctx_ChangeEvent_1_set_previousValue_m9A79FB268213642770F6796D85C3784EF7DAFD55 = 3123;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ChangeEvent_1_t12ABA5C05D3E179B5679DA8D782F7000E94DF3C4 = 15382;
+=======
+const uint32_t g_rgctx_ChangeEvent_1_t12ABA5C05D3E179B5679DA8D782F7000E94DF3C4 = 15383;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ChangeEvent_1_t12ABA5C05D3E179B5679DA8D782F7000E94DF3C4 = 15383;
 >>>>>>> Stashed changes
@@ -575,7 +668,11 @@ const uint32_t g_rgctx_ClampedDragger_1_set_startMousePosition_m8C682ABDC3DE8EDD
 const uint32_t g_rgctx_ClampedDragger_1_t8943A160CF05EA319D3001BF2C859367CB7D4F78 = 1396;
 const uint32_t g_rgctx_CollectionExtensions_GetValueOrDefault_TisTKey_t952C588BE4043C2D0018DE9FB71B8D8B17AF6C33_TisTValue_t32F9250AF8A344D30C507C913516F1347F27E84C_mB4BBBAFB33E77F45A8ED4C9776D781AA88B86D75 = 33036;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_CollectionPool_2_tBED14C57FCB68DB76BF3F96F4FB125E03B25076A = 15383;
+=======
+const uint32_t g_rgctx_CollectionPool_2_tBED14C57FCB68DB76BF3F96F4FB125E03B25076A = 15384;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_CollectionPool_2_tBED14C57FCB68DB76BF3F96F4FB125E03B25076A = 15384;
 >>>>>>> Stashed changes
@@ -603,7 +700,11 @@ const uint32_t g_rgctx_Collection_1_get_Item_mA38318A8192E8F46B52E477487F30D35D3
 const uint32_t g_rgctx_Collection_1_get_Items_m9687BD4F05A4ED82824E90F16F8F80B0D000FFBD = 3259;
 const uint32_t g_rgctx_Collection_1_set_Item_mDCCA9D839454C202363BC5BEF89C1B76129210CD = 3272;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Collection_1_t626BB25CCB7123184F719CBB144D08CF916BD0E6 = 15394;
+=======
+const uint32_t g_rgctx_Collection_1_t626BB25CCB7123184F719CBB144D08CF916BD0E6 = 15395;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_Collection_1_t626BB25CCB7123184F719CBB144D08CF916BD0E6 = 15395;
 >>>>>>> Stashed changes
@@ -659,6 +760,7 @@ const uint32_t g_rgctx_Comparer_1_get_Default_mE681CE2E4CAD7274AEE595305FDF2D1A3
 const uint32_t g_rgctx_Comparer_1_get_Default_mED42098088A53967F4B71766A303C109B0EB58C4 = 3365;
 const uint32_t g_rgctx_Comparer_1_get_Default_mEFA93ED520F2988F8F5A2A1251068851899A1880 = 3330;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Comparer_1_t03C338EE91732192E2CF58A1E96DCDC5CE1AA47B = 15402;
 const uint32_t g_rgctx_Comparer_1_t05930316C99AB50EC343359F3B8840EEADD7452B = 15403;
 const uint32_t g_rgctx_Comparer_1_t191B6231F15AAE9A42377A90D19C76C50846AD8A = 15411;
@@ -686,6 +788,8 @@ const uint32_t g_rgctx_Comparer_1_tDC6EE7AA0E6837D4A099D291AEC559711AACB517 = 15
 const uint32_t g_rgctx_Comparer_1_tDED2D4DDD640CF5D52F054BE8B7F917DA37948CA = 15412;
 const uint32_t g_rgctx_Comparer_1_tE4758FC47C5727AC56367A5A42781CA9BD3CC357 = 15417;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_Comparer_1_t03C338EE91732192E2CF58A1E96DCDC5CE1AA47B = 15403;
 const uint32_t g_rgctx_Comparer_1_t05930316C99AB50EC343359F3B8840EEADD7452B = 15404;
 const uint32_t g_rgctx_Comparer_1_t191B6231F15AAE9A42377A90D19C76C50846AD8A = 15412;
@@ -712,6 +816,9 @@ const uint32_t g_rgctx_Comparer_1_tDBCFA1A5EE729A22758C0375C70EC0F65B7C0ECD = 15
 const uint32_t g_rgctx_Comparer_1_tDC6EE7AA0E6837D4A099D291AEC559711AACB517 = 15415;
 const uint32_t g_rgctx_Comparer_1_tDED2D4DDD640CF5D52F054BE8B7F917DA37948CA = 15413;
 const uint32_t g_rgctx_Comparer_1_tE4758FC47C5727AC56367A5A42781CA9BD3CC357 = 15418;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_Comparer_1_tEA3BE62D7749A144D20DFEE578A40482BED26EDE = 1409;
 const uint32_t g_rgctx_Comparison_1_Invoke_m9EBA24AF90B80DC6C8C18665AB859E14C5AB6E84 = 3652;
@@ -769,7 +876,11 @@ const uint32_t g_rgctx_ConcurrentDictionary_2_get_DefaultConcurrencyLevel_m0A14C
 const uint32_t g_rgctx_ConcurrentDictionary_2_set_Item_m013F1ABE8308A484537FC58DD29B99812A3DF90D = 3814;
 const uint32_t g_rgctx_ConcurrentDictionary_2_t8F3DD50D9ADA6B4679524583AAD008C0A76AAE21 = 1425;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ConcurrentDictionary_2_tCE219B37DABA4B7F6DCCC9F2EF997532205D9242 = 15430;
+=======
+const uint32_t g_rgctx_ConcurrentDictionary_2_tCE219B37DABA4B7F6DCCC9F2EF997532205D9242 = 15431;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ConcurrentDictionary_2_tCE219B37DABA4B7F6DCCC9F2EF997532205D9242 = 15431;
 >>>>>>> Stashed changes
@@ -781,7 +892,11 @@ const uint32_t g_rgctx_ConditionalWeakTable_2_Rehash_mDCE50986E35D2480486639D66C
 const uint32_t g_rgctx_ConditionalWeakTable_2_TryGetValue_m7C7469868CDA18852E0CE7B16D8E0FD4CDAA7DD5 = 3881;
 const uint32_t g_rgctx_ConditionalWeakTable_2__ctor_m2C7D8C8F5567BECB0DD3A0D53C5F0E10373867E6 = 3882;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ConditionalWeakTable_2_t140CE464FCAC5FCC0E5E4820F57D26DEBCB6DB6D = 15436;
+=======
+const uint32_t g_rgctx_ConditionalWeakTable_2_t140CE464FCAC5FCC0E5E4820F57D26DEBCB6DB6D = 15437;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ConditionalWeakTable_2_t140CE464FCAC5FCC0E5E4820F57D26DEBCB6DB6D = 15437;
 >>>>>>> Stashed changes
@@ -797,11 +912,19 @@ const uint32_t g_rgctx_ConfiguredValueTaskAwaiter__ctor_m1372417B09C0FD4BDAFB6E7
 const uint32_t g_rgctx_ConfiguredValueTaskAwaiter_t65BFC62646A30F976AA86ECBC7549B7FFFA89017 = 1453;
 const uint32_t g_rgctx_ContinuationResultTaskFromResultTask_2__ctor_m979875B7BBFCB6B065A354007622EC7E6A9A27AF = 3949;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ContinuationResultTaskFromResultTask_2_t7F07F1D876CBC75689049B7906B798FC34D3A42E = 15443;
 const uint32_t g_rgctx_ContinuationResultTaskFromTask_1__ctor_m548FC592F1BC1A7684515E784E6CF3D60B8BBC8D = 3954;
 const uint32_t g_rgctx_ContinuationResultTaskFromTask_1_tFC5E5AB0CA967261B2767B2090D9FC5DF641E134 = 15444;
 const uint32_t g_rgctx_ContinuationTaskFromResultTask_1__ctor_m937ECB8121D342554B6DB884CB91EF1668CB3AF0 = 3957;
 const uint32_t g_rgctx_ContinuationTaskFromResultTask_1_t0DB8A35785076742F46FDFC58428DDEBD038851E = 15445;
+=======
+const uint32_t g_rgctx_ContinuationResultTaskFromResultTask_2_t7F07F1D876CBC75689049B7906B798FC34D3A42E = 15444;
+const uint32_t g_rgctx_ContinuationResultTaskFromTask_1__ctor_m548FC592F1BC1A7684515E784E6CF3D60B8BBC8D = 3954;
+const uint32_t g_rgctx_ContinuationResultTaskFromTask_1_tFC5E5AB0CA967261B2767B2090D9FC5DF641E134 = 15445;
+const uint32_t g_rgctx_ContinuationTaskFromResultTask_1__ctor_m937ECB8121D342554B6DB884CB91EF1668CB3AF0 = 3957;
+const uint32_t g_rgctx_ContinuationTaskFromResultTask_1_t0DB8A35785076742F46FDFC58428DDEBD038851E = 15446;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ContinuationResultTaskFromResultTask_2_t7F07F1D876CBC75689049B7906B798FC34D3A42E = 15444;
 const uint32_t g_rgctx_ContinuationResultTaskFromTask_1__ctor_m548FC592F1BC1A7684515E784E6CF3D60B8BBC8D = 3954;
@@ -826,6 +949,7 @@ const uint32_t g_rgctx_DataSet_1_get_disposed_mB755ACF77D7E170DE4DB75AF9FE0831C0
 const uint32_t g_rgctx_DataSet_1_set_disposed_m73654E13E7E8B74B705996B21AD55A1BA98E61B5 = 4009;
 const uint32_t g_rgctx_DefaultComparer_1__ctor_mB57A0837C186C4730EE801A802D6ED59A2147E21 = 4032;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_DefaultComparer_1_tBDB6D292A75D3357FBF86DA0C3E8326CB8131D48 = 15449;
 const uint32_t g_rgctx_DelegateEnumerator__ctor_m8658160B0C3C112EBC88183FCAE4E1EECEC7CFB6 = 4039;
 const uint32_t g_rgctx_DelegateEnumerator_t9E2504575578315FE5496F90CA823EC86AF3C2C8 = 15450;
@@ -833,12 +957,17 @@ const uint32_t g_rgctx_DictionaryEnumerator__ctor_m2D7274AAAA71B64494E20087281D9
 const uint32_t g_rgctx_DictionaryEnumerator_get_Entry_mEF1B7BE332DE4D12075B088AD0B1C991BA82B190 = 4045;
 const uint32_t g_rgctx_DictionaryEnumerator_t16B15F880BE73207F1E38324752EDD2D481052E8 = 15451;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_DefaultComparer_1_tBDB6D292A75D3357FBF86DA0C3E8326CB8131D48 = 15450;
 const uint32_t g_rgctx_DelegateEnumerator__ctor_m8658160B0C3C112EBC88183FCAE4E1EECEC7CFB6 = 4039;
 const uint32_t g_rgctx_DelegateEnumerator_t9E2504575578315FE5496F90CA823EC86AF3C2C8 = 15451;
 const uint32_t g_rgctx_DictionaryEnumerator__ctor_m2D7274AAAA71B64494E20087281D9CEF4679D816 = 4044;
 const uint32_t g_rgctx_DictionaryEnumerator_get_Entry_mEF1B7BE332DE4D12075B088AD0B1C991BA82B190 = 4045;
 const uint32_t g_rgctx_DictionaryEnumerator_t16B15F880BE73207F1E38324752EDD2D481052E8 = 15452;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_Dictionary_2_Add_m11F68D8B6ADA0C4DB940A648967A8BC846743D2B = 4085;
 const uint32_t g_rgctx_Dictionary_2_Add_m3509210C16CB640337DC3974CE4538B25DE5FA57 = 4063;
@@ -908,6 +1037,7 @@ const uint32_t g_rgctx_Dictionary_2_set_Item_mCFAD04902D52254697D3EC7ACAFE3AACC3
 const uint32_t g_rgctx_Dictionary_2_set_Item_mF7AB370F40372FD2A8EC604B294E0E7B76728BB5 = 4109;
 const uint32_t g_rgctx_Dictionary_2_t0349E7B9D2AA20E036C221FDCB55D362C2202EE5 = 1517;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Dictionary_2_t0E0EF2BD480BBE4ADF02DE87BCFA7952D6194AEC = 15456;
 const uint32_t g_rgctx_Dictionary_2_t39EBEBAC4203CE03DD147D0DC5F0E28E0CB9C0AA = 1484;
 const uint32_t g_rgctx_Dictionary_2_t431951836B209F223B165C7544BA98E50DBE289F = 1518;
@@ -921,6 +1051,8 @@ const uint32_t g_rgctx_Dictionary_2_t6A29222450E394E5E78C6F662CF6A00442634F2B = 
 const uint32_t g_rgctx_Dictionary_2_t79D760AB6F7C618D9201DEBE364C082BA61D800D = 1644;
 const uint32_t g_rgctx_Dictionary_2_tC493ECF7C358FCAA01D72A3302D331A24BF4C46B = 15557;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_Dictionary_2_t0E0EF2BD480BBE4ADF02DE87BCFA7952D6194AEC = 15457;
 const uint32_t g_rgctx_Dictionary_2_t39EBEBAC4203CE03DD147D0DC5F0E28E0CB9C0AA = 1484;
 const uint32_t g_rgctx_Dictionary_2_t431951836B209F223B165C7544BA98E50DBE289F = 1518;
@@ -933,6 +1065,9 @@ const uint32_t g_rgctx_Dictionary_2_t553EA056C4435F165EBF046EEDF34553C7FDBBF3 = 
 const uint32_t g_rgctx_Dictionary_2_t6A29222450E394E5E78C6F662CF6A00442634F2B = 15456;
 const uint32_t g_rgctx_Dictionary_2_t79D760AB6F7C618D9201DEBE364C082BA61D800D = 1644;
 const uint32_t g_rgctx_Dictionary_2_tC493ECF7C358FCAA01D72A3302D331A24BF4C46B = 15558;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_Dictionary_2_tD9D27D8E137F045B3B6DAB613B8BA5A7F6508E88 = 1482;
 const uint32_t g_rgctx_Dictionary_2_tEDB58724972B503DE02343B62D95FD5B0F94AD55 = 1584;
@@ -955,6 +1090,7 @@ const uint32_t g_rgctx_DynamicHeightVirtualizationController_1_U3C_ctorU3Eb__13_
 const uint32_t g_rgctx_DynamicHeightVirtualizationController_1_UnregisterItemHeight_mCB58D56A9B662E7768A35B8E1472277B728FE562 = 6230;
 const uint32_t g_rgctx_DynamicHeightVirtualizationController_1_UpdateScrollViewContainer_mC0EB806EDEC9D927389325F60FD25571D655929B = 6231;
 const uint32_t g_rgctx_DynamicHeightVirtualizationController_1__ctor_mF5F8E88F0E63BEB784E3658C5004AB07717952DA = 6218;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_DynamicHeightVirtualizationController_1_tCA11D53986917D6434F99FBACC5189E87115C294 = 15585;
 const uint32_t g_rgctx_DynamicHeightVirtualizationController_1_tE0B78865B79F7517B62AFE35417CBBA9ABD01943 = 15584;
@@ -981,10 +1117,25 @@ const uint32_t g_rgctx_EmptyEnumerable_1_t903C1B1D5A3723EB325CD99884D858F929D989
 const uint32_t g_rgctx_EmptyEnumerable_1_tBEA703373DB0C1A396E4DDFD110D9A5402BB0182 = 15595;
 const uint32_t g_rgctx_EmptyInternalEnumerator_1__ctor_m4D86BC30D549079814D7864592D23575DB4DA2EB = 6289;
 const uint32_t g_rgctx_EmptyInternalEnumerator_1_get_Current_m311AB380868B9B04F4B5301EE6007F184CEC0EDF = 6290;
+=======
+const uint32_t g_rgctx_DynamicHeightVirtualizationController_1_tCA11D53986917D6434F99FBACC5189E87115C294 = 15586;
+const uint32_t g_rgctx_DynamicHeightVirtualizationController_1_tE0B78865B79F7517B62AFE35417CBBA9ABD01943 = 15585;
+const uint32_t g_rgctx_EmptyArray_1_t7D15424552F129E9D336AD0A7583608582B60D1D = 15587;
+const uint32_t g_rgctx_EmptyArray_1_t8EC9BC17D762E8D74C827890ED88E5D413259415 = 15588;
+const uint32_t g_rgctx_EmptyData_tBF05F316258A43C97B0765D2FD393202D1B093FA = 15594;
+const uint32_t g_rgctx_EmptyData_tE66C63479DF15FAB64B79E894D1FB05044739318 = 1685;
+const uint32_t g_rgctx_EmptyEnumerable_1_t903C1B1D5A3723EB325CD99884D858F929D989D3 = 15596;
+const uint32_t g_rgctx_EmptyEnumerable_1_tBEA703373DB0C1A396E4DDFD110D9A5402BB0182 = 15595;
+const uint32_t g_rgctx_EmptyInternalEnumerator_1__ctor_m4D86BC30D549079814D7864592D23575DB4DA2EB = 6289;
+const uint32_t g_rgctx_EmptyInternalEnumerator_1_get_Current_m311AB380868B9B04F4B5301EE6007F184CEC0EDF = 6290;
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_EmptyInternalEnumerator_1_t0AA3B29EE3D70FE9E6DF6E99BC1064FEF5E3FFE9 = 15598;
 const uint32_t g_rgctx_EmptyInternalEnumerator_1_t8E9C13C5C2704D617B772AB0D960E5A4F847C0E3 = 15597;
 const uint32_t g_rgctx_EntryU5BU5D_t48A95CE95517C9F4A14602D9F4D45A45B86B6686 = 16370;
 const uint32_t g_rgctx_EntryU5BU5D_tED7A24C8B579D349B5693977271045DCF46A2A7B = 16369;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_Entry__ctor_m459B295C599AD825F76764B993C3EFA12FAAFFBC = 8720;
 const uint32_t g_rgctx_Entry_tE30585FCAD8FDF4FD717C214CEF62F1357050A71 = 1701;
@@ -993,7 +1144,11 @@ const uint32_t g_rgctx_EnumEqualityComparer_1__ctor_m16F12484363735900ADA825A2BF
 const uint32_t g_rgctx_EnumEqualityComparer_1_t04EE3B44A4B0901C8BCCAFB634C119C138A1B679 = 1744;
 const uint32_t g_rgctx_EnumEqualityComparer_1_t425C814E73E5D99945E87FBC5CA72EE015861793 = 1745;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_EnumEqualityComparer_1_t6574FE96BD181D89000469235AC0CDE98627EF2B = 15598;
+=======
+const uint32_t g_rgctx_EnumEqualityComparer_1_t6574FE96BD181D89000469235AC0CDE98627EF2B = 15599;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_EnumEqualityComparer_1_t6574FE96BD181D89000469235AC0CDE98627EF2B = 15599;
 >>>>>>> Stashed changes
@@ -1007,10 +1162,17 @@ const uint32_t g_rgctx_EnumerableSorter_1_Sort_m82301704DAE9F05F1C2681B4E735E04B
 const uint32_t g_rgctx_EnumerableSorter_1__ctor_mFF96BE3E2A79A8BC38E1A650D9434EA57297BF46 = 8750;
 const uint32_t g_rgctx_EnumerableSorter_1_t053F2BD859874727D1E461B965976B49B4A173C7 = 1746;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_EnumerableSorter_1_tA62734D066C60347DFE7A135B5958DFFCF9E8C51 = 15600;
 const uint32_t g_rgctx_EnumerableSorter_1_tBB9ADD7C21E31739D9683D99CFF9DC117D8BAB11 = 15599;
 const uint32_t g_rgctx_EnumerableSorter_2__ctor_m18A2FE6C6F5054713B98012F0E2CD0B5DB7C20BE = 8762;
 const uint32_t g_rgctx_EnumerableSorter_2_t8479B5254E2828D3550EA1B532B05EDB1B1215D6 = 15601;
+=======
+const uint32_t g_rgctx_EnumerableSorter_1_tA62734D066C60347DFE7A135B5958DFFCF9E8C51 = 15601;
+const uint32_t g_rgctx_EnumerableSorter_1_tBB9ADD7C21E31739D9683D99CFF9DC117D8BAB11 = 15600;
+const uint32_t g_rgctx_EnumerableSorter_2__ctor_m18A2FE6C6F5054713B98012F0E2CD0B5DB7C20BE = 8762;
+const uint32_t g_rgctx_EnumerableSorter_2_t8479B5254E2828D3550EA1B532B05EDB1B1215D6 = 15602;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_EnumerableSorter_1_tA62734D066C60347DFE7A135B5958DFFCF9E8C51 = 15601;
 const uint32_t g_rgctx_EnumerableSorter_1_tBB9ADD7C21E31739D9683D99CFF9DC117D8BAB11 = 15600;
@@ -1093,6 +1255,7 @@ const uint32_t g_rgctx_Enumerator_get_Current_mECA8768B7E557BD973D43608595A923FE
 const uint32_t g_rgctx_Enumerator_get_Current_mEEDE803888857A797BECACCF53EBD80C2AF01218 = 8831;
 const uint32_t g_rgctx_Enumerator_get_Current_mF9039261AAB336D4BB16CEB6C7285316E0950C6E = 8811;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Enumerator_t10F321F0F249396F101395FF9754641F919E1F48 = 15605;
 const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_t10F321F0F249396F101395FF9754641F919E1F48_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {15605,1610616393};
 const uint32_t g_rgctx_Enumerator_t1346215E738D72F515555CF84BCEBC664757A9A9 = 15603;
@@ -1109,6 +1272,8 @@ const uint32_t g_rgctx_Enumerator_t571D4E0F8C44D05FE8EA382D22F95DBFDE066785 = 15
 const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_t571D4E0F8C44D05FE8EA382D22F95DBFDE066785_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {15602,1610616393};
 const uint32_t g_rgctx_Enumerator_t6909F21E05B290BE40805B8A5845E4FD888195A1 = 15606;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_Enumerator_t10F321F0F249396F101395FF9754641F919E1F48 = 15606;
 const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_t10F321F0F249396F101395FF9754641F919E1F48_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {15606,1610616393};
 const uint32_t g_rgctx_Enumerator_t1346215E738D72F515555CF84BCEBC664757A9A9 = 15604;
@@ -1124,11 +1289,15 @@ const uint32_t g_rgctx_Enumerator_t4982EA6BF5A270D5544CF8876DE60B125EDF8FB9 = 17
 const uint32_t g_rgctx_Enumerator_t571D4E0F8C44D05FE8EA382D22F95DBFDE066785 = 15603;
 const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_t571D4E0F8C44D05FE8EA382D22F95DBFDE066785_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {15603,1610616393};
 const uint32_t g_rgctx_Enumerator_t6909F21E05B290BE40805B8A5845E4FD888195A1 = 15607;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_Enumerator_t6A70F87CCB5A7CBE666E84E0E30D9338EAA3227D = 1759;
 const uint32_t g_rgctx_Enumerator_t7146C2A5CF84D25AB4C4DF3CD143942C4C68B306 = 1757;
 const uint32_t g_rgctx_Enumerator_t746354E328539F63F7EFAE074676F73D2932F218 = 1760;
 const uint32_t g_rgctx_Enumerator_t82440D780591BF278D7D247E299FBB6BA82EFC94 = 1752;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_Enumerator_t830646EFE3C118AB1C95EA23A0559718743CE1B1 = 15614;
 const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_t830646EFE3C118AB1C95EA23A0559718743CE1B1_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {15614,1610616393};
@@ -1148,6 +1317,26 @@ const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_tC7AF2796C161CC547092AF82B19
 const uint32_t g_rgctx_Enumerator_tE2EF59F915D6B7F2A37C947360340D614063ACE2 = 1754;
 const uint32_t g_rgctx_Enumerator_tEDB6085E659207F6EFE01B3DA399B2C92C4F2437 = 15609;
 const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_tEDB6085E659207F6EFE01B3DA399B2C92C4F2437_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {15609,1610616393};
+=======
+const uint32_t g_rgctx_Enumerator_t830646EFE3C118AB1C95EA23A0559718743CE1B1 = 15615;
+const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_t830646EFE3C118AB1C95EA23A0559718743CE1B1_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {15615,1610616393};
+const uint32_t g_rgctx_Enumerator_t95EA745781BCCF798D9EFFE1A0E070FBFC471F8F = 1755;
+const uint32_t g_rgctx_Enumerator_t9BC9D2BE17925FAE2A0CF674750116E329D656E0 = 1756;
+const uint32_t g_rgctx_Enumerator_tB04B808AE2767096E19AC62EE5BF84713A38D432 = 1774;
+const uint32_t g_rgctx_Enumerator_tB19D46B40EC775D8EBAD1F019FB1BC10822C8ECA = 15605;
+const uint32_t g_rgctx_Enumerator_tB97DA7EC1CF5D2C0E4402389FF02F36A057755C1 = 1772;
+const uint32_t g_rgctx_Enumerator_tB98D43ED590A0A30F8D3B8D1A342596EA171D2FE = 15613;
+const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_tB98D43ED590A0A30F8D3B8D1A342596EA171D2FE_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {15613,1610616393};
+const uint32_t g_rgctx_Enumerator_tBE254E298B61F79FF8DCFED3B0F5801A631DB0C7 = 15612;
+const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_tBE254E298B61F79FF8DCFED3B0F5801A631DB0C7_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {15612,1610616393};
+const uint32_t g_rgctx_Enumerator_tC2736CC8B25AD4EB46B9BD4ADC98BF26C78AE22D = 15608;
+const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_tC2736CC8B25AD4EB46B9BD4ADC98BF26C78AE22D_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {15608,1610616393};
+const uint32_t g_rgctx_Enumerator_tC7AF2796C161CC547092AF82B19F7115620DF374 = 15611;
+const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_tC7AF2796C161CC547092AF82B19F7115620DF374_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {15611,1610616393};
+const uint32_t g_rgctx_Enumerator_tE2EF59F915D6B7F2A37C947360340D614063ACE2 = 1754;
+const uint32_t g_rgctx_Enumerator_tEDB6085E659207F6EFE01B3DA399B2C92C4F2437 = 15610;
+const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_tEDB6085E659207F6EFE01B3DA399B2C92C4F2437_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {15610,1610616393};
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_Enumerator_t830646EFE3C118AB1C95EA23A0559718743CE1B1 = 15615;
 const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_t830646EFE3C118AB1C95EA23A0559718743CE1B1_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {15615,1610616393};
@@ -1248,6 +1437,7 @@ const uint32_t g_rgctx_EqualityComparer_1_get_Default_mE7AF3D0C0164EDB63731B0224
 const uint32_t g_rgctx_EqualityComparer_1_get_Default_mE82F170302E1DA99A2944801AD9A2DFC2F663119 = 10816;
 const uint32_t g_rgctx_EqualityComparer_1_get_Default_mF47ECCF0CF19E72C2D80282FA8FFCC2BBFC83963 = 10838;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_EqualityComparer_1_t0A97056FB9DAAF5FD6C7ED54906FF1D95D3B49E8 = 15643;
 const uint32_t g_rgctx_EqualityComparer_1_t14603EC286E545871DBAFE420F727664FCF0AA0B = 15627;
 const uint32_t g_rgctx_EqualityComparer_1_t16DC3A986FF18080A3A9026832B36B1B4C962EBD = 15639;
@@ -1335,12 +1525,57 @@ const uint32_t g_rgctx_EqualityComparer_1_tB41DE5618C6DD17A231621C444C347D853DA1
 const uint32_t g_rgctx_EqualityComparer_1_tB591EDFA210FC53537195BD42F622B75DA3E144C = 15651;
 const uint32_t g_rgctx_EqualityComparer_1_tC6E45643C0BEC59672E17FFF0B7F787336CFB85F = 15655;
 const uint32_t g_rgctx_EqualityComparer_1_tCBB04A1F58879783AD30198235ABCBD5B00D7139 = 1786;
+=======
+const uint32_t g_rgctx_EqualityComparer_1_t0A97056FB9DAAF5FD6C7ED54906FF1D95D3B49E8 = 15644;
+const uint32_t g_rgctx_EqualityComparer_1_t14603EC286E545871DBAFE420F727664FCF0AA0B = 15628;
+const uint32_t g_rgctx_EqualityComparer_1_t16DC3A986FF18080A3A9026832B36B1B4C962EBD = 15640;
+const uint32_t g_rgctx_EqualityComparer_1_t177B3B15E94DBAA6D27ABCE44B3D0FBD8D938C3C = 15629;
+const uint32_t g_rgctx_EqualityComparer_1_t1CE34497564C3DC665E7ED077295CABCF9D666AF = 1785;
+const uint32_t g_rgctx_EqualityComparer_1_t2518B2C52ED042C60A0DECB7042B9A8762219470 = 15637;
+const uint32_t g_rgctx_EqualityComparer_1_t2C9B91CB3366630F8761A3EE0C1F3B7E42C939D9 = 15638;
+const uint32_t g_rgctx_EqualityComparer_1_t305DAB935E4F423FAC4EF15B87E5CB8DD037B594 = 15627;
+const uint32_t g_rgctx_EqualityComparer_1_t30A063E309698CFB4905BFFBEFA75F66E96E8E07 = 15636;
+const uint32_t g_rgctx_EqualityComparer_1_t3844F0958F7BBEEBA91D4C6477F03606A6CDB6E6 = 15635;
+const uint32_t g_rgctx_EqualityComparer_1_t392B3893C4126DDA49A6D8C4161C74BC1ECB9674 = 15631;
+const uint32_t g_rgctx_EqualityComparer_1_t3CF807D9A767ECA316713993B18A57A2AE974E56 = 15648;
+const uint32_t g_rgctx_EqualityComparer_1_t3D6F7E3583AAB823BB9443692959A8F14EF35ED6 = 15623;
+const uint32_t g_rgctx_EqualityComparer_1_t409F3BF2EBB7D66AF1F6A6EDC671E04CAD6EAD1B = 15643;
+const uint32_t g_rgctx_EqualityComparer_1_t43F4486E799BEA95EBDC3993411C9BAA8B77965E = 1787;
+const uint32_t g_rgctx_EqualityComparer_1_t4EAE7759FA2EB7A0A202DBE25EDFA691A82CBB13 = 15625;
+const uint32_t g_rgctx_EqualityComparer_1_t4EBC7A4B3B3BDB0815A02F5275C8FBED03864E80 = 1781;
+const uint32_t g_rgctx_EqualityComparer_1_t50AFAF55FA8B7AEB3C4B5BF1BA4F0442421F49F4 = 15652;
+const uint32_t g_rgctx_EqualityComparer_1_t51313E814C764BEACB0636BDD464EE3FA68C49C6 = 15619;
+const uint32_t g_rgctx_EqualityComparer_1_t58DFF5896F8FFFDA4F1B9C10F447276BC6D99C00 = 15646;
+const uint32_t g_rgctx_EqualityComparer_1_t62EF5A718E6063187787BDA7A521510BDE6FA3E4 = 15653;
+const uint32_t g_rgctx_EqualityComparer_1_t714E10C1A2B69926FE196946752AD5C70F445597 = 15642;
+const uint32_t g_rgctx_EqualityComparer_1_t74A0022CAE5229142E9D81D959ED4900EA242C67 = 15650;
+const uint32_t g_rgctx_EqualityComparer_1_t753D86B02A9708789A9B65A7E407E6721788E8C4 = 15632;
+const uint32_t g_rgctx_EqualityComparer_1_t8049F3B2E0002E5E6FA822673CC4AE7E308B535E = 15633;
+const uint32_t g_rgctx_EqualityComparer_1_t84DC958FF251CF642834642E8690A737CD9FA591 = 15621;
+const uint32_t g_rgctx_EqualityComparer_1_t89C67F98F26A88873365189F0F4594F50C5DD4DD = 15634;
+const uint32_t g_rgctx_EqualityComparer_1_t8A49ED98622E57236D5933C21A71E173A298D283 = 15626;
+const uint32_t g_rgctx_EqualityComparer_1_t9474A1064B4BFC3B3BFC479A000445F508EE37A2 = 1784;
+const uint32_t g_rgctx_EqualityComparer_1_t9730C4F2BC17919C46B2F291B227C8A45D528241 = 15639;
+const uint32_t g_rgctx_EqualityComparer_1_t98561A291AD1CA165F244E1BBCCAB3DE0F2B128B = 15622;
+const uint32_t g_rgctx_EqualityComparer_1_t9DE31D6E18DF4C826AE537ECAF6CFB961010C965 = 15656;
+const uint32_t g_rgctx_EqualityComparer_1_tA92C494AB5C46DEA98BA85C8D159164AC16250FC = 15624;
+const uint32_t g_rgctx_EqualityComparer_1_tA96567156D027DA41596C9CA1C5DEAB0CDEE6C60 = 15630;
+const uint32_t g_rgctx_EqualityComparer_1_tAA726A9845C6131E4CF184F8E9EB362526CE9E30 = 15645;
+const uint32_t g_rgctx_EqualityComparer_1_tAE2F134426705B9C41DA4DAC2C3EA340D56F8F9B = 15641;
+const uint32_t g_rgctx_EqualityComparer_1_tB41DE5618C6DD17A231621C444C347D853DA1003 = 1782;
+const uint32_t g_rgctx_EqualityComparer_1_tB591EDFA210FC53537195BD42F622B75DA3E144C = 15651;
+const uint32_t g_rgctx_EqualityComparer_1_tC6E45643C0BEC59672E17FFF0B7F787336CFB85F = 15655;
+const uint32_t g_rgctx_EqualityComparer_1_tCBB04A1F58879783AD30198235ABCBD5B00D7139 = 1786;
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_EqualityComparer_1_tCD70AFAF83B251B235965EAFBCB589E8DD9F5110 = 15649;
 const uint32_t g_rgctx_EqualityComparer_1_tCE54811998C1CD9E2FCB4E15F3D6CE390D2050AB = 15658;
 const uint32_t g_rgctx_EqualityComparer_1_tD5A081DCCEC989164ABF3DF444DF5D0D88109BE5 = 15620;
 const uint32_t g_rgctx_EqualityComparer_1_tD6DFF169E95673F5D113CC2C52801CC33AE69DA9 = 15654;
 const uint32_t g_rgctx_EqualityComparer_1_tE85384F6EA5AF6A40629F5B16564B8D47570C991 = 15657;
 const uint32_t g_rgctx_EqualityComparer_1_tEB077DAF5BBB4C85071CCDDA6C4E38E7A2F75A86 = 15647;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_EventBase_1_GetPooled_m09B105794491D26A572CEC1C95563F80D9A0F3F0 = 11593;
 const uint32_t g_rgctx_EventBase_1_GetPooled_m5809781FBFE606BFC25531F2DF99DCDD63CF6B03 = 11611;
@@ -1379,17 +1614,23 @@ const uint32_t g_rgctx_EventBase_1__ctor_mF1F30890F71ADE9CE4B17C83ED520634536D4C
 const uint32_t g_rgctx_EventBase_1__ctor_mFA18F207149A00F59FE55056D57ADBD6F942BAE9 = 11596;
 const uint32_t g_rgctx_EventBase_1_t09878594BE38B5D55DEEB48299605CF73ACA6F4D = 1805;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_EventBase_1_t1563CAFA9D2D1865749BC26F13DDC97BE6DD2F1D = 15660;
 const uint32_t g_rgctx_EventBase_1_t2460AA6988D53F2ABE4DCA78195C6D6E516089A9 = 1800;
 const uint32_t g_rgctx_EventBase_1_t29992D6C529F7B88787B44249383D10D82E5B228 = 15659;
 const uint32_t g_rgctx_EventBase_1_t3DFDD53C81170C3C87B7050317D2BFFA01EE4BDC = 15663;
 const uint32_t g_rgctx_EventBase_1_t4BBEACB56A106532D0060A9902875961066C5C9D = 15662;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_EventBase_1_t1563CAFA9D2D1865749BC26F13DDC97BE6DD2F1D = 15661;
 const uint32_t g_rgctx_EventBase_1_t2460AA6988D53F2ABE4DCA78195C6D6E516089A9 = 1800;
 const uint32_t g_rgctx_EventBase_1_t29992D6C529F7B88787B44249383D10D82E5B228 = 15660;
 const uint32_t g_rgctx_EventBase_1_t3DFDD53C81170C3C87B7050317D2BFFA01EE4BDC = 15664;
 const uint32_t g_rgctx_EventBase_1_t4BBEACB56A106532D0060A9902875961066C5C9D = 15663;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_EventBase_1_t58E0F33B286656832D5DDB8DAC9A46C7EE6B6FEA = 1794;
 const uint32_t g_rgctx_EventBase_1_t5FDA23A441373C4A932DCE123567E2ED54D5F256 = 1804;
@@ -1398,8 +1639,13 @@ const uint32_t g_rgctx_EventBase_1_t7911A33887E43EE81EA3681B226E6A9F777291F3 = 1
 const uint32_t g_rgctx_EventBase_1_t80C2B8C3086146FFDC6F4D5DC0BCD7E5BB211471 = 1796;
 const uint32_t g_rgctx_EventBase_1_t80E6AB0AA99D18A206828FC48038B0E5216B68BB = 1801;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_EventBase_1_t866C77130A8DB26577C27B9668D1EFF5E0B0428B = 15658;
 const uint32_t g_rgctx_EventBase_1_tA19E83998B9A66A46307A854CED1365C17CA4C79 = 15661;
+=======
+const uint32_t g_rgctx_EventBase_1_t866C77130A8DB26577C27B9668D1EFF5E0B0428B = 15659;
+const uint32_t g_rgctx_EventBase_1_tA19E83998B9A66A46307A854CED1365C17CA4C79 = 15662;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_EventBase_1_t866C77130A8DB26577C27B9668D1EFF5E0B0428B = 15659;
 const uint32_t g_rgctx_EventBase_1_tA19E83998B9A66A46307A854CED1365C17CA4C79 = 15662;
@@ -1412,7 +1658,11 @@ const uint32_t g_rgctx_EventBase_1_tF69ECCA6F7C73B19FAEF41B5423E899A6B04BE7B = 1
 const uint32_t g_rgctx_EventBase_1_tFFE2C4C5D574569050E74C1E5116104AC8513B7A = 1799;
 const uint32_t g_rgctx_EventCallbackFunctor_1__ctor_m879D33BE2040D5987DE2B2C9AFF113155ADEEB16 = 11772;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_EventCallbackFunctor_1_t9632879B2C40B1AD7BB5CA2AB276756A635AF3F8 = 15696;
+=======
+const uint32_t g_rgctx_EventCallbackFunctor_1_t9632879B2C40B1AD7BB5CA2AB276756A635AF3F8 = 15697;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_EventCallbackFunctor_1_t9632879B2C40B1AD7BB5CA2AB276756A635AF3F8 = 15697;
 >>>>>>> Stashed changes
@@ -1431,8 +1681,13 @@ const uint32_t g_rgctx_ExecuteEvents_ShouldSendToComponent_TisT_t3FAA892EFE2F6CC
 const uint32_t g_rgctx_ExecuteJobFunction__ctor_m13591A35F12C3D8441B1DA0B8DF1983DF3835D8F = 11787;
 const uint32_t g_rgctx_ExecuteJobFunction__ctor_mB59C9E8588B3AFEFC7979AF159ED46EAF96ED5E7 = 11786;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ExecuteJobFunction_t4512BFE0B86D90D2328A29F4BCD80437EACDA954 = 15725;
 const uint32_t g_rgctx_ExecuteJobFunction_tD105541081E8AB3594F9FCA208DFBC84B1426C32 = 15726;
+=======
+const uint32_t g_rgctx_ExecuteJobFunction_t4512BFE0B86D90D2328A29F4BCD80437EACDA954 = 15726;
+const uint32_t g_rgctx_ExecuteJobFunction_tD105541081E8AB3594F9FCA208DFBC84B1426C32 = 15727;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ExecuteJobFunction_t4512BFE0B86D90D2328A29F4BCD80437EACDA954 = 15726;
 const uint32_t g_rgctx_ExecuteJobFunction_tD105541081E8AB3594F9FCA208DFBC84B1426C32 = 15727;
@@ -1465,11 +1720,19 @@ const uint32_t g_rgctx_FileSystemEnumerator_1__ctor_m1D7359CBFB75148B301A1742479
 const uint32_t g_rgctx_FileSystemEnumerator_1_get_Current_m111CD32660CBF94F22325B1EA58BDCA39FDEF6BC = 11869;
 const uint32_t g_rgctx_FileSystemEnumerator_1_t65538ABFBF9C640F60C18E8D3C4F3AB9D2EB086C = 1886;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_FileSystemEnumerator_1_t7B5C64C1EFD9D3D9980D5FD8E8B5E13088C0E96E = 15734;
 const uint32_t g_rgctx_FindPredicate_Invoke_m065159EC65D6463C8CF8719F018249DE97C1342F = 11903;
 const uint32_t g_rgctx_FindPredicate_t098CC59614E8CBE57C0CFD0B89A6FE09EAF28C76 = 15735;
 const uint32_t g_rgctx_FindTransform_Invoke_mAAADD536E6E945CF0B3413D94E48870F8AE85329 = 11906;
 const uint32_t g_rgctx_FindTransform_t01A4FA7F1CA46ED1603C7D820475F83F0427E116 = 15737;
+=======
+const uint32_t g_rgctx_FileSystemEnumerator_1_t7B5C64C1EFD9D3D9980D5FD8E8B5E13088C0E96E = 15735;
+const uint32_t g_rgctx_FindPredicate_Invoke_m065159EC65D6463C8CF8719F018249DE97C1342F = 11903;
+const uint32_t g_rgctx_FindPredicate_t098CC59614E8CBE57C0CFD0B89A6FE09EAF28C76 = 15736;
+const uint32_t g_rgctx_FindTransform_Invoke_mAAADD536E6E945CF0B3413D94E48870F8AE85329 = 11906;
+const uint32_t g_rgctx_FindTransform_t01A4FA7F1CA46ED1603C7D820475F83F0427E116 = 15738;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_FileSystemEnumerator_1_t7B5C64C1EFD9D3D9980D5FD8E8B5E13088C0E96E = 15735;
 const uint32_t g_rgctx_FindPredicate_Invoke_m065159EC65D6463C8CF8719F018249DE97C1342F = 11903;
@@ -1484,7 +1747,11 @@ const uint32_t g_rgctx_FirebaseHandler_RunOnMainThreadAsync_TisT_t89E6745F1ECDA7
 const uint32_t g_rgctx_FixedHeightVirtualizationController_1__ctor_m055AD6E3BE727C6C858E0F382325716839A28B15 = 11909;
 const uint32_t g_rgctx_FixedHeightVirtualizationController_1_get_resolvedItemHeight_m63F19C223A9C87FC6AE74DF2DC02CFC254D3DB4A = 11910;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_FixedHeightVirtualizationController_1_tFFE625AF3F8E06AF7433FC1E83CB76CB70154877 = 15739;
+=======
+const uint32_t g_rgctx_FixedHeightVirtualizationController_1_tFFE625AF3F8E06AF7433FC1E83CB76CB70154877 = 15740;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_FixedHeightVirtualizationController_1_tFFE625AF3F8E06AF7433FC1E83CB76CB70154877 = 15740;
 >>>>>>> Stashed changes
@@ -1499,8 +1766,13 @@ const uint32_t g_rgctx_FromAsyncTrimPromise_1_Complete_m4CD6051510649975A14EEB7E
 const uint32_t g_rgctx_FromAsyncTrimPromise_1_Complete_mA1A5E548750D31A0253FE078D8DF07AA7D9D769C = 11949;
 const uint32_t g_rgctx_FromAsyncTrimPromise_1__ctor_mBCCA40F961CCB1EA52235E4A31CEA06C772F1FAF = 11947;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_FromAsyncTrimPromise_1_t40B7F5F08D3F294E7B6B49F73BBF63D549C2EA11 = 15740;
 const uint32_t g_rgctx_FromAsyncTrimPromise_1_t4AB457A37FBAA5534F413D005AC8B931617487F3 = 15741;
+=======
+const uint32_t g_rgctx_FromAsyncTrimPromise_1_t40B7F5F08D3F294E7B6B49F73BBF63D549C2EA11 = 15741;
+const uint32_t g_rgctx_FromAsyncTrimPromise_1_t4AB457A37FBAA5534F413D005AC8B931617487F3 = 15742;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_FromAsyncTrimPromise_1_t40B7F5F08D3F294E7B6B49F73BBF63D549C2EA11 = 15741;
 const uint32_t g_rgctx_FromAsyncTrimPromise_1_t4AB457A37FBAA5534F413D005AC8B931617487F3 = 15742;
@@ -1526,6 +1798,7 @@ const uint32_t g_rgctx_Func_1__ctor_m9B3BB84B1884736FC137FC4668F762A2D8843A61 = 
 const uint32_t g_rgctx_Func_1__ctor_mA7485A2B0DE2E43A2722EDDACB0133589299E7AB = 11980;
 const uint32_t g_rgctx_Func_1_t10C1B1599F41292F0D6D4A957820DE8DF575D10A = 1900;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Func_1_t224407D1017A377A4238C0084D66D72729EEAFD6 = 15747;
 const uint32_t g_rgctx_Func_1_t25F3ABB17C00AED2C01DFA3031EFDDDD03ADF574 = 15743;
 const uint32_t g_rgctx_Func_1_t2BB9A10EF30A8276876BC638FF6F765E828051B7 = 15744;
@@ -1540,6 +1813,22 @@ const uint32_t g_rgctx_Func_1_t75F23D63668358D568C8CBED9D88BECF4637D4FB = 15749;
 const uint32_t g_rgctx_Func_1_t7BF0840276CE05A75F154B46D925AF4D344E2E12 = 1899;
 const uint32_t g_rgctx_Func_1_tD9D390F428564124C2156AF0781C78C03B8CBFA5 = 1914;
 const uint32_t g_rgctx_Func_1_tDE0B7F533A63D672A9DA697BE6F6B57EFAF6A368 = 15748;
+=======
+const uint32_t g_rgctx_Func_1_t224407D1017A377A4238C0084D66D72729EEAFD6 = 15748;
+const uint32_t g_rgctx_Func_1_t25F3ABB17C00AED2C01DFA3031EFDDDD03ADF574 = 15744;
+const uint32_t g_rgctx_Func_1_t2BB9A10EF30A8276876BC638FF6F765E828051B7 = 15745;
+const uint32_t g_rgctx_Func_1_t319304F25FD705F27B983FC8E81DE6AA1B0865EB = 1912;
+const uint32_t g_rgctx_Func_1_t468D86948B43D3FF053E73CD334F50868A885C40 = 1901;
+const uint32_t g_rgctx_Func_1_t60D3E01E44AD68BD9FFC56E26FD378C90CEF589B = 15743;
+const uint32_t g_rgctx_Func_1_t6AACF62A78D42305489DCEBDAC01899723C10BAB = 1906;
+const uint32_t g_rgctx_Func_1_t6AD3C755319137B4FC9077812C65F36B67890D97 = 1904;
+const uint32_t g_rgctx_Func_1_t74BE0538EEE71BC25675C4A3DAB02529318DA1E5 = 15746;
+const uint32_t g_rgctx_Func_1_t75880AA0FC32D59CA15C1DDBFE21EBE69154546A = 15747;
+const uint32_t g_rgctx_Func_1_t75F23D63668358D568C8CBED9D88BECF4637D4FB = 15750;
+const uint32_t g_rgctx_Func_1_t7BF0840276CE05A75F154B46D925AF4D344E2E12 = 1899;
+const uint32_t g_rgctx_Func_1_tD9D390F428564124C2156AF0781C78C03B8CBFA5 = 1914;
+const uint32_t g_rgctx_Func_1_tDE0B7F533A63D672A9DA697BE6F6B57EFAF6A368 = 15749;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_Func_1_t224407D1017A377A4238C0084D66D72729EEAFD6 = 15748;
 const uint32_t g_rgctx_Func_1_t25F3ABB17C00AED2C01DFA3031EFDDDD03ADF574 = 15744;
@@ -1601,21 +1890,28 @@ const uint32_t g_rgctx_Func_2__ctor_mF90427CEFEE2DE9EBBC0D176BF5F95FA9F387A7F = 
 const uint32_t g_rgctx_Func_2_t06E61BC0159404E60380A0AA5F7377DE3121B7DD = 2046;
 const uint32_t g_rgctx_Func_2_t0D737F4AE22A2E116A5C645F1B1C34EEDC1CB1A7 = 1973;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Func_2_t0F4960874FCE5F37E829B2E4ECAFD15F71A809EC = 15779;
 const uint32_t g_rgctx_Func_2_t3FECB5D235AA89CFF3030502EECEC5CCEAC97C93 = 1956;
 const uint32_t g_rgctx_Func_2_t42351EBF54CFD195B1B5FC759E8230659B831E58 = 1958;
 const uint32_t g_rgctx_Func_2_t473059408FF8AE78435E0EF5EECF9E5BD3833BFC = 15772;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_Func_2_t0F4960874FCE5F37E829B2E4ECAFD15F71A809EC = 15780;
 const uint32_t g_rgctx_Func_2_t3FECB5D235AA89CFF3030502EECEC5CCEAC97C93 = 1956;
 const uint32_t g_rgctx_Func_2_t42351EBF54CFD195B1B5FC759E8230659B831E58 = 1958;
 const uint32_t g_rgctx_Func_2_t473059408FF8AE78435E0EF5EECF9E5BD3833BFC = 15773;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_Func_2_t47CC59E1937CA3FCC9DA471AAD5C7899D9AFF9DF = 1996;
 const uint32_t g_rgctx_Func_2_t5D71E814C5C847DB151A52EE5B02C3257D458918 = 1955;
 const uint32_t g_rgctx_Func_2_t5E10C25103ED51C0C843F4F679CFF099A92D2033 = 1974;
 const uint32_t g_rgctx_Func_2_t7255F41111D625FC55B5079BA1996D3019EB1249 = 2085;
 const uint32_t g_rgctx_Func_2_t738FFE96DA24D4260B7C39DC33541473836A6630 = 1957;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_Func_2_t756BE45FD1B4569EBD49EAD2AB1444B766D13F83 = 15773;
 const uint32_t g_rgctx_Func_2_t7E30E9743DBC34DFE746C27645F22451FE8DF089 = 15810;
@@ -1625,6 +1921,8 @@ const uint32_t g_rgctx_Func_2_t86CFE648CE7192981F7DA895E30FBDA1F513B652 = 2000;
 const uint32_t g_rgctx_Func_2_t8779152CB7A8545FF3BB8D9F14042793AF2A4F3E = 15780;
 const uint32_t g_rgctx_Func_2_t898DDB2CE8CDE6CCA806823CBF95B39B79503DB6 = 15777;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_Func_2_t756BE45FD1B4569EBD49EAD2AB1444B766D13F83 = 15774;
 const uint32_t g_rgctx_Func_2_t7E30E9743DBC34DFE746C27645F22451FE8DF089 = 15811;
 const uint32_t g_rgctx_Func_2_t7E922282A583224DADF863B3AB2E6AB9A524EE05 = 1971;
@@ -1632,11 +1930,15 @@ const uint32_t g_rgctx_Func_2_t84B77D5DFB2DDFC0F94C45691CE01976F2585657 = 2023;
 const uint32_t g_rgctx_Func_2_t86CFE648CE7192981F7DA895E30FBDA1F513B652 = 2000;
 const uint32_t g_rgctx_Func_2_t8779152CB7A8545FF3BB8D9F14042793AF2A4F3E = 15781;
 const uint32_t g_rgctx_Func_2_t898DDB2CE8CDE6CCA806823CBF95B39B79503DB6 = 15778;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_Func_2_t8A5A56224271942180907637F3E10A9A3CBDAEDF = 1994;
 const uint32_t g_rgctx_Func_2_t9550E469110084BCEB11807FD34F94E9615475E5 = 1986;
 const uint32_t g_rgctx_Func_2_t9D2D73045BD6DC624FF3187E35886A6680E59648 = 2033;
 const uint32_t g_rgctx_Func_2_tA57AF6915764EDDF8741C38C57B21EE438C59343 = 1960;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_Func_2_tA950D05A9229FC454C33EF24FBF90E0505D202BB = 15809;
 const uint32_t g_rgctx_Func_2_tADCC2B75AD30AC925293181D40C8F7B2763C99A5 = 1961;
@@ -1652,10 +1954,19 @@ const uint32_t g_rgctx_Func_2_tAFAD4B419AD3D0106D6999001E5A68EE48299D9B = 1962;
 const uint32_t g_rgctx_Func_2_tB4B09B48E6A2A7B32ABB0D39C54E835B17CCEE61 = 1966;
 const uint32_t g_rgctx_Func_2_tB89E2A0A82E89B19927B092B238720F65A87EBE4 = 15776;
 >>>>>>> Stashed changes
+=======
+const uint32_t g_rgctx_Func_2_tA950D05A9229FC454C33EF24FBF90E0505D202BB = 15810;
+const uint32_t g_rgctx_Func_2_tADCC2B75AD30AC925293181D40C8F7B2763C99A5 = 1961;
+const uint32_t g_rgctx_Func_2_tAF30D0C2550E95473354ADDBA5224D254A7DF8FE = 15809;
+const uint32_t g_rgctx_Func_2_tAFAD4B419AD3D0106D6999001E5A68EE48299D9B = 1962;
+const uint32_t g_rgctx_Func_2_tB4B09B48E6A2A7B32ABB0D39C54E835B17CCEE61 = 1966;
+const uint32_t g_rgctx_Func_2_tB89E2A0A82E89B19927B092B238720F65A87EBE4 = 15776;
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_Func_2_tBE76289600B0D10382BAB5D9F828D996195A6D07 = 2004;
 const uint32_t g_rgctx_Func_2_tC25DAB584B0F47C1DAA1B56A2C30A3D42B88D146 = 2002;
 const uint32_t g_rgctx_Func_2_tC858B64F5B124B5C1F30E774832D4E614DA18793 = 1992;
 const uint32_t g_rgctx_Func_2_tC86143735420E666A856DEA89A154669337AD033 = 1989;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_Func_2_tCAE34F5AB9A1C7B2C79887749F18D14CAC1BBFF7 = 15811;
 const uint32_t g_rgctx_Func_2_tCB60750721F5DA1B3172AA35058F66E7C94865B7 = 15778;
@@ -1664,12 +1975,17 @@ const uint32_t g_rgctx_Func_2_tD5EAA29CDB4313FE2590F76DD99FB1497FF215B1 = 1998;
 const uint32_t g_rgctx_Func_2_tDCEC51C04903CAB73B0E3FCA7C80D021040A45DC = 15812;
 const uint32_t g_rgctx_Func_2_tE17298D4C6D18DE4FB73F421AF563BE9FB9630EB = 15774;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_Func_2_tCAE34F5AB9A1C7B2C79887749F18D14CAC1BBFF7 = 15812;
 const uint32_t g_rgctx_Func_2_tCB60750721F5DA1B3172AA35058F66E7C94865B7 = 15779;
 const uint32_t g_rgctx_Func_2_tCB920AB5F74B0D626CDA216B8D3A7C0C9D131E2C = 1970;
 const uint32_t g_rgctx_Func_2_tD5EAA29CDB4313FE2590F76DD99FB1497FF215B1 = 1998;
 const uint32_t g_rgctx_Func_2_tDCEC51C04903CAB73B0E3FCA7C80D021040A45DC = 15813;
 const uint32_t g_rgctx_Func_2_tE17298D4C6D18DE4FB73F421AF563BE9FB9630EB = 15775;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_Func_2_tF8C13789D48D4FFCFBEFF82099054681004790B1 = 1963;
 const uint32_t g_rgctx_Func_3_Invoke_m0300D27099C4D139717E985ADBDF7004E3C75840 = 12120;
@@ -1681,6 +1997,7 @@ const uint32_t g_rgctx_Func_3_Invoke_mFD7E9757A39CB05E872D36F9B6EBBFD72BD596F9 =
 const uint32_t g_rgctx_Func_3__ctor_m276A7D6D5609AAD8775F1815F12F775A3261A4C9 = 12121;
 const uint32_t g_rgctx_Func_3__ctor_m3CAE8A5A9F30C28422F690E735ED0BD04169992E = 12077;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Func_3_t08DA6037C24A772007C58EF44160ED5753EC76A3 = 15829;
 const uint32_t g_rgctx_Func_3_t2C1B3DDC055E4BA6D4CD7B909A500E25BE3F4119 = 2090;
 const uint32_t g_rgctx_Func_3_t6978AC3F0C3E56B3867F18FA5BC464BB01238AB4 = 15823;
@@ -1688,6 +2005,15 @@ const uint32_t g_rgctx_Func_3_t6EBA9209F790E0CFB346ED9BB7B0474DA91910EF = 2092;
 const uint32_t g_rgctx_Func_3_t9A434C91927107E35C002920C09B7601206805A8 = 2115;
 const uint32_t g_rgctx_Func_3_tCCDC1ADF62EBA62122B1F3B8C933E449C790F62B = 2114;
 const uint32_t g_rgctx_Func_3_tED54D9C25BC5611AB4CB93495E95EFF3C9542F32 = 15819;
+=======
+const uint32_t g_rgctx_Func_3_t08DA6037C24A772007C58EF44160ED5753EC76A3 = 15830;
+const uint32_t g_rgctx_Func_3_t2C1B3DDC055E4BA6D4CD7B909A500E25BE3F4119 = 2090;
+const uint32_t g_rgctx_Func_3_t6978AC3F0C3E56B3867F18FA5BC464BB01238AB4 = 15824;
+const uint32_t g_rgctx_Func_3_t6EBA9209F790E0CFB346ED9BB7B0474DA91910EF = 2092;
+const uint32_t g_rgctx_Func_3_t9A434C91927107E35C002920C09B7601206805A8 = 2115;
+const uint32_t g_rgctx_Func_3_tCCDC1ADF62EBA62122B1F3B8C933E449C790F62B = 2114;
+const uint32_t g_rgctx_Func_3_tED54D9C25BC5611AB4CB93495E95EFF3C9542F32 = 15820;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_Func_3_t08DA6037C24A772007C58EF44160ED5753EC76A3 = 15830;
 const uint32_t g_rgctx_Func_3_t2C1B3DDC055E4BA6D4CD7B909A500E25BE3F4119 = 2090;
@@ -1721,7 +2047,11 @@ const uint32_t g_rgctx_GPUBuffer_1_get_BufferPointer_m63A9B3DB55BB31437395B0DDB9
 const uint32_t g_rgctx_GPUBuffer_1_get_BufferPointer_mB9B466F16E75AB4828AD3740F40140557D6D1697 = 12174;
 const uint32_t g_rgctx_GPUBuffer_1_get_ElementStride_m5FA7B9D0469DB6D14E607072C5868A929AC824C6 = 12173;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_GPUBuffer_1_t774FC11E17FB9D9B6EE8B4A0D7CBF55C2B66A0E5 = 15838;
+=======
+const uint32_t g_rgctx_GPUBuffer_1_t774FC11E17FB9D9B6EE8B4A0D7CBF55C2B66A0E5 = 15839;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_GPUBuffer_1_t774FC11E17FB9D9B6EE8B4A0D7CBF55C2B66A0E5 = 15839;
 >>>>>>> Stashed changes
@@ -1742,8 +2072,13 @@ const uint32_t g_rgctx_GameObject_GetComponentsInParent_TisT_t13EC64AE8BCA0B052F
 const uint32_t g_rgctx_GameObject_GetComponentsInParent_TisT_t265302F3B091FB653AAB70FF196133D4DF0599D5_m5DD4866C643C34561D9C6E80E93AC4D2686147D4 = 33211;
 const uint32_t g_rgctx_GameObject_GetComponents_TisT_tD486D49B2768692B2DFF7DB4A894D40A69E0021D_m89A6C2FC256BD38ABF9BA1FED0B5CC129FCC0063 = 33202;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_GenericComparer_1_t7D7DD4D4616A0EB6D31F36EA3480775884FC65E3 = 15839;
 const uint32_t g_rgctx_GenericEqualityComparer_1_t46CAA78AA15DD35242E860938A17ED6DE1CE0666 = 15840;
+=======
+const uint32_t g_rgctx_GenericComparer_1_t7D7DD4D4616A0EB6D31F36EA3480775884FC65E3 = 15840;
+const uint32_t g_rgctx_GenericEqualityComparer_1_t46CAA78AA15DD35242E860938A17ED6DE1CE0666 = 15841;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_GenericComparer_1_t7D7DD4D4616A0EB6D31F36EA3480775884FC65E3 = 15840;
 const uint32_t g_rgctx_GenericEqualityComparer_1_t46CAA78AA15DD35242E860938A17ED6DE1CE0666 = 15841;
@@ -1818,6 +2153,7 @@ const uint32_t g_rgctx_ICollection_1_t0962A9980803A8F46108387826B91CD4DB9B0F97 =
 const uint32_t g_rgctx_ICollection_1_t1C89185C1861762ADBCEF426259D95FEE3CBF931 = 2207;
 const uint32_t g_rgctx_ICollection_1_t22FE611BCF850FB01030BB518363D8B4041F54B7 = 2193;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ICollection_1_t28E994F3A824EA898113486CB2BBE8611195DB41 = 15859;
 const uint32_t g_rgctx_ICollection_1_t293DB944473C7BFCEA469C1BA4B6DC63B7F22524 = 15858;
 const uint32_t g_rgctx_ICollection_1_t2D304B3C7AEB2D43C3BBFFB1ADA33E7D20383732 = 2226;
@@ -1854,6 +2190,25 @@ const uint32_t g_rgctx_ICollection_1_tB92B34A134CB1BF586A69F2A283CF79675A37E1D =
 const uint32_t g_rgctx_ICollection_1_tBBE79C4BDAC457BEA82DD2DF2F03F76C807048CE = 2187;
 const uint32_t g_rgctx_ICollection_1_tC7B0D3E8ACDC74EF953D08A723E45D2672E2D778 = 15867;
 >>>>>>> Stashed changes
+=======
+const uint32_t g_rgctx_ICollection_1_t28E994F3A824EA898113486CB2BBE8611195DB41 = 15860;
+const uint32_t g_rgctx_ICollection_1_t293DB944473C7BFCEA469C1BA4B6DC63B7F22524 = 15859;
+const uint32_t g_rgctx_ICollection_1_t2D304B3C7AEB2D43C3BBFFB1ADA33E7D20383732 = 2226;
+const uint32_t g_rgctx_ICollection_1_t30BEBFE730DEAB254CA49449533FE132ED8274E1 = 15862;
+const uint32_t g_rgctx_ICollection_1_t34E24A342ABFD5E792959480120C07D90A0FA2E0 = 15863;
+const uint32_t g_rgctx_ICollection_1_t397139814C8986E97C3486E91CFDF170575DFEB5 = 2191;
+const uint32_t g_rgctx_ICollection_1_t4A49DEC5B5EFF11674411763EA95292317CAAF6E = 15869;
+const uint32_t g_rgctx_ICollection_1_t4FA856088EB2B059A3F14DB7E787403ACF8C62DB = 15861;
+const uint32_t g_rgctx_ICollection_1_t5C7B0578A7F999A1B622A641AE329476B5E1408B = 15868;
+const uint32_t g_rgctx_ICollection_1_t608D63629FB1E2D115DA1D5A932FF3AB790D4B4E = 2197;
+const uint32_t g_rgctx_ICollection_1_t73E3BF7F47458CFD15CF40FA26A0A4ABE81148EA = 2230;
+const uint32_t g_rgctx_ICollection_1_t7A6318C3DCC6ED32430F7C10CC509FE780190525 = 15865;
+const uint32_t g_rgctx_ICollection_1_t8AF47F972E9325FAC3FFCC835F8A9CCF0A6013AE = 15858;
+const uint32_t g_rgctx_ICollection_1_tA470EDC483AE2990CBD2E0C936C6498E486A4D82 = 2217;
+const uint32_t g_rgctx_ICollection_1_tB92B34A134CB1BF586A69F2A283CF79675A37E1D = 15864;
+const uint32_t g_rgctx_ICollection_1_tBBE79C4BDAC457BEA82DD2DF2F03F76C807048CE = 2187;
+const uint32_t g_rgctx_ICollection_1_tC7B0D3E8ACDC74EF953D08A723E45D2672E2D778 = 15867;
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_ICollection_1_tDC8163CBE79E3CA4C082DB37AF0B3F36B3279BBC = 2211;
 const uint32_t g_rgctx_ICollection_1_tEEEB3C7E67C05876C8AE20E4E333D677594BEFB8 = 2201;
 const uint32_t g_rgctx_ICollection_1_tFE2E71F4FCEB606FA80073BF9CF4CD03240EAAE7 = 2219;
@@ -1861,7 +2216,11 @@ const uint32_t g_rgctx_ICollection_1_tFEFB414626FD111D128FEBCF2B2893D2D1BFA23B =
 const uint32_t g_rgctx_IComparable_1_t20B15F9925ED49E4B41B5FACE493F5E075DEA4F2 = 2248;
 const uint32_t g_rgctx_IComparable_1_t44B4CE659D4608C695A180A9DD473AB187C228FB = 2251;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_IComparable_1_tDBF1D04E6A41543103FCF54A6EBA5E512180987C = 15884;
+=======
+const uint32_t g_rgctx_IComparable_1_tDBF1D04E6A41543103FCF54A6EBA5E512180987C = 15885;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_IComparable_1_tDBF1D04E6A41543103FCF54A6EBA5E512180987C = 15885;
 >>>>>>> Stashed changes
@@ -1871,7 +2230,11 @@ const uint32_t g_rgctx_IComparer_1_Compare_m65CD2E43E8CF754C9F42C6F67A682FF450AD
 const uint32_t g_rgctx_IComparer_1_Compare_mD3F08CBFEE42EE9A05A38B19FAD2ACA0D6026DC9 = 12836;
 const uint32_t g_rgctx_IComparer_1_t1FA8428328A44FE33A3569A2A717B4CC10F6D553 = 2298;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_IComparer_1_t6BC8594DB26FCC0B360DE8C22BD01836BA24C8AC = 15885;
+=======
+const uint32_t g_rgctx_IComparer_1_t6BC8594DB26FCC0B360DE8C22BD01836BA24C8AC = 15886;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_IComparer_1_t6BC8594DB26FCC0B360DE8C22BD01836BA24C8AC = 15886;
 >>>>>>> Stashed changes
@@ -1939,7 +2302,11 @@ const uint32_t g_rgctx_IEnumerable_1_tC43D7D663C0425D46547489DAF75ACE7D06B80E7 =
 const uint32_t g_rgctx_IEnumerable_1_tCB5563A99A256320A2EF9FCC0BE5C608EBC34B87 = 2392;
 const uint32_t g_rgctx_IEnumerable_1_tE8686A01EF9272542D67339893DDB74508AB0D89 = 2415;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_IEnumerable_1_tE9C9ED5D219A02A88F431661F1B97B89AA9B14FF = 15888;
+=======
+const uint32_t g_rgctx_IEnumerable_1_tE9C9ED5D219A02A88F431661F1B97B89AA9B14FF = 15889;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_IEnumerable_1_tE9C9ED5D219A02A88F431661F1B97B89AA9B14FF = 15889;
 >>>>>>> Stashed changes
@@ -1970,6 +2337,7 @@ const uint32_t g_rgctx_IEnumerator_1_get_Current_mE85BCDC630D4B87CE8AC9302A7168A
 const uint32_t g_rgctx_IEnumerator_1_get_Current_mF7F2652B57F0F7F0F0897D8BE39E84FD87811EA6 = 12900;
 const uint32_t g_rgctx_IEnumerator_1_get_Current_mF81A5FDB9E265DAF68538F1F1B71B05F0FF7078D = 12901;
 const uint32_t g_rgctx_IEnumerator_1_get_Current_mFE78B9CDC5BBDF50E78AFAD9CFE23F2223C79F5B = 12909;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_IEnumerator_1_t01303709A68F833425B5740A2A2D972A0DDEEB26 = 15912;
 const uint32_t g_rgctx_IEnumerator_1_t0D080C81A7C92A5DA8279E09CE9F225576BD96A9 = 15897;
@@ -2011,6 +2379,21 @@ const uint32_t g_rgctx_IEnumerator_1_t7311E55564AEDCCBCE700E7D0173F4A6208E816E =
 const uint32_t g_rgctx_IEnumerator_1_t748AB9CE0A85EA683D468F624256D89F87A8F5BD = 2523;
 const uint32_t g_rgctx_IEnumerator_1_t8B7562485D8F128A668734787CC24E001ADCFD5F = 2478;
 const uint32_t g_rgctx_IEnumerator_1_t8F246466D92A6ECEDD001FED1B5AE7E5B00B0916 = 2521;
+=======
+const uint32_t g_rgctx_IEnumerator_1_t01303709A68F833425B5740A2A2D972A0DDEEB26 = 15913;
+const uint32_t g_rgctx_IEnumerator_1_t0D080C81A7C92A5DA8279E09CE9F225576BD96A9 = 15898;
+const uint32_t g_rgctx_IEnumerator_1_t13EFC35CCC3C9F302141EE5C116481E1CF2CDC48 = 15910;
+const uint32_t g_rgctx_IEnumerator_1_t15058A6A567254A836578A99EED3418316E89CBF = 15912;
+const uint32_t g_rgctx_IEnumerator_1_t1BD2EC88A1B4550751DED0BBB53571254F37887A = 2474;
+const uint32_t g_rgctx_IEnumerator_1_t38E1D374BC4763846B1ADADA83B3C4DFE79CAB70 = 15896;
+const uint32_t g_rgctx_IEnumerator_1_t5CC32B000B9B8865A9EE17AFF85C424194E98AF1 = 15895;
+const uint32_t g_rgctx_IEnumerator_1_t6C4BC30ABCA31B8092B6B9E81B794BD3734D47C9 = 15915;
+const uint32_t g_rgctx_IEnumerator_1_t7057BF629F81E7DFB90FC10A9074D9A504C6971C = 2494;
+const uint32_t g_rgctx_IEnumerator_1_t7311E55564AEDCCBCE700E7D0173F4A6208E816E = 15907;
+const uint32_t g_rgctx_IEnumerator_1_t748AB9CE0A85EA683D468F624256D89F87A8F5BD = 2523;
+const uint32_t g_rgctx_IEnumerator_1_t8B7562485D8F128A668734787CC24E001ADCFD5F = 2478;
+const uint32_t g_rgctx_IEnumerator_1_t8F246466D92A6ECEDD001FED1B5AE7E5B00B0916 = 2521;
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_IEnumerator_1_t8F959C9935D08C6079383E424528637660BF3F66 = 15903;
 const uint32_t g_rgctx_IEnumerator_1_t964247E5CED1FD6D2A4A9AC1F3A49B15B6935509 = 15900;
 const uint32_t g_rgctx_IEnumerator_1_t98FAD7BFA0FE613E94306E6AE72B92B2FF4728E3 = 15904;
@@ -2024,6 +2407,9 @@ const uint32_t g_rgctx_IEnumerator_1_tE20D8708CC88F4F9ED383C47893D0ABF2A8EE0B7 =
 const uint32_t g_rgctx_IEnumerator_1_tE2C6256C33037DCA358539D2812BAD8FA0E35704 = 15906;
 const uint32_t g_rgctx_IEnumerator_1_tEB16E070802285F0C7D10A00CCB1E4074E4E8A0A = 15901;
 const uint32_t g_rgctx_IEnumerator_1_tFED1FB774EDBB3C5A8A780F1BDD181B4A3687905 = 15914;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_IEqualityComparer_1_Equals_m0539178A3A28082426D3792F170D842E3F99CCA6 = 12923;
 const uint32_t g_rgctx_IEqualityComparer_1_Equals_m1A8F2EE125B95E0B3F733FB8B1E75CFC5527AA8E = 12915;
@@ -2050,15 +2436,21 @@ const uint32_t g_rgctx_IEquatable_1_t16590CBD0B898A40736E1D7ED864CEDD03D1280B = 
 const uint32_t g_rgctx_IEquatable_1_t241B698CD44A922002A644C4DFAD62E4F9B10F1A = 2597;
 const uint32_t g_rgctx_IEquatable_1_t3E63FFE87B6947C43EE0DC760C56BBD62078A2A9 = 2594;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_IEquatable_1_t68EB4D94EE289E1B635CBD263B5DF61AF1F28FE4 = 15929;
 const uint32_t g_rgctx_IEquatable_1_tA2E27CEFDBC7EE3BE3512642EBE0A9BFFE90B9E2 = 2599;
 const uint32_t g_rgctx_IEquatable_1_tA82CFE43E0EA9C6F2F1CD7BDB022D438D8BE02E8 = 2596;
 const uint32_t g_rgctx_IEquatable_1_tCBEDD2548443097D4E05D42F55DB01926CEFD7B6 = 15928;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_IEquatable_1_t68EB4D94EE289E1B635CBD263B5DF61AF1F28FE4 = 15930;
 const uint32_t g_rgctx_IEquatable_1_tA2E27CEFDBC7EE3BE3512642EBE0A9BFFE90B9E2 = 2599;
 const uint32_t g_rgctx_IEquatable_1_tA82CFE43E0EA9C6F2F1CD7BDB022D438D8BE02E8 = 2596;
 const uint32_t g_rgctx_IEquatable_1_tCBEDD2548443097D4E05D42F55DB01926CEFD7B6 = 15929;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_IEquatable_1_tD6F335D096DFA96D4064803D583F616A2AEBDA14 = 2593;
 const uint32_t g_rgctx_IEquatable_1_tEF63AE5E9781238AC24B6132A47ACC1B522B072A = 2600;
@@ -2074,6 +2466,7 @@ const uint32_t g_rgctx_IList_1_get_Item_mCC77534088C01C8B6EFCC8A82DB9C7D715EE2F9
 const uint32_t g_rgctx_IList_1_set_Item_mBB1AC08CD5B2FD1DFC9E7A491CF591C451CFDE44 = 12945;
 const uint32_t g_rgctx_IList_1_t0753AC6845275484AC0E5B791F621E4271A94F79 = 2839;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_IList_1_t094766539DAB013052CF18FCC01CE33F8812B25F = 15932;
 const uint32_t g_rgctx_IList_1_t5B665A7CA5F8890561CC2FD53C1E2681A23F0EA7 = 15931;
 const uint32_t g_rgctx_IList_1_tC6CCC1C2C0A65A34D0561A8CC4A98D0482E027AC = 2834;
@@ -2081,12 +2474,17 @@ const uint32_t g_rgctx_IList_1_tCED22963CED7CC47B5CFDCFA2E0206339244CFB4 = 15930
 const uint32_t g_rgctx_INotifyValueChanged_1_SetValueWithoutNotify_m837AE7240F24C7B5B2F1C52F328F489C2B615045 = 12953;
 const uint32_t g_rgctx_INotifyValueChanged_1_t194849AA26BB6BC6A72215F04524BF74016F2561 = 15934;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_IList_1_t094766539DAB013052CF18FCC01CE33F8812B25F = 15933;
 const uint32_t g_rgctx_IList_1_t5B665A7CA5F8890561CC2FD53C1E2681A23F0EA7 = 15932;
 const uint32_t g_rgctx_IList_1_tC6CCC1C2C0A65A34D0561A8CC4A98D0482E027AC = 2834;
 const uint32_t g_rgctx_IList_1_tCED22963CED7CC47B5CFDCFA2E0206339244CFB4 = 15931;
 const uint32_t g_rgctx_INotifyValueChanged_1_SetValueWithoutNotify_m837AE7240F24C7B5B2F1C52F328F489C2B615045 = 12953;
 const uint32_t g_rgctx_INotifyValueChanged_1_t194849AA26BB6BC6A72215F04524BF74016F2561 = 15935;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_IOrderedEnumerable_1_CreateOrderedEnumerable_TisTKey_t8C2AE010BF0E48BCCA8202648BE024BD4EAD253E_m6E3AD35218932C6080CF0BC526B96E4289082239 = 12957;
 const uint32_t g_rgctx_IOrderedEnumerable_1_t95766CE79E223CA6EEE8C3C16211A7F8E7636E47 = 2892;
@@ -2105,6 +2503,7 @@ const uint32_t g_rgctx_IValueTaskSource_1_OnCompleted_m74C27AC503D01BFF94CBF5AC6
 const uint32_t g_rgctx_IValueTaskSource_1_OnCompleted_m97FEECBC19368E6299EEE40271D94065F067A50A = 12975;
 const uint32_t g_rgctx_IValueTaskSource_1_OnCompleted_mF0823097271750AF0D5B6DF241A7909D3B473DE5 = 12976;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_IValueTaskSource_1_t22CC1DD53B00F64BAAAF5D7EB8D3D968B29603C1 = 15937;
 const uint32_t g_rgctx_IValueTaskSource_1_t2891D18E907295B865278E12A5BBFB1CC95FFAFB = 15935;
 const uint32_t g_rgctx_IValueTaskSource_1_t3973AF1D75A0B61FD1BCFC85D88494979C05EB99 = 2961;
@@ -2113,6 +2512,16 @@ const uint32_t g_rgctx_IValueTaskSource_1_t7C02B19282B44901ECD49D754E80049701A9F
 const uint32_t g_rgctx_IWebSocketReceiveResultGetter_1_tC1B2B1FD67CF02A8399D6B167AD080BDD3399667 = 2967;
 const uint32_t g_rgctx_ImmediatePromise__ctor_m4E090331677D6C21BEB668A07AF721700FC695F3 = 12984;
 const uint32_t g_rgctx_ImmediatePromise_t11844090DF8810696B57F81F4D09AFB4CDABAB42 = 15938;
+=======
+const uint32_t g_rgctx_IValueTaskSource_1_t22CC1DD53B00F64BAAAF5D7EB8D3D968B29603C1 = 15938;
+const uint32_t g_rgctx_IValueTaskSource_1_t2891D18E907295B865278E12A5BBFB1CC95FFAFB = 15936;
+const uint32_t g_rgctx_IValueTaskSource_1_t3973AF1D75A0B61FD1BCFC85D88494979C05EB99 = 2961;
+const uint32_t g_rgctx_IValueTaskSource_1_t46A860F43C4831BFDAD1BD9030ED566459FB5E48 = 15937;
+const uint32_t g_rgctx_IValueTaskSource_1_t7C02B19282B44901ECD49D754E80049701A9F88F = 2962;
+const uint32_t g_rgctx_IWebSocketReceiveResultGetter_1_tC1B2B1FD67CF02A8399D6B167AD080BDD3399667 = 2967;
+const uint32_t g_rgctx_ImmediatePromise__ctor_m4E090331677D6C21BEB668A07AF721700FC695F3 = 12984;
+const uint32_t g_rgctx_ImmediatePromise_t11844090DF8810696B57F81F4D09AFB4CDABAB42 = 15939;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_IValueTaskSource_1_t22CC1DD53B00F64BAAAF5D7EB8D3D968B29603C1 = 15938;
 const uint32_t g_rgctx_IValueTaskSource_1_t2891D18E907295B865278E12A5BBFB1CC95FFAFB = 15936;
@@ -2138,7 +2547,11 @@ const uint32_t g_rgctx_IntegratedSubsystemDescriptor_1_Create_m5973E509BE85C79B9
 const uint32_t g_rgctx_InternalEnumerator_1__ctor_m08094902C13495D26F8CA8B3D3DD261674C9796B = 13084;
 const uint32_t g_rgctx_InternalEnumerator_1_get_Current_m1607D77D6EA1E526F578FB8FB945B8DBBEAB91E8 = 13085;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_InternalEnumerator_1_t3496B5E744600CB3B21657D42AF71A3985B63A52 = 15941;
+=======
+const uint32_t g_rgctx_InternalEnumerator_1_t3496B5E744600CB3B21657D42AF71A3985B63A52 = 15942;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_InternalEnumerator_1_t3496B5E744600CB3B21657D42AF71A3985B63A52 = 15942;
 >>>>>>> Stashed changes
@@ -2149,6 +2562,7 @@ const uint32_t g_rgctx_InvokableCall_1__ctor_m1389E18EDB338B358E4F3F611C988D4F28
 const uint32_t g_rgctx_InvokableCall_1__ctor_m5A5E72EA57CAF0FB814DC260129AF6299C863168 = 15173;
 const uint32_t g_rgctx_InvokableCall_1_add_Delegate_mECA9E6CE4BAD907A97BE5964BC2CF01178F9427A = 15171;
 const uint32_t g_rgctx_InvokableCall_1_t9D6E3FE6D6A16671D4E69788C9ACC7F2B36C7991 = 2989;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_InvokableCall_1_tE6E100E6334FD6163AE44C87E199C349C093BD75 = 15942;
 const uint32_t g_rgctx_InvokableCall_2__ctor_m0919348880B03810235E94AB7B17DEEBD362EA14 = 15224;
@@ -2175,10 +2589,25 @@ const uint32_t g_rgctx_InvokableCall_4_Invoke_m6BFFA683A94997FF2BC4FB77BF51261E7
 const uint32_t g_rgctx_InvokableCall_4__ctor_m925C0D7AB0E0E91F76BEE4603727F999289C8274 = 15238;
 const uint32_t g_rgctx_InvokableCall_4_t2364CDDEAD7D89EC8A3DF50EDA200336E070465B = 15946;
 const uint32_t g_rgctx_IsOfType_1__ctor_m4BEA6E67D35AAE46E1CD6A7693330B928060A8C7 = 15248;
+=======
+const uint32_t g_rgctx_InvokableCall_1_tE6E100E6334FD6163AE44C87E199C349C093BD75 = 15943;
+const uint32_t g_rgctx_InvokableCall_2__ctor_m0919348880B03810235E94AB7B17DEEBD362EA14 = 15224;
+const uint32_t g_rgctx_InvokableCall_2_t4BFE337E7B7692E2C6577ACD66F585B79CE14A24 = 15944;
+const uint32_t g_rgctx_InvokableCall_3_Invoke_m2B54FFBD2AE2161557093314FE3001E70D7199A0 = 15229;
+const uint32_t g_rgctx_InvokableCall_3__ctor_mB9CDB20563729AB099EA7E3162512DAA4ED765FF = 15228;
+const uint32_t g_rgctx_InvokableCall_3_t010264F21755EF589AF36AB230DF4498652AB3BE = 15945;
+const uint32_t g_rgctx_InvokableCall_4_Invoke_m6BFFA683A94997FF2BC4FB77BF51261E7381D0D2 = 15239;
+const uint32_t g_rgctx_InvokableCall_4__ctor_m925C0D7AB0E0E91F76BEE4603727F999289C8274 = 15238;
+const uint32_t g_rgctx_InvokableCall_4_t2364CDDEAD7D89EC8A3DF50EDA200336E070465B = 15946;
+const uint32_t g_rgctx_IsOfType_1__ctor_m4BEA6E67D35AAE46E1CD6A7693330B928060A8C7 = 15248;
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_IsOfType_1_t8953F08A85F4117775407A1E83A78F0C4BD22CD9 = 15947;
 const uint32_t g_rgctx_IsOfType_1_t97B745EE1D542994268D43CB74BAC57303F6B794 = 15949;
 const uint32_t g_rgctx_IsOfType_1_tC31A1FF970FE3A8484D1B1FE293476331B4A861F = 15948;
 const uint32_t g_rgctx_IsOfType_1_tE25E91285D551821ADB2F1A7AD88273048E22D17 = 15950;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_Iterator_1_Clone_m06A7D1B0BDA308E69987DDED84FFC6B95859AA62 = 15254;
 const uint32_t g_rgctx_Iterator_1_Dispose_m3973A9258B5A77E6B3F7DC3D004466E6296075A9 = 15258;
@@ -2204,8 +2633,13 @@ const uint32_t g_rgctx_Iterator_1_t8E009DFA0514DB4E4987BB392D13A5A8170ECCE4 = 29
 const uint32_t g_rgctx_Iterator_1_t908D71005972796790D5ED7033CA7098F2134EEF = 2997;
 const uint32_t g_rgctx_Iterator_1_tA31D49CCC35E12E44AB58CA8F1ABB8B79289764F = 2996;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Iterator_1_tBB463E7F0474B9FDAE03AD922C828F75B1607849 = 15950;
 const uint32_t g_rgctx_Iterator_1_tCFAA62A6C9F96DE2CF39C6650ECDD90ABE2685EC = 15951;
+=======
+const uint32_t g_rgctx_Iterator_1_tBB463E7F0474B9FDAE03AD922C828F75B1607849 = 15951;
+const uint32_t g_rgctx_Iterator_1_tCFAA62A6C9F96DE2CF39C6650ECDD90ABE2685EC = 15952;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_Iterator_1_tBB463E7F0474B9FDAE03AD922C828F75B1607849 = 15951;
 const uint32_t g_rgctx_Iterator_1_tCFAA62A6C9F96DE2CF39C6650ECDD90ABE2685EC = 15952;
@@ -2218,8 +2652,13 @@ const uint32_t g_rgctx_JitHelpers_UnsafeEnumCast_TisT_tFA656C6A592C03387B33AFDE4
 const uint32_t g_rgctx_JitHelpers_UnsafeEnumCast_TisT_tFC5542913C5C664040FE11A1CD3CAA5047760AA3_mB65AF4E5E0BC857E53850B49891C96E7061AE19A = 33251;
 const uint32_t g_rgctx_JobStruct_1_Execute_m0AAADCBE5D90D1000B3D704B14EB5408438E1CCD = 15317;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_JobStruct_1_t079CB5B73BCE0841F55E4D6CDA6494A010297D8A = 15952;
 const uint32_t g_rgctx_JobStruct_1_t9B14DC02939321AF08B0D9861EC2DE39FB2699ED = 15953;
+=======
+const uint32_t g_rgctx_JobStruct_1_t079CB5B73BCE0841F55E4D6CDA6494A010297D8A = 15953;
+const uint32_t g_rgctx_JobStruct_1_t9B14DC02939321AF08B0D9861EC2DE39FB2699ED = 15954;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_JobStruct_1_t079CB5B73BCE0841F55E4D6CDA6494A010297D8A = 15953;
 const uint32_t g_rgctx_JobStruct_1_t9B14DC02939321AF08B0D9861EC2DE39FB2699ED = 15954;
@@ -2237,7 +2676,11 @@ const uint32_t g_rgctx_KeyIterator_t6346E1298A3C326A48A729A2840F4C65222A4B68 = 3
 const uint32_t g_rgctx_KeyList__ctor_m9E800CDF1F22A710C1B85E30E2CE048FC4F42188 = 15924;
 const uint32_t g_rgctx_KeyList_tBF0BA35A8E56C2CA6B0D132E81B49AAC9D037ABE = 3002;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_KeyValuePairU5BU5D_t86595024C041DB8623BADA1640E11606ED5AF3B7 = 16370;
+=======
+const uint32_t g_rgctx_KeyValuePairU5BU5D_t86595024C041DB8623BADA1640E11606ED5AF3B7 = 16371;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_KeyValuePairU5BU5D_t86595024C041DB8623BADA1640E11606ED5AF3B7 = 16371;
 >>>>>>> Stashed changes
@@ -2339,9 +2782,15 @@ const uint32_t g_rgctx_LinkedList_1_get_First_mDC826306A3817126B30BF139CA45A609D
 const uint32_t g_rgctx_LinkedList_1_get_First_mDCB5EFC35BE263A2B84AB8C91028B145EB358C42 = 16257;
 const uint32_t g_rgctx_LinkedList_1_t2BE688DBB804B0F90493D85355AF0536C5697D2D = 3088;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_LinkedList_1_tD3C0084872187FB26CDCBAB1C08E1C89332356F5 = 15960;
 const uint32_t g_rgctx_LinkedList_1_tD5EB0A2EC43659017ECD044ED25CDC8416A8E576 = 15962;
 const uint32_t g_rgctx_LinkedList_1_tE2965BDEA37AB803F97A5EE1A63A06A1B15D420B = 15961;
+=======
+const uint32_t g_rgctx_LinkedList_1_tD3C0084872187FB26CDCBAB1C08E1C89332356F5 = 15961;
+const uint32_t g_rgctx_LinkedList_1_tD5EB0A2EC43659017ECD044ED25CDC8416A8E576 = 15963;
+const uint32_t g_rgctx_LinkedList_1_tE2965BDEA37AB803F97A5EE1A63A06A1B15D420B = 15962;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_LinkedList_1_tD3C0084872187FB26CDCBAB1C08E1C89332356F5 = 15961;
 const uint32_t g_rgctx_LinkedList_1_tD5EB0A2EC43659017ECD044ED25CDC8416A8E576 = 15963;
@@ -2362,9 +2811,15 @@ const uint32_t g_rgctx_ListQueryMatcher_1_set_matches_m75D90DD6553349167D44E806F
 const uint32_t g_rgctx_ListQueryMatcher_1_set_matches_m8BFDA78E03E16F23AE4A5159B2AA3B3E620AF6D4 = 16396;
 const uint32_t g_rgctx_ListQueryMatcher_1_set_matches_mFA9AC4F74267FFB44986991740591C6AD2B4631D = 16393;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ListQueryMatcher_1_t577EE1CE98B265E66A1808AFF4DD39ACBCA807EA = 15977;
 const uint32_t g_rgctx_ListQueryMatcher_1_t61D835ED613CA7D09A5EFB63170B3954379C1966 = 15976;
 const uint32_t g_rgctx_ListQueryMatcher_1_tFB766CB3A77143EEE8FA039B331ED426F62BF58D = 15975;
+=======
+const uint32_t g_rgctx_ListQueryMatcher_1_t577EE1CE98B265E66A1808AFF4DD39ACBCA807EA = 15978;
+const uint32_t g_rgctx_ListQueryMatcher_1_t61D835ED613CA7D09A5EFB63170B3954379C1966 = 15977;
+const uint32_t g_rgctx_ListQueryMatcher_1_tFB766CB3A77143EEE8FA039B331ED426F62BF58D = 15976;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ListQueryMatcher_1_t577EE1CE98B265E66A1808AFF4DD39ACBCA807EA = 15978;
 const uint32_t g_rgctx_ListQueryMatcher_1_t61D835ED613CA7D09A5EFB63170B3954379C1966 = 15977;
@@ -2498,15 +2953,21 @@ const uint32_t g_rgctx_List_1_set_Item_m140B60FAA886CF2400F87C32F9A7D045AAB98B32
 const uint32_t g_rgctx_List_1_set_Item_m18A1051454E23803A6852412638C5B1229EC1254 = 16515;
 const uint32_t g_rgctx_List_1_set_Item_m405366869EC6A6E94075FF7E3B35DE3CC5F9844D = 16494;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_List_1_t06B75CD69EB58B504A2338CAC24DEAB2A4A422D1 = 15978;
 const uint32_t g_rgctx_List_1_t0F46A0DF590E92BBBDB2D48D051FCC7AD8BE3B20 = 3179;
 const uint32_t g_rgctx_List_1_t282169D67FEE4C1EFB635B9E44452CE5CEBA9F2F = 3148;
 const uint32_t g_rgctx_List_1_t2D02B439A60142305D30BD294433449D8922C8C6 = 15984;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_List_1_t06B75CD69EB58B504A2338CAC24DEAB2A4A422D1 = 15979;
 const uint32_t g_rgctx_List_1_t0F46A0DF590E92BBBDB2D48D051FCC7AD8BE3B20 = 3179;
 const uint32_t g_rgctx_List_1_t282169D67FEE4C1EFB635B9E44452CE5CEBA9F2F = 3148;
 const uint32_t g_rgctx_List_1_t2D02B439A60142305D30BD294433449D8922C8C6 = 15985;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_List_1_t336626F1453D503656CB3CE230E495228594CA97 = 3181;
 const uint32_t g_rgctx_List_1_t337694F91B58AF8728AFD4FBFFE4A28CC4C39849 = 3155;
@@ -2514,22 +2975,29 @@ const uint32_t g_rgctx_List_1_t42B7A498902031B080EC1748678FDFCAF92F06DB = 3132;
 const uint32_t g_rgctx_List_1_t54D1F3BBDE8B5203C6DA9254F678F00F35E07168 = 3149;
 const uint32_t g_rgctx_List_1_t551E0227199E54FC2269D739FD5831C7CACBD00D = 3177;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_List_1_t56A394D05ED155D8F34582FE34E4E0DDC9FCCE88 = 15994;
 const uint32_t g_rgctx_List_1_t57309B36C9E4BA801D077B4621172D2361E669D0 = 3157;
 const uint32_t g_rgctx_List_1_t5A4F4C22AE4FF066A09FBA6003D68068135D73F3 = 15980;
 const uint32_t g_rgctx_List_1_t5CFEE1509C41241F0EA4B86C7A4B7F5CDD8CBAE9 = 3160;
 const uint32_t g_rgctx_List_1_t63DA32228D1B78DA365C4AC6A25169789E69124B = 15990;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_List_1_t56A394D05ED155D8F34582FE34E4E0DDC9FCCE88 = 15995;
 const uint32_t g_rgctx_List_1_t57309B36C9E4BA801D077B4621172D2361E669D0 = 3157;
 const uint32_t g_rgctx_List_1_t5A4F4C22AE4FF066A09FBA6003D68068135D73F3 = 15981;
 const uint32_t g_rgctx_List_1_t5CFEE1509C41241F0EA4B86C7A4B7F5CDD8CBAE9 = 3160;
 const uint32_t g_rgctx_List_1_t63DA32228D1B78DA365C4AC6A25169789E69124B = 15991;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_List_1_t65D73AE3589A56A7B32F4BDFCD91269AD04DD4DF = 3171;
 const uint32_t g_rgctx_List_1_t68E05BFA0C07603C79D2996B1F34B05627E9033E = 3178;
 const uint32_t g_rgctx_List_1_t6B581F7B52E0A3F6E627E03A12806496BF57925F = 3165;
 const uint32_t g_rgctx_List_1_t706CCC8B361457A4080C1052CF2678440D176041 = 3183;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_List_1_t724486D869FD403F3936702B9ED8E6CFC489C8DE = 15986;
 const uint32_t g_rgctx_List_1_t7327E32B049803209C39CA719B26352D0E5BDCDF = 3134;
@@ -2540,6 +3008,8 @@ const uint32_t g_rgctx_List_1_t8EBA6FB837074EF63D7D56A0B856C26B88B8F580 = 15989;
 const uint32_t g_rgctx_List_1_t8EE2439A76F7EC4A05A26B03ADAC168403CA1A47 = 3151;
 const uint32_t g_rgctx_List_1_t8FB4B86CFE153B532BA1A119B7771E0F0154768C = 15981;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_List_1_t724486D869FD403F3936702B9ED8E6CFC489C8DE = 15987;
 const uint32_t g_rgctx_List_1_t7327E32B049803209C39CA719B26352D0E5BDCDF = 3134;
 const uint32_t g_rgctx_List_1_t7ECE6A3407ABA1B6A770EE42BC241FA0D5CA8E64 = 15980;
@@ -2548,13 +3018,20 @@ const uint32_t g_rgctx_List_1_t8D95764CE5D80283FBA174F84D0360BA6AA2FF01 = 3156;
 const uint32_t g_rgctx_List_1_t8EBA6FB837074EF63D7D56A0B856C26B88B8F580 = 15990;
 const uint32_t g_rgctx_List_1_t8EE2439A76F7EC4A05A26B03ADAC168403CA1A47 = 3151;
 const uint32_t g_rgctx_List_1_t8FB4B86CFE153B532BA1A119B7771E0F0154768C = 15982;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_List_1_t905EFEC983EC5317F0B1F633D205BF984BB0BE1D = 3173;
 const uint32_t g_rgctx_List_1_t91EB074D74BBF849E5A04EA8C13826A7FFA53009 = 3138;
 const uint32_t g_rgctx_List_1_t996AF771A6DD77ADB4156CC42CC5F734EED5910C = 3145;
 const uint32_t g_rgctx_List_1_t9AEAF71CB03D3DCDB8CF05C06A82571523481244 = 3131;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_List_1_tA054E80C004998BFCB1ED5377160B32E4A19B78C = 15985;
+=======
+const uint32_t g_rgctx_List_1_tA054E80C004998BFCB1ED5377160B32E4A19B78C = 15986;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_List_1_tA054E80C004998BFCB1ED5377160B32E4A19B78C = 15986;
 >>>>>>> Stashed changes
@@ -2565,6 +3042,7 @@ const uint32_t g_rgctx_List_1_tAE673BDD24CABB2DA3019FBAD7A5A16537C39288 = 3147;
 const uint32_t g_rgctx_List_1_tAE739408B9BB3197E45852CACF01E1CB3B1D8B7A = 3152;
 const uint32_t g_rgctx_List_1_tB247115334146A257ABD4D8A3D79BAEA603546DE = 3159;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_List_1_tC51562EAAD92EDE4D0C669A619B339D3FB0A8258 = 15987;
 const uint32_t g_rgctx_List_1_tC7D4689DABBF2774A99BE1B6039F05F515C2898C = 15983;
 const uint32_t g_rgctx_List_1_tCA88055D3747C3BE6B5EECA9E34429F66AA43A6F = 3140;
@@ -2574,6 +3052,8 @@ const uint32_t g_rgctx_List_1_tF0914577DB19608724BCEABBBF0918EB04F59607 = 3130;
 const uint32_t g_rgctx_List_1_tF48C5F41F9A902C06F8AEF297D4AB804F49A3BA0 = 15982;
 const uint32_t g_rgctx_LockedStackU5BU5D_t63CD73F9ED81E39F97F37BA286BE3067E8821E9D = 16372;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_List_1_tC51562EAAD92EDE4D0C669A619B339D3FB0A8258 = 15988;
 const uint32_t g_rgctx_List_1_tC7D4689DABBF2774A99BE1B6039F05F515C2898C = 15984;
 const uint32_t g_rgctx_List_1_tCA88055D3747C3BE6B5EECA9E34429F66AA43A6F = 3140;
@@ -2582,6 +3062,9 @@ const uint32_t g_rgctx_List_1_tEE3249BCF0CFD15E7212FFE381C5AFB2BCBEFFF8 = 3150;
 const uint32_t g_rgctx_List_1_tF0914577DB19608724BCEABBBF0918EB04F59607 = 3130;
 const uint32_t g_rgctx_List_1_tF48C5F41F9A902C06F8AEF297D4AB804F49A3BA0 = 15983;
 const uint32_t g_rgctx_LockedStackU5BU5D_t63CD73F9ED81E39F97F37BA286BE3067E8821E9D = 16373;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_LockedStack_Trim_m73CFBFCBB3008CC53CB3CB93D97A8377E646AFB0 = 20328;
 const uint32_t g_rgctx_LockedStack_TryPop_m4872ADF52512B415370F176F858B395845A06884 = 20329;
@@ -2589,7 +3072,11 @@ const uint32_t g_rgctx_LockedStack_TryPush_mE6809999E450D71F5D0E840556CC67CD2515
 const uint32_t g_rgctx_LockedStack__ctor_m0E07979227FBD366993FBDA0E01867103B6152B4 = 20327;
 const uint32_t g_rgctx_LockedStack_t2A553D0667E1ED49B42BE94445BADEB72DE8DD90 = 3555;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_LongEnumEqualityComparer_1_tAA1FBBBE54C5C7953155A59E1B435A2032B98A6F = 16118;
+=======
+const uint32_t g_rgctx_LongEnumEqualityComparer_1_tAA1FBBBE54C5C7953155A59E1B435A2032B98A6F = 16119;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_LongEnumEqualityComparer_1_tAA1FBBBE54C5C7953155A59E1B435A2032B98A6F = 16119;
 >>>>>>> Stashed changes
@@ -2608,7 +3095,11 @@ const uint32_t g_rgctx_LowLevelList_1__ctor_m0919DF0C340C061B43AE4CF9808FA08C2E9
 const uint32_t g_rgctx_LowLevelList_1__ctor_m9B1951F3509A87430783EF7F65DECE586E247969 = 20377;
 const uint32_t g_rgctx_LowLevelList_1_set_Capacity_m07D684CD611D2A21C6096106A0E013998A2953E8 = 20394;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_LowLevelList_1_tD926F62ED465B07BBA0194B1B198F392B63F1844 = 16124;
+=======
+const uint32_t g_rgctx_LowLevelList_1_tD926F62ED465B07BBA0194B1B198F392B63F1844 = 16125;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_LowLevelList_1_tD926F62ED465B07BBA0194B1B198F392B63F1844 = 16125;
 >>>>>>> Stashed changes
@@ -2623,9 +3114,15 @@ const uint32_t g_rgctx_MemoryManager_1_Pin_mC2C5853D30132D24D60560F612CA24146712
 const uint32_t g_rgctx_MemoryManager_1_Pin_mF83E400578816DA57826DB3AE096CEE843B38BDF = 20429;
 const uint32_t g_rgctx_MemoryManager_1_TryGetArray_m9592400F53F7BA0CD830EEDCEF0F164594002C08 = 20425;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_MemoryManager_1_t5830C2CFA8E2B6EB36370B66F6BAE08BCB52F0F7 = 16127;
 const uint32_t g_rgctx_MemoryManager_1_t944061747B08D3FA3898F3CA25490CD6F0DFE6A1 = 3563;
 const uint32_t g_rgctx_MemoryManager_1_tBE2DAF504B482820C99A2F6BA150C252918B7B3A = 16126;
+=======
+const uint32_t g_rgctx_MemoryManager_1_t5830C2CFA8E2B6EB36370B66F6BAE08BCB52F0F7 = 16128;
+const uint32_t g_rgctx_MemoryManager_1_t944061747B08D3FA3898F3CA25490CD6F0DFE6A1 = 3563;
+const uint32_t g_rgctx_MemoryManager_1_tBE2DAF504B482820C99A2F6BA150C252918B7B3A = 16127;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_MemoryManager_1_t5830C2CFA8E2B6EB36370B66F6BAE08BCB52F0F7 = 16128;
 const uint32_t g_rgctx_MemoryManager_1_t944061747B08D3FA3898F3CA25490CD6F0DFE6A1 = 3563;
@@ -2731,7 +3228,11 @@ const uint32_t g_rgctx_NativeArray_1_t23BFAA73C4C41B9904E0E737F5F61F241CF50B35 =
 const uint32_t g_rgctx_NativeArray_1_t2C247F4ECC77B6EB817A4905FC3E313228104550 = 3616;
 const uint32_t g_rgctx_NativeArray_1_t8E6B029F68D128E902CBA027DD3548EF6B8E32B2 = 3631;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_NativeArray_1_t919B6007597CFF6A4B222FAC6869EC25248460C2 = 16128;
+=======
+const uint32_t g_rgctx_NativeArray_1_t919B6007597CFF6A4B222FAC6869EC25248460C2 = 16129;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_NativeArray_1_t919B6007597CFF6A4B222FAC6869EC25248460C2 = 16129;
 >>>>>>> Stashed changes
@@ -2783,15 +3284,21 @@ const uint32_t g_rgctx_NoAllocHelpers_ResizeList_TisT_t686D0C4E0CCD640A22261BA61
 const uint32_t g_rgctx_NoAllocHelpers_SafeLength_TisT_t0DCE4B4060595856884B9A3C03499720761720E7_mCC3053C857AB5ED9B3177B74280FC5426D742AD4 = 33542;
 const uint32_t g_rgctx_NoAllocHelpers_SafeLength_TisT_t3B82752A9C5C210D3D8FC85C28D365C3241482D3_m48331505E12A674E232789315F7A8DFCD1ED0408 = 33541;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_NodeU5BU5D_t38937018FBDBB61067D0B19DC332135CF3BE78F4 = 16373;
 const uint32_t g_rgctx_NodeU5BU5D_t9D598C34968D1439BC5680D8C9E04CA5556450E0 = 16374;
 const uint32_t g_rgctx_Node__ctor_m09C3AC699BAA3CA919552062791FA4E557762A49 = 22010;
 const uint32_t g_rgctx_Node_t95FDEE0A61520693EF1EF6C7D792E8D9D9C26249 = 16129;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_NodeU5BU5D_t38937018FBDBB61067D0B19DC332135CF3BE78F4 = 16374;
 const uint32_t g_rgctx_NodeU5BU5D_t9D598C34968D1439BC5680D8C9E04CA5556450E0 = 16375;
 const uint32_t g_rgctx_Node__ctor_m09C3AC699BAA3CA919552062791FA4E557762A49 = 22010;
 const uint32_t g_rgctx_Node_t95FDEE0A61520693EF1EF6C7D792E8D9D9C26249 = 16130;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_NonAllocDictionary_2_Assert_m166A9B33FE3D4D18AAF2AD17415D5080B4B66430 = 22012;
 const uint32_t g_rgctx_NonAllocDictionary_2_Contains_mC7EFC309B990A65B7377A7F435726F385DA8870E = 22013;
@@ -2803,9 +3310,15 @@ const uint32_t g_rgctx_NonAllocDictionary_2_IsPrimeFromList_m8F2AA462C54F835A9D1
 const uint32_t g_rgctx_NonAllocDictionary_2_Remove_m6825CD5B3377EC2138DE0E2DF63F6AB41C0E5ECB = 22019;
 const uint32_t g_rgctx_NonAllocDictionary_2_get_Count_mDADC5117756FA7290C5537164F3C53CF83A8C15D = 22020;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_NonAllocDictionary_2_tB1D19586BFF5FFCCAD9C824C554038AE38131687 = 16130;
 const uint32_t g_rgctx_NullableComparer_1_tB80EEB6B34726F97B5B1BDD16846B8B88B7DA333 = 16133;
 const uint32_t g_rgctx_NullableEqualityComparer_1_tF34701DDD48E10A14C46869515B2201EF0517CEE = 16134;
+=======
+const uint32_t g_rgctx_NonAllocDictionary_2_tB1D19586BFF5FFCCAD9C824C554038AE38131687 = 16131;
+const uint32_t g_rgctx_NullableComparer_1_tB80EEB6B34726F97B5B1BDD16846B8B88B7DA333 = 16134;
+const uint32_t g_rgctx_NullableEqualityComparer_1_tF34701DDD48E10A14C46869515B2201EF0517CEE = 16135;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_NonAllocDictionary_2_tB1D19586BFF5FFCCAD9C824C554038AE38131687 = 16131;
 const uint32_t g_rgctx_NullableComparer_1_tB80EEB6B34726F97B5B1BDD16846B8B88B7DA333 = 16134;
@@ -2819,6 +3332,7 @@ const uint32_t g_rgctx_Nullable_1_t9860B87EFBA264852F3EFE7B97CBE73E723411D7 = 37
 const Il2CppRGCTXConstrainedData g_rgctx_Nullable_1_t9860B87EFBA264852F3EFE7B97CBE73E723411D7_Object_GetHashCode_m372C5A7AB16CAC13307C11C4256D706CE57E090C = {3746,1610620287};
 const uint32_t g_rgctx_ObjectComparer_1__ctor_m790A2B623DF52626E229505E6E69B1647E55FBA7 = 22454;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ObjectComparer_1_t29AF70F54EBAA613099A00D9D7BD25A0533708D9 = 16137;
 const uint32_t g_rgctx_ObjectComparer_1_tDD7528B1977431E4A40BDE5E6DA9D8D2DAB1A58B = 16136;
 const uint32_t g_rgctx_ObjectEqualityComparer_1__ctor_mDDF77C01CC6FFDF0D5266710CA22B0E076237979 = 22735;
@@ -2831,11 +3345,19 @@ const uint32_t g_rgctx_ObjectListPool_1_t1250A332DDDD4540638F9F68C0AEFC78297DD63
 const uint32_t g_rgctx_ObjectComparer_1_t29AF70F54EBAA613099A00D9D7BD25A0533708D9 = 16138;
 const uint32_t g_rgctx_ObjectComparer_1_tDD7528B1977431E4A40BDE5E6DA9D8D2DAB1A58B = 16137;
 const uint32_t g_rgctx_ObjectEqualityComparer_1__ctor_mDDF77C01CC6FFDF0D5266710CA22B0E076237979 = 22735;
+=======
+const uint32_t g_rgctx_ObjectComparer_1_t29AF70F54EBAA613099A00D9D7BD25A0533708D9 = 16138;
+const uint32_t g_rgctx_ObjectComparer_1_tDD7528B1977431E4A40BDE5E6DA9D8D2DAB1A58B = 16137;
+const uint32_t g_rgctx_ObjectEqualityComparer_1__ctor_mDDF77C01CC6FFDF0D5266710CA22B0E076237979 = 22735;
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_ObjectEqualityComparer_1_t444E5872AA48DCA95613D1F1E0DBB94A13B76D9E = 16142;
 const uint32_t g_rgctx_ObjectEqualityComparer_1_t7B8E95F4AE75565772FA76257B29F09EF4B6119A = 16139;
 const uint32_t g_rgctx_ObjectEqualityComparer_1_t8FFF1F53691561E7C8AC6493AF588DE686A68D38 = 16141;
 const uint32_t g_rgctx_ObjectEqualityComparer_1_tD58D5789FD8C276082FAE4443B8669F38975E072 = 16140;
 const uint32_t g_rgctx_ObjectListPool_1_t1250A332DDDD4540638F9F68C0AEFC78297DD634 = 16143;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_ObjectPool_1_Clear_mAD5C9798EC2C21AC68D8095711D14A3CEB4C0B76 = 23437;
 const uint32_t g_rgctx_ObjectPool_1_Clear_mAEFFB6CEF1143BA17BBEDC87C2A81ECA8015C264 = 23442;
@@ -2864,6 +3386,7 @@ const uint32_t g_rgctx_ObjectPool_1_get_maxSize_m888725E7721C7C3386079D2BA543479
 const uint32_t g_rgctx_ObjectPool_1_set_CountAll_m3965F34127517FF3838F3B1A3151B87BE2A8C1F4 = 23440;
 const uint32_t g_rgctx_ObjectPool_1_set_maxSize_m036035CD316B9F2C6E2068F34FB418C0E88E2A03 = 23459;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ObjectPool_1_t1F03BE53802999DF0A297225534A17E7AE5F9A27 = 16149;
 const uint32_t g_rgctx_ObjectPool_1_t34FF78D7D57124DC279A886E9FF3F18966BDD17C = 16152;
 const uint32_t g_rgctx_ObjectPool_1_t7C13985D550A748FA9A6B94F9C1623CE4679F470 = 16146;
@@ -2872,6 +3395,8 @@ const uint32_t g_rgctx_ObjectPool_1_tE472D03D2C99D891FFA478E1EB793641B86FD314 = 
 const uint32_t g_rgctx_ObjectPool_1_tE5CFD0621A8E1B53BFEE4EAB026924B068242608 = 16148;
 const uint32_t g_rgctx_ObjectPool_1_tF4D8646988C4B98A7DB2A32E3B33714F57D0C131 = 16156;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_ObjectPool_1_t1F03BE53802999DF0A297225534A17E7AE5F9A27 = 16150;
 const uint32_t g_rgctx_ObjectPool_1_t34FF78D7D57124DC279A886E9FF3F18966BDD17C = 16153;
 const uint32_t g_rgctx_ObjectPool_1_t7C13985D550A748FA9A6B94F9C1623CE4679F470 = 16147;
@@ -2879,6 +3404,9 @@ const uint32_t g_rgctx_ObjectPool_1_tAE6830B654B7B14C8D3B4725B29CB79E81663E85 = 
 const uint32_t g_rgctx_ObjectPool_1_tE472D03D2C99D891FFA478E1EB793641B86FD314 = 16154;
 const uint32_t g_rgctx_ObjectPool_1_tE5CFD0621A8E1B53BFEE4EAB026924B068242608 = 16149;
 const uint32_t g_rgctx_ObjectPool_1_tF4D8646988C4B98A7DB2A32E3B33714F57D0C131 = 16157;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_Object_Instantiate_TisT_t52F660631FB7F7BD0DE31C28286F86C3AA7CC15A_m970E0FC46C03A1F5705C31E7C152F44DC634D00A = 33553;
 const uint32_t g_rgctx_OrderedEnumerable_1_GetEnumerableSorter_m5F587D4742CDA03CB231EF0741B98D9EB7EF4E84 = 23478;
@@ -2887,17 +3415,23 @@ const uint32_t g_rgctx_OrderedEnumerable_1_GetEnumerator_mBBDBE3B4727EE491AF4517
 const uint32_t g_rgctx_OrderedEnumerable_1__ctor_m920D35170CC92329CACC9CFB60EF8BB9C06FF9FF = 23473;
 const uint32_t g_rgctx_OrderedEnumerable_1_t06CB3897759B3B58FCFDD71EC11AFB8E99366F94 = 3816;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_OrderedEnumerable_1_t9A3D8D2850455B28D36B701298D0B1331F534031 = 16161;
 const uint32_t g_rgctx_OrderedEnumerable_2__ctor_m8890686A74F81E8473FB5D036EE0D750597D2994 = 23490;
 const uint32_t g_rgctx_OrderedEnumerable_2__ctor_mB8B4AFAD45CC73DEF69E5F02691BE96612B56DFB = 23489;
 const uint32_t g_rgctx_OrderedEnumerable_2_tBEC552CAD99DF0748B3CF3552F93BE83E3A03F3F = 16163;
 const uint32_t g_rgctx_OrderedEnumerable_2_tF1AACDA47B61C821E04C8EE7FF8ACC912E870472 = 16162;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_OrderedEnumerable_1_t9A3D8D2850455B28D36B701298D0B1331F534031 = 16162;
 const uint32_t g_rgctx_OrderedEnumerable_2__ctor_m8890686A74F81E8473FB5D036EE0D750597D2994 = 23490;
 const uint32_t g_rgctx_OrderedEnumerable_2__ctor_mB8B4AFAD45CC73DEF69E5F02691BE96612B56DFB = 23489;
 const uint32_t g_rgctx_OrderedEnumerable_2_tBEC552CAD99DF0748B3CF3552F93BE83E3A03F3F = 16164;
 const uint32_t g_rgctx_OrderedEnumerable_2_tF1AACDA47B61C821E04C8EE7FF8ACC912E870472 = 16163;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_PairIterator__ctor_mB966DCC09FC088E89519264EA069C3E617C7E773 = 23499;
 const uint32_t g_rgctx_PairIterator_get_Current_mF3BC89FF6D604E1AD0C023A7C8164497DF7B731C = 23500;
@@ -2908,9 +3442,15 @@ const uint32_t g_rgctx_PanelChangedEventBase_1_set_originPanel_mDA6F1925F20E34F9
 const uint32_t g_rgctx_PanelChangedEventBase_1_tF8A98247F3388E0539168F62B5BBA525DCA2B282 = 3821;
 const uint32_t g_rgctx_ParallelForJobStruct_1_Execute_mB120582907B13544F0AEFAA15E6BC96C1C70418F = 23532;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ParallelForJobStruct_1_t2887542AB5333DED2947E8B2B7688E18794D2239 = 16164;
 const uint32_t g_rgctx_ParallelForJobStruct_1_tEF5B83079821A31EF124E43C06E887A9F3325A10 = 16165;
 const uint32_t g_rgctx_PerCoreLockedStacksU5BU5D_t478B38EB3E77CAA978EF5C9649B181D3C8BD5FC2 = 16375;
+=======
+const uint32_t g_rgctx_ParallelForJobStruct_1_t2887542AB5333DED2947E8B2B7688E18794D2239 = 16165;
+const uint32_t g_rgctx_ParallelForJobStruct_1_tEF5B83079821A31EF124E43C06E887A9F3325A10 = 16166;
+const uint32_t g_rgctx_PerCoreLockedStacksU5BU5D_t478B38EB3E77CAA978EF5C9649B181D3C8BD5FC2 = 16376;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ParallelForJobStruct_1_t2887542AB5333DED2947E8B2B7688E18794D2239 = 16165;
 const uint32_t g_rgctx_ParallelForJobStruct_1_tEF5B83079821A31EF124E43C06E887A9F3325A10 = 16166;
@@ -3004,7 +3544,11 @@ const uint32_t g_rgctx_Queue_1__ctor_m7089EBB9898FFE213B10E7C8AACE4C02CF27F3F3 =
 const uint32_t g_rgctx_Queue_1_get_Count_m8F4B3CBE130496B443D7ABE8BA7D8AEC71AB25B2 = 24175;
 const uint32_t g_rgctx_Queue_1_t488A7AFBA7FA3AC84B8E5085216C1F8E7EBDD8BE = 3875;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Queue_1_t70ECF8B50CF236BB9EC6C6DE9B53ADA038C20C0F = 16180;
+=======
+const uint32_t g_rgctx_Queue_1_t70ECF8B50CF236BB9EC6C6DE9B53ADA038C20C0F = 16181;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_Queue_1_t70ECF8B50CF236BB9EC6C6DE9B53ADA038C20C0F = 16181;
 >>>>>>> Stashed changes
@@ -3022,7 +3566,11 @@ const uint32_t g_rgctx_ReadOnlyCollection_1_t63BB4FFE710787B877579144DF9619835D2
 const uint32_t g_rgctx_ReadOnlyCollection_1_t879551BCA28F2AC2D5ADB3E777EED566D93095A5 = 3898;
 const uint32_t g_rgctx_ReadOnlyCollection_1_t9E03ACED3A4AEE191450104C75C606646C655189 = 3899;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ReadOnlyCollection_1_tECCF193B4766C0D2611FDF4C5720AD9558E50A9A = 16190;
+=======
+const uint32_t g_rgctx_ReadOnlyCollection_1_tECCF193B4766C0D2611FDF4C5720AD9558E50A9A = 16191;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ReadOnlyCollection_1_tECCF193B4766C0D2611FDF4C5720AD9558E50A9A = 16191;
 >>>>>>> Stashed changes
@@ -3063,7 +3611,11 @@ const uint32_t g_rgctx_ReadOnlySpan_1_op_Equality_m29333A49DF443E3EAB4FE0107FF95
 const uint32_t g_rgctx_ReadOnlySpan_1_t2937703DF79E9792F94AA433D66AB4A287269DA1 = 3922;
 const Il2CppRGCTXConstrainedData g_rgctx_ReadOnlySpan_1_t2937703DF79E9792F94AA433D66AB4A287269DA1_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F = {3922,1610620293};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ReadOnlySpan_1_t6009411302D1621A53C2C6A1D4944B02FE208C43 = 16192;
+=======
+const uint32_t g_rgctx_ReadOnlySpan_1_t6009411302D1621A53C2C6A1D4944B02FE208C43 = 16193;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ReadOnlySpan_1_t6009411302D1621A53C2C6A1D4944B02FE208C43 = 16193;
 >>>>>>> Stashed changes
@@ -3077,7 +3629,11 @@ const uint32_t g_rgctx_RefCounted__ctor_mB8726335DC3D0DADCBF83A70BD0902EABD8440B
 const uint32_t g_rgctx_RefCounted__ctor_mE630E1630C1FB6FD949DF27CF1DB401083D57FB5 = 24578;
 const uint32_t g_rgctx_RefCounted_get_refCount_m8673F63FCB1DD8DCB2ED4447C28D67E244FEA911 = 24577;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_RefCounted_t29783502B9D2BC14636FE0CC4B323081C0867876 = 16193;
+=======
+const uint32_t g_rgctx_RefCounted_t29783502B9D2BC14636FE0CC4B323081C0867876 = 16194;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_RefCounted_t29783502B9D2BC14636FE0CC4B323081C0867876 = 16194;
 >>>>>>> Stashed changes
@@ -3085,6 +3641,7 @@ const uint32_t g_rgctx_RefCounted_tC5AF44561F0D5E401FB0F7F4415BFBC1607AFF72 = 39
 const uint32_t g_rgctx_Resources_ConvertObjects_TisT_tB8DEE08EAC015A915685835C815E052C170F28E1_mEDA3EC2D7CA5F6FFD48973D4B9F68E691C01B605 = 33576;
 const uint32_t g_rgctx_ReturnType_t0FD1385ACD92B5652F803E183304929EDB7632D9 = 20;
 const uint32_t g_rgctx_ReturnType_t2DAB0875DF34A21B532F695F9B7329A0B5BBCB27 = 21;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_ReturnType_t4115D49E15B816AA2133301AFBEEA6B5E9928819 = 15270;
 const uint32_t g_rgctx_ReturnType_t6F6A8AAD1934478A88473188C291F7CEEE555E73 = 15;
@@ -3098,10 +3655,18 @@ const uint32_t g_rgctx_ReturnType_tBDDF22167069A86BB26C0100BBDE8BF7FE746984 = 15
 const uint32_t g_rgctx_S_t8E0AC5341E1B70AD75A7CE5B2F18C8077867924F = 82;
 const uint32_t g_rgctx_SafeHandleCache_1_t4B3F3C8B3323A2A02E76D4FA7FC806086F4A0E77 = 16195;
 >>>>>>> Stashed changes
+=======
+const uint32_t g_rgctx_ReturnType_t4115D49E15B816AA2133301AFBEEA6B5E9928819 = 15271;
+const uint32_t g_rgctx_ReturnType_t6F6A8AAD1934478A88473188C291F7CEEE555E73 = 15;
+const uint32_t g_rgctx_ReturnType_tBDDF22167069A86BB26C0100BBDE8BF7FE746984 = 15272;
+const uint32_t g_rgctx_S_t8E0AC5341E1B70AD75A7CE5B2F18C8077867924F = 82;
+const uint32_t g_rgctx_SafeHandleCache_1_t4B3F3C8B3323A2A02E76D4FA7FC806086F4A0E77 = 16195;
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_SearchT_t3CD5962CBF213A4FD95B4C9F57390100824A89EA = 864;
 const uint32_t g_rgctx_SerializableDictionary_2_get_dictionary_m105E9CAC7EF9E542207F7FECCDF5FABE955AD325 = 24616;
 const uint32_t g_rgctx_ShaderInfoStorage_1_CpuBlit_m33338C40F71889D9B7775DD5FFDFDBC70364D952 = 24621;
 const uint32_t g_rgctx_ShaderInfoStorage_1_CreateOrExpandTexture_mC165FC3B96CD5F3F85DE7E99A63D1FD1CEA52B12 = 24622;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_ShaderInfoStorage_1_t29BAC8AE532E294D7DE0A598A4D076409FF71ED9 = 16196;
 const uint32_t g_rgctx_SlotU5BU5D_tCF3C9EE13C54F730A642AD5F260A5A7D2F9F73F7 = 16376;
@@ -3109,6 +3674,14 @@ const uint32_t g_rgctx_SortedListKeyEnumerator__ctor_m28CBE46D4F471D562C6E9BF643
 const uint32_t g_rgctx_SortedListKeyEnumerator_tD25E4501C93F8996465E698CF2E30942795FF24F = 16197;
 const uint32_t g_rgctx_SortedListValueEnumerator__ctor_m5888F52C713CBACC1D3039B513BB385DCCFFAC84 = 24652;
 const uint32_t g_rgctx_SortedListValueEnumerator_t2C333B1C34817C77FE472AF6C5C121C216A1E0BC = 16198;
+=======
+const uint32_t g_rgctx_ShaderInfoStorage_1_t29BAC8AE532E294D7DE0A598A4D076409FF71ED9 = 16197;
+const uint32_t g_rgctx_SlotU5BU5D_tCF3C9EE13C54F730A642AD5F260A5A7D2F9F73F7 = 16377;
+const uint32_t g_rgctx_SortedListKeyEnumerator__ctor_m28CBE46D4F471D562C6E9BF643EEBEE97FAC49A2 = 24639;
+const uint32_t g_rgctx_SortedListKeyEnumerator_tD25E4501C93F8996465E698CF2E30942795FF24F = 16198;
+const uint32_t g_rgctx_SortedListValueEnumerator__ctor_m5888F52C713CBACC1D3039B513BB385DCCFFAC84 = 24652;
+const uint32_t g_rgctx_SortedListValueEnumerator_t2C333B1C34817C77FE472AF6C5C121C216A1E0BC = 16199;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ShaderInfoStorage_1_t29BAC8AE532E294D7DE0A598A4D076409FF71ED9 = 16197;
 const uint32_t g_rgctx_SlotU5BU5D_tCF3C9EE13C54F730A642AD5F260A5A7D2F9F73F7 = 16377;
@@ -3144,7 +3717,11 @@ const uint32_t g_rgctx_SortedList_2_set_Item_m44BAA94EE58C1BD2E91CDABEBFF3F62D07
 const uint32_t g_rgctx_SortedList_2_t451D95A193728D5626E4C2CA2CCC24125C4FE651 = 3961;
 const uint32_t g_rgctx_SortedList_2_t61AEDECC6DF909FAB02D0487A698CA9EE9EB5063 = 3957;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_SortedList_2_t93A9CE8FB30B3C390C759153CE3225118DD18523 = 16199;
+=======
+const uint32_t g_rgctx_SortedList_2_t93A9CE8FB30B3C390C759153CE3225118DD18523 = 16200;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_SortedList_2_t93A9CE8FB30B3C390C759153CE3225118DD18523 = 16200;
 >>>>>>> Stashed changes
@@ -3193,7 +3770,11 @@ const uint32_t g_rgctx_Span_1_t44C40F6E179DE0B4F52D7DA2E1884C0EE6DE3FB3 = 3983;
 const uint32_t g_rgctx_Span_1_t6279F1916947AE0F3A043A853E257E3DE12C2704 = 3972;
 const uint32_t g_rgctx_Span_1_t7FD45E31AEE5FB4133C73F1068A5135482912209 = 3985;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Span_1_t8E4E35878131E477E01CE39EEC13B5EA1723C45D = 16204;
+=======
+const uint32_t g_rgctx_Span_1_t8E4E35878131E477E01CE39EEC13B5EA1723C45D = 16205;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_Span_1_t8E4E35878131E477E01CE39EEC13B5EA1723C45D = 16205;
 >>>>>>> Stashed changes
@@ -3231,17 +3812,23 @@ const uint32_t g_rgctx_Stack_1_get_Count_m89E8E47F0400828312A25C18593A9785962F95
 const uint32_t g_rgctx_Stack_1_get_Count_mB3EA65BF31A8811A69F0232867BB97D6362705D8 = 25004;
 const uint32_t g_rgctx_Stack_1_get_Count_mDB9B62940BA3CBBB6A65815689C036E8B37BD6A7 = 25017;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Stack_1_t043FB4FC54039B87A5A75F4DD1F693DC8C0DAEAD = 16208;
 const uint32_t g_rgctx_Stack_1_t4CDD50F01F8D10EBD1F5961F370A10C880A2D292 = 4010;
 const uint32_t g_rgctx_Stack_1_t51874C1852076325B81B447B9A48ABB244CD6A73 = 16207;
 const uint32_t g_rgctx_Stack_1_t5397C5E5F116700572107CB7D6CFF1E00FE8A050 = 16211;
 const uint32_t g_rgctx_Stack_1_tBB18BE9AAB150218001606CC5163F90787B0B6FB = 16209;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_Stack_1_t043FB4FC54039B87A5A75F4DD1F693DC8C0DAEAD = 16209;
 const uint32_t g_rgctx_Stack_1_t4CDD50F01F8D10EBD1F5961F370A10C880A2D292 = 4010;
 const uint32_t g_rgctx_Stack_1_t51874C1852076325B81B447B9A48ABB244CD6A73 = 16208;
 const uint32_t g_rgctx_Stack_1_t5397C5E5F116700572107CB7D6CFF1E00FE8A050 = 16212;
 const uint32_t g_rgctx_Stack_1_tBB18BE9AAB150218001606CC5163F90787B0B6FB = 16210;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_StaticGetter_1_Invoke_m0995AE532A0DAD0312F87A5515AADD42A507FEA5 = 25158;
 const uint32_t g_rgctx_StaticGetter_1_t5D688B5F3157BD28DBD129EE20C721BC0EE7C66E = 4033;
@@ -3255,9 +3842,15 @@ const uint32_t g_rgctx_StructWrapperPool_1_Release_mF59CC9E5C36579F168F686FBC903
 const uint32_t g_rgctx_StructWrapperPool_1__ctor_m107151AA68858181958A36D18BBBB3CA3918DB60 = 25166;
 const uint32_t g_rgctx_StructWrapperPool_1__ctor_mBFD64D3194FFA96EEC168C215BD8E9C9FC993F42 = 25162;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_StructWrapperPool_1_t2DF506B605DC658296D1D1EC0716EF5F7DD8411F = 16227;
 const uint32_t g_rgctx_StructWrapperPool_1_t396B23A243DBA78518D2B368A6E9185BB1FD6AA3 = 16228;
 const uint32_t g_rgctx_StructWrapperPool_1_t5F07C40DA214BFDE7BC4934B94E7F48F307A6C1B = 16229;
+=======
+const uint32_t g_rgctx_StructWrapperPool_1_t2DF506B605DC658296D1D1EC0716EF5F7DD8411F = 16228;
+const uint32_t g_rgctx_StructWrapperPool_1_t396B23A243DBA78518D2B368A6E9185BB1FD6AA3 = 16229;
+const uint32_t g_rgctx_StructWrapperPool_1_t5F07C40DA214BFDE7BC4934B94E7F48F307A6C1B = 16230;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_StructWrapperPool_1_t2DF506B605DC658296D1D1EC0716EF5F7DD8411F = 16228;
 const uint32_t g_rgctx_StructWrapperPool_1_t396B23A243DBA78518D2B368A6E9185BB1FD6AA3 = 16229;
@@ -3283,17 +3876,23 @@ const uint32_t g_rgctx_StructWrapper_1_set_ReturnPool_m519E9C43CBCF8D14C031394C8
 const uint32_t g_rgctx_StructWrapper_1_t0B78CE16287B277BF2411C1045373D7C9FB98E14 = 4040;
 const uint32_t g_rgctx_StructWrapper_1_t26519610CFC630E47E87248DFB5A9BB3B651AC04 = 4041;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_StructWrapper_1_t557786470FF09546DDB8CE1FEC51F81B6CF602AC = 16233;
 const uint32_t g_rgctx_StructWrapper_1_t8F686BA8EF19C8738E7199F99D0BA6E607F82C30 = 4042;
 const uint32_t g_rgctx_StructWrapper_1_t9D75E71EEEE25914CF558D9AFBB3FD955FA0D7E5 = 16231;
 const uint32_t g_rgctx_StructWrapper_1_tD73CD39C63E3A2DAA127259E2237C7DE29805AB5 = 16230;
 const uint32_t g_rgctx_StructWrapper_1_tEE132849660A3E3BCB0663CB3D40CB95A36D93A3 = 16232;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_StructWrapper_1_t557786470FF09546DDB8CE1FEC51F81B6CF602AC = 16234;
 const uint32_t g_rgctx_StructWrapper_1_t8F686BA8EF19C8738E7199F99D0BA6E607F82C30 = 4042;
 const uint32_t g_rgctx_StructWrapper_1_t9D75E71EEEE25914CF558D9AFBB3FD955FA0D7E5 = 16232;
 const uint32_t g_rgctx_StructWrapper_1_tD73CD39C63E3A2DAA127259E2237C7DE29805AB5 = 16231;
 const uint32_t g_rgctx_StructWrapper_1_tEE132849660A3E3BCB0663CB3D40CB95A36D93A3 = 16233;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_StructWrapper_1_tF31A61CBC6C65F73A5A9FB80410AA8615D713713 = 4039;
 const uint32_t g_rgctx_StyleDataRef_1_Equals_mEFC8C1E66A466EC12119BE072FFC10DBBE05FB73 = 25405;
@@ -3327,7 +3926,11 @@ const uint32_t g_rgctx_SubsystemLifecycleManager_3_get_subsystem_mF82A91BFA86E83
 const uint32_t g_rgctx_SubsystemLifecycleManager_3_set_subsystem_mEDE7AFDBFA51FE51987BFE2D68E4232769A53EAF = 25534;
 const uint32_t g_rgctx_SubsystemLifecycleManager_3_t338D9C9883A04C53DCB5CD1FDBF4FBD6EC04DC6E = 4087;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_SubsystemLifecycleManager_3_tB495CB9CAAC08A090DC3E365B5430D9551C852A0 = 16243;
+=======
+const uint32_t g_rgctx_SubsystemLifecycleManager_3_tB495CB9CAAC08A090DC3E365B5430D9551C852A0 = 16244;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_SubsystemLifecycleManager_3_tB495CB9CAAC08A090DC3E365B5430D9551C852A0 = 16244;
 >>>>>>> Stashed changes
@@ -3346,7 +3949,11 @@ const uint32_t g_rgctx_SubsystemWithProvider_3_get_subsystemDescriptor_mCA2535C0
 const uint32_t g_rgctx_SubsystemWithProvider_3_set_provider_m139E8A8E8AF681CD5C34370267B921DB0D4747C1 = 25606;
 const uint32_t g_rgctx_SubsystemWithProvider_3_set_subsystemDescriptor_mD7D6B9847D664E1100AA9467FAAF82E101CB8E0C = 25607;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_SubsystemWithProvider_3_t22ADF9793EA3BE343C3D4A23FFBBCD4160380E74 = 16244;
+=======
+const uint32_t g_rgctx_SubsystemWithProvider_3_t22ADF9793EA3BE343C3D4A23FFBBCD4160380E74 = 16245;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_SubsystemWithProvider_3_t22ADF9793EA3BE343C3D4A23FFBBCD4160380E74 = 16245;
 >>>>>>> Stashed changes
@@ -3384,7 +3991,11 @@ const Il2CppRGCTXConstrainedData g_rgctx_T1_tE1DA9197D862F1998E9CB90258386A839EF
 const Il2CppRGCTXConstrainedData g_rgctx_T1_tE1DA9197D862F1998E9CB90258386A839EF6A666_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F = {684,1610620293};
 const uint32_t g_rgctx_T2_t34D887E41D241A60221CA639979D3D4F38703E87 = 907;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_T2_t3FA260FAB50E4DC44CF204191B30893ACE294461 = 15262;
+=======
+const uint32_t g_rgctx_T2_t3FA260FAB50E4DC44CF204191B30893ACE294461 = 15263;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_T2_t3FA260FAB50E4DC44CF204191B30893ACE294461 = 15263;
 >>>>>>> Stashed changes
@@ -3442,7 +4053,11 @@ const uint32_t g_rgctx_TAwaiter_tC1A6569B267E8A26C63FE0669C3C51B1D31E88D7 = 97;
 const Il2CppRGCTXConstrainedData g_rgctx_TAwaiter_tC1A6569B267E8A26C63FE0669C3C51B1D31E88D7_ICriticalNotifyCompletion_UnsafeOnCompleted_m09734062A0D335816D9511A291F23F4483E67219 = {97,1610629297};
 const uint32_t g_rgctx_TBaseTypeInList_t7FA3C64BFBC2071399498F8C3B444ADBAA0FD3B6 = 869;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const Il2CppRGCTXConstrainedData g_rgctx_TBaseTypeInList_t7FA3C64BFBC2071399498F8C3B444ADBAA0FD3B6_ISubsystemDescriptor_get_id_mB5D2D5D3B9E9FD3ABF5E064E1262DD4AAF09C6F2 = {869,1610692637};
+=======
+const Il2CppRGCTXConstrainedData g_rgctx_TBaseTypeInList_t7FA3C64BFBC2071399498F8C3B444ADBAA0FD3B6_ISubsystemDescriptor_get_id_mB5D2D5D3B9E9FD3ABF5E064E1262DD4AAF09C6F2 = {869,1610692643};
+>>>>>>> Stashed changes
 =======
 const Il2CppRGCTXConstrainedData g_rgctx_TBaseTypeInList_t7FA3C64BFBC2071399498F8C3B444ADBAA0FD3B6_ISubsystemDescriptor_get_id_mB5D2D5D3B9E9FD3ABF5E064E1262DD4AAF09C6F2 = {869,1610692643};
 >>>>>>> Stashed changes
@@ -3452,11 +4067,19 @@ const uint32_t g_rgctx_TCreatedType_tD1CA02F51EC00CD70ED62CA7DDFB525432463842 = 
 const uint32_t g_rgctx_TDelegate_tF1791086B2613ED5380FB6ACABC93D18C3D60E5C = 215;
 const uint32_t g_rgctx_TDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3 = 423;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const Il2CppRGCTXConstrainedData g_rgctx_TDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_ISubsystemDescriptor_Create_m70CF3561B7EC144C6C34CDBF5CA4AFF82D576E9A = {423,1610692639};
 const Il2CppRGCTXConstrainedData g_rgctx_TDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_ISubsystemDescriptor_get_id_mB5D2D5D3B9E9FD3ABF5E064E1262DD4AAF09C6F2 = {423,1610692637};
 const uint32_t g_rgctx_TDescriptor_tF7BE81B0BDFF305DC496AD10FB3F32A86C8171F8 = 342;
 const Il2CppRGCTXConstrainedData g_rgctx_TDescriptor_tF7BE81B0BDFF305DC496AD10FB3F32A86C8171F8_ISubsystemDescriptor_get_id_mB5D2D5D3B9E9FD3ABF5E064E1262DD4AAF09C6F2 = {342,1610692637};
 const uint32_t g_rgctx_TElementU5BU5D_t5FE845F5AF158D61A1612AC86BF41A482409E218 = 16361;
+=======
+const Il2CppRGCTXConstrainedData g_rgctx_TDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_ISubsystemDescriptor_Create_m70CF3561B7EC144C6C34CDBF5CA4AFF82D576E9A = {423,1610692645};
+const Il2CppRGCTXConstrainedData g_rgctx_TDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_ISubsystemDescriptor_get_id_mB5D2D5D3B9E9FD3ABF5E064E1262DD4AAF09C6F2 = {423,1610692643};
+const uint32_t g_rgctx_TDescriptor_tF7BE81B0BDFF305DC496AD10FB3F32A86C8171F8 = 342;
+const Il2CppRGCTXConstrainedData g_rgctx_TDescriptor_tF7BE81B0BDFF305DC496AD10FB3F32A86C8171F8_ISubsystemDescriptor_get_id_mB5D2D5D3B9E9FD3ABF5E064E1262DD4AAF09C6F2 = {342,1610692643};
+const uint32_t g_rgctx_TElementU5BU5D_t5FE845F5AF158D61A1612AC86BF41A482409E218 = 16362;
+>>>>>>> Stashed changes
 =======
 const Il2CppRGCTXConstrainedData g_rgctx_TDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_ISubsystemDescriptor_Create_m70CF3561B7EC144C6C34CDBF5CA4AFF82D576E9A = {423,1610692645};
 const Il2CppRGCTXConstrainedData g_rgctx_TDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_ISubsystemDescriptor_get_id_mB5D2D5D3B9E9FD3ABF5E064E1262DD4AAF09C6F2 = {423,1610692643};
@@ -3471,15 +4094,21 @@ const uint32_t g_rgctx_TEnterEvent_t45AA565B3D11A8F087332C3B132BC2D258E2FF13 = 8
 const uint32_t g_rgctx_TEnterEvent_t4E9B5643CF6AABD9C6B8EA6420698816406FC2E7 = 866;
 const uint32_t g_rgctx_TEventType_tE529AA08E61B0C5747F106FFCE3D39D6BB47202C = 504;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TKeyU5BU5D_t2AEF08C06DBDD8A7D8816C365C3F304B53414C64 = 16362;
 const uint32_t g_rgctx_TKeyU5BU5D_tC741F8F0D2C8A67DC251FEB2B4BFA74A2DD131E4 = 5151;
 const uint32_t g_rgctx_TKeyU5BU5D_tD5160FD2248EDF97307EC0CF85BFE7397D14864B = 5150;
 const uint32_t g_rgctx_TKeyU5BU5D_tE5676E72B1BCCA85AD5A6118A3858A2144C86857 = 16365;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_TKeyU5BU5D_t2AEF08C06DBDD8A7D8816C365C3F304B53414C64 = 16363;
 const uint32_t g_rgctx_TKeyU5BU5D_tC741F8F0D2C8A67DC251FEB2B4BFA74A2DD131E4 = 5151;
 const uint32_t g_rgctx_TKeyU5BU5D_tD5160FD2248EDF97307EC0CF85BFE7397D14864B = 5150;
 const uint32_t g_rgctx_TKeyU5BU5D_tE5676E72B1BCCA85AD5A6118A3858A2144C86857 = 16366;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_TKeyU5BU5D_tFE1712985428040AE434BF11CC3EB9E1DB3982EE = 5202;
 const uint32_t g_rgctx_TKey_t1FD6F73134BEFD3DA81B6A46436C50FA38749EC7 = 612;
@@ -3501,7 +4130,11 @@ const uint32_t g_rgctx_TKey_tFDCE1CA29D03E7374F4DCE6BD1C57FAF6869F311 = 712;
 const uint32_t g_rgctx_TLeaveEvent_t72F26A461D24E2E52D8ECF715C2E672D195C3C52 = 299;
 const uint32_t g_rgctx_TLeaveEvent_tC35031B65CA6F59BAA5F1D5DE419BCDAE1F96F86 = 259;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TMP_ListPool_1_t196C19EA606371960DEE3DBA14C6931363886000 = 16245;
+=======
+const uint32_t g_rgctx_TMP_ListPool_1_t196C19EA606371960DEE3DBA14C6931363886000 = 16246;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_TMP_ListPool_1_t196C19EA606371960DEE3DBA14C6931363886000 = 16246;
 >>>>>>> Stashed changes
@@ -3512,6 +4145,7 @@ const uint32_t g_rgctx_TMP_ObjectPool_1_get_countAll_m82B2AB6D4283D3559574BA451C
 const uint32_t g_rgctx_TMP_ObjectPool_1_get_countInactive_mB9E058F83EAF2056F60373FD4604D6FC2F9FDA09 = 25720;
 const uint32_t g_rgctx_TMP_ObjectPool_1_set_countAll_mCDD60A520286E35F95D7003A1E184E7C86E95C03 = 25721;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TMP_ObjectPool_1_t8A1162899D3A229419EC3BF9001A9353E803D251 = 16249;
 const uint32_t g_rgctx_TMP_TextProcessingStack_1_SetDefault_mFF9116F731F3C1FE35E62013579CDBA5BB6C0C98 = 25732;
 const uint32_t g_rgctx_TOutputU5BU5D_tEA366DD3BE20830114BA179F3A544E544DF102B1 = 5217;
@@ -3520,6 +4154,8 @@ const uint32_t g_rgctx_TProvider_t1AC2F7520C38FC65F96522C997CFF0CCB5951109 = 100
 const uint32_t g_rgctx_TProvider_t412C07C5CA397BDD5FEA619F41E40943007B2E5C = 916;
 const uint32_t g_rgctx_TProvider_tB1DEC1EF257323CE0DCCFF64684B2BD8317169DA = 15269;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_TMP_ObjectPool_1_t8A1162899D3A229419EC3BF9001A9353E803D251 = 16250;
 const uint32_t g_rgctx_TMP_TextProcessingStack_1_SetDefault_mFF9116F731F3C1FE35E62013579CDBA5BB6C0C98 = 25732;
 const uint32_t g_rgctx_TOutputU5BU5D_tEA366DD3BE20830114BA179F3A544E544DF102B1 = 5217;
@@ -3527,6 +4163,9 @@ const uint32_t g_rgctx_TProvider_t13F28971B2773B1E8428F21D09415D8CB1EF60DB = 152
 const uint32_t g_rgctx_TProvider_t1AC2F7520C38FC65F96522C997CFF0CCB5951109 = 1001;
 const uint32_t g_rgctx_TProvider_t412C07C5CA397BDD5FEA619F41E40943007B2E5C = 916;
 const uint32_t g_rgctx_TProvider_tB1DEC1EF257323CE0DCCFF64684B2BD8317169DA = 15270;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_TQueryType_t9587AF2487F6847AA8183B3371A91DA2F1E4762E = 868;
 const uint32_t g_rgctx_TRest_t19CF2373F13A693121DEAE5DD5AA490544D81DFE = 1045;
@@ -3546,8 +4185,13 @@ const Il2CppRGCTXConstrainedData g_rgctx_TSessionRelativeData_t5C940E460FA6CD53E
 const Il2CppRGCTXConstrainedData g_rgctx_TSessionRelativeData_t5C940E460FA6CD53E02E1E59A516CBAC5216B7B7_ITrackable_get_trackableId_m7242DF9928E5787565A8DDE0374D160431569206 = {446,1610676113};
 const Il2CppRGCTXConstrainedData g_rgctx_TSessionRelativeData_t5C940E460FA6CD53E02E1E59A516CBAC5216B7B7_ITrackable_get_trackingState_m9FA2B7E313B660331ABDB286F43D52D06E08DECF = {446,1610676117};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TSourceU5BU5D_t3208AEE56FC08B9D8EF3EBC686C813285BEBCA88 = 16357;
 const uint32_t g_rgctx_TSourceU5BU5D_tB4F773F9FE2E18781B998B5387EF4ED772383522 = 16356;
+=======
+const uint32_t g_rgctx_TSourceU5BU5D_t3208AEE56FC08B9D8EF3EBC686C813285BEBCA88 = 16358;
+const uint32_t g_rgctx_TSourceU5BU5D_tB4F773F9FE2E18781B998B5387EF4ED772383522 = 16357;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_TSourceU5BU5D_t3208AEE56FC08B9D8EF3EBC686C813285BEBCA88 = 16358;
 const uint32_t g_rgctx_TSourceU5BU5D_tB4F773F9FE2E18781B998B5387EF4ED772383522 = 16357;
@@ -3561,6 +4205,7 @@ const uint32_t g_rgctx_TStateMachine_tE9E4DE29A0AB41247C1DFEBB056BB96E3128CF81 =
 const Il2CppRGCTXConstrainedData g_rgctx_TStateMachine_tE9E4DE29A0AB41247C1DFEBB056BB96E3128CF81_IAsyncStateMachine_MoveNext_m787AB6611D2DA2682C08AE038BBA9096C7C44384 = {98,1610629293};
 const uint32_t g_rgctx_TState_t9D342CE33C4E25F3F1C8347F70C733A54807FA11 = 377;
 const uint32_t g_rgctx_TState_tEC15064D415102117D95C560AD49C48C4A99DF29 = 804;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_TStyleDataU5BU5D_tB736638EC20D65D099AA6BD90A50F68B307BEF5B = 16367;
 const uint32_t g_rgctx_TSubsystemDescriptor_t3279EFDEAF6C7C6A8DCA649532C3277C3180C10B = 918;
@@ -3576,6 +4221,8 @@ const uint32_t g_rgctx_TTrackable_t78ACDD55B8465E4BD8EF3FA977C3F7A2A22DFE24 = 10
 const uint32_t g_rgctx_TTraits_t69748FEEA55D1E0F51D5F01C736D311532A3513E = 931;
 const uint32_t g_rgctx_TU5BU5DU5BU5D_tD4F8851C323E944E6C7C43009E685F59A15AFFDC = 16382;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_TStyleDataU5BU5D_tB736638EC20D65D099AA6BD90A50F68B307BEF5B = 16368;
 const uint32_t g_rgctx_TSubsystemDescriptor_t3279EFDEAF6C7C6A8DCA649532C3277C3180C10B = 918;
 const uint32_t g_rgctx_TSubsystemOverride_t49930275A1BCF1FFD3499ACBFC5C99597B1336CC = 15278;
@@ -3589,6 +4236,9 @@ const uint32_t g_rgctx_TTimingDataU5BU5D_tD0A0878F1AB7AF30FCA1D445456B7E630AA037
 const uint32_t g_rgctx_TTrackable_t78ACDD55B8465E4BD8EF3FA977C3F7A2A22DFE24 = 1034;
 const uint32_t g_rgctx_TTraits_t69748FEEA55D1E0F51D5F01C736D311532A3513E = 931;
 const uint32_t g_rgctx_TU5BU5DU5BU5D_tD4F8851C323E944E6C7C43009E685F59A15AFFDC = 16383;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_TU5BU5DU5BU5D_tF4B338E50D77B9B9FD8E7FDB3F691120BE843233 = 5260;
 const uint32_t g_rgctx_TU5BU5D_t0774D83EB1084043708109FF8A984C3D75E1AFD3 = 5148;
@@ -3597,7 +4247,11 @@ const uint32_t g_rgctx_TU5BU5D_t24324BAFB2D98520B45A746E3C864344B615A3EC = 5192;
 const uint32_t g_rgctx_TU5BU5D_t27376E1E4CDE114D84EA76275CB9D10E1C6D9A7B = 5176;
 const uint32_t g_rgctx_TU5BU5D_t3D08708354D803385687B78C78A889A660247B9F = 5114;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TU5BU5D_t41E4638B2C15D1A8E815142F2B63EDCBF39B160C = 16359;
+=======
+const uint32_t g_rgctx_TU5BU5D_t41E4638B2C15D1A8E815142F2B63EDCBF39B160C = 16360;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_TU5BU5D_t41E4638B2C15D1A8E815142F2B63EDCBF39B160C = 16360;
 >>>>>>> Stashed changes
@@ -3613,7 +4267,11 @@ const uint32_t g_rgctx_TU5BU5D_t6BCCEA57BEA1E43097B80E2965A5789452F93BA0 = 5158;
 const uint32_t g_rgctx_TU5BU5D_t7141ABD7B24C6F56B55DB7911E6CE85CAACA4FFF = 5160;
 const uint32_t g_rgctx_TU5BU5D_t7374AB3B9F940D84F56650AF88C545835D79779D = 5142;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TU5BU5D_t7C4BEE94C48B67FD4ABA3E5FA992B3C0E7E55427 = 16360;
+=======
+const uint32_t g_rgctx_TU5BU5D_t7C4BEE94C48B67FD4ABA3E5FA992B3C0E7E55427 = 16361;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_TU5BU5D_t7C4BEE94C48B67FD4ABA3E5FA992B3C0E7E55427 = 16361;
 >>>>>>> Stashed changes
@@ -3633,7 +4291,11 @@ const uint32_t g_rgctx_TU5BU5D_tC7397A1B32D53762119E36548B052A236882A103 = 5185;
 const uint32_t g_rgctx_TU5BU5D_tC83560745C6C3C86FF48FA9FB7068E94D4F1A6BF = 5174;
 const uint32_t g_rgctx_TU5BU5D_tCC41F6AF60F9F1BC31700FA0C09613BAB854ED52 = 5110;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TU5BU5D_tD63592BD54FCA7370CFB88A12638E70CFC7E9F5C = 16363;
+=======
+const uint32_t g_rgctx_TU5BU5D_tD63592BD54FCA7370CFB88A12638E70CFC7E9F5C = 16364;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_TU5BU5D_tD63592BD54FCA7370CFB88A12638E70CFC7E9F5C = 16364;
 >>>>>>> Stashed changes
@@ -3643,7 +4305,11 @@ const uint32_t g_rgctx_TU5BU5D_tDFCEC986C8C5C9107923D8936ADFFA31D6C82631 = 5113;
 const uint32_t g_rgctx_TU5BU5D_tE8034E8DF4FA1C6E5067F86D0CBC5460DB10FA0C = 5184;
 const uint32_t g_rgctx_TU5BU5D_tEB79EEC73DB04B187E4E0F0B7A64A71ECD34A982 = 5194;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TU5BU5D_tEDF343F0CDF2F24D4398C57005B3C8576DB72B5A = 16358;
+=======
+const uint32_t g_rgctx_TU5BU5D_tEDF343F0CDF2F24D4398C57005B3C8576DB72B5A = 16359;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_TU5BU5D_tEDF343F0CDF2F24D4398C57005B3C8576DB72B5A = 16359;
 >>>>>>> Stashed changes
@@ -3654,7 +4320,11 @@ const Il2CppRGCTXConstrainedData g_rgctx_TValueType_t21DBB8D1FC65EA4D9730221829C
 const uint32_t g_rgctx_TValueU5BU5D_t5A4ABFBFC421C106FC5FE321CB5230DB3817CDE5 = 5224;
 const uint32_t g_rgctx_TValueU5BU5D_t7F13E05DC7799E3393072CAAD03099EDF87168E8 = 5223;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TValueU5BU5D_t9D4C3EA64452F51826D853179BD45565DDE079D9 = 16366;
+=======
+const uint32_t g_rgctx_TValueU5BU5D_t9D4C3EA64452F51826D853179BD45565DDE079D9 = 16367;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_TValueU5BU5D_t9D4C3EA64452F51826D853179BD45565DDE079D9 = 16367;
 >>>>>>> Stashed changes
@@ -3675,7 +4345,11 @@ const uint32_t g_rgctx_TValue_tD97A06AA0F2E68B3B8DD39F7B451DF1FCB143DD1 = 975;
 const uint32_t g_rgctx_TWebSocketReceiveResultGetter_tE2B224DFE608224250E42CFBB98C256C8C50274A = 753;
 const Il2CppRGCTXConstrainedData g_rgctx_TWebSocketReceiveResultGetter_tE2B224DFE608224250E42CFBB98C256C8C50274A_IWebSocketReceiveResultGetter_1_GetResult_mEA98C07642557C83E9A8942B7A6400709B7C19DD = {753,3221251437};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_T_t0086C000D0426D8E3EC1461BBB0ADE5F66E02299 = 15266;
+=======
+const uint32_t g_rgctx_T_t0086C000D0426D8E3EC1461BBB0ADE5F66E02299 = 15267;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_T_t0086C000D0426D8E3EC1461BBB0ADE5F66E02299 = 15267;
 >>>>>>> Stashed changes
@@ -3687,7 +4361,11 @@ const uint32_t g_rgctx_T_t044F781ADF19700929E21BB5303DF25875C33600 = 274;
 const uint32_t g_rgctx_T_t0597C0FD4EC0F489E4D3B873A21ADA0955B49576 = 217;
 const uint32_t g_rgctx_T_t08E78D0999AE71A68EDAF871364DFB2FF69F14E9 = 224;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_T_t0CC1D76DF14D95F8EACD9DB5B55E2C5EDD000035 = 15265;
+=======
+const uint32_t g_rgctx_T_t0CC1D76DF14D95F8EACD9DB5B55E2C5EDD000035 = 15266;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_T_t0CC1D76DF14D95F8EACD9DB5B55E2C5EDD000035 = 15266;
 >>>>>>> Stashed changes
@@ -3718,10 +4396,17 @@ const uint32_t g_rgctx_T_t242E1B71E3C759FDC8E84C7E8766752B62B8808D = 621;
 const uint32_t g_rgctx_T_t25255FB169DADFF149FFBE14C8883D431B113A5C = 307;
 const Il2CppRGCTXConstrainedData g_rgctx_T_t25255FB169DADFF149FFBE14C8883D431B113A5C_Object_Equals_m07105C4585D3FE204F2A80D58523D001DC43F63B = {307,1610620279};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_T_t25A6BC065D7777DD481589EC0E5A911DC751087C = 15263;
 const uint32_t g_rgctx_T_t25D6ED7DCA825D17E8E43E3B0CA2E0AD9FECE196 = 1020;
 const uint32_t g_rgctx_T_t26D08DFC8BBED4EF6C61530E31D5F672328168D7 = 598;
 const uint32_t g_rgctx_T_t2A485B11EBE127E108EA85565854CB396B2946B8 = 15257;
+=======
+const uint32_t g_rgctx_T_t25A6BC065D7777DD481589EC0E5A911DC751087C = 15264;
+const uint32_t g_rgctx_T_t25D6ED7DCA825D17E8E43E3B0CA2E0AD9FECE196 = 1020;
+const uint32_t g_rgctx_T_t26D08DFC8BBED4EF6C61530E31D5F672328168D7 = 598;
+const uint32_t g_rgctx_T_t2A485B11EBE127E108EA85565854CB396B2946B8 = 15258;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_T_t25A6BC065D7777DD481589EC0E5A911DC751087C = 15264;
 const uint32_t g_rgctx_T_t25D6ED7DCA825D17E8E43E3B0CA2E0AD9FECE196 = 1020;
@@ -3746,7 +4431,11 @@ const uint32_t g_rgctx_T_t356CE9200BC70FFD6BA86854F514CCA30607BFBC = 312;
 const Il2CppRGCTXConstrainedData g_rgctx_T_t356CE9200BC70FFD6BA86854F514CCA30607BFBC_IEquatable_1_Equals_m899E31F6A7AB0F7A2FF63DC1DFD50C6447C697C8 = {312,3221251333};
 const uint32_t g_rgctx_T_t36A57F9CE6EB234DE97351DCA9ED54BE9E078207 = 405;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_T_t378A0FABA0AFCBDCD63A7588B998B2CD10DA9B5F = 15260;
+=======
+const uint32_t g_rgctx_T_t378A0FABA0AFCBDCD63A7588B998B2CD10DA9B5F = 15261;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_T_t378A0FABA0AFCBDCD63A7588B998B2CD10DA9B5F = 15261;
 >>>>>>> Stashed changes
@@ -3766,7 +4455,11 @@ const uint32_t g_rgctx_T_t42F119D4DCED8943305B83E7CC1255345F0ABA7B = 276;
 const uint32_t g_rgctx_T_t43B3E794C887F691C76D009756D4BAD94E1898AF = 784;
 const uint32_t g_rgctx_T_t47581EF4E1C5D4D48A07717EFF6B45DD55F0BC77 = 113;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_T_t489FABCA1B80B32962C4BE13669003D66A0C1292 = 15268;
+=======
+const uint32_t g_rgctx_T_t489FABCA1B80B32962C4BE13669003D66A0C1292 = 15269;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_T_t489FABCA1B80B32962C4BE13669003D66A0C1292 = 15269;
 >>>>>>> Stashed changes
@@ -3780,6 +4473,7 @@ const Il2CppRGCTXConstrainedData g_rgctx_T_t50769F5C0DEEF454A1D2706246424BAF5AF9
 const Il2CppRGCTXConstrainedData g_rgctx_T_t50769F5C0DEEF454A1D2706246424BAF5AF94D83_Object_GetHashCode_m372C5A7AB16CAC13307C11C4256D706CE57E090C = {624,1610620287};
 const uint32_t g_rgctx_T_t52DA1E1D74BC97AC493E649650AC5F805703CD7F = 86;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_T_t54069A3F07DB8743A6CDBD1A84066E0D88DABCC4 = 15273;
 const Il2CppRGCTXConstrainedData g_rgctx_T_t54069A3F07DB8743A6CDBD1A84066E0D88DABCC4_ITweenValue_TweenValue_m46989B9AE4EDC4C4CDE0D87C65EA39B15408F552 = {15273,1610657669};
 const Il2CppRGCTXConstrainedData g_rgctx_T_t54069A3F07DB8743A6CDBD1A84066E0D88DABCC4_ITweenValue_ValidTarget_mE3AFBC4BBAD2D9F58F9BA79DAD0B2972F66A44A9 = {15273,1610657675};
@@ -3791,6 +4485,8 @@ const uint32_t g_rgctx_T_t57F69BAD5D3AB2A698E5EAD2F8DB76DB87AE4D15 = 291;
 const uint32_t g_rgctx_T_t59926AD52C2F26FB0A491F972705292C91B34068 = 165;
 const uint32_t g_rgctx_T_t5B465872DF27E11D937869399350DECA30F7FF73 = 15256;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_T_t54069A3F07DB8743A6CDBD1A84066E0D88DABCC4 = 15274;
 const Il2CppRGCTXConstrainedData g_rgctx_T_t54069A3F07DB8743A6CDBD1A84066E0D88DABCC4_ITweenValue_TweenValue_m46989B9AE4EDC4C4CDE0D87C65EA39B15408F552 = {15274,1610657669};
 const Il2CppRGCTXConstrainedData g_rgctx_T_t54069A3F07DB8743A6CDBD1A84066E0D88DABCC4_ITweenValue_ValidTarget_mE3AFBC4BBAD2D9F58F9BA79DAD0B2972F66A44A9 = {15274,1610657675};
@@ -3801,6 +4497,9 @@ const uint32_t g_rgctx_T_t57C9968E17C46FAFE4C83356081E77E62AE5ECDC = 339;
 const uint32_t g_rgctx_T_t57F69BAD5D3AB2A698E5EAD2F8DB76DB87AE4D15 = 291;
 const uint32_t g_rgctx_T_t59926AD52C2F26FB0A491F972705292C91B34068 = 165;
 const uint32_t g_rgctx_T_t5B465872DF27E11D937869399350DECA30F7FF73 = 15257;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_T_t5C19882F056170FFBC337AB1996C22F4F3D0087A = 424;
 const uint32_t g_rgctx_T_t5DFF6E79A41B18D2BC2E0B0A8AEBB6B3B30EE0F3 = 503;
@@ -3823,7 +4522,11 @@ const uint32_t g_rgctx_T_t7D67093BB2FFD728051D825E6ED6B46C110A9BAE = 695;
 const uint32_t g_rgctx_T_t7FBC8D01BFD13B83014E2409E513D630B81F521E = 318;
 const Il2CppRGCTXConstrainedData g_rgctx_T_t7FBC8D01BFD13B83014E2409E513D630B81F521E_IFormattable_ToString_m8D99F75E16F96466718A4D0645EE27D9C77EDB28 = {318,1610616399};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_T_t8347C3FFBA421F6891E8C74737DD40D4CC6D19A6 = 15258;
+=======
+const uint32_t g_rgctx_T_t8347C3FFBA421F6891E8C74737DD40D4CC6D19A6 = 15259;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_T_t8347C3FFBA421F6891E8C74737DD40D4CC6D19A6 = 15259;
 >>>>>>> Stashed changes
@@ -3837,7 +4540,11 @@ const Il2CppRGCTXConstrainedData g_rgctx_T_t8ECBA28E38C0BADD7C1E53C6815A58E2550F
 const uint32_t g_rgctx_T_t8FCD18676B82D793DC8A2271E91F9EAB6C687F6E = 308;
 const Il2CppRGCTXConstrainedData g_rgctx_T_t8FCD18676B82D793DC8A2271E91F9EAB6C687F6E_IEquatable_1_Equals_mED01B3ADA33604175CE4EEB55BB6C447E52C2F97 = {308,3221251331};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_T_t925CCF30732BBB569A9FD55CD005C2FB847A8AA8 = 15272;
+=======
+const uint32_t g_rgctx_T_t925CCF30732BBB569A9FD55CD005C2FB847A8AA8 = 15273;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_T_t925CCF30732BBB569A9FD55CD005C2FB847A8AA8 = 15273;
 >>>>>>> Stashed changes
@@ -3862,7 +4569,11 @@ const uint32_t g_rgctx_T_tAD9259BF99A8F28BEF3425C9E7308741D66CC699 = 124;
 const uint32_t g_rgctx_T_tAD99CF6FA274FC4D65DED1A86A8CABAA8F32495D = 229;
 const uint32_t g_rgctx_T_tADCF0C6EA7FA2FB920AB65E71CFF37A8EC63F977 = 188;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_T_tB003D551FB65F2F77D42FE7740DAEB713F3CBDD6 = 15254;
+=======
+const uint32_t g_rgctx_T_tB003D551FB65F2F77D42FE7740DAEB713F3CBDD6 = 15255;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_T_tB003D551FB65F2F77D42FE7740DAEB713F3CBDD6 = 15255;
 >>>>>>> Stashed changes
@@ -3879,7 +4590,11 @@ const uint32_t g_rgctx_T_tBC825F1557B236EEB0AC312E552D13DB14E55610 = 295;
 const uint32_t g_rgctx_T_tBE62BE9AE23A46DE764667486A2DD8CD5348BF0D = 298;
 const uint32_t g_rgctx_T_tBEDE8BBE5DC8F74672BAD75661002C63A79E83E7 = 189;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_T_tBF161E911C1AC5C363BF90390E6EE0FF5444BD6B = 15259;
+=======
+const uint32_t g_rgctx_T_tBF161E911C1AC5C363BF90390E6EE0FF5444BD6B = 15260;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_T_tBF161E911C1AC5C363BF90390E6EE0FF5444BD6B = 15260;
 >>>>>>> Stashed changes
@@ -3888,7 +4603,11 @@ const uint32_t g_rgctx_T_tC1ACCAB10D35A2ADF17930B12A9CE02A088C8129 = 292;
 const uint32_t g_rgctx_T_tC3F99F359F71E5A27263B761F008CA1EDD8A0965 = 2;
 const uint32_t g_rgctx_T_tC88ED2B73A798AE9EFCA8C6BE8DB3C761F2D839F = 482;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_T_tC9200F9C6857EA695B0074F82A5778283BA78FD6 = 15264;
+=======
+const uint32_t g_rgctx_T_tC9200F9C6857EA695B0074F82A5778283BA78FD6 = 15265;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_T_tC9200F9C6857EA695B0074F82A5778283BA78FD6 = 15265;
 >>>>>>> Stashed changes
@@ -3902,6 +4621,7 @@ const uint32_t g_rgctx_T_tD187E75AD2C1339312C8A5957C49E77BAEE059F0 = 212;
 const uint32_t g_rgctx_T_tD20B6D17BF26F120BBDCB6CE57C49EF198FC6373 = 558;
 const uint32_t g_rgctx_T_tD4D9B670E50DF890B43EE46CA0C3A11638CC64F3 = 278;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_T_tD5818FCC55D7393F6B75BFE81A5252965161FCDF = 15274;
 const Il2CppRGCTXConstrainedData g_rgctx_T_tD5818FCC55D7393F6B75BFE81A5252965161FCDF_ITweenValue_TweenValue_m2C736D23475DD9895C07A345BD3B41CD0A96486D = {15274,1610667433};
 const Il2CppRGCTXConstrainedData g_rgctx_T_tD5818FCC55D7393F6B75BFE81A5252965161FCDF_ITweenValue_ValidTarget_m740605403325DF395B81749DB73275C2CA9B2DA9 = {15274,1610667439};
@@ -3910,6 +4630,8 @@ const Il2CppRGCTXConstrainedData g_rgctx_T_tD5818FCC55D7393F6B75BFE81A5252965161
 const uint32_t g_rgctx_T_tD61B3019D1869264718D125EAEE4311D26728AB7 = 192;
 const uint32_t g_rgctx_T_tD6F061549E9ED08CAAB8CC1731D09F9C30F048AC = 15255;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_T_tD5818FCC55D7393F6B75BFE81A5252965161FCDF = 15275;
 const Il2CppRGCTXConstrainedData g_rgctx_T_tD5818FCC55D7393F6B75BFE81A5252965161FCDF_ITweenValue_TweenValue_m2C736D23475DD9895C07A345BD3B41CD0A96486D = {15275,1610667433};
 const Il2CppRGCTXConstrainedData g_rgctx_T_tD5818FCC55D7393F6B75BFE81A5252965161FCDF_ITweenValue_ValidTarget_m740605403325DF395B81749DB73275C2CA9B2DA9 = {15275,1610667439};
@@ -3917,6 +4639,9 @@ const Il2CppRGCTXConstrainedData g_rgctx_T_tD5818FCC55D7393F6B75BFE81A5252965161
 const Il2CppRGCTXConstrainedData g_rgctx_T_tD5818FCC55D7393F6B75BFE81A5252965161FCDF_ITweenValue_get_ignoreTimeScale_m13D8C5499B95314B248A92C936CE08E1580F9332 = {15275,1610667435};
 const uint32_t g_rgctx_T_tD61B3019D1869264718D125EAEE4311D26728AB7 = 192;
 const uint32_t g_rgctx_T_tD6F061549E9ED08CAAB8CC1731D09F9C30F048AC = 15256;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_T_tD8F8BD971FC85E5AA54E64878A26D3BAFE18A198 = 585;
 const Il2CppRGCTXConstrainedData g_rgctx_T_tD8F8BD971FC85E5AA54E64878A26D3BAFE18A198_IEquatable_1_Equals_m7DF78E33C223A45B63B4C657D552F98A34CF2107 = {585,3221251341};
@@ -3937,7 +4662,11 @@ const uint32_t g_rgctx_T_tE3E6F3F7A6C4C60E2087F8C4646BE4F0F3B18749 = 669;
 const Il2CppRGCTXConstrainedData g_rgctx_T_tE3E6F3F7A6C4C60E2087F8C4646BE4F0F3B18749_IConvertible_ToString_m3EF1631B16A12439AE365653E2EE45F58C2295C5 = {669,1610616387};
 const uint32_t g_rgctx_T_tE4B5A6FD716FACA7C7240732A44211D0F880A4BA = 428;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_T_tE62573C48DF6DECFAEF5210EE929BABB2F87B1CB = 15261;
+=======
+const uint32_t g_rgctx_T_tE62573C48DF6DECFAEF5210EE929BABB2F87B1CB = 15262;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_T_tE62573C48DF6DECFAEF5210EE929BABB2F87B1CB = 15262;
 >>>>>>> Stashed changes
@@ -3987,7 +4716,11 @@ const uint32_t g_rgctx_TaskAwaiter_1__ctor_m0D9C4C75A694882178E24148741610A6F728
 const uint32_t g_rgctx_TaskAwaiter_1_t5687C31E22EDC1C695EFD2B239EF3F13B0EC1E3B = 4145;
 const uint32_t g_rgctx_TaskCompletionSourceCompat_1_SetExceptionInternal_m714BFBB960CA698CD2D76C502F7AAC1A99F41B91 = 25898;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TaskCompletionSourceCompat_1_tD5BF04592822DBCD5CD89678F434C80D251F4445 = 16250;
+=======
+const uint32_t g_rgctx_TaskCompletionSourceCompat_1_tD5BF04592822DBCD5CD89678F434C80D251F4445 = 16251;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_TaskCompletionSourceCompat_1_tD5BF04592822DBCD5CD89678F434C80D251F4445 = 16251;
 >>>>>>> Stashed changes
@@ -4012,11 +4745,19 @@ const uint32_t g_rgctx_TaskCompletionSource_1__ctor_m86232D53DD5518CC1A7F07E7AE0
 const uint32_t g_rgctx_TaskCompletionSource_1_get_Task_m5AD8681B281715F4AB2B7E6B35E4C19124557290 = 25902;
 const uint32_t g_rgctx_TaskCompletionSource_1_get_Task_mFE8BEC25E0BC3A7D0405CFEC41F20A823D31383F = 25905;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TaskCompletionSource_1_t6C6BABD2219E6D567C80A6D857FCC08DCD0DE642 = 16252;
 const uint32_t g_rgctx_TaskCompletionSource_1_t9C70DC8F3976EA59332EC357BE90F03552FB1C8A = 16254;
 const uint32_t g_rgctx_TaskCompletionSource_1_tB12F8B1F51896F1419CEAB99620E5A1A46ABBE22 = 16253;
 const uint32_t g_rgctx_TaskCompletionSource_1_tF3941A2385A9C6506DA00BD3BB385797FBE34FD7 = 4150;
 const uint32_t g_rgctx_TaskCompletionSource_1_tFCC3BACB288724B2C4094602E97DB81BCF2C9BAE = 16251;
+=======
+const uint32_t g_rgctx_TaskCompletionSource_1_t6C6BABD2219E6D567C80A6D857FCC08DCD0DE642 = 16253;
+const uint32_t g_rgctx_TaskCompletionSource_1_t9C70DC8F3976EA59332EC357BE90F03552FB1C8A = 16255;
+const uint32_t g_rgctx_TaskCompletionSource_1_tB12F8B1F51896F1419CEAB99620E5A1A46ABBE22 = 16254;
+const uint32_t g_rgctx_TaskCompletionSource_1_tF3941A2385A9C6506DA00BD3BB385797FBE34FD7 = 4150;
+const uint32_t g_rgctx_TaskCompletionSource_1_tFCC3BACB288724B2C4094602E97DB81BCF2C9BAE = 16252;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_TaskCompletionSource_1_t6C6BABD2219E6D567C80A6D857FCC08DCD0DE642 = 16253;
 const uint32_t g_rgctx_TaskCompletionSource_1_t9C70DC8F3976EA59332EC357BE90F03552FB1C8A = 16255;
@@ -4035,8 +4776,13 @@ const uint32_t g_rgctx_TaskFactory_1__ctor_m3F296DE86EAB6911A87C1760C697890A9E70
 const uint32_t g_rgctx_TaskFactory_1__ctor_m68F400BBA9FD44F0B0107B8B6E51E20D8A964025 = 25961;
 const uint32_t g_rgctx_TaskFactory_1_t200291A3E06B70512D7F376E1A49A3164F748718 = 4166;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TaskFactory_1_t80EE29BEEA74C6DD388780ABCB8D6233C1911BC6 = 16264;
 const uint32_t g_rgctx_TaskFactory_1_tBD5CA86796B3B730CA5547423217A9F86C5DBD88 = 16265;
+=======
+const uint32_t g_rgctx_TaskFactory_1_t80EE29BEEA74C6DD388780ABCB8D6233C1911BC6 = 16265;
+const uint32_t g_rgctx_TaskFactory_1_tBD5CA86796B3B730CA5547423217A9F86C5DBD88 = 16266;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_TaskFactory_1_t80EE29BEEA74C6DD388780ABCB8D6233C1911BC6 = 16265;
 const uint32_t g_rgctx_TaskFactory_1_tBD5CA86796B3B730CA5547423217A9F86C5DBD88 = 16266;
@@ -4092,7 +4838,11 @@ const uint32_t g_rgctx_Task_1_t0D6982C41DA028409E28058734754A7F4ACF3C01 = 4172;
 const uint32_t g_rgctx_Task_1_t1DA62191AFA7D05F7E411928AE26E43CADB07778 = 4182;
 const uint32_t g_rgctx_Task_1_t2A1871C9E91C85A417A23B70829BAD0CE29E426F = 4194;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Task_1_t2C5A93B62EDE1BF21406C86820DF199B74A513B2 = 16271;
+=======
+const uint32_t g_rgctx_Task_1_t2C5A93B62EDE1BF21406C86820DF199B74A513B2 = 16272;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_Task_1_t2C5A93B62EDE1BF21406C86820DF199B74A513B2 = 16272;
 >>>>>>> Stashed changes
@@ -4108,6 +4858,7 @@ const uint32_t g_rgctx_Task_1_t6FEA9B7A458FB8D4ACC9AEE09EA0BDD5D2106603 = 4226;
 const uint32_t g_rgctx_Task_1_t74F92723DFD5D777D28C6A66B28CECB41F4D7B37 = 4181;
 const uint32_t g_rgctx_Task_1_t87D153BDE62613E0EB0DD7C98AD83DA8688D94EF = 4225;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Task_1_t9614D936EA6470EC1E1741CC87B3E2B5A5C14A40 = 16267;
 const uint32_t g_rgctx_Task_1_t9A6948034A3519EEAFEB71A20A88A1F70A9DD5B2 = 4210;
 const uint32_t g_rgctx_Task_1_t9ACCEF9F0E2E90D35A5BBD3475CB48DFD445695C = 16268;
@@ -4118,6 +4869,8 @@ const uint32_t g_rgctx_Task_1_tCA37BA4C408B4D2D0CE43A768BC3F4BFFDD449FB = 16269;
 const uint32_t g_rgctx_Task_1_tCBF18A8F83D01809C6DAFA348BAA0409F3727BC7 = 4185;
 const uint32_t g_rgctx_Task_1_tCED0F33F086088D8536C11D634F34E0F74C83A52 = 16270;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_Task_1_t9614D936EA6470EC1E1741CC87B3E2B5A5C14A40 = 16268;
 const uint32_t g_rgctx_Task_1_t9A6948034A3519EEAFEB71A20A88A1F70A9DD5B2 = 4210;
 const uint32_t g_rgctx_Task_1_t9ACCEF9F0E2E90D35A5BBD3475CB48DFD445695C = 16269;
@@ -4127,6 +4880,9 @@ const uint32_t g_rgctx_Task_1_tC0415A42D45434249AFCCC7CA8528B5B4DBCD373 = 4211;
 const uint32_t g_rgctx_Task_1_tCA37BA4C408B4D2D0CE43A768BC3F4BFFDD449FB = 16270;
 const uint32_t g_rgctx_Task_1_tCBF18A8F83D01809C6DAFA348BAA0409F3727BC7 = 4185;
 const uint32_t g_rgctx_Task_1_tCED0F33F086088D8536C11D634F34E0F74C83A52 = 16271;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_Task_1_tE3D1626ABC3B52A2E1FE63C1545FDC550FA2D881 = 4191;
 const uint32_t g_rgctx_Task_1_tEA227D90ACED480850E92E63BBDF61F5869E5201 = 4212;
@@ -4152,9 +4908,15 @@ const uint32_t g_rgctx_TextInputBaseField_1_set_maxLength_m808E40D0B7E39C44D1D8C
 const uint32_t g_rgctx_TextInputBaseField_1_set_text_m029BC09E3D1A0D39361A375656695B099D4AA512 = 26343;
 const uint32_t g_rgctx_TextInputBaseField_1_set_text_m287818EB28A55370B3AE420C95F23CA2E4332046 = 26337;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TextInputBaseField_1_t6D6F445496AD8027E16D11C86A952A6438E45531 = 16272;
 const uint32_t g_rgctx_TextInputBaseField_1_tC7E1ECD21E6B2BDD7B307D8908A8338EB17A4E15 = 16274;
 const uint32_t g_rgctx_TextInputBaseField_1_tDD0CEAD2152D8562902F3F16ED62AAE741DC29CA = 16273;
+=======
+const uint32_t g_rgctx_TextInputBaseField_1_t6D6F445496AD8027E16D11C86A952A6438E45531 = 16273;
+const uint32_t g_rgctx_TextInputBaseField_1_tC7E1ECD21E6B2BDD7B307D8908A8338EB17A4E15 = 16275;
+const uint32_t g_rgctx_TextInputBaseField_1_tDD0CEAD2152D8562902F3F16ED62AAE741DC29CA = 16274;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_TextInputBaseField_1_t6D6F445496AD8027E16D11C86A952A6438E45531 = 16273;
 const uint32_t g_rgctx_TextInputBaseField_1_tC7E1ECD21E6B2BDD7B307D8908A8338EB17A4E15 = 16275;
@@ -4234,9 +4996,15 @@ const uint32_t g_rgctx_TlsOverPerCoreLockedStacksArrayPool_1_Trim_mEB9E52340F010
 const uint32_t g_rgctx_TlsOverPerCoreLockedStacksArrayPool_1__ctor_m99DA1E3C73511D08547D56E6229D2F5B6283CFA2 = 26421;
 const uint32_t g_rgctx_TlsOverPerCoreLockedStacksArrayPool_1_get_Id_m6A319913A869A214EB615DA5CED52C410CC467A0 = 26427;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TlsOverPerCoreLockedStacksArrayPool_1_t8B8FBFF736C6E58BE737346D6936457742803E8B = 16277;
 const uint32_t g_rgctx_TlsOverPerCoreLockedStacksArrayPool_1_t8D79475DC4AE966CFEAF9212B0437C29F61A6D5E = 16275;
 const uint32_t g_rgctx_TlsOverPerCoreLockedStacksArrayPool_1_t984FF35D847892EE9841D28C6BFE574E5AEB6C02 = 16276;
+=======
+const uint32_t g_rgctx_TlsOverPerCoreLockedStacksArrayPool_1_t8B8FBFF736C6E58BE737346D6936457742803E8B = 16278;
+const uint32_t g_rgctx_TlsOverPerCoreLockedStacksArrayPool_1_t8D79475DC4AE966CFEAF9212B0437C29F61A6D5E = 16276;
+const uint32_t g_rgctx_TlsOverPerCoreLockedStacksArrayPool_1_t984FF35D847892EE9841D28C6BFE574E5AEB6C02 = 16277;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_TlsOverPerCoreLockedStacksArrayPool_1_t8B8FBFF736C6E58BE737346D6936457742803E8B = 16278;
 const uint32_t g_rgctx_TlsOverPerCoreLockedStacksArrayPool_1_t8D79475DC4AE966CFEAF9212B0437C29F61A6D5E = 16276;
@@ -4254,8 +5022,13 @@ const uint32_t g_rgctx_TrackableChanges_1_get_updated_mE5CAB2DB386973E2CA0452673
 const uint32_t g_rgctx_TrackableChanges_1_set_isCreated_m9A15621EDC9FF64A40D8DF53144E376708C06857 = 26470;
 const uint32_t g_rgctx_TrackableChanges_1_t5C081C6B9DBE043479246BE8E81EFFF32B96BA44 = 4295;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TrackableChanges_1_tBBAAA7568DEEC06F841AD196742FACB3CB55BA98 = 16278;
 const Il2CppRGCTXConstrainedData g_rgctx_TrackableChanges_1_tBBAAA7568DEEC06F841AD196742FACB3CB55BA98_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {16278,1610616393};
+=======
+const uint32_t g_rgctx_TrackableChanges_1_tBBAAA7568DEEC06F841AD196742FACB3CB55BA98 = 16279;
+const Il2CppRGCTXConstrainedData g_rgctx_TrackableChanges_1_tBBAAA7568DEEC06F841AD196742FACB3CB55BA98_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {16279,1610616393};
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_TrackableChanges_1_tBBAAA7568DEEC06F841AD196742FACB3CB55BA98 = 16279;
 const Il2CppRGCTXConstrainedData g_rgctx_TrackableChanges_1_tBBAAA7568DEEC06F841AD196742FACB3CB55BA98_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 = {16279,1610616393};
@@ -4277,6 +5050,7 @@ const uint32_t g_rgctx_TransitionEventsFrameState_RegisterChange_m3CE2371C623EF3
 const uint32_t g_rgctx_TransitionEventsFrameState_StateChanged_mE476A11DE1602823F4BBC446ACC1551D6814AF50 = 26645;
 const uint32_t g_rgctx_TransitionEventsFrameState_UnregisterChange_mFE2129F84C6AD4430C9E8F212472C1EAC48D55AA = 26646;
 const uint32_t g_rgctx_TransitionEventsFrameState__ctor_mC6B33E8D355D682F6378F2D926B93CE52F23DA98 = 26641;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_TransitionEventsFrameState_t32DCDE0EAFDCF0AA53BBA8A5C38455E40DC487ED = 16279;
 const uint32_t g_rgctx_TransitionEventsFrameState_t757425A175981031151B423E79515EC0BC00EFF7 = 16280;
@@ -4302,14 +5076,32 @@ const uint32_t g_rgctx_Tuple_3__ctor_m1FE0E9A2B9720DDB77D808E0B3F1B45DDDD8A0FE =
 const uint32_t g_rgctx_Tuple_3_t031C90925D549C07E123489BACA21CA67DD22FBF = 4335;
 const uint32_t g_rgctx_Tuple_3_tB50E3D4EC942E0D3A681E8EB65DC466D701666D8 = 16286;
 >>>>>>> Stashed changes
+=======
+const uint32_t g_rgctx_TransitionEventsFrameState_t32DCDE0EAFDCF0AA53BBA8A5C38455E40DC487ED = 16280;
+const uint32_t g_rgctx_TransitionEventsFrameState_t757425A175981031151B423E79515EC0BC00EFF7 = 16281;
+const uint32_t g_rgctx_Tuple_2__ctor_m42E0CD6E7550717916AEB261455D22A0086CE730 = 26733;
+const uint32_t g_rgctx_Tuple_2_get_Item1_m3C6C07C6555782DBC57DCDB0CF70B45E93CF3011 = 26734;
+const uint32_t g_rgctx_Tuple_2_get_Item2_m78FB03060CEEAFB5518738EA06151F5E1CD74360 = 26735;
+const uint32_t g_rgctx_Tuple_2_t53FA2DD3372643D48169F66315EC64D52B321A10 = 16282;
+const uint32_t g_rgctx_Tuple_2_tBA768F7C61676A3E7C19E95BE6C0812354A6189C = 4331;
+const uint32_t g_rgctx_Tuple_2_tF2AE9B148A1E6F54967092F0B2D90CD6593B87A9 = 16285;
+const uint32_t g_rgctx_Tuple_3__ctor_m1FE0E9A2B9720DDB77D808E0B3F1B45DDDD8A0FE = 26760;
+const uint32_t g_rgctx_Tuple_3_t031C90925D549C07E123489BACA21CA67DD22FBF = 4335;
+const uint32_t g_rgctx_Tuple_3_tB50E3D4EC942E0D3A681E8EB65DC466D701666D8 = 16286;
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_Tuple_Create_TisUnwrapPromise_1_tEA17841408F81B5EE5B5B2093FF6DB53FADAB561_TisTask_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_m72CA1C0871437E5E4FBC59E448C19BF5045985A4 = 33988;
 const uint32_t g_rgctx_TweenRunner_1_Start_m8C759579258B50D612F26E6FDB3FD335F456E962 = 26794;
 const uint32_t g_rgctx_TweenRunner_1_Start_mBE5D86F868A0D30C7D5724B0A9DF4B3096DE28A1 = 26787;
 const uint32_t g_rgctx_TweenRunner_1_StopTween_m4629C6650DA1109844EF11D623DFDF735BBE8381 = 26788;
 const uint32_t g_rgctx_TweenRunner_1_StopTween_m9B63AE5A4006FC35334F581AE9D2B31345B40C1B = 26795;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_TweenRunner_1_t0F39FE120F257C2F368F5167860C56C0924DF79F = 16289;
 const uint32_t g_rgctx_TweenRunner_1_t93A997920D7FA94D4C40C3554D50391D6CA04EBB = 16291;
+=======
+const uint32_t g_rgctx_TweenRunner_1_t0F39FE120F257C2F368F5167860C56C0924DF79F = 16290;
+const uint32_t g_rgctx_TweenRunner_1_t93A997920D7FA94D4C40C3554D50391D6CA04EBB = 16292;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_TweenRunner_1_t0F39FE120F257C2F368F5167860C56C0924DF79F = 16290;
 const uint32_t g_rgctx_TweenRunner_1_t93A997920D7FA94D4C40C3554D50391D6CA04EBB = 16292;
@@ -4320,6 +5112,7 @@ const uint32_t g_rgctx_TypedUxmlAttributeDescription_1_get_defaultValue_m8CB97B5
 const uint32_t g_rgctx_TypedUxmlAttributeDescription_1_set_defaultValue_m9CDD7D588D113ACF71062B98C911D820CD8A36CD = 26809;
 const uint32_t g_rgctx_TypedUxmlAttributeDescription_1_t179B962903D86D415197571238D083EF1C4DA0E3 = 4340;
 const uint32_t g_rgctx_TypedUxmlAttributeDescription_1_tDCE87FAE805334235F80E28B20EDE74618FAB1BE = 4339;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_TypedUxmlAttributeDescription_1_tFDC56B492720979E71712087A8ED1D67F96FCF19 = 16294;
 const uint32_t g_rgctx_U3CGetEnumeratorU3Ed__1__ctor_mD3A17D2F3E5D0A469641D57A4AB655B4545F375E = 174;
@@ -4351,6 +5144,22 @@ const uint32_t g_rgctx_U3CStartU3Ed__2__ctor_m8AA498864DB541733DE649A8AB88FAD14D
 const uint32_t g_rgctx_U3CStartU3Ed__2_t34E76D7E9AFCC508842E5758DE2CAFEE5E3B0DB4 = 15314;
 const uint32_t g_rgctx_U3CStartU3Ed__2_tC463ECB31906D102EE6C5B019CAE102F837DC6C1 = 15313;
 >>>>>>> Stashed changes
+=======
+const uint32_t g_rgctx_TypedUxmlAttributeDescription_1_tFDC56B492720979E71712087A8ED1D67F96FCF19 = 16295;
+const uint32_t g_rgctx_U3CGetEnumeratorU3Ed__1__ctor_mD3A17D2F3E5D0A469641D57A4AB655B4545F375E = 174;
+const uint32_t g_rgctx_U3CGetEnumeratorU3Ed__1_t3CC996D75E05583A2C68BDAA6119DD5395C4CAEE = 15309;
+const uint32_t g_rgctx_U3CGetEnumeratorU3Ed__35__ctor_m53E2D48DC2B980CFE62557ECA7BF13920C563DBC = 187;
+const uint32_t g_rgctx_U3CGetEnumeratorU3Ed__35_tC336002C333ED20F665E62F6B1419B41DAE229C9 = 15310;
+const uint32_t g_rgctx_U3CReverseIteratorU3Ed__79_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m2751A6F95D0D4762CD6BAF61583EC0C0D7BED8FE = 198;
+const uint32_t g_rgctx_U3CReverseIteratorU3Ed__79_1__ctor_m70FF2E69ECF87E22F8149B91BB177F9647CA9A9D = 197;
+const uint32_t g_rgctx_U3CReverseIteratorU3Ed__79_1__ctor_m8089996BC953875F1040BF167696DCC11A144F25 = 196;
+const uint32_t g_rgctx_U3CReverseIteratorU3Ed__79_1_t9D4922F2CFE49AB2E2FD62275451C6CCCA40E532 = 15311;
+const uint32_t g_rgctx_U3CReverseIteratorU3Ed__79_1_tCD6AE66D6FB47ADD2EEB378CEEEF216EABD73898 = 15312;
+const uint32_t g_rgctx_U3CStartU3Ed__2__ctor_m66854530A2219382341C781A18D794C811A02705 = 208;
+const uint32_t g_rgctx_U3CStartU3Ed__2__ctor_m8AA498864DB541733DE649A8AB88FAD14D97C6EF = 207;
+const uint32_t g_rgctx_U3CStartU3Ed__2_t34E76D7E9AFCC508842E5758DE2CAFEE5E3B0DB4 = 15314;
+const uint32_t g_rgctx_U3CStartU3Ed__2_tC463ECB31906D102EE6C5B019CAE102F837DC6C1 = 15313;
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_U3CU3Ec_U3CGetValueFromBagU3Eb__3_0_m8B58978FC23AE1F664B2EFB6AC4097A4B7D3BB5C = 2;
 const uint32_t g_rgctx_U3CU3Ec_U3CInvokeCoreAsyncU3Eb__8_0_m0B701CDA27428295D331709881BC7E80E485694D = 1;
 const uint32_t g_rgctx_U3CU3Ec_U3CTryGetValueFromBagU3Eb__4_0_m292226C8B5D100DEAB51C6DA20E46F5E9EB1BDB7 = 3;
@@ -4363,6 +5172,7 @@ const uint32_t g_rgctx_U3CU3Ec_U3C_ctorU3Eb__23_0_m270338B43F53D7695EBA363D03103
 const uint32_t g_rgctx_U3CU3Ec_U3C_ctorU3Eb__23_1_m3DEC915F1219EF690E737C3363B0C1FEE7B6BDAE = 5;
 const uint32_t g_rgctx_U3CU3Ec__61_2_U3CReceiveAsyncPrivateU3Eb__61_0_m5D586D6B2D441ACBA90EF90CCE07504B186AF936 = 104;
 const uint32_t g_rgctx_U3CU3Ec__61_2__ctor_mB44AF3DFC6B5B96BC44D7E5DFB16774ACA64E820 = 103;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_U3CU3Ec__61_2_t0082019C09AB9EF7D1D9DBC896E6E576179F7263 = 15292;
 const uint32_t g_rgctx_U3CU3Ec__61_2_t5B66FD2C4708F13C89C71FA5E01EDA89848E0A43 = 15293;
@@ -4406,10 +5216,33 @@ const uint32_t g_rgctx_U3CU3Ec__DisplayClass3_1_1_U3CContinueWithOnMainThreadU3E
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass3_1_1__ctor_mFA2728A92EF0FE48182F1EAC42179C6DDA1DD32F = 128;
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass3_1_1_tD3FE58E6D85F182D4421779AAA985ECD34BC9ECE = 15300;
 >>>>>>> Stashed changes
+=======
+const uint32_t g_rgctx_U3CU3Ec__61_2_t0082019C09AB9EF7D1D9DBC896E6E576179F7263 = 15293;
+const uint32_t g_rgctx_U3CU3Ec__61_2_t5B66FD2C4708F13C89C71FA5E01EDA89848E0A43 = 15294;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass17_0_1_U3CQueueUserWorkItemU3Eb__0_m448AFA174D7CAE683AED1F417C5A0E1A4F0A3F7A = 109;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass17_0_1__ctor_m4B4523E084FDB2DD49A10793A3786F03792B5C4F = 108;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass17_0_1_t78DDECDFA8EAB1D4C7CCA58CE55CDDC94F2514B1 = 15295;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass2_0_1_U3CContinueWithOnMainThreadU3Eb__0_m834B4BDF577D3954982C47E8A448753118459F7C = 113;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass2_0_1__ctor_m96EEA078957F1C211D85ED47E50156639B614EB6 = 112;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass2_0_1_t768004875261AA241D67D83DA4E5A1408672AE46 = 15296;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass2_1_1_U3CContinueWithOnMainThreadU3Eb__1_m34A3B271568695F6788B12D62C97B164B5E7A0DD = 117;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass2_1_1__ctor_m2CD7C31F97C71D3CF4E7C23283006AE69ADE3BD0 = 116;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass2_1_1_t298AB93773D655E44E5B452EE71A7AB8046E806C = 15297;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass38_0_1_U3CFromAsyncImplU3Eb__0_m3615EC1E58914542D29E7FFEF223F10C25156E9F = 121;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass38_0_1__ctor_m06B40F6E161AAC2F31FDFF9AC4AD9D4AF332E2F3 = 120;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass38_0_1_t41CA07E310F878E9113A8B9110BEB6A066B49E83 = 15298;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass3_0_1_U3CContinueWithOnMainThreadU3Eb__0_m94578027F6AF3E5CE7E427261A1124A27851BE81 = 125;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass3_0_1__ctor_mE1D461D521579A47D46BA6B1552606F473AD8A03 = 124;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass3_0_1_tED66A4E6B1F7572AFD245BF02914EB89D38D80E7 = 15299;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass3_1_1_U3CContinueWithOnMainThreadU3Eb__1_m6CE1D5B5D43A73DD311130449367A5A09C283161 = 129;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass3_1_1__ctor_mFA2728A92EF0FE48182F1EAC42179C6DDA1DD32F = 128;
+const uint32_t g_rgctx_U3CU3Ec__DisplayClass3_1_1_tD3FE58E6D85F182D4421779AAA985ECD34BC9ECE = 15300;
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass4_0_1_U3CContinueWithOnMainThreadU3Eb__0_m063EB1797F86A972EFF4861630FCDFA7F00CDC26 = 135;
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass4_0_1_U3CRunU3Eb__0_m20026BA2F3D3FAD37D909960A9865291C3F57C1A = 133;
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass4_0_1__ctor_m41539FB26411045A0024D080A0C1F1F620F76E55 = 134;
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass4_0_1__ctor_m568E4BF965EDBA3756AEFC724BE507821315D695 = 132;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass4_0_1_tAADB1AEAD638964D1CF2A88AF58C95C9B9EFB24C = 15300;
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass4_0_1_tD8E49BAF21FCD27B948E4B9FCE8A28CAAC11F0C0 = 15301;
@@ -4432,6 +5265,8 @@ const uint32_t g_rgctx_U3CU3Ec__DisplayClass7_0_3_U3CCombineSelectorsU3Eb__0_mB8
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass7_0_3__ctor_mA324D7BE4B1D42C68C65408628CE1315E1A041C9 = 168;
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass7_0_3_t3C1DE292CE570AF221D1B927B5FFD65D137F4F53 = 15307;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass4_0_1_tAADB1AEAD638964D1CF2A88AF58C95C9B9EFB24C = 15301;
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass4_0_1_tD8E49BAF21FCD27B948E4B9FCE8A28CAAC11F0C0 = 15302;
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass4_1_1_U3CContinueWithOnMainThreadU3Eb__1_m09666C36BA2B5E9E91E64A4BCBB184D38C8E3CA6 = 145;
@@ -4452,6 +5287,9 @@ const uint32_t g_rgctx_U3CU3Ec__DisplayClass6_0_1_t88A6949A7AEDDEC91840BDF9765FD
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass7_0_3_U3CCombineSelectorsU3Eb__0_mB8CBD5D12D14D3F630E4DBDA0FFE77BC0C07B058 = 169;
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass7_0_3__ctor_mA324D7BE4B1D42C68C65408628CE1315E1A041C9 = 168;
 const uint32_t g_rgctx_U3CU3Ec__DisplayClass7_0_3_t3C1DE292CE570AF221D1B927B5FFD65D137F4F53 = 15308;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_U3CU3Ec__ctor_m21C69B92D6A5059B9A4F57AAC8A4FB8919763291 = 8;
 const uint32_t g_rgctx_U3CU3Ec__ctor_m45F5D4627F3A504CA7840522DF47C515DE066B25 = 12;
@@ -4460,6 +5298,7 @@ const uint32_t g_rgctx_U3CU3Ec__ctor_m99F3258BE9A62418C4B778E39485A33901E6DA3D =
 const uint32_t g_rgctx_U3CU3Ec__ctor_mB5BC3C64CF1A70EC8C6B70943B4388CE8422C093 = 7;
 const uint32_t g_rgctx_U3CU3Ec__ctor_mB7955C548374943C37C5660785F721CA6B3BD6E4 = 78;
 const uint32_t g_rgctx_U3CU3Ec__ctor_mD7F247619810132A489D6B03564B7850A6467AD6 = 13;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_U3CU3Ec_t04D4865A912255024F906D17C8A195EE1593748A = 15291;
 const uint32_t g_rgctx_U3CU3Ec_t0AAE0D8D94E9144FAF749A3E8F88A065B82F08EC = 15280;
@@ -4477,6 +5316,24 @@ const uint32_t g_rgctx_U3CU3Ec_tCF96F290E5786F80323214D11E8B1385D863ED70 = 15279
 const uint32_t g_rgctx_U3CU3Ec_tD5287145DB1083FA58D1DE73E6759168650C2F69 = 15278;
 const uint32_t g_rgctx_U3CWaitForResultU3Ed__8__ctor_m90BE4828183595879A21C7427B7FB8CB1592C692 = 227;
 const uint32_t g_rgctx_U3CWaitForResultU3Ed__8_tA5FFAE823D7C7796971B085CCFD6BAA89D0DAABE = 15314;
+=======
+const uint32_t g_rgctx_U3CU3Ec_t04D4865A912255024F906D17C8A195EE1593748A = 15292;
+const uint32_t g_rgctx_U3CU3Ec_t0AAE0D8D94E9144FAF749A3E8F88A065B82F08EC = 15281;
+const uint32_t g_rgctx_U3CU3Ec_t1619855A58FCADF0C4D9845273C210FF396A6827 = 15286;
+const uint32_t g_rgctx_U3CU3Ec_t1EFE905FD91B5D31E484ECA3DE6ECC81903F86CA = 15283;
+const uint32_t g_rgctx_U3CU3Ec_t214A43CC1DE7F5DA69339B1C636F5EBF45EECB33 = 15288;
+const uint32_t g_rgctx_U3CU3Ec_t575C686132E075CACAD6C70A2CB5FDD4C8DD0154 = 15287;
+const uint32_t g_rgctx_U3CU3Ec_t5D785887703F4E30C64B67DFC973E6495AAF7636 = 15290;
+const uint32_t g_rgctx_U3CU3Ec_t5E3C4C9757F9FB14793BB6D4DFCB97A38E8FFE6B = 15282;
+const uint32_t g_rgctx_U3CU3Ec_t63CAD67F42EE09460E8CE67D3D4AFC06C24EC824 = 15291;
+const uint32_t g_rgctx_U3CU3Ec_t663C7A51B535BED95BDE89DDEEB4E7B7016074BC = 15285;
+const uint32_t g_rgctx_U3CU3Ec_t705255FA361C46DFF1055CEBF8E4A817E4279183 = 15284;
+const uint32_t g_rgctx_U3CU3Ec_t9AA044A17F7C7B8378C480F3100ED19D12862ACA = 15289;
+const uint32_t g_rgctx_U3CU3Ec_tCF96F290E5786F80323214D11E8B1385D863ED70 = 15280;
+const uint32_t g_rgctx_U3CU3Ec_tD5287145DB1083FA58D1DE73E6759168650C2F69 = 15279;
+const uint32_t g_rgctx_U3CWaitForResultU3Ed__8__ctor_m90BE4828183595879A21C7427B7FB8CB1592C692 = 227;
+const uint32_t g_rgctx_U3CWaitForResultU3Ed__8_tA5FFAE823D7C7796971B085CCFD6BAA89D0DAABE = 15315;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_U3CU3Ec_t04D4865A912255024F906D17C8A195EE1593748A = 15292;
 const uint32_t g_rgctx_U3CU3Ec_t0AAE0D8D94E9144FAF749A3E8F88A065B82F08EC = 15281;
@@ -4525,6 +5382,7 @@ const uint32_t g_rgctx_UnityAction_1_Invoke_m6598320BD28F7690DC297C2D1F874365952
 const uint32_t g_rgctx_UnityAction_1__ctor_m709A080DA4D1E6A960F369648A0E9E1E711D680C = 26883;
 const uint32_t g_rgctx_UnityAction_1_tCCA8583F35FD5AE88387AAD4E2261C24D9979824 = 4354;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_UnityAction_1_tCD07B30FDCF4B3342FE374DFC21A60BAF6C9A188 = 16295;
 const uint32_t g_rgctx_UnityAction_1_tE6AC6EB5FAC186761A9E8AD94FE570756E1941B0 = 4356;
 const uint32_t g_rgctx_UnityAction_2_Invoke_m7B3D91E337EE5BAED8EA3215A76E80E739B4B426 = 26900;
@@ -4535,6 +5393,18 @@ const uint32_t g_rgctx_UnityAction_4_Invoke_m8DF32CE2946727C5507D46D1FD8AD351D15
 const uint32_t g_rgctx_UnityAction_4_tFE7F69F55A61B1C94EA4396BA51831F006EF45C1 = 16300;
 const uint32_t g_rgctx_UnityEvent_1_GetDelegate_m4C1A6FA5CC5A98FA9363140CBDCE7F4C8EA790B9 = 26917;
 const uint32_t g_rgctx_UnityEvent_1_t89A7C04EA256B0BC85B7146022DCB5DEE2372F96 = 16301;
+=======
+const uint32_t g_rgctx_UnityAction_1_tCD07B30FDCF4B3342FE374DFC21A60BAF6C9A188 = 16296;
+const uint32_t g_rgctx_UnityAction_1_tE6AC6EB5FAC186761A9E8AD94FE570756E1941B0 = 4356;
+const uint32_t g_rgctx_UnityAction_2_Invoke_m7B3D91E337EE5BAED8EA3215A76E80E739B4B426 = 26900;
+const uint32_t g_rgctx_UnityAction_2_tA5FBFB62634255D0C1C76ED53ED268910F21D441 = 16299;
+const uint32_t g_rgctx_UnityAction_3_Invoke_mA324678227155AC00FF70BE3C44323B457BFD798 = 26907;
+const uint32_t g_rgctx_UnityAction_3_tB802B24846E106C51390123789ECCE1427B772DB = 16300;
+const uint32_t g_rgctx_UnityAction_4_Invoke_m8DF32CE2946727C5507D46D1FD8AD351D15816AB = 26912;
+const uint32_t g_rgctx_UnityAction_4_tFE7F69F55A61B1C94EA4396BA51831F006EF45C1 = 16301;
+const uint32_t g_rgctx_UnityEvent_1_GetDelegate_m4C1A6FA5CC5A98FA9363140CBDCE7F4C8EA790B9 = 26917;
+const uint32_t g_rgctx_UnityEvent_1_t89A7C04EA256B0BC85B7146022DCB5DEE2372F96 = 16302;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_UnityAction_1_tCD07B30FDCF4B3342FE374DFC21A60BAF6C9A188 = 16296;
 const uint32_t g_rgctx_UnityAction_1_tE6AC6EB5FAC186761A9E8AD94FE570756E1941B0 = 4356;
@@ -4579,7 +5449,11 @@ const uint32_t g_rgctx_UnwrapPromise_1_ProcessInnerTask_m0F7CA13880884CCC4253888
 const uint32_t g_rgctx_UnwrapPromise_1_TrySetFromTask_m322F77DE39398D033C3A4EF6494073E2A7225F98 = 27003;
 const uint32_t g_rgctx_UnwrapPromise_1__ctor_m5B604469AAE3935CEED797DBD39B92DF123849D7 = 26998;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_UnwrapPromise_1_t9B9B280D0024A09AB07BA138B0DFDD95E1D2056A = 16302;
+=======
+const uint32_t g_rgctx_UnwrapPromise_1_t9B9B280D0024A09AB07BA138B0DFDD95E1D2056A = 16303;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_UnwrapPromise_1_t9B9B280D0024A09AB07BA138B0DFDD95E1D2056A = 16303;
 >>>>>>> Stashed changes
@@ -4588,7 +5462,11 @@ const uint32_t g_rgctx_UxmlAttributeDescription_GetValueFromBag_TisT_tE3E6F3F7A6
 const uint32_t g_rgctx_UxmlAttributeDescription_TryGetValueFromBag_TisT_tE3E6F3F7A6C4C60E2087F8C4646BE4F0F3B18749_m4EF65B7E91EAD3F1CB053BE957F6A50D2BF8C660 = 34598;
 const uint32_t g_rgctx_UxmlEnumAttributeDescription_1_ConvertValueToEnum_TisT_tE6895AB59586DD2AFC4CDDACE3E6D326C4A66E76_mBA4E25D44BD266F3D2E745C71B201BB36A3822DC = 27029;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_UxmlEnumAttributeDescription_1_t59568562619C4E0F03638BD42C94A70C36B685EA = 16303;
+=======
+const uint32_t g_rgctx_UxmlEnumAttributeDescription_1_t59568562619C4E0F03638BD42C94A70C36B685EA = 16304;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_UxmlEnumAttributeDescription_1_t59568562619C4E0F03638BD42C94A70C36B685EA = 16304;
 >>>>>>> Stashed changes
@@ -4601,7 +5479,11 @@ const uint32_t g_rgctx_V_tEEE9E81766A13B97AB4D891763586ECB0A677734 = 968;
 const uint32_t g_rgctx_ValidationUtility_1_AddToSetAndThrowIfDuplicate_mA88F08B984E30ACBC0F19E4DDB191C35030FDE4F = 27222;
 const uint32_t g_rgctx_ValidationUtility_1_ValidateAndThrow_mE3BAE011CA1B620D0EB696FB44F6B0ECC8F926AD = 27223;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ValidationUtility_1_t9FE82EB474B35DDC09AFFEF97991D887DF9EFC2C = 16317;
+=======
+const uint32_t g_rgctx_ValidationUtility_1_t9FE82EB474B35DDC09AFFEF97991D887DF9EFC2C = 16318;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ValidationUtility_1_t9FE82EB474B35DDC09AFFEF97991D887DF9EFC2C = 16318;
 >>>>>>> Stashed changes
@@ -4655,9 +5537,15 @@ const uint32_t g_rgctx_ValueTaskAwaiter_1__ctor_m2C1ECA210152C6F0BB47BC3B7BB379E
 const uint32_t g_rgctx_ValueTaskAwaiter_1_tDF83CC3203A3899BE80F878528185F6D8A1912D1 = 4463;
 const uint32_t g_rgctx_ValueTaskSourceAsTask__ctor_m8A599B56CB44F7F2F57D959938C0D67A70DD7C28 = 28052;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ValueTaskSourceAsTask_t3A6FBBF512DD8E81F73DF6C3384342E68945E754 = 16329;
 const uint32_t g_rgctx_ValueTaskSourceAsTask_t7053C5D6FE929B9A0B2CE79B7163AF0C8C9F223E = 16327;
 const uint32_t g_rgctx_ValueTaskSourceAsTask_tE92F11505E64F24ACC3D25BC0AD76C2A7BCE7431 = 16328;
+=======
+const uint32_t g_rgctx_ValueTaskSourceAsTask_t3A6FBBF512DD8E81F73DF6C3384342E68945E754 = 16330;
+const uint32_t g_rgctx_ValueTaskSourceAsTask_t7053C5D6FE929B9A0B2CE79B7163AF0C8C9F223E = 16328;
+const uint32_t g_rgctx_ValueTaskSourceAsTask_tE92F11505E64F24ACC3D25BC0AD76C2A7BCE7431 = 16329;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ValueTaskSourceAsTask_t3A6FBBF512DD8E81F73DF6C3384342E68945E754 = 16330;
 const uint32_t g_rgctx_ValueTaskSourceAsTask_t7053C5D6FE929B9A0B2CE79B7163AF0C8C9F223E = 16328;
@@ -4697,7 +5585,11 @@ const uint32_t g_rgctx_ValueTuple_8_t3C21099E0A4DA1FA49F0CF6F4D77E4A5389DFBBD = 
 const uint32_t g_rgctx_ValuesDiscrete_1_IsSame_mE71E18020ADB9190529516FE42E96CD564B262CE = 28277;
 const uint32_t g_rgctx_ValuesDiscrete_1_Lerp_m8977C1AD467DF8A060086FAE57BF71CE617C3229 = 28278;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_ValuesDiscrete_1_tAD548CF42DAE4112344669E958E2FE479880E350 = 16330;
+=======
+const uint32_t g_rgctx_ValuesDiscrete_1_tAD548CF42DAE4112344669E958E2FE479880E350 = 16331;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_ValuesDiscrete_1_tAD548CF42DAE4112344669E958E2FE479880E350 = 16331;
 >>>>>>> Stashed changes
@@ -4721,7 +5613,11 @@ const uint32_t g_rgctx_Values_1_get_SameFunc_m5B03546CF54B68DAF3D5CF70B6F4CB7390
 const uint32_t g_rgctx_Values_1_get_isEmpty_m2D2F39FB39705423809ED2EC2F01C172C8AD0734 = 28297;
 const uint32_t g_rgctx_Values_1_t23C04E56FDBA9C899E6BF2582CDE592FA76ECA15 = 4499;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_Values_1_t2C7A51A54504024F7C31C7D5B8CE083E1E3DFA86 = 16331;
+=======
+const uint32_t g_rgctx_Values_1_t2C7A51A54504024F7C31C7D5B8CE083E1E3DFA86 = 16332;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_Values_1_t2C7A51A54504024F7C31C7D5B8CE083E1E3DFA86 = 16332;
 >>>>>>> Stashed changes
@@ -4763,7 +5659,11 @@ const uint32_t g_rgctx_VerticalVirtualizationController_1_get_lastVisibleItem_m2
 const uint32_t g_rgctx_VerticalVirtualizationController_1_get_lastVisibleItem_mB1371D71F8D1ED66C8FA69E13FF64A439B1CBA63 = 28671;
 const uint32_t g_rgctx_VerticalVirtualizationController_1_tA7CD2134A36A7EBF4A3828315FD0AC58934501D3 = 4518;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_VerticalVirtualizationController_1_tA93382DC5618239D65DFAE0075D08146D575C95C = 16332;
+=======
+const uint32_t g_rgctx_VerticalVirtualizationController_1_tA93382DC5618239D65DFAE0075D08146D575C95C = 16333;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_VerticalVirtualizationController_1_tA93382DC5618239D65DFAE0075D08146D575C95C = 16333;
 >>>>>>> Stashed changes
@@ -4772,8 +5672,13 @@ const uint32_t g_rgctx_WeakReference_1__ctor_mD21ACB1F77E3A0A73B4192EB1A092B5DA2
 const uint32_t g_rgctx_WhereArrayIterator_1__ctor_m4D241BD7A7C7BF59DEFF9D7D34B8E23771934CFE = 28709;
 const uint32_t g_rgctx_WhereArrayIterator_1__ctor_mA1F81211FAEEC31DDDE7FEB4597D827FD8173193 = 28708;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_WhereArrayIterator_1_t02B6565B81E6B3116FEB4E19018ECAEA32DBECFE = 16334;
 const uint32_t g_rgctx_WhereArrayIterator_1_t3191C8D5170E56806A48BD846333ABBD99D3D3C7 = 16335;
+=======
+const uint32_t g_rgctx_WhereArrayIterator_1_t02B6565B81E6B3116FEB4E19018ECAEA32DBECFE = 16335;
+const uint32_t g_rgctx_WhereArrayIterator_1_t3191C8D5170E56806A48BD846333ABBD99D3D3C7 = 16336;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_WhereArrayIterator_1_t02B6565B81E6B3116FEB4E19018ECAEA32DBECFE = 16335;
 const uint32_t g_rgctx_WhereArrayIterator_1_t3191C8D5170E56806A48BD846333ABBD99D3D3C7 = 16336;
@@ -4783,6 +5688,7 @@ const uint32_t g_rgctx_WhereEnumerableIterator_1__ctor_m9C038F85EC321BD8F7AE403D
 const uint32_t g_rgctx_WhereEnumerableIterator_1__ctor_mA5B3E7EB5B0FFE980FA8EE42233961A20AC087F7 = 28717;
 const uint32_t g_rgctx_WhereEnumerableIterator_1__ctor_mCC15F47FF48C410C2A5DEFECEB5A4BAD2023196D = 28715;
 const uint32_t g_rgctx_WhereEnumerableIterator_1__ctor_mF25AEB188FA18B82EFB71A5BAD8534E8A1FFCEE2 = 28719;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 const uint32_t g_rgctx_WhereEnumerableIterator_1_t46D8F3B462050CB986339EA63B34443BA66D5EE9 = 16339;
 const uint32_t g_rgctx_WhereEnumerableIterator_1_t92EE9D2E5265D8B183ED697686240F506BCA8424 = 16337;
@@ -4794,6 +5700,8 @@ const uint32_t g_rgctx_WhereListIterator_1__ctor_m58771D71B52CBC9B8BE8F30DD4C91A
 const uint32_t g_rgctx_WhereListIterator_1_t39045FEC3E9F1D32C0EA2780668C61E302992807 = 16342;
 const uint32_t g_rgctx_WhereListIterator_1_tAEF79AA48344AA5DE131BEE39C5D791F28C824AF = 16341;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_WhereEnumerableIterator_1_t46D8F3B462050CB986339EA63B34443BA66D5EE9 = 16340;
 const uint32_t g_rgctx_WhereEnumerableIterator_1_t92EE9D2E5265D8B183ED697686240F506BCA8424 = 16338;
 const uint32_t g_rgctx_WhereEnumerableIterator_1_t937E10A58702C981A92D398826CA6EB6022E26DE = 16337;
@@ -4803,51 +5711,72 @@ const uint32_t g_rgctx_WhereListIterator_1__ctor_m172443247095E67B21AF11E2907D7B
 const uint32_t g_rgctx_WhereListIterator_1__ctor_m58771D71B52CBC9B8BE8F30DD4C91AD2D03C28C3 = 28726;
 const uint32_t g_rgctx_WhereListIterator_1_t39045FEC3E9F1D32C0EA2780668C61E302992807 = 16343;
 const uint32_t g_rgctx_WhereListIterator_1_tAEF79AA48344AA5DE131BEE39C5D791F28C824AF = 16342;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_WhereSelectArrayIterator_2__ctor_m13925FA98D8607D9EA9B1A4792AE6A94B2849DF1 = 28734;
 const uint32_t g_rgctx_WhereSelectArrayIterator_2__ctor_m1F6E197D75A7ECC536CF790E45D8855D46A1FDC6 = 28735;
 const uint32_t g_rgctx_WhereSelectArrayIterator_2__ctor_m2AC7E645F1BC7AB8EFBCDA5548385B40E79C3D1C = 28733;
 const uint32_t g_rgctx_WhereSelectArrayIterator_2__ctor_mCD9A624F8C3ACA086CFD4CEBB6150456E1471C9B = 28736;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_WhereSelectArrayIterator_2_t2F5234271A3A4E5F89C63030DD6F9D9260D06FDE = 16346;
 const uint32_t g_rgctx_WhereSelectArrayIterator_2_t59D43E919F2DC1D758D7C811297A1435D53D93AC = 16345;
 const uint32_t g_rgctx_WhereSelectArrayIterator_2_t6BD47364FC721CA8B09BDFC7BE6810CCE818F41E = 16344;
 const uint32_t g_rgctx_WhereSelectArrayIterator_2_tEDE80B0BBD80F7C8DD8C078E1B803892CFEA7BEA = 16343;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_WhereSelectArrayIterator_2_t2F5234271A3A4E5F89C63030DD6F9D9260D06FDE = 16347;
 const uint32_t g_rgctx_WhereSelectArrayIterator_2_t59D43E919F2DC1D758D7C811297A1435D53D93AC = 16346;
 const uint32_t g_rgctx_WhereSelectArrayIterator_2_t6BD47364FC721CA8B09BDFC7BE6810CCE818F41E = 16345;
 const uint32_t g_rgctx_WhereSelectArrayIterator_2_tEDE80B0BBD80F7C8DD8C078E1B803892CFEA7BEA = 16344;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_WhereSelectEnumerableIterator_2__ctor_m5372F7F1EB431A98E944244596B6C21D09502A22 = 28747;
 const uint32_t g_rgctx_WhereSelectEnumerableIterator_2__ctor_mDA7AA133551DE9DAA42B9489EF99A53B6BF80749 = 28750;
 const uint32_t g_rgctx_WhereSelectEnumerableIterator_2__ctor_mF3A2E2792E40371499F8A04F1C4B4CF725C70204 = 28748;
 const uint32_t g_rgctx_WhereSelectEnumerableIterator_2__ctor_mF714167A39020832C4835CAA8F81F6E0FAA9A789 = 28749;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_WhereSelectEnumerableIterator_2_t091A81B2BFDECBB6B85A5DE344E32E306B979F4E = 16349;
 const uint32_t g_rgctx_WhereSelectEnumerableIterator_2_t1F5FF34DBCE1F6AF7517393D73D356A6DA50B6D1 = 16348;
 const uint32_t g_rgctx_WhereSelectEnumerableIterator_2_t48BC8AE4F3D8AE2BB3FB23C3AFC140A756CC65A4 = 16350;
 const uint32_t g_rgctx_WhereSelectEnumerableIterator_2_t5E919007496A2E81A975C75A0B3615B078CBA88B = 16347;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_WhereSelectEnumerableIterator_2_t091A81B2BFDECBB6B85A5DE344E32E306B979F4E = 16350;
 const uint32_t g_rgctx_WhereSelectEnumerableIterator_2_t1F5FF34DBCE1F6AF7517393D73D356A6DA50B6D1 = 16349;
 const uint32_t g_rgctx_WhereSelectEnumerableIterator_2_t48BC8AE4F3D8AE2BB3FB23C3AFC140A756CC65A4 = 16351;
 const uint32_t g_rgctx_WhereSelectEnumerableIterator_2_t5E919007496A2E81A975C75A0B3615B078CBA88B = 16348;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_WhereSelectListIterator_2__ctor_m43F52D624D5D5CFF28C6B99849AC99EBE6E71A4F = 28765;
 const uint32_t g_rgctx_WhereSelectListIterator_2__ctor_m89A10922BF0309154D097D4D7E630E8451C1B952 = 28764;
 const uint32_t g_rgctx_WhereSelectListIterator_2__ctor_mDFE79323B2924E6309386ABFB7F9AE7BAAD059C2 = 28766;
 const uint32_t g_rgctx_WhereSelectListIterator_2__ctor_mF25C917FA82A1B5E82D32A1CA4DA63EDF3475574 = 28763;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_WhereSelectListIterator_2_t5A4506F26C43750752687193A2ECBAD317108786 = 16351;
 const uint32_t g_rgctx_WhereSelectListIterator_2_t8C5A1568CD9B2B2E7760D591DD3A4517DB930770 = 16353;
 const uint32_t g_rgctx_WhereSelectListIterator_2_tA11FC7FED3C26063A55DAAA599906A1C57175B03 = 16352;
 const uint32_t g_rgctx_WhereSelectListIterator_2_tBA41BFF0DB2BFE973868036026CDCA6B8797A8D6 = 16354;
 =======
+=======
+>>>>>>> Stashed changes
 const uint32_t g_rgctx_WhereSelectListIterator_2_t5A4506F26C43750752687193A2ECBAD317108786 = 16352;
 const uint32_t g_rgctx_WhereSelectListIterator_2_t8C5A1568CD9B2B2E7760D591DD3A4517DB930770 = 16354;
 const uint32_t g_rgctx_WhereSelectListIterator_2_tA11FC7FED3C26063A55DAAA599906A1C57175B03 = 16353;
 const uint32_t g_rgctx_WhereSelectListIterator_2_tBA41BFF0DB2BFE973868036026CDCA6B8797A8D6 = 16355;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 const uint32_t g_rgctx_XRLoaderHelper_CreateSubsystem_TisTDescriptor_t2F53B0027CD2CEE8DEEC547765AC6876B085CDD6_TisTSubsystem_t715FA6A4371BF289E7095C8CA0A1A0E8031BE68A_m5C03A52075DA69E79D3C7B6057D93920C0E99330 = 34617;
 const uint32_t g_rgctx_XRLoaderHelper_CreateSubsystem_TisTDescriptor_t44D625D0193FBFDD7CAD1706999009F067C07B90_TisTSubsystem_t967888085478054B52B58EEF14F8D4B660C57F64_mDD5FBE85951A428FCC852CA4C4FD40404830A88E = 34618;
@@ -4859,7 +5788,11 @@ const uint32_t g_rgctx_XRSubsystem_1_OnDestroyed_m1197DB1C252FE0CEC1E1312AA7B2D9
 const uint32_t g_rgctx_XRSubsystem_1_OnStart_m946EED52AFDCB529B3E037B350653CA79A67BDCF = 28778;
 const uint32_t g_rgctx_XRSubsystem_1_OnStop_mCC54FB0F8161B29D486393408C35C213B1AF11FB = 28779;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const uint32_t g_rgctx_XRSubsystem_1_t3A3C5F9AAB5BACBFA3B7E29BC6C0981F60BB0FD3 = 16355;
+=======
+const uint32_t g_rgctx_XRSubsystem_1_t3A3C5F9AAB5BACBFA3B7E29BC6C0981F60BB0FD3 = 16356;
+>>>>>>> Stashed changes
 =======
 const uint32_t g_rgctx_XRSubsystem_1_t3A3C5F9AAB5BACBFA3B7E29BC6C0981F60BB0FD3 = 16356;
 >>>>>>> Stashed changes
