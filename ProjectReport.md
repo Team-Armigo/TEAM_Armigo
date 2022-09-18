@@ -6,17 +6,23 @@
 > 박시은 : 디자인 <br>
 
 ### 2.일정  <br>
-<img width="1033" alt="스크린샷 2022-09-18 오후 2 15 31" src="https://user-images.githubusercontent.com/103713510/190886887-c9ba8270-5a52-41e7-a9e9-abed52ed508e.png">
+<img width="1033" alt="스크린샷 2022-09-18 오후 2 15 31" src="https://user-images.githubusercontent.com/103713510/190886887-c9ba8270-5a52-41e7-a9e9-abed52ed508e.png"> <br>
 
 
 
 ### 3.회의방식 및 목록  <br>
 ---------
-<img width="853" alt="스크린샷 2022-09-18 오후 1 44 28" src="https://user-images.githubusercontent.com/103713510/190886531-9a30e7e1-b40e-4b5d-9026-94250a9db179.png">
+<img width="853" alt="스크린샷 2022-09-18 오후 1 44 28" src="https://user-images.githubusercontent.com/103713510/190886531-9a30e7e1-b40e-4b5d-9026-94250a9db179.png"> <br>
 ----------
 
-> 매일 1시에 목표설정 및 성취 목록 공유 및 회의 목록 정리
-> 기능적을 구현해야하는 부분, 해결해야 하는 부분은 Issues로 공유
+> 매일 1시에 목표설정 및 성취 목록 공유 및 회의 목록 정리 <br>
+
+
+<img width="1137" alt="스크린샷 2022-09-18 오후 2 33 24" src="https://user-images.githubusercontent.com/103713510/190887330-7acbc0b8-ae60-4a06-82b2-bf02b99c11da.png"> <br>
+
+
+
+> 기능적을 구현해야하는 부분, 해결해야 하는 부분은 Issues로 공유 <br>
 
 
 ### 4.계획한 앱 기능  <br>
