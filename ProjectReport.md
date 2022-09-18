@@ -9,7 +9,15 @@
 
 ### 3.회의방식 및 목록  <br>
 
+<img width="853" alt="스크린샷 2022-09-18 오후 1 44 28" src="https://user-images.githubusercontent.com/103713510/190886531-9a30e7e1-b40e-4b5d-9026-94250a9db179.png">
+
+
+
 ### 4.계획한 앱 기능  <br>
+<img width="814" alt="스크린샷 2022-09-18 오후 1 58 41" src="https://user-images.githubusercontent.com/103713510/190886526-35dfafeb-2e7d-4922-be66-fa1d07c8970e.png">
+
+
+
 
 ### 5.주요기능  <br>
 1) 회원가입, 로그인 기능 <br>
@@ -35,7 +43,6 @@
 3) Photon  <br>
 > 멀티플레이 서버 제작  <br>
 
-### 8.개발스택  <br>
 
 ### 9.목표에 비해 하지못한점  <br>
 
