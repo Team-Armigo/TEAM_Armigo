@@ -14,7 +14,10 @@ public class GameUI : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
-
+    public void start()
+    {
+        SceneManager.LoadScene("1_Login");
+    }
     public void Login()
     {
         SceneManager.LoadScene("MainMenu");

@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 3d42795df8eb8e649965143821bea702
+  - enabled: 1
+    path: Assets/Scenes/1_Login.unity
+    guid: 144f27f283f72409f9eebfbbf20e9540
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 346178f885d7c4ff2a62e78968fb8727, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 74e33da87f12a4b5ab233559e1ec2e5f, type: 2}
