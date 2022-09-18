@@ -54,9 +54,9 @@
 
 ### 7.앱화면  <br>
 
-<img width="488" alt="KakaoTalk_Photo_2022-09-18-14-40-27 001" src="https://user-images.githubusercontent.com/103713510/190887553-e6d95236-3488-473a-bf76-d09dc3e18fee.png">
-<img width="483" alt="KakaoTalk_Photo_2022-09-18-14-40-27 002" src="https://user-images.githubusercontent.com/103713510/190887554-b1599ba1-44cc-486b-a383-1c12af39dded.png">
-<img width="279" alt="KakaoTalk_Photo_2022-09-18-14-40-27 003" src="https://user-images.githubusercontent.com/103713510/190887555-a3035de1-afdd-45fc-8797-092a1b563e5b.png">
+<img width="300" alt="KakaoTalk_Photo_2022-09-18-14-40-27 001" src="https://user-images.githubusercontent.com/103713510/190887553-e6d95236-3488-473a-bf76-d09dc3e18fee.png">
+<img width="300" alt="KakaoTalk_Photo_2022-09-18-14-40-27 002" src="https://user-images.githubusercontent.com/103713510/190887554-b1599ba1-44cc-486b-a383-1c12af39dded.png">
+<img width="300" alt="KakaoTalk_Photo_2022-09-18-14-40-27 003" src="https://user-images.githubusercontent.com/103713510/190887555-a3035de1-afdd-45fc-8797-092a1b563e5b.png">
   <br>
 
 ----------
