@@ -12,8 +12,11 @@ public class PlayManager : MonoBehaviourPunCallbacks
 
     public TMP_Text roomName;
     public TMP_Text maxNum;
+    
     //string RoomName = PhotonNetwork.CurrentRoom.Name;
     public Button back;
+
+    int count = 0;
 
     //string name = tmpName.text();
 
@@ -28,7 +31,7 @@ public class PlayManager : MonoBehaviourPunCallbacks
     // Update is called once per frame
     void Update()
     {
-
+        CheckPlayerCount();
     }
     public void RoomData()
     {
@@ -52,6 +55,28 @@ public class PlayManager : MonoBehaviourPunCallbacks
             Debug.Log("LoadScene실행되었따.");
             return;
         }
+    }
+
+    public override void OnPlayerEnteredRoom(Photon.Realtime.Player newPlayer)
+    {
+        //새로 플레이어가 들어왔으면 숫자 count
+        count++;
+        //숫자만큼 플레이어 수 for 사용해서 닉네임 띄우기
+        //userList(newPlaye);
+        
+    }
+
+    public override void OnPlayerLeftRoom(Photon.Realtime.Player newPlayer)
+    {
+        //플레이어가 나갔으면 -count
+        count--;
+        //userList(newPlaye);
+
+    }
+
+    void userList(Player player)
+    {
+        //playerNickname.text = PhotonNetwork.Nickname;
     }
 
 
@@ -82,6 +107,7 @@ public class PlayManager : MonoBehaviourPunCallbacks
         maxNum.text = string.Format("[{0}/{1}]", currPlayer,maxPlayer);
 
         roomName.text = PhotonNetwork.CurrentRoom.Name;
+
     }
 
 

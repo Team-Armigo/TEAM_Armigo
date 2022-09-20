@@ -155,6 +155,7 @@ public class PtManager : MonoBehaviourPunCallbacks
         ro.MaxPlayers = maxPlayers;
         ro.IsOpen = true;
         ro.IsVisible = true;
+        ro.PublishUserId = true; // 유저아이디 불러오기 허락
         Debug.Log(" 작동.");
 
         // 인풋필드가 비어있으면

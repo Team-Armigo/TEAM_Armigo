@@ -101,6 +101,7 @@ public class CreateManager : MonoBehaviourPunCallbacks
                     GameObject _room = Instantiate(roomPrefab, scrollContent);
                     _room.GetComponent<RoomData>().RoomInfo = room;
                     roomDict.Add(room.Name, _room);
+                    
                 }
                 // 룸 정보를 갱신하는 경우
                 else
