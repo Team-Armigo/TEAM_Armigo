@@ -12,6 +12,8 @@ public class UIManager : MonoBehaviour
     public GameObject registerUI;
     public GameObject scoreboardUI;
 
+
+
     private void Awake()
     {
         if (instance == null)
@@ -49,4 +51,5 @@ public class UIManager : MonoBehaviour
         ClearScreen();
         scoreboardUI.SetActive(true);
     }
+
 }

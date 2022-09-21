@@ -6,6 +6,14 @@ using UnityEngine.SceneManagement;
 public class GameUI : MonoBehaviour
 {
 
+    AudioSource _audioSource;
+
+    void Start()
+    {
+        
+    }
+
+
     public static GameUI instance;
     // ����, ����������, �÷��� ������ MainMenu��
 
@@ -14,8 +22,16 @@ public class GameUI : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
-    public void start()
+
+    public void tab_continue()
     {
+        Debug.Log("재생");
+        GameObject.FindGameObjectWithTag("Music").GetComponent<OkayAudio>().PlayMusic();
+        StartCoroutine(nextScene());
+    }
+    IEnumerator nextScene()
+    {
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene("1_Login");
     }
     public void Login()

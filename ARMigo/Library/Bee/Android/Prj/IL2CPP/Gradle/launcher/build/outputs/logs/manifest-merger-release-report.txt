@@ -1,0 +1,658 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
+MERGED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-81:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f4401d89f1b819b006bc27dfd534dc2b/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/mineo/.gradle/caches/transforms-2/files-2.1/39fc3f06dad48d1bee6cb8ef9daa10d6/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/145b2bed197b5ab65be0eed483b3a3c8/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:17:1-73:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7a8e08f028c0c08d6108e5c50a13e9a3/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/1db283d901779a87a2b44d668f1dc2d1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/bcc0011ed6b1f46bcb822894efafb499/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b7fea0b0474cbb750919a15e3fafefe5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5bba6e183a3bd22e961548abcf43220c/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/da3ff1702022e943f7a4415ebefb3af2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-app-unity:9.3.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b6e03cbc95dcf2a315eacb548a0fa523/AndroidManifest.xml:3:1-8:12
+MERGED from [com.google.firebase:firebase-auth-unity:9.3.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/4bc6e2fc332abf9421c9ff7aff189781/AndroidManifest.xml:3:1-8:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/a2e7870940665a269cd1c606f2f0a845/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b81a681d584a08620593d71994aa6c57/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21618b56ed53300fe3ff7288bd7c6d94/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-database-unity:9.3.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c8e1babe8cf5b893ac0036545043f6c0/AndroidManifest.xml:3:1-8:12
+MERGED from [com.google.signin:google-signin-support:1.0.4] /Users/mineo/.gradle/caches/transforms-2/files-2.1/23c38c6d960d1a04e213eca35f86fb86/AndroidManifest.xml:17:1-27:12
+MERGED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:17:1-49:12
+MERGED from [:UnityARCore:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/9d2b37ae8ebf4d60d46f0d308b518f04/AndroidManifest.xml:2:1-11:12
+MERGED from [:ARPresto:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/64f9e14f82d101110a5c957c939e9ef0/AndroidManifest.xml:2:1-11:12
+MERGED from [:unityandroidpermissions:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21445bea1e347582d9fcdcd943ca4674/AndroidManifest.xml:6:1-15:12
+MERGED from [:unityLibrary:FirebaseApp.androidlib] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/FirebaseApp.androidlib/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/e0a7702916e3693834c96cd188e9db58/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/mineo/.gradle/caches/transforms-2/files-2.1/98f299ebb6c48efb85b1c568b1228b74/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c2b95dbd1d1fe9ee0f9048734960b61f/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/22046d2d0a8fdeb83b7edff4c3d71186/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/819457356cca1f59e908d9d5e268ee23/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/e88232df98f4a65c357c7c3c34695b60/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/ff92f49fffae9780415cd337e43503aa/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/mineo/.gradle/caches/transforms-2/files-2.1/00e35b4e45f76e6e99ef2185037ee8b6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7ae30c3c0da14c96442e588bcb5b2e8c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f3dfa2339783edc9eaef3206b5fcb5ff/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c713c689597cdb012b00a37075a0615e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/d89e1e31e5231384541ac74e0e1cc900/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/4d11f1e67f1408f61d10b7580e146593/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/16ff9b1f4c2562bf7e4a9e912f2e80c2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/fbe33037057b169c3a0f74bee5369f11/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/ff6e96f10055522c75575e703730ddf5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/03dbd316ee3cdc43d3d50cc8ba4bbb68/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/62f3754fd474a68168942f0d38f676f5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/dfa93894b707b5171ddcbcb7f71b169f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/d31aa3e9b1873b8f10629ed992865d6f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c27930c4d2e965f89bfc00d474a7455b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/d1c56f28d33eb79d188dce24c97470cc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/0b6a9c7b778ad5c9ece4fd5f22c8506b/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/ec88046919f4e9495c70b96568694528/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/637efe4cda97d1cd52a917598b4ca09f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/d7ab50955b91b4771cb1eb141edaace0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c753a1ddacc0962517f597061822517e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/8f06d343521396c47a259200fc67fcd4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/4827259d2600b03fc57a443766a5ebdb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/fac5e93e5cd758e8b8e99a777b411e4e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/1e60bd9718b6ea7bb51dc0566a1ba218/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/0f648654d1e53e7eeba58c0115c6d4e2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/2eaf3892cad6a0b9efc6ec8c308cd88d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7127deff8539e1d4f84cb623ca19e46c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b05b09c28c7190f35a2b97814e42e7ac/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
+	package
+		ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:70-105
+		INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+		INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
+		INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:106-152
+	android:versionCode
+		INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
+		INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:153-193
+supports-screens
+ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-163
+	android:largeScreens
+		ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:78-105
+	android:smallScreens
+		ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:21-48
+	android:normalScreens
+		ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:49-77
+	android:xlargeScreens
+		ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:106-134
+	android:anyDensity
+		ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:135-160
+application
+ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:3-83
+MERGED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:5-79:19
+MERGED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:5-79:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f4401d89f1b819b006bc27dfd534dc2b/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f4401d89f1b819b006bc27dfd534dc2b/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/mineo/.gradle/caches/transforms-2/files-2.1/39fc3f06dad48d1bee6cb8ef9daa10d6/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/mineo/.gradle/caches/transforms-2/files-2.1/39fc3f06dad48d1bee6cb8ef9daa10d6/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/1db283d901779a87a2b44d668f1dc2d1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/1db283d901779a87a2b44d668f1dc2d1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/bcc0011ed6b1f46bcb822894efafb499/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/bcc0011ed6b1f46bcb822894efafb499/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5bba6e183a3bd22e961548abcf43220c/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5bba6e183a3bd22e961548abcf43220c/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/da3ff1702022e943f7a4415ebefb3af2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/da3ff1702022e943f7a4415ebefb3af2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/a2e7870940665a269cd1c606f2f0a845/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/a2e7870940665a269cd1c606f2f0a845/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b81a681d584a08620593d71994aa6c57/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b81a681d584a08620593d71994aa6c57/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21618b56ed53300fe3ff7288bd7c6d94/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21618b56ed53300fe3ff7288bd7c6d94/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.signin:google-signin-support:1.0.4] /Users/mineo/.gradle/caches/transforms-2/files-2.1/23c38c6d960d1a04e213eca35f86fb86/AndroidManifest.xml:25:5-20
+MERGED from [com.google.signin:google-signin-support:1.0.4] /Users/mineo/.gradle/caches/transforms-2/files-2.1/23c38c6d960d1a04e213eca35f86fb86/AndroidManifest.xml:25:5-20
+MERGED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:33:5-47:19
+MERGED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:33:5-47:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/mineo/.gradle/caches/transforms-2/files-2.1/98f299ebb6c48efb85b1c568b1228b74/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/mineo/.gradle/caches/transforms-2/files-2.1/98f299ebb6c48efb85b1c568b1228b74/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c2b95dbd1d1fe9ee0f9048734960b61f/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c2b95dbd1d1fe9ee0f9048734960b61f/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/22046d2d0a8fdeb83b7edff4c3d71186/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/22046d2d0a8fdeb83b7edff4c3d71186/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/819457356cca1f59e908d9d5e268ee23/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/819457356cca1f59e908d9d5e268ee23/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/ff92f49fffae9780415cd337e43503aa/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/ff92f49fffae9780415cd337e43503aa/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/mineo/.gradle/caches/transforms-2/files-2.1/00e35b4e45f76e6e99ef2185037ee8b6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/mineo/.gradle/caches/transforms-2/files-2.1/00e35b4e45f76e6e99ef2185037ee8b6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7ae30c3c0da14c96442e588bcb5b2e8c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7ae30c3c0da14c96442e588bcb5b2e8c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f3dfa2339783edc9eaef3206b5fcb5ff/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f3dfa2339783edc9eaef3206b5fcb5ff/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.2.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/0b6a9c7b778ad5c9ece4fd5f22c8506b/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/0b6a9c7b778ad5c9ece4fd5f22c8506b/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/ec88046919f4e9495c70b96568694528/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/ec88046919f4e9495c70b96568694528/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:18-50
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/0b6a9c7b778ad5c9ece4fd5f22c8506b/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:16-48
+	android:icon
+		ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:49-80
+uses-sdk
+INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+MERGED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:8:5-10:41
+MERGED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f4401d89f1b819b006bc27dfd534dc2b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f4401d89f1b819b006bc27dfd534dc2b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/mineo/.gradle/caches/transforms-2/files-2.1/39fc3f06dad48d1bee6cb8ef9daa10d6/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/mineo/.gradle/caches/transforms-2/files-2.1/39fc3f06dad48d1bee6cb8ef9daa10d6/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/145b2bed197b5ab65be0eed483b3a3c8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/145b2bed197b5ab65be0eed483b3a3c8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7a8e08f028c0c08d6108e5c50a13e9a3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7a8e08f028c0c08d6108e5c50a13e9a3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/1db283d901779a87a2b44d668f1dc2d1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/1db283d901779a87a2b44d668f1dc2d1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/bcc0011ed6b1f46bcb822894efafb499/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/bcc0011ed6b1f46bcb822894efafb499/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b7fea0b0474cbb750919a15e3fafefe5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b7fea0b0474cbb750919a15e3fafefe5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5bba6e183a3bd22e961548abcf43220c/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5bba6e183a3bd22e961548abcf43220c/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/da3ff1702022e943f7a4415ebefb3af2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/da3ff1702022e943f7a4415ebefb3af2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-app-unity:9.3.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b6e03cbc95dcf2a315eacb548a0fa523/AndroidManifest.xml:7:3-41
+MERGED from [com.google.firebase:firebase-app-unity:9.3.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b6e03cbc95dcf2a315eacb548a0fa523/AndroidManifest.xml:7:3-41
+MERGED from [com.google.firebase:firebase-auth-unity:9.3.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/4bc6e2fc332abf9421c9ff7aff189781/AndroidManifest.xml:7:3-41
+MERGED from [com.google.firebase:firebase-auth-unity:9.3.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/4bc6e2fc332abf9421c9ff7aff189781/AndroidManifest.xml:7:3-41
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/a2e7870940665a269cd1c606f2f0a845/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/a2e7870940665a269cd1c606f2f0a845/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b81a681d584a08620593d71994aa6c57/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b81a681d584a08620593d71994aa6c57/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21618b56ed53300fe3ff7288bd7c6d94/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21618b56ed53300fe3ff7288bd7c6d94/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-unity:9.3.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c8e1babe8cf5b893ac0036545043f6c0/AndroidManifest.xml:7:3-41
+MERGED from [com.google.firebase:firebase-database-unity:9.3.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c8e1babe8cf5b893ac0036545043f6c0/AndroidManifest.xml:7:3-41
+MERGED from [com.google.signin:google-signin-support:1.0.4] /Users/mineo/.gradle/caches/transforms-2/files-2.1/23c38c6d960d1a04e213eca35f86fb86/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.signin:google-signin-support:1.0.4] /Users/mineo/.gradle/caches/transforms-2/files-2.1/23c38c6d960d1a04e213eca35f86fb86/AndroidManifest.xml:21:5-23:41
+MERGED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:25:5-27:41
+MERGED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:25:5-27:41
+MERGED from [:UnityARCore:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/9d2b37ae8ebf4d60d46f0d308b518f04/AndroidManifest.xml:7:5-9:41
+MERGED from [:UnityARCore:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/9d2b37ae8ebf4d60d46f0d308b518f04/AndroidManifest.xml:7:5-9:41
+MERGED from [:ARPresto:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/64f9e14f82d101110a5c957c939e9ef0/AndroidManifest.xml:7:5-9:41
+MERGED from [:ARPresto:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/64f9e14f82d101110a5c957c939e9ef0/AndroidManifest.xml:7:5-9:41
+MERGED from [:unityandroidpermissions:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21445bea1e347582d9fcdcd943ca4674/AndroidManifest.xml:11:5-13:41
+MERGED from [:unityandroidpermissions:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21445bea1e347582d9fcdcd943ca4674/AndroidManifest.xml:11:5-13:41
+MERGED from [:unityLibrary:FirebaseApp.androidlib] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/FirebaseApp.androidlib/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-46
+MERGED from [:unityLibrary:FirebaseApp.androidlib] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/FirebaseApp.androidlib/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-46
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/e0a7702916e3693834c96cd188e9db58/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/e0a7702916e3693834c96cd188e9db58/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/mineo/.gradle/caches/transforms-2/files-2.1/98f299ebb6c48efb85b1c568b1228b74/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/mineo/.gradle/caches/transforms-2/files-2.1/98f299ebb6c48efb85b1c568b1228b74/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c2b95dbd1d1fe9ee0f9048734960b61f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c2b95dbd1d1fe9ee0f9048734960b61f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/22046d2d0a8fdeb83b7edff4c3d71186/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/22046d2d0a8fdeb83b7edff4c3d71186/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/819457356cca1f59e908d9d5e268ee23/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/819457356cca1f59e908d9d5e268ee23/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/e88232df98f4a65c357c7c3c34695b60/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/e88232df98f4a65c357c7c3c34695b60/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/ff92f49fffae9780415cd337e43503aa/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/ff92f49fffae9780415cd337e43503aa/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/mineo/.gradle/caches/transforms-2/files-2.1/00e35b4e45f76e6e99ef2185037ee8b6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/mineo/.gradle/caches/transforms-2/files-2.1/00e35b4e45f76e6e99ef2185037ee8b6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7ae30c3c0da14c96442e588bcb5b2e8c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7ae30c3c0da14c96442e588bcb5b2e8c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f3dfa2339783edc9eaef3206b5fcb5ff/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f3dfa2339783edc9eaef3206b5fcb5ff/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c713c689597cdb012b00a37075a0615e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c713c689597cdb012b00a37075a0615e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.4.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/d89e1e31e5231384541ac74e0e1cc900/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/d89e1e31e5231384541ac74e0e1cc900/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/4d11f1e67f1408f61d10b7580e146593/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/4d11f1e67f1408f61d10b7580e146593/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/16ff9b1f4c2562bf7e4a9e912f2e80c2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/16ff9b1f4c2562bf7e4a9e912f2e80c2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/fbe33037057b169c3a0f74bee5369f11/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/fbe33037057b169c3a0f74bee5369f11/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/ff6e96f10055522c75575e703730ddf5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/ff6e96f10055522c75575e703730ddf5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/03dbd316ee3cdc43d3d50cc8ba4bbb68/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/03dbd316ee3cdc43d3d50cc8ba4bbb68/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/62f3754fd474a68168942f0d38f676f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/62f3754fd474a68168942f0d38f676f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/dfa93894b707b5171ddcbcb7f71b169f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/dfa93894b707b5171ddcbcb7f71b169f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/d31aa3e9b1873b8f10629ed992865d6f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/d31aa3e9b1873b8f10629ed992865d6f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c27930c4d2e965f89bfc00d474a7455b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c27930c4d2e965f89bfc00d474a7455b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/d1c56f28d33eb79d188dce24c97470cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/d1c56f28d33eb79d188dce24c97470cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/0b6a9c7b778ad5c9ece4fd5f22c8506b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/0b6a9c7b778ad5c9ece4fd5f22c8506b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/ec88046919f4e9495c70b96568694528/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/ec88046919f4e9495c70b96568694528/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/637efe4cda97d1cd52a917598b4ca09f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/637efe4cda97d1cd52a917598b4ca09f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/d7ab50955b91b4771cb1eb141edaace0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/d7ab50955b91b4771cb1eb141edaace0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c753a1ddacc0962517f597061822517e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/c753a1ddacc0962517f597061822517e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/8f06d343521396c47a259200fc67fcd4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/8f06d343521396c47a259200fc67fcd4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/4827259d2600b03fc57a443766a5ebdb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/4827259d2600b03fc57a443766a5ebdb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/fac5e93e5cd758e8b8e99a777b411e4e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/fac5e93e5cd758e8b8e99a777b411e4e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/1e60bd9718b6ea7bb51dc0566a1ba218/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/1e60bd9718b6ea7bb51dc0566a1ba218/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/0f648654d1e53e7eeba58c0115c6d4e2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/0f648654d1e53e7eeba58c0115c6d4e2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/2eaf3892cad6a0b9efc6ec8c308cd88d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/2eaf3892cad6a0b9efc6ec8c308cd88d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7127deff8539e1d4f84cb623ca19e46c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7127deff8539e1d4f84cb623ca19e46c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b05b09c28c7190f35a2b97814e42e7ac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b05b09c28c7190f35a2b97814e42e7ac/AndroidManifest.xml:20:5-44
+INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+		INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+		MERGED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+		INJECTED from /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+uses-feature#0x00030000
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-54
+	android:glEsVersion
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:12:19-51
+uses-permission#android.permission.INTERNET
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/mineo/.gradle/caches/transforms-2/files-2.1/39fc3f06dad48d1bee6cb8ef9daa10d6/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/mineo/.gradle/caches/transforms-2/files-2.1/39fc3f06dad48d1bee6cb8ef9daa10d6/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b81a681d584a08620593d71994aa6c57/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b81a681d584a08620593d71994aa6c57/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/22046d2d0a8fdeb83b7edff4c3d71186/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/22046d2d0a8fdeb83b7edff4c3d71186/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/e88232df98f4a65c357c7c3c34695b60/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/e88232df98f4a65c357c7c3c34695b60/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:14:22-64
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:20:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:23:9-72
+uses-permission#android.permission.CAMERA
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:26:5-65
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:26:22-62
+uses-feature#android.hardware.camera.ar
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:28:5-30:35
+	android:required
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:30:9-32
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:29:9-50
+uses-feature#com.google.ar.core.depth
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:31:5-33:35
+	android:required
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:9-32
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:32:9-48
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:9-56:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:13-49
+	android:launchMode
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:40:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-48
+	android:resizeableActivity
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-47
+	android:configChanges
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-194
+	android:theme
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:43:13-54
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:44:13-48:29
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:47:27-74
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:50:13-52:40
+	android:value
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:17-37
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:51:17-57
+meta-data#android.notch_support
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:13-55:40
+	android:value
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:55:17-37
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:54:17-53
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:9-60:33
+	android:value
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-30
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:61:9-63:36
+	android:value
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:63:13-33
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:62:13-47
+meta-data#unity.launch-fullscreen
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:64:9-66:36
+	android:value
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:66:13-33
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:65:13-51
+meta-data#unity.allow-resizable-window
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:67:9-69:37
+	android:value
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:69:13-34
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:68:13-56
+meta-data#notch.config
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:70:9-72:50
+	android:value
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:72:13-47
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:71:13-40
+meta-data#unityplayer.SkipPermissionsDialog
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:73:9-75:36
+	android:value
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:75:13-33
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:74:13-61
+meta-data#com.google.ar.core
+ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:76:9-78:40
+	android:value
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:78:13-37
+	android:name
+		ADDED from [:unityLibrary] /Users/mineo/Documents/GitHub/TEAM_Armigo/ARMigo/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:77:13-46
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f4401d89f1b819b006bc27dfd534dc2b/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f4401d89f1b819b006bc27dfd534dc2b/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f4401d89f1b819b006bc27dfd534dc2b/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f4401d89f1b819b006bc27dfd534dc2b/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f4401d89f1b819b006bc27dfd534dc2b/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f4401d89f1b819b006bc27dfd534dc2b/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f4401d89f1b819b006bc27dfd534dc2b/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f4401d89f1b819b006bc27dfd534dc2b/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f4401d89f1b819b006bc27dfd534dc2b/AndroidManifest.xml:34:13-89
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/mineo/.gradle/caches/transforms-2/files-2.1/39fc3f06dad48d1bee6cb8ef9daa10d6/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b81a681d584a08620593d71994aa6c57/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b81a681d584a08620593d71994aa6c57/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/22046d2d0a8fdeb83b7edff4c3d71186/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/22046d2d0a8fdeb83b7edff4c3d71186/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/e88232df98f4a65c357c7c3c34695b60/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/e88232df98f4a65c357c7c3c34695b60/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/mineo/.gradle/caches/transforms-2/files-2.1/39fc3f06dad48d1bee6cb8ef9daa10d6/AndroidManifest.xml:25:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/mineo/.gradle/caches/transforms-2/files-2.1/39fc3f06dad48d1bee6cb8ef9daa10d6/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b81a681d584a08620593d71994aa6c57/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b81a681d584a08620593d71994aa6c57/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21618b56ed53300fe3ff7288bd7c6d94/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21618b56ed53300fe3ff7288bd7c6d94/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/mineo/.gradle/caches/transforms-2/files-2.1/39fc3f06dad48d1bee6cb8ef9daa10d6/AndroidManifest.xml:31:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21618b56ed53300fe3ff7288bd7c6d94/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21618b56ed53300fe3ff7288bd7c6d94/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/mineo/.gradle/caches/transforms-2/files-2.1/39fc3f06dad48d1bee6cb8ef9daa10d6/AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/mineo/.gradle/caches/transforms-2/files-2.1/39fc3f06dad48d1bee6cb8ef9daa10d6/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/mineo/.gradle/caches/transforms-2/files-2.1/39fc3f06dad48d1bee6cb8ef9daa10d6/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/mineo/.gradle/caches/transforms-2/files-2.1/39fc3f06dad48d1bee6cb8ef9daa10d6/AndroidManifest.xml:33:17-109
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:51:13-61:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3d8ead4dfb156685c4b21c0e7a9905c2/AndroidManifest.xml:68:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5bba6e183a3bd22e961548abcf43220c/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5bba6e183a3bd22e961548abcf43220c/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5bba6e183a3bd22e961548abcf43220c/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5bba6e183a3bd22e961548abcf43220c/AndroidManifest.xml:20:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/22046d2d0a8fdeb83b7edff4c3d71186/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/22046d2d0a8fdeb83b7edff4c3d71186/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/e88232df98f4a65c357c7c3c34695b60/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/e88232df98f4a65c357c7c3c34695b60/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/22046d2d0a8fdeb83b7edff4c3d71186/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/22046d2d0a8fdeb83b7edff4c3d71186/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/819457356cca1f59e908d9d5e268ee23/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/819457356cca1f59e908d9d5e268ee23/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/e88232df98f4a65c357c7c3c34695b60/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/e88232df98f4a65c357c7c3c34695b60/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/3f743384a2920b60161711c230aca979/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b81a681d584a08620593d71994aa6c57/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b81a681d584a08620593d71994aa6c57/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/b81a681d584a08620593d71994aa6c57/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21618b56ed53300fe3ff7288bd7c6d94/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21618b56ed53300fe3ff7288bd7c6d94/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21618b56ed53300fe3ff7288bd7c6d94/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21618b56ed53300fe3ff7288bd7c6d94/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21618b56ed53300fe3ff7288bd7c6d94/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/mineo/.gradle/caches/transforms-2/files-2.1/21618b56ed53300fe3ff7288bd7c6d94/AndroidManifest.xml:27:13-77
+queries
+ADDED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:29:5-31:15
+package
+ADDED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:30:9-54
+	android:name
+		ADDED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:30:18-51
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:36:9-38:41
+	android:value
+		ADDED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:38:13-38
+	android:name
+		ADDED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:37:13-62
+activity#com.google.ar.core.InstallActivity
+ADDED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:40:9-46:80
+	android:excludeFromRecents
+		ADDED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:43:13-46
+	android:launchMode
+		ADDED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:45:13-43
+	android:exported
+		ADDED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:44:13-37
+	android:configChanges
+		ADDED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:42:13-74
+	android:theme
+		ADDED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:46:13-77
+	android:name
+		ADDED from [:arcore_client:] /Users/mineo/.gradle/caches/transforms-2/files-2.1/5e607970c76213e1b5b175b1168e7f24/AndroidManifest.xml:41:13-62
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/22046d2d0a8fdeb83b7edff4c3d71186/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/22046d2d0a8fdeb83b7edff4c3d71186/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/7aee1bc3cacd18c6e71e31a38941f9bf/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f3dfa2339783edc9eaef3206b5fcb5ff/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f3dfa2339783edc9eaef3206b5fcb5ff/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mineo/.gradle/caches/transforms-2/files-2.1/f3dfa2339783edc9eaef3206b5fcb5ff/AndroidManifest.xml:22:13-58
