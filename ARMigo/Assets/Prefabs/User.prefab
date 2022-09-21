@@ -267,8 +267,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7863143174248116204}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1605e0430d6c741478c607dd463a1b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: bb8fb352acc194761887367a09eb6c4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerListingPrefab: {fileID: 0}
+  playerListingPrefab: {fileID: 7863143174248116204}
   playerListContent: {fileID: 0}
