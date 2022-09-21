@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -3.082, y: 0}
+  m_SizeDelta: {x: 462.2982, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7495189145506732812
 CanvasRenderer:
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Player
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -93,8 +93,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 1179024038200677941}
   - component: {fileID: 7380056708066619873}
   - component: {fileID: 9206845247606739338}
-  - component: {fileID: 4184015250518714025}
+  - component: {fileID: 5327141096582499532}
   m_Layer: 5
   m_Name: User
   m_TagString: Untagged
@@ -164,7 +164,7 @@ RectTransform:
   m_GameObject: {fileID: 7863143174248116204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5555556, y: 0.5555556, z: 0.5555556}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 430231893532068568}
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &4184015250518714025
+--- !u!114 &5327141096582499532
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -267,6 +267,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7863143174248116204}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d23c4bcf4603405ea83e50ec10f6b13, type: 3}
+  m_Script: {fileID: 11500000, guid: 1605e0430d6c741478c607dd463a1b5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerListingPrefab: {fileID: 7863143174248116204}
+  playerListContent: {fileID: 0}
