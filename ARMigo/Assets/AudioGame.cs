@@ -8,7 +8,10 @@ public class AudioGame : MonoBehaviour
     void Start()
     {
         GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClassRoom>().StopMusic();
-        Debug.Log("Stop Music Done.");
+        //GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClassGame>().StopMusic();
+        //GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClass>().StopMusic();
+
+        Debug.Log("Stop Music2 Done.");
         GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClassGame>().PlayMusic();
 
     }
@@ -16,5 +19,9 @@ public class AudioGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
     }
+
+    
+
 }
