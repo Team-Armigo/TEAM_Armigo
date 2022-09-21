@@ -24,13 +24,13 @@ public class CreateManager : MonoBehaviourPunCallbacks
 
     private string userId = "mineo";
     
-/*
+
     private void Awake()
     {
         // 방장 혼자 씬 로딩하면 , 나머지 사람들 자동으로 싱크 
         PhotonNetwork.AutomaticallySyncScene = true;
     }
-*/
+
     // Start is called before the first frame update
     void Start()
     {
@@ -63,6 +63,7 @@ public class CreateManager : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         Debug.Log("04.방 입장 완료. 방 씬으로 옮김.-create");
+        PhotonNetwork.LoadLevel("Main"); // 로드 레벨 사용하는 이유 1.방에 있는 모든 사람들의 씬 옮김 2.방 사람들 씬이 전부 동기화 될수 있
         SceneManager.LoadScene("RoomMain");
 
         if(PhotonNetwork.IsMasterClient)
