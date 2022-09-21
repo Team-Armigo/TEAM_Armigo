@@ -10,6 +10,11 @@ public class PhotonManager : MonoBehaviourPunCallbacks
     //파베에서 아이디 가져오기
     private string userId = "mineo";
 
+    private void Awake()
+    {
+        //방장이 혼자 씬을 로딩하면, 나머지 사람들은 자동으로 싱크가 됨
+        PhotonNetwork.AutomaticallySyncScene = true;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -69,3 +74,4 @@ public class PhotonManager : MonoBehaviourPunCallbacks
         
     }
 }
+
