@@ -3,10 +3,6 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using Photon.Pun;
 using Photon.Realtime;
-using Firebase;
-using Firebase.Auth;
-using Firebase.Database;
-using Firebase.Extensions;
  
 
 public class PlayerListing : MonoBehaviourPunCallbacks
@@ -15,25 +11,6 @@ public class PlayerListing : MonoBehaviourPunCallbacks
     private GameObject playerListingPrefab;
     [SerializeField]
     private Transform playerListContent;
-
-    string displayName;
-    public FirebaseAuth auth;
-
-    private void InitializedFirebase()
-    {
-        Debug.Log("Setting up Firebase Auth");
-        // Set the authentication instance object
-        auth = FirebaseAuth.DefaultInstance;
-    }
-    void Start()
-    {
-        Firebase.Auth.FirebaseUser user = auth.CurrentUser;
-        if (user != null)
-        {
-            displayName = user.DisplayName;
-            PhotonNetwork.NickName = displayName;
-        }
-    }
 
     //var newPlayerListing = Instantiate(playerListingPrefab, playerListContent);
  
