@@ -74,7 +74,10 @@ public class GameUI : MonoBehaviour
     {
         SceneManager.LoadScene("rune");
     }
-
+    public void Count()
+    {
+        SceneManager.LoadScene("Count");
+    }
     public void ChooseGame()
     {
         SceneManager.LoadScene("ChooseGame");

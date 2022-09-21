@@ -449,6 +449,7 @@
 "Assets/RoomAudio.cs"
 "Assets/Scripts/AuthManager.cs"
 "Assets/Scripts/GameUI.cs"
+"Assets/Scripts/min/Count.cs"
 "Assets/Scripts/min/CreateManager.cs"
 "Assets/Scripts/min/ListManager.cs"
 "Assets/Scripts/min/PlayerListing.cs"
